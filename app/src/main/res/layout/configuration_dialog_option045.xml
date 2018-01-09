@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option045"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutAppDeskDock" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/dockOperation"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/AdapterTogglePrompt" />
+
+    <CheckBox
+        android:id="@+id/hardwareDock"
+        style="@style/ConfigurationActionSubText"
+        android:text="@string/emulate_hardware_dock"
+        android:textSize="@dimen/TextSizeSmall"
+        android:checked="false" />
+
+    <TextView
+        android:id="@+id/WifiAdapterSubTitle"
+        android:text="@string/layoutAppDeskDockSub"
+        style="@style/ConfigurationActionSubText" />
+
+
+
+</LinearLayout><!-- End Operate Wifi -->

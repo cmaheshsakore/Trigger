@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/BGColor">
+   <LinearLayout
+       android:id="@+id/textLayout"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="5dp"
+       >
+   
+	    <TextView
+	        android:visibility="gone"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:textSize="@dimen/TextSizeOne"
+	        android:textStyle="bold"
+	        android:textColor="@color/TextColor"
+	        android:text="Not enough space on tag:"
+	        />    
+
+
+	    <TextView
+	        android:id="@+id/messageText"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:textSize="@dimen/TextSizeOne"
+	        android:textColor="@color/TextColor"
+			android:layout_margin="10dp"
+	        android:text="Error here"
+	        />
+
+
+	    <TextView
+	        android:visibility="gone"
+	        android:id="@+id/messageTextSub"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:textSize="@dimen/TextSizeOne"
+	        android:textColor="@color/TextColor"
+	         android:layout_marginTop="10dp"
+	        android:text="You may want to use Web Tags."
+	        />
+
+
+
+	    <TextView
+	        android:visibility="gone"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:textSize="@dimen/TextSizeOne"
+	        android:textStyle="bold"
+	        android:textColor="@color/TextColor"
+	        android:layout_marginTop="10dp"
+	        android:text="Web Tags:"
+	        /> 
+
+	     <TextView
+	         android:visibility="gone"
+	        android:id="@+id/messageTextSubTwo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:textSize="@dimen/TextSizeOne"
+	        android:textColor="@color/TextColor"
+	        android:text="Web Tags require an internet connection to use but will allow you to store any amount of content on a tag that you wish."
+	        />
+
+
+	   </LinearLayout>
+</ScrollView>

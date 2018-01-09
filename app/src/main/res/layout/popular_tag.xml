@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/card_clickable"
+    android:clickable="true"
+    android:minHeight="96dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--removing the "PRO-tag" from the list
+            made changes in the include_pro_banner_left.xml file
+            added the visiblity attribute and set it to invisible...-->
+            <include layout="@layout/include_pro_banner_left"/>
+
+            <TextView
+                android:id="@+id/heading_trial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@android:id/icon2"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#333"
+                android:text="@string/trial_try_free" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@android:id/icon2"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical|left">
+
+                <ImageView
+                    android:id="@android:id/icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_example_automatic_checkins"
+                    android:layout_marginRight="8dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@android:id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:fontFamily="sans-serif"
+                        android:layout_toRightOf="@android:id/icon"
+                        android:layout_alignTop="@android:id/icon"
+                        android:layout_centerVertical="true"
+                        android:text="This is my really long title"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@android:id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="this is a shorter description explaining what happens"
+                        android:layout_below="@android:id/text1"
+                        android:layout_toRightOf="@android:id/icon"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

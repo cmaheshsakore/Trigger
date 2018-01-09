@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <style name="ActionLeft">
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:layout_marginRight">2sp</item>
+  <item name="android:layout_marginLeft">2sp</item>
+  <item name="android:background">@color/FGColor</item>
+ </style>
+ <style name="ActionRight">
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:layout_marginRight">2sp</item>
+  <item name="android:background">@color/FGColor</item>
+ </style>
+ <style name="Action">
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:layout_marginLeft">5sp</item>
+  <item name="android:background">@color/FGColor</item>
+ </style>
+ <style name="ActionNoMargin">
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:background">@color/FGColor</item>
+ </style>
+ <style name="ActionNoMarginPadded">
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:background">@color/FGColor</item>
+  <item name="android:paddingLeft">10dp</item>
+  <item name="android:paddingRight">10dp</item>
+  <item name="android:layout_marginTop">10dp</item>
+  <item name="android:paddingBottom">10dp</item>
+ </style>
+
+ <style name="ActionContent">
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:paddingLeft">10sp</item>
+  <item name="android:gravity">center_vertical</item>
+ </style>
+ <style name="ActionContentNoHeight">
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:layout_width">fill_parent</item>
+  <item name="android:paddingLeft">10sp</item>
+  <item name="android:gravity">center_vertical</item>
+ </style>
+</resources>

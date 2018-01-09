@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="limitThreshholdChoices">
+        <item>@string/timeSeconds</item>
+        <item>@string/timeMinutes</item>
+        <item>@string/timeHours</item>
+    </string-array>
+    <string-array name="VibrateChoices">
+        <item>@string/alwaysText</item>
+        <item>@string/neverText</item>
+    </string-array>
+    <string-array name="ToggleChoices">
+        <item>@string/enableText</item>
+        <item>@string/disableText</item>
+        <item>@string/toggleText</item>
+    </string-array>
+    <string-array name="ToggleChoicesNoToggle">
+        <item>@string/enableText</item>
+        <item>@string/disableText</item>
+    </string-array>
+    <string-array name="ToggleEncryption">
+        <item>@string/authTypeOpen</item>
+        <item>@string/authTypeWEP</item>
+        <item>@string/authTypeWPA</item>
+        <item>@string/authTypeWPA2</item>
+    </string-array>
+    <string-array name="RingerTypes">
+        <item>@string/ringerTypeNormal</item>
+        <item>@string/ringerTypeSilent</item>
+        <item>@string/ringerTypeVibrate</item>
+    </string-array>
+    <string-array name="NavTypes">
+        <item>@string/NavTypeDriving</item>
+        <item>@string/NavTypeTransit</item>
+        <item>@string/NavTypeWalking</item>
+    </string-array>
+    <string-array name="glympse_time_units">
+        <item>@string/timeMinutes</item>
+        <item>@string/timeHours</item>
+    </string-array>
+    <string-array name="charging_state_choices">
+        <item>@string/any_time</item>
+        <item>@string/when_charger_connected</item>
+        <item>@string/when_charging_ac</item>
+        <item>@string/when_charging_usb</item>
+        <item>@string/when_wireless_charger_connected</item>
+        <item>@string/when_charger_disconnected</item>
+    </string-array>
+    <string-array name="charging_state_choices_no_wireless">
+        <item>@string/any_time</item>
+        <item>@string/when_charger_connected</item>
+        <item>@string/when_charging_ac</item>
+        <item>@string/when_charging_usb</item>
+        <item>@string/when_charger_disconnected</item>
+    </string-array>
+    <string-array name="attending_choices">
+        <item>@string/any</item>
+        <item>@string/attending</item>
+        <item>@string/not_attending</item>
+    </string-array>
+    <string-array name="availability_choices">
+        <item>@string/any</item>
+        <item>@string/busy</item>
+        <item>@string/available</item>
+    </string-array>
+
+    <string-array name="agents">
+        <item>@string/battery_agent</item>
+        <item>@string/drive_agent</item>
+        <item>@string/meeting_agent</item>
+        <item>@string/parking_agent</item>
+        <item>@string/sleep_agent</item>
+    </string-array>
+
+    <string-array name="notification_modes">
+        <item>@string/notification_all</item>
+        <item>@string/notification_priority</item>
+        <item>@string/notification_none</item>
+    </string-array>
+</resources>

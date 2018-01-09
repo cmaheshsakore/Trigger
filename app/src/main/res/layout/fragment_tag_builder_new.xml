@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/optionsTable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:animateLayoutChanges="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/intro_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:background="@drawable/card_help"
+                android:fontFamily="sans-serif-medium"
+                android:paddingBottom="8dp"
+                android:paddingLeft="@dimen/toolbar_icon_left_margin"
+                android:paddingRight="@dimen/toolbar_icon_right_margin"
+                android:paddingTop="16dp"
+                android:text="@string/switch_tag_details"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/fab_top_offset"
+                android:src="@drawable/ic_content_add_white"
+                app:borderWidth="0dp"
+                app:fabSize="mini" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/tag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="52dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/highlight_yellow"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="@dimen/toolbar_icon_left_margin"
+                    android:paddingRight="@dimen/toolbar_icon_right_margin"
+                    android:paddingTop="8dp"
+                    android:text="@string/wizard_actions_help"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/fab_top_offset"
+                    android:src="@drawable/ic_content_add_white"
+                    app:borderWidth="0dp"
+                    app:fabSize="mini" />
+
+            </FrameLayout>
+
+            <requestFocus />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/divider_orange"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:padding="6dp"
+                    android:text="@string/no_actions"
+                    android:textColor="@color/list_heading_font_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/info_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/divider_orange"
+                    android:gravity="left|center_vertical"
+                    android:padding="6dp"
+                    android:textColor="@color/list_heading_font_color"
+                    android:textSize="@dimen/TextSizeSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@drawable/abs__list_divider_holo_light"
+                android:dividerPadding="0dip"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:paddingTop="4dp"
+                    android:text="" />
+
+                <ListView
+                    android:id="@+id/actions_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:animateLayoutChanges="true"
+                    android:background="@android:color/transparent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="4dp"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tag_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/full_name"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

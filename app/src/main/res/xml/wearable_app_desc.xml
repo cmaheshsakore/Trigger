@@ -1,0 +1,5 @@
+<wearableApp package="com.mobiroo.n.sourcenextcorporation.trigger">
+  <versionCode>605</versionCode>
+  <versionName>9.1.605</versionName>
+  <rawPathResId>wear</rawPathResId> 
+</wearableApp>

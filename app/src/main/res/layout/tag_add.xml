@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/optionsTable"
+    android:focusableInTouchMode="true"
+    android:background="@color/BGColor">
+	<ListView 
+				android:dividerHeight="1dp"
+    			android:layout_marginBottom="20dp"
+    			android:layout_marginLeft="10dp"
+    			android:layout_marginRight="10dp"
+    			android:layout_height="fill_parent"
+    			android:layout_width="wrap_content"
+    			android:id="@+id/addOptionsTable"
+    			android:layout_weight="0.8"
+    			/>
+    </TableLayout>

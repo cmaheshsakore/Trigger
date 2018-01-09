@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobiroo.n.sourcenextcorporation.trigger"
+    android:versionCode="612"
+    android:versionName="9.3.1">
+
+    <permission
+        android:name="com.trigger.launcher.permission.READ"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.trigger.launcher.permission.WRITE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <permission
+        android:name="com.mobiroo.n.sourcenextcorporation.trigger.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.mobiroo.n.sourcenextcorporation.trigger.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
+
+    <!-- this is temp tag -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="false" />
+
+    <!-- original tag the above tag is duplicate for the debugging purpose only... -->
+    <!--
+        uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /
+    -->
+
+
+    <!-- Used for install referral measurement in Google Analytics -->
+    <service android:name="com.google.analytics.tracking.android.CampaignTrackingService" />
+
+    <receiver
+        android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="com.android.vending.INSTALL_REFERRER" />
+        </intent-filter>
+    </receiver>
+
+    <application
+        android:name=".launcher.activity.TriggerApplication"
+        android:allowBackup="true"
+        android:backupAgent="com.mobiroo.n.sourcenextcorporation.jwsoft.nfcactionlauncher.MyBackupAgent"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAI56H8beo13ANr9wAXM16llyWsWBK6rw7TsDDQXg" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBMPI-WfR6eB8rtU7NUUJs5nqdBT074dZA" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.wearable.beta.app"
+            android:resource="@xml/wearable_app_desc" />
+
+        <!-- Samsung Multi-Window support -->
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            name="com.sec.android.app.multiwindow"
+            android:required="false"
+            tools:ignore="MissingPrefix" />
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:value="598.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:value="598.0dip" />
+
+        <!-- End Samsung Mult-Window support -->
+
+
+        <!-- UI interaction activities -->
+        <activity
+            android:name=".launcher.activity.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:theme="@style/Theme.NFCTL">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launcher.preferences.activity.SettingsActivity"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.EraseTagActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.ImportTagActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.CopyTagActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.ConfigureActionsActivity"
+            android:label="@string/titleConfigureAction"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.ActionPickerActivity"
+            android:label="@string/titleSelectAction"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.SelectTriggerActivity"
+            android:label="@string/layoutTagsTagType"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.SavedTagPickerActivity"
+            android:clearTaskOnLaunch="false"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/titleSavedTagPicker"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.ShareTagActivity"
+            android:label="@string/titleShareTagActivity"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.TextDisplayActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.BrightnessWindow"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.activity.WriteTagActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.WifiTriggerConfigureActivity"
+            android:label="@string/configure_connection_title"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.BluetoothTriggerConfigureActivity"
+            android:label="@string/configure_connection_title"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.TagLimitingActivity"
+            android:label="@string/title_tag_limiting"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.wallet.ConfirmationActivity"
+            android:label="@string/titleConfirmPayment"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.wallet.OrderCompleteActivity"
+            android:label="@string/titleOrderComplete"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.BackupActivity"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.GoogleSigninActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.GoogleSignInExplanationActivity"
+            android:label="@string/title_sso_explanation"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.TriggerWizardActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.TimerExpiredActivity"
+            android:exported="true"
+            android:label="@string/notificationTimerMessage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".launcher.activity.RepetitionOverrideActivity"
+            android:label="@string/titleConfigureAction"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.ShopItemDescriptionActivity"
+            android:label="@string/titleConfigureAction"
+            android:theme="@style/Theme.NFCTL" />
+        <activity
+            android:name=".payment.PaymentInfoActivity"
+            android:label="@string/titleConfirmPayment"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".payment.ConfirmationActivity"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/titleConfirmPayment"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".payment.OrderCompleteActivity"
+            android:label="@string/titleOrderComplete"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.TrialDialogActivity"
+            android:theme="@style/TagstandDialog" />
+        <activity
+            android:name=".launcher.activity.TaskWizardActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/Theme.NFCTL" />
+
+        <!-- Worker activities for applying settings or performing actions that require a UI component -->
+        <activity
+            android:name=".launcher.worker.workerTwitter"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL.Parser"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.workerTwitterAuthRequest"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.workerFoursquareCheckin"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.workerFoursquareAuthRequest"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.workerFoursquareVenueSearch"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.workerFacebookCheckin"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL.Parser"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.workerBrightness"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.BrightnessWindow"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".launcher.worker.TtsWorker"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.tagstand.launcher.service.ActionService"
+            android:theme="@style/Theme.NFCTL.Parser"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Activities and services for receiving incoming data and performing processing -->
+        <service
+            android:name=".launcher.service.ActionService"
+            android:clearTaskOnLaunch="false"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:finishOnTaskLaunch="true"
+            android:label="nfctl-action-service"
+            android:taskAffinity="com.tagstand.launcher.TagReceiverActivity" />
+        <service
+            android:name=".launcher.service.ParserService"
+            android:clearTaskOnLaunch="false"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:finishOnTaskLaunch="true"
+            android:label="nfctl-parser-service" />
+        <service
+            android:name=".launcher.service.MappedTagService"
+            android:exported="false"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".launcher.activity.TagReceiverActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NFCTL.Parser">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/scriptlet" />
+                <data android:mimeType="text/x-nfc-taskl" />
+                <data android:mimeType="x/nfctl" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="tags.to"
+                    android:path="/ntl"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launcher.activity.MappedTagReceiverActivity"
+            android:clearTaskOnLaunch="false"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NFCTL.Parser">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/nfctl" />
+                <data android:mimeType="application/nfctlat" />
+                <data android:mimeType="application/nfctlfree" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="x/nfctl-s" />
+                <data android:mimeType="application/nfctl" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launcher.activity.SharedTagReceiverActivity"
+            android:theme="@style/Theme.NFCTL">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:host="tags.to"
+                    android:pathPrefix="/ntl"
+                    android:scheme="http" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Widget configuration UI and services -->
+        <activity
+            android:name=".launcher.activity.WidgetConfigurationActivity"
+            android:theme="@style/TagstandDialog">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launcher.activity.WidgetSingleTaskConfigurationActivity"
+            android:label="@string/run_task"
+            android:theme="@style/TagstandDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launcher.activity.WidgetSingleTaskRunActivity"
+            android:clearTaskOnLaunch="false"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NFCTL.Parser">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".launcher.widget.WidgetLarge"
+            android:exported="false"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tag_appwidget_info" />
+        </receiver>
+        <receiver
+            android:name=".launcher.widget.WidgetSingleTask"
+            android:enabled="false"
+            android:exported="false"
+            android:label="@string/widget_single_task">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/single_task_widget" />
+        </receiver>
+
+        <!-- Dash Clock extension -->
+        <service
+            android:name=".launcher.activity.MyDashClockExtension"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="protocolVersion"
+                android:value="1" />
+            <meta-data
+                android:name="description"
+                android:value="@string/extension_description" />
+        </service>
+
+        <!-- Background services -->
+        <service
+            android:name=".launcher.service.KeyguardService"
+            android:label="nfctl-keyguard-service" />
+        <service
+            android:name=".launcher.service.CallbackService"
+            android:exported="true"
+            android:label="nfctl-callback-service" />
+
+        <!-- Allows for a broadcast to modify receiver state -->
+
+
+        <!-- Bluetooth trigger receivers -->
+        <receiver
+            android:name=".launcher.receiver.BluetoothConnectReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".launcher.receiver.BluetoothDisconnectReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".launcher.service.receivers.BluetoothReceiverIntentService" />
+
+        <!-- Geofence based alerts -->
+        <service
+            android:name=".launcher.service.GeofenceService"
+            android:exported="false"
+            android:label="@string/app_name" />
+
+        <!-- Battery and Charging trigger alerts -->
+        <service
+            android:name=".launcher.service.PowerService"
+            android:exported="false"
+            android:label="Trigger - Power Service" />
+        <service
+            android:name=".launcher.service.TimeTaskService"
+            android:exported="true"
+            android:label="nfctl-time-service" />
+
+        <!-- Calendar triggers -->
+        <service
+            android:name=".launcher.service.CalendarTriggerService"
+            android:exported="false"
+            android:label="nfctl-calendar-service" />
+
+        <receiver android:name=".launcher.receiver.CalendarReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+
+                <data android:scheme="content" />
+                <data android:host="com.android.calendar" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Boot registration classes -->
+        <receiver
+            android:name=".launcher.receiver.BootCompletedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".launcher.service.BootCompletedIntentService"
+            android:label="nfctl-boot-completed-service" />
+
+        <!-- Called to migrate data from old app versions -->
+
+
+        <!-- Wifi Trigger classes -->
+        <receiver
+            android:name=".launcher.receiver.WifiReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.wifi.supplicant.STATE_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".launcher.service.receivers.WifiReceiverIntentService" />
+
+        <!-- Headset trigger classes -->
+        <service
+            android:name=".launcher.service.HeadsetService"
+            android:exported="false"
+            android:label="Trigger - Headset Service" />
+        <service android:name=".launcher.service.receivers.HeadsetReceiverIntentService" />
+        <service android:name=".launcher.service.wear.WearMessagingService" />
+        <service android:name=".launcher.service.wear.WearListeningService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <!-- Agent Trigger classes -->
+        <receiver
+            android:name=".launcher.receiver.AgentChangedReceiver"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tryagent.agent_active" />
+                <action android:name="com.tryagent.agent_inactive" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".launcher.service.AgentChangedIntentService"
+            android:label="Agent Trigger Service" />
+
+        <receiver
+            android:name=".launcher.receiver.TimezoneChangedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Provider to expose database access internally and to Agent -->
+        <provider
+            android:name=".launcher.providers.TaskProvider"
+            android:authorities="com.trigger.launcher.providers"
+            android:exported="true"
+            android:writePermission="com.tagstand.launcher.permission.WRITE" />
+
+        <service
+            android:name=".launcher.service.CheckReceiversBackgroundService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".launcher.service.FoursquareCheckinService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".launcher.service.TriggerNotificationListenerService"
+            android:label="Trigger: Read notifications"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d6b5bc791c00f3c24c49de8e558b2662e5794bf0" />
+
+        <service android:name=".launcher.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".launcher.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".launcher.service.MyRegistrationIntentService"
+            android:exported="false">
+        </service>
+    </application>
+
+</manifest>

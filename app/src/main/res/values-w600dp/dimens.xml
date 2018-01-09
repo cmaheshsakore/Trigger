@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_dialog_width">384dp</dimen>
+    <dimen name="activity_dialog_height">500dp</dimen>
+    
+    <dimen name="tag_builder_bubble_1_margin">54dp</dimen>
+    
+    <dimen name="shop_item_height">252dp</dimen>
+    <dimen name="shop_item_width">180dp</dimen>
+    <dimen name="shop_item_text_height">32dp</dimen>
+    <dimen name="shop_item_text_width">174dp</dimen>
+    <dimen name="shop_item_image_height">180dp</dimen>
+    <dimen name="shop_item_image_width">180dp</dimen>
+    <dimen name="shop_item_empty_padding">170dp</dimen>
+    <dimen name="shop_item_image_top_margin">27dp</dimen>
+    
+    <dimen name="task_list_padding">16dp</dimen>
+    <dimen name="task_list_divider_height">1dp</dimen>
+    <dimen name="task_list_horizontal_spacing">8dp</dimen>
+    <dimen name="task_list_vertical_spacing">8dp</dimen>
+
+</resources>

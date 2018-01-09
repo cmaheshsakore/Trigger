@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">アクションの選択:</string>
+ <string name="RingerTypePrompt">リンガータイプの選択:</string>
+ <string name="limitThreshholdPrompt">ユニットの選択:</string>
+ <string name="VibratePrompt">バイブレーションのタイミング選択:</string>
+
+ <string name="AuthTogglePrompt">暗号化の選択:</string>
+
+ <string name="menu_new_tag">新規タグ</string>
+ <string name="menu_help">弊社について</string>
+ <string name="menu_contact">お問い合わせ</string>
+ <string name="menu_preferences">設定</string>
+ <string name="menu_delete">削除</string>
+ <string name="menu_chooser_mail">Emailの送信</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">ワイヤレスネットワーク接続</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">秒</string>
+ <string name="timeMinutes">分</string>
+ <string name="timeHours">時間</string>
+
+
+
+ <string name="enableText">有効にする</string>
+ <string name="disableText">無効にする</string>
+ <string name="toggleText">切り替え</string>
+
+ <string name="alwaysText">常に</string>
+ <string name="neverText">決してしない</string>
+ <string name="whenSilentText">サウンドがオフの場合</string>
+
+
+ <string name="idfa">abcdxyz</string>
+
+
+ <string name="authTypeOpen">開く</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">サイレント</string>
+ <string name="ringerTypeVibrate">バイブレーション</string>
+ <string name="ringerTypeNormal">普通</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">キャンセル</string>
+ <string name="dialogYes">はい</string>
+ <string name="dialogNo">いいえ</string>
+ <string name="dialogSave">保存</string>
+ <string name="dialogClose">閉じる</string>
+ <string name="dialog_run">タスク実行</string>
+
+ <string name="menuWireless">ワイヤレス&amp;ネットワーク</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Sounds サウンドと音量</string>
+ <string name="menuAlarm">アラーム</string>
+ <string name="menuCheckin">ソーシャルメディア</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">ディスプレイ</string>
+
+ <string name="addOptionsAddText">タスクに追加</string>
+
+ <string name="displayAlarmSet">アラーム設定</string>
+ <string name="displayListAlarmSet">タイマー設定</string>
+ <string name="defaultAlarmText">アラーム時間を設定するにはタッチしてください。</string>
+
+ <string name="layoutAlarmSetText">アラームを設定</string>
+ <string name="layoutAlarmSelectTimeText">アラーム時間を設定するにはタッチしてください。</string>
+ <string name="layoutAlarmForwardText">現在からの分数</string>
+
+ <string name="appListLoadingText">アプリケーション一覧の読み込み</string>
+ <string name="listLaunchText">起動</string>
+ <string name="listLaunchTextCustom">アクティビティを起動</string>
+ <string name="listNavText">次へ移動</string>
+
+
+ <string name="layoutAppLaunchURL">URL/URIを開く</string>
+ <string name="layoutAppLaunchNavigation">移動</string>
+ <string name="layoutAppLaunchNavigationText">移動先</string>
+
+ <string name="optionsSocialFoursquare">フォースクエア: ここでチェックイン</string>
+ <string name="optionsSocialFoursquareSearching">検索</string>
+ <string name="optionsSocialFoursquareSearchTitle">場所のマッチング</string>
+ <string name="optionsSocialFoursquareVenue">フォースクエア:場所でチェックイン</string>
+ <string name="optionsSocialFoursquareVenueTitle">場所</string>
+ <string name="optionsSocialFoursquareVenueEmpty">場所が選択されていません</string>
+ <string name="optionsSocialFoursquareVenueSub">特定の場所にチェックイン</string>
+ <string name="optionsSocialFacebook">Facebook: チェックイン</string>
+ <string name="optionsSocialPlaces">Googleプレイス:チェックイン</string>
+ <string name="optionsSocialTwitter">Twitter: ツイート</string>
+
+ <string name="optionsFoursquareSearchFind">探す</string>
+
+ <string name="optionsFoursquareSearchNear">付近</string>
+
+ <string name="listFacebookText">Facebookにチェックイン</string>
+ <string name="listFoursquareText">フォースクエアにチェックイン</string>
+ <string name="listFoursquareVenueText">右記でチェックイン</string>
+ <string name="listPlacesText">Google プレイスにチェックイン</string>
+ <string name="listTweetText">ツイートする</string>
+
+ <string name="locationDisabledTitle">ロケーションが無効です。</string>
+ <string name="locationDisabledText">位置を特定できません。ロケーションソースを有効に
+してください。</string>
+
+ <string name="listHotspotText">ポータブル･ホットスポット</string>
+
+ <string name="layoutHotspotActionText">アクション:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">認証方式:</string>
+ <string name="layoutHotspotAuthKeyText">認証キー:</string>
+
+
+ <string name="soundRingerTypeText">リンガータイプの設定</string>
+ <string name="listSoundRingtone">着信音の設定:</string>
+ <string name="listSoundNotification">通知の設定:</string>
+ <string name="listSoundRingerVolume">音量の設定</string>
+ <string name="listSoundMediaVolume">メディア音量</string>
+
+ <string name="listSoundAlarmVolume">アラーム音量</string>
+ <string name="listSoundNotificationVolume">通知音量</string>
+ <string name="listSoundVibrate">リングが鳴るとき、バイブレート</string>
+
+ <string name="taskerNotInstalled">Taskerがインストールされていません。</string>
+ <string name="layoutTaskerLaunchText">Taskerのタスク</string>
+ <string name="layoutTaskerSelect">タスクを選択</string>
+ <string name="layoutTaskerHelpText">注記: 本アプリケーション使用前にTaskerがインストールされている*必要があり* \'s UI\n\n内でMisc/外部アクセスを許可オプションを設定しなければなりません。タスクのファイアリングに問題がある場合は、双方のアプリケーションをアンインストールして、NFC タスクランチャーの前にTasker を再インストールしてください。</string>
+
+ <string name="wifiOptionsOperateWifi">ワイヤレスネットワーク接続のオン/オフ</string>
+ <string name="wifiOptionsConfigureSSID">ワイヤレスネットワーク接続</string>
+ <string name="wifiOptionsOperateBluetooth">Bluetooth のオン/オフ</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Bluetooth の検知可能性</string>
+ <string name="wifiOptionsAutoSync">自動同期</string>
+ <string name="wifiOptionsAirplaneMode">機内モード</string>
+
+ <string name="hotspotOptions">Wifi ホットスポット</string>
+
+ <string name="soundOptionsRinger">サウンドプロフィール</string>
+ <string name="soundOptionsRingtone">着信音</string>
+ <string name="soundOptionsRingVolume">着信音量</string>
+ <string name="soundOptionsNotificationtone">通知音</string>
+ <string name="soundOptionsNotificationVolume">通知音量</string>
+ <string name="soundOptionsMediaVolume">メディア音量</string>
+ <string name="soundOptionsMediaStart">メディア再生</string>
+
+ <string name="soundOptionsAlarmVolume">アラーム音量</string>
+ <string name="soundOptionsVibrate">リングが鳴る時バイブレート</string>
+
+ <string name="listWifiAirplaneModeText">機内モード</string>
+ <string name="listWifiAutoSync">自動同期</string>
+ <string name="listWifiConfigureConnectText">～に接続</string>
+ <string name="listWifiBluetoothDiscoverableText">検知可能なBluetooth</string>
+ <string name="listWifiAssociateText">次に接続</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">認証タイプ:</string>
+ <string name="layoutWifiAuthKeyText">認証キー:</string>
+
+ <string name="builderInvalidName">有効な名前を入力してください</string>
+
+
+ <string name="titleSelectAction">カテゴリーを選択</string>
+ <string name="titleConfigureAction">アクションの設定</string>
+ <string name="buttonTextAdd">アクションの追加</string>
+
+ <string name="layoutPreferencesTitleText">設定</string>
+ <string name="layoutPreferencesSelectNotification">通知音</string>
+ <string name="layoutPreferencesVibrate">バイブレーション</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">保存</string>
+ <string name="layoutPreferencesRateLimitingDisable">無効にする</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">タグを読み込む際</string>
+ <string name="layoutPreferencesVibrateOptionEnable">常にバイブレーション</string>
+ <string name="layoutPreferencesVibrateOptionDisable">バイブレーションなし</string>
+ <string name="layoutPreferencesVibrateSubAlways">常にバイブレーション</string>
+ <string name="layoutPreferencesVibrateSubNever">バイブレーションなし</string>
+
+ <string name="layoutPreferencesDebugOutput">デバッグ</string>
+ <string name="layoutPreferencesDebugSend">デバッグログの送信</string>
+ <string name="layoutPreferencesEnableLimitingSub">無効</string>
+ <string name="layoutPreferencesUsage">Google Analyticsを許可する</string>
+
+ <string name="layoutPreferencesNotificationsTitle">通知</string>
+ <string name="layoutPreferencesAdvancedTitle">上級</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">輝度</string>
+ <string name="layoutDisplayBrightnessAuto">自動輝度を有効にする</string>
+ <string name="layoutDisplayNotificationLight">通知ライト</string>
+ <string name="listDisplayNotificationLightText">通知ライト</string>
+
+ <string name="layoutDisplayAutoRotation">オートロテーション</string>
+ <string name="listDisplayAutoRotationText">オートロテーション</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">カスタマイズしたアクティビティを起動する際、例外がスローされます。</string>
+ <string name="actionLastActions">最新のアクション:</string>
+
+
+ <string name="actionEnableMediaPlayback">* メディア再生の開始 / 停止</string>
+ <string name="widgetEnableMediaPlayback">メディア再生の開始/ 停止</string>
+
+ <string name="actionLaunchPackage">* アプリケーション起動</string>
+ <string name="widgetLaunchPackage">アプリケーション起動</string>
+
+ <string name="actionLaunchActivity">* アクティビティ開始中:</string>
+ <string name="widgetLaunchActivity">開始済みアクティビティ</string>
+
+ <string name="actionNavigate">* ～へ移動:</string>
+ <string name="widgetNavigate">～へ移動:</string>
+
+ <string name="actionConfigureSSID">* APの設定と接続</string>
+ <string name="widgetConfigureSSID">設定済みAPと接続</string>
+
+ <string name="actionTaskerTask">* Taskerタスクの起動</string>
+ <string name="widgetTaskerTask">Taskerタスクの起動</string>
+
+ <string name="actionAlarm">* 通知音量の設定</string>
+ <string name="widgetAlarm">アラームの設定</string>
+
+ <string name="actionLaunchURL">* URLの起動</string>
+ <string name="widgetLaunchURL">起動済みURL</string>
+
+ <string name="actionSetVibration">* バイブレーションの設定</string>
+ <string name="widgetSetVibration">バイブレーションの設定</string>
+
+ <string name="actionSendTweet">* ツイートする</string>
+ <string name="widgetSendTweet">送信済みツイート</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">タグの書き込みが完了しました。</string>
+ <string name="layoutWriteTitle">タグを書く</string>
+ <string name="layoutWritePrimaryMessageStart">書き込むには、デバイスをNFCタグの上に置いてください。</string>
+ <string name="layoutWriteLockText">タグを読み取り専用にする</string>
+
+ <string name="dialogWriteTitle">書き込み終了</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">トリガーを選択　</string>
+ <string name="layoutHomeFormat">タグの削除</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">タイマー終了</string>
+
+ <string name="displayAlarmSetTimer">アラーム設定(タイマー)</string>
+
+
+ <string name="actionTimer">* タイマー設定</string>
+ <string name="widgetTimer">タイマー設定</string>
+
+ <string name="layoutAlarmSetTimerText">タイマーを設定</string>
+
+ <string name="alertSecureSetting">セキュリティ設定を変更しています。これにはルートアクセスが必要です。</string>
+ <string name="alertSecureSettingTitle">セキュリティで保護された設定</string>
+ <string name="alertSecureSettingMakeSystemApp">システムアプリケーションにする</string>
+
+ <string name="wifiOptionsGPS">GPSのオン /オフ</string>
+ <string name="wifiOptionsMobileData">モバイルデータのオン /オフ</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">モバイルデータ</string>
+
+ <string name="rebootTitle">完了</string>
+ <string name="rebootText">デバイスを再起動してください。</string>
+
+ <string name="noRootText">ルートアクセスが取得できませんでした。</string>
+
+ <string name="layoutDisplayTimeout">ディスプレイのタイムアウト</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 秒</item>
+  <item>30 秒</item>
+  <item>1 分</item>
+  <item>2 分</item>
+  <item>5 分</item>
+  <item>10 分</item>
+  <item>30分</item>
+  <item>決してない</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">タイムアウト</string>
+
+ <string name="wifiOptions3GData">3Gデータのオン /オフ</string>
+
+ <string name="layoutAppDeskDock">デスクトップドック</string>
+ <string name="layoutAppDeskDockSub">デバイスによっては効果がないかもしれません。</string>
+ <string name="layoutAppCarDock">カードック</string>
+
+ <string name="menuPhone">電話</string>
+
+ <string name="layoutPhoneSMS">テキストメッセージを送信</string>
+ <string name="optionsPhoneSMS">テキストメッセージを送信</string>
+ <string name="optionsPhoneSMSTo">To</string>
+ <string name="optionsPhoneSMSMessage">メッセージ</string>
+ <string name="optionsPhoneNumber">電話番号</string>
+ <string name="optionsPhoneCall">電話をかける</string>
+ <string name="layoutPhoneCall">電話をかける</string>
+ <string name="optionsPhoneSMSNote">宛先とメッセージ欄を含むSMSアプリを開きます。メッセージを自動的に送信するには、このメッセージをタップし、プレイストアからSMSプラグインをダウンロードしてください。</string>
+ <string name="optionsPhoneCallNote">番号が入力されたダイアラーを開きます。自動的に電話を掛けるには、このメッセージをタップしてプレイストアからコールプラグインをダウンロードしてください。</string>
+
+
+ <string name="listPhoneSMS">SMSを送信する</string>
+ <string name="listPhoneCall">電話をかける</string>
+
+ <string name="actionSendSMS">* SMSを送信中</string>
+ <string name="widgetSendSMS">SMSを送信済み</string>
+
+ <string name="actionPhoneCall">* 電話をかける</string>
+ <string name="widgetPhoneCall">電話をかけました</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">NFCを機内モードで有効にする</string>
+
+ <string name="menuSecurity">セキュリティ</string>
+ <string name="layoutOptionsKeyguard">画面をロック</string>
+ <string name="securityOptionsOperateKeyguard">画面ロックをオン/オフ</string>
+ <string name="listSecurityKeyguardText">ロック画面</string>
+
+ <string name="optionsFoursquareSearchCity">都市</string>
+ <string name="optionsFoursquareSearchVenue">場所名</string>
+ <string name="optionsFoursquareSearchVenueIDText">場所ID</string>
+ <string name="optionsFoursquareSearchOR">または</string>
+
+ <string name="menuApplications">アプリケーションと&amp; ショートカット</string>
+ <string name="layoutWriteNameText">タグ名を含む</string>
+ <string name="layoutAppKillAppTextSub">アプリのデフォルトアクティビティを閉じる</string>
+ <string name="layoutAppLaunchAppText">オープンアプリケーション</string>
+ <string name="layoutAppKillAppText">アプリケーションを閉じる</string>
+ <string name="layoutAppLaunchActivityText">アクティビティを開く</string>
+ <string name="layoutAppKillTaskDisclaimer">ルートアクセスがないとすべてのアプリと作動しない可能性があります。ルートアクセスはプロセスが中止されたことを確認します。</string>
+
+ <string name="layoutAlarmShowUI">アラーム ui表示</string>
+ <string name="layoutAlarmTimePrefix">時間：</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">タイプ</string>
+ <string name="NavTypeDriving">運転中</string>
+ <string name="NavTypeTransit">交通</string>
+ <string name="NavTypeWalking">徒歩</string>
+
+
+
+ <string name="layoutActivityAppList">アプリケーションを選ぶ：</string>
+ <string name="layoutActivityList">アクティビティを選ぶ：</string>
+ <string name="layoutActivityWarning">すべてのアクティビティが起動されるわけではありません。</string>
+
+ <string name="readOnlyWarning">タグが読み取り専用で作成されると、書き込めなく
+なります。このアクションは元に戻せません。</string>
+ <string name="limitThreshholdOverride">この設定を無効にするプロンプト</string>
+ <string name="limitThreshholdOverrideDialogPrefix">%1$s %2$s以内に実行されたため、このタスクはスキップされます</string>
+ <string name="limitThreshholdOverrideDialogSuffix">このダイアログは5秒後に消滅します。</string>
+ <string name="menu_context_delete">削除</string>
+ <string name="menu_context_run">実行</string>
+ <string name="menu_context_share">共有</string>
+ <string name="listCloseApp">アプリケーションを閉じる</string>
+
+ <string name="listSoundPlayback">メディア再生スタート / ストップ</string>
+ <string name="listDisplayBrightness">輝度を次に設定</string>
+ <string name="listDisplayBrightnessAuto">自動輝度を有効にする</string>
+ <string name="layoutImportPrimaryMessageStart">インポートするにはタグを電話の裏に置いてください</string>
+ <string name="layoutMainBuilderImportText">タグをインポート</string>
+ <string name="layoutMainBuilderCopyText">タグをコピー</string>
+
+
+ <string name="copyRead">1.) コピーするにはタグをスキャンします</string>
+ <string name="copyReading">2.) メッセージを読み込み中</string>
+ <string name="copyWrite">3.) 書き込むにはタグをタップします</string>
+ <string name="copyTitle">NFCタグをコピー</string>
+ <string name="importTitle">タグをインポート</string>
+
+ <string name="copyDialogCopied">コピーに成功しました</string>
+ <string name="copyDialogCopyError">タグがコピーできません</string>
+ <string name="copyDialogWritten">書き込みに成功しました</string>
+ <string name="copyDialogWriteError">タグに書き込めません</string>
+ <string name="layoutPreferencesSelectTimer">着信音タイマー</string>
+ <string name="layoutPreferencesTagsTitle">タスク</string>
+ <string name="layoutPreferencesTagsMore">その他</string>
+ <string name="layoutPreferencesNotifications">通知</string>
+ <string name="layoutPreferencesNotificationsSubBar">通知バーを使用</string>
+ <string name="layoutPreferencesNotificationsSubToast">トーストメッセージを使用</string>
+ <string name="layoutPreferencesNotificationsSubBoth">両方使用</string>
+ <string name="layoutPreferencesNotificationsSubNone">なし</string>
+ <string name="menu_done">完了</string>
+ <string name="layoutPreferencesSwitchTimeout">12時間後にタスク切替をリセット</string>
+ <string name="menuEvents">イベント</string>
+ <string name="menuEventsCalendarStatic">カレンダーイベント</string>
+ <string name="menuEventsCalendarTimestamp">カレンダータイムスタンプ</string>
+ <string name="menuEventsCalendarTimestampText">タグがスキャンされた日時にカレンダー
+イベントを挿入します。</string>
+ <string name="layoutEventCalendarTitle">タイトル</string>
+ <string name="layoutEventCalendarStart">開始</string>
+ <string name="layoutEventCalendarEnd">終了</string>
+ <string name="layoutEventCalendarAllDay">一日中</string>
+ <string name="dateHint">タップして日付を設定してください</string>
+ <string name="timeHint">タップして時間を設定してください</string>
+ <string name="listDiaplayCalendarEvent">カレンダーイベント追加</string>
+ <string name="listDiaplayCalendarTimestamp">カレンダーをタイムスタンプ</string>
+ <string name="actionCalendarEvent">カレンダーイベントを追加中</string>
+ <string name="widgetCalendarEvent">*カレンダーイベントを追加中</string>
+ <string name="actionCalendarTimestamp">カレンダーにタイムスタンプを追加中</string>
+ <string name="widgetCalendarTimestamp">*カレンダーにタイムスタンプを追加中</string>
+
+ <string name="layoutPreferencesCredentialsTitle">ログイン</string>
+ <string name="layoutPreferencesDialogTwitter">Twitter用のログインデータをクリアするにはOKをクリックしてください</string>
+ <string name="layoutPreferencesDialogFoursquare">FoursquareのログインデータをクリアするにはOKをクリックしてください</string>
+
+
+ <string name="layoutAppPause">一時停止</string>
+ <string name="layoutAppPauseSubTitle">継続する前に特定の時間一時停止。</string>
+ <string name="actionPause">* 一時停止：</string>
+ <string name="widgetPause">一時停止：</string>
+
+
+ <string name="loading">読み込み中…</string>
+ <string name="error">エラー</string>
+ <string name="recommended_tags">NFCタグ</string>
+ <string name="buy_now">今すぐ購入</string>
+ <string name="buy_tags">Trigger ショップ</string>
+ <string name="popular_tags">タスクの提案</string>
+ <string name="my_tags">私のタスク</string>
+ <string name="shop_more_title">もっとお探しですか？</string>
+ <string name="shop_more_description">NFCタグとキットを含むNFC製品の完全カタログをご覧ください。</string>
+ <string name="welcome">ようこそ</string>
+ <string name="buy_nfc_tags">NFC タグを購入</string>
+ <string name="used_never">使用：未使用</string>
+ <string name="total_actions">総合アクション</string>
+
+ <string name="basic_tags">基本的なタグを書く</string>
+
+ 
+ <string name="default_tag_name_format">タスク %s</string>
+
+ <string name="save_and_write">を保存 &amp; 書く</string>
+ <string name="tag_name">名前</string>
+ <string name="no_actions">アクション</string>
+ <string name="tag_unsaved_changes">このタグには保存されていない変更があるかもしれません。</string>
+ <string name="discard_changes">変更を破棄する</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s バイト</item>
+  <item quantity="other">%s バイト</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">新規のワイヤレスネットワーク接続を設定する</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Bluetooth検出能力をオンにする</string>
+ 
+ <string name="soundOptionsMediaStartSub">メディア再生の開始／停止</string>
+ <string name="optionsSocialCheckinHereSub">現在位置をチェックイン</string>
+ <string name="actionURLHeading">URL / URI</string>
+ <string name="optionsSocialTwitterSub">Twitterで投稿</string>
+ <string name="layoutAppLaunchNavigationSub">ロケーションに移動</string>
+ <string name="alarmTimerConfigureSub">タイマー設定</string>
+ <string name="carDockDrivingMode">運転モードを含む (Samsung Galaxy 機器)</string>
+ <string name="airplaneModeWarning">機内モードはアクティベートされた時にNFCを無効にします。設定内の機内モードでNFCを有効にすれば、NFCが機内モードで変更されません。</string>
+ <string name="write">書く</string>
+ <string name="next">次</string>
+
+ <string name="_continue">続ける</string>
+
+ <string name="shop_unavailable">このショップは現在ご利用になれません。接続を調べ、数分後にもう一度お試し下さい。</string>
+ <string name="titleSavedTagPicker">保存したタスクの実行を選択</string>
+ <string name="titleShareTagActivity">このタグを次を使用して共有してください：</string>
+ <string name="sharedReceiverDialogMessage">タグの読み込み中</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">電子メール</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">+Tagstandを使用し、このNFCタグを作成しました。NFCタスクランチャーアプリを使用して以下でご覧ください：</string>
+ <string name="shareTwitterPrefix">よかったら私が作ったこの＃NFCタグを見てください</string>
+ <string name="shareTwitterSuffix">powered by @tagstand</string>
+ <string name="shareSMSPrefix">NFCタスクランチャーで作成したこのNFCタグを見てね：</string>
+ <string name="shareEmailPrefix">こんにちは、\n\nこのタグを\'%1$s\'  NFC タスクランチャーで作成したのでぜひ見てください。\n\n</string>
+ <string name="shareEmailSuffix">\n\nクリックして電話にダウンロードしてください。\n\n未来にようこそ。</string>
+ <string name="shareEmailSubject">私のNFCタグをご覧ください</string>
+ <string name="loadTagPayloadError">何かがおかしいようです。接続の問題かもしれません。</string>
+ <string name="loadTagNoPayload">このタグにはアクションが関連付けられていません。</string>
+
+ <string name="layoutWifiHiddenSSID">非表示のSSID</string>
+ <string name="layoutEmailAddress">電子メールアドレス</string>
+ <string name="layoutEmailMessage">メッセージ（オプション）</string>
+ <string name="layoutEmailSubjectHint">題名</string>
+ <string name="layoutEmailMessageHint">メッセージ</string>
+ <string name="layoutEmail">メール送信</string>
+ <string name="listDisplayEmail">メールを次に送信</string>
+ <string name="sendEmailChooserTitle">次を使用してメールを送信</string>
+
+ <string name="tag_write_failed_message">まだ作動しますが、タップ後、セレクターが見えるかもしれません。</string>
+ <string name="tag_write_failed_no_plugin">このタグを使用するには、Play Storeからタグ再使用プラグインをダウンロードする必要があります。</string>
+ <string name="tag_write_failed">このタグは書き込めません。</string>
+ <string name="tag_write_success_message">タグの準備が完了しました。</string>
+ <string name="menu_help_text">ヘルプ</string>
+
+ <string name="warning">警告</string>
+
+
+ <string name="configure_connection_title">接続を設定</string>
+ <string name="enter_network_name">ネットワーク名を入力(ssid)</string>
+ <string name="enter_bluetooth_name">デバイス名を入力</string>
+ <string name="enter_bluetooth_mac">mac アドレスを入力</string>
+ <string name="when_connected_to">次に接続した時</string>
+ <string name="when_disconnected_from">次から接続が切れた時</string>
+ <string name="or">あるいは</string>
+
+ <string name="color_white">ホワイト</string>
+ <string name="color_black">ブラック</string>
+ <string name="select_background_color">スタイルを選択</string>
+ <string name="action_send_email">* メール送信中</string>
+ <string name="widget_send_email">メール送信済み</string>
+ <string name="ignore_duplicate_check">以前のタスクの反復を予防</string>
+ <string name="if_read_again">タスクが次の時間内で反復されるのを予防</string>
+ <string name="found_tag">実行したタグ</string>
+ <string name="title_tag_limiting">反復を予防</string>
+ <string name="limit_last_tag_read">前のタスクの</string>
+ <string name="limit_time_frame">%1$s %2$s以内</string>
+
+ <string name="erase_tag_text">消すにはタグの上に電話の裏側を置いてください。</string>
+ <string name="copy_tag_text">コピーするにはタグの上に電話の裏側を置いてください。</string>
+
+ <string name="menuMessages">メッセージ</string>
+ <string name="widget_single_task">タスクを実行</string>
+ <string name="widget_single_task_configure_title">ショートカットを設定</string>
+ <string name="soundOptionsRingVolumeCombined">リング／通知音量</string>
+
+
+ <string name="switch_tag_details">タスク切替は2つの別々のタスクを含み、
+nfcタグがタップされるたびにタスクが切り替えられます。\n\n2番目のタスクを追加する場合、上の+を押してください。</string>
+
+ <string name="driving_mode">運転モード</string>
+ <string name="power_saver">節電</string>
+ <string name="block_mode">ブロックモード</string>
+ <string name="menuSamsung">サムスン電子</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">節電モード</string>
+ <string name="driving_mode_heading">運転モード</string>
+ <string name="blocking_mode_heading">ブロックモード</string>
+
+ <string name="display_power_saver">パワーセーバー</string>
+ <string name="display_blocking_mode">ブロックモード</string>
+ <string name="display_driving_mode">運転モード</string>
+ <string name="heading_glympse">Glympseを送信</string>
+ <string name="hint_recipient_address">受信者</string>
+
+ <string name="widgetSendGlympse">Glympse送信済み</string>
+ <string name="actionSendGlympse">* Glympseを送信中</string>
+
+ <string-array name="glympse_address_types">
+  <item>電子メール</item>
+  <item>sms</item>
+  <item>twitter</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">持続時間</string>
+
+
+ <string name="choose_shipping_method">配送方法を選択</string>
+ <string name="tts_failed">エラー：TTSを起動できません</string>
+
+ <string name="action_speak_text">* テキストを読んでいます</string>
+ <string name="widget_speak_text">読まれたテキスト</string>
+
+ <string name="heading_tts">テキストを読む</string>
+ <string name="tts_hint">読むテキスト</string>
+
+
+ <string name="open_in_background">背景で開く</string>
+ <string name="help_answers">オンラインで回答を得る</string>
+ <string name="help_email">メールをお寄せください</string>
+ <string name="show_welcome">ウェルカムとヒント表示</string>
+
+
+ <string name="general">一般</string>
+ <string name="backup_restore">バックアップ／復元</string>
+ <string name="backup">バックアップ</string>
+ <string name="restore">復元</string>
+ <string name="last_operation">最後の操作：</string>
+ <string name="backed_up">%1$sにバックアップ済み</string>
+ <string name="restored">%1$sに復元済み</string>
+ <string name="backup_local">ローカル</string>
+ <string name="backup_tagstand">クラウド</string>
+ <string name="backup_to">次にバックアップ</string>
+ <string name="restore_from">次から復元</string>
+ <string name="restoring">復元中</string>
+ <string name="perform_cloud_backup">クラウドバックアップを実行中</string>
+
+ <string name="sso_clear_dialog">Google アカウントのログインデータをクリアするにはOKを
+クリックしてください</string>
+
+ <string name="title_sso_explanation">Googleでサインイン</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">ログアウト</string>
+ <string name="status_logged_out">ログイン</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">購入方法：</string>
+ <string name="ship_to">発送先住所：</string>
+ <string name="confirm_order">ご注文の確認</string>
+ <string name="change">お支払方法または住所の変更</string>
+ <string name="change_shipping">配送方法の変更</string>
+ <string name="tax">税：</string>
+ <string name="total">合計：</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">配送：</string>
+ <string name="titleConfirmPayment">ご注文情報</string>
+ <string name="item_price">価格：</string>
+ <string name="finalize_payment">ご購入を終了中</string>
+ <string name="confirmation_text">お取引番号は%1$sです。\n\n%2$sでご確認のメールを受け取ります。</string>
+ <string name="confirmation_error_text">お取引の手続き中に問題が発生しました。\n\n%1$s</string>
+ <string name="wallet_error_title">Google Wallet エラー</string>
+ <string name="wallet_error_message">Google Wallet に接続できませんでした。  数分後にお試しください。エラー: %1s</string>
+ <string name="titleOrderComplete">ご注文完了</string>
+ <string name="spending_limit_exceeded">支出額を超過しました</string>
+ <string name="google_wallet_unavailable">Google Wallet を利用できません</string>
+ <string name="error_code">エラーコード: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">お支払方法</string>
+ <string name="wallet_signin_point_one">もう決してタスクを失うことはありません。Tagstand\'s クラウドであなたのタスクのバックアップと復元を実行できます。</string>
+ <string name="wallet_signin_point_two">Tagstandで無料のタグを二つ入手。</string>
+ <string name="wallet_signin_point_three">Google Walletを使用してタグを簡単かつ迅速に購入。</string>
+ <string name="wallet_signin_heading">Google accountを使用し、特典をお楽しみください。</string>
+ <string name="set_alarm_app">お好みのアラームアプリを設定する</string>
+ <string name="select_alarm_app">お好みのアラームアプリを選択してください</string>
+ <string name="sign_in_with_google">サインイン</string>
+ <string name="system_volume">システム音量</string>
+
+ <string name="actionSystemVolume">* システム音量設定</string>
+ <string name="widgetSystemVolume">システム音量を設定</string>
+ <string name="media_next">次のメディア</string>
+ <string name="next_track">次のトラック</string>
+ <string name="media_previous">前のメディア</string>
+ <string name="previous_track">前のトラック</string>
+ <string name="actionMediaNext">* 次のトラック</string>
+ <string name="widgetMediaNext">次のトラック</string>
+ <string name="actionMediaPrevious">* 前のトラック</string>
+ <string name="widgetMediaPrevious">前のトラック</string>
+ <string name="menuMedia">メディア</string>
+
+ <string name="wifi_task">WiFi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">NFC タブをタップする時にタスクを実行するかタスクを切り替える</string>
+ <string name="bluetooth_task_description">Bluetoothデバイスに接続あるいは接続を切る時にタスクを実行。</string>
+ <string name="wifi_task_description">WiFiネットワークに接続あるいは接続を切る時にタスクを実行。</string>
+ <string name="configure_connection_task_title">%1$s タスクを設定</string>
+
+ <string name="layoutProfileTaskChooserTitle">タスクを選択</string>
+ <string name="layoutProfileNewTask">+新規タスク</string>
+ <string name="enable_bluetooth">ペアのデバイスをリストするにはBluetoothを有効にしてください。</string>
+ <string name="enable_wifi">保存済みネットワークをリストするにはWiFiを有効にしてください。</string>
+ <string name="no_task">タスクが見つかりません。</string>
+ <string name="share_failed">タグ共有に失敗しました。</string>
+
+ <string name="extension_description">最近のタスクを表示し、DashClockから直接タスクを起動します</string>
+ <string name="import_create_tag">タスクが見つかりません。このタグを使用して新しいタスクを作成しますか？</string>
+ <string name="start_media_playback">メディア再生をスタート</string>
+ <string name="stop_media_playback">メディア再生を終了</string>
+ <string name="receive_sip_calls">SIPコールを受信</string>
+ <string name="sip_calls">SIPコール</string>
+
+ <string name="widget_enable">%1$s有効</string>
+ <string name="widget_disable">%1$s無効</string>
+ <string name="widget_toggle">%1$s切替済み</string>
+
+ <string name="action_enable">* %1$s有効中</string>
+ <string name="action_disable">* %1$s無効中</string>
+ <string name="action_toggle">* %1$s 切替中</string>
+
+ <string name="action_set_generic">*  %1$s 設定中</string>
+ <string name="widget_set_generic">%1$s設定</string>
+ <string name="action_set_to">* %1$sから %2$sへ変更中</string>
+ <string name="widget_set_to">%1$s から %2$sへ変更</string>
+ <string name="action_checking_in">*  %1$sにチェックイン中</string>
+ <string name="widget_checking_in">%1$sチェックイン済み</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare スポット</string>
+ <string name="social_google_places">Google Places</string>
+ <string name="run_task">タスク実行</string>
+ <string name="background_color">バックグランドカラー</string>
+ <string name="white">ホワイト</string>
+ <string name="black">ブラック</string>
+ <string name="select_icon">アイコンを選択</string>
+ <string name="select_task">タスクを選択</string>
+
+ <string name="try_it_now">今すぐ例を試す</string>
+
+ <string name="bluetooth_connect_a2dp_heading">デバイスを接続</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>電話とメディア</item>
+  <item>メディア</item>
+  <item>電話</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">プロフィールを選択</string>
+ <string name="select_bluetooth_device">デバイスを選択</string>
+ <string name="action_bluetooth_connect">* Bluetooth デバイスに接続中</string>
+ <string name="widget_bluetooth_connect">Bluetooth デバイスに接続済み</string>
+
+ <string name="write_options_title">オプションを書く</string>
+ <string name="menu_context_edit">編集</string>
+ <string name="set_media_app">お好みのメディアプレーヤーを設定</string>
+ <string name="select_media_app">お好みのメディアプレーヤーを選択</string>
+ <string name="menuTravel">トラベル</string>
+ <string name="item_info_title">情報</string>
+ <string name="geofence_task">ジオフェンス（ベータ版）</string>
+ <string name="when_entering">入る時</string>
+ <string name="when_exiting">出る時</string>
+ <string name="address">住所</string>
+ <string name="geofence">ジオフェンス</string>
+ <string name="radius">サイズ：</string>
+ <string name="no_location">位置が設定されていません</string>
+ <string name="miracast_device">Miracast デバイス</string>
+ <string name="battery_task">バッテリー</string>
+ <string name="battery_task_description">バッテリーが特定のパーセントに達する時タスクを実行する</string>
+ <string name="when_battery_level">バッテリーが：</string>
+ <string name="nfc_gear_title">NFC ギア</string>
+
+ <string name="goes_below">これより下降</string>
+ <string name="goes_above">これより上昇</string>
+ <string name="activity_feed">アクティビティログ</string>
+ <string name="activity_feed_none">まだトリガーが発射されていません。</string>
+ <string name="menu_experimental">試験的</string>
+ <string name="time_task_description">1日またはそれ以上特定の時間にタスクを実行する。</string>
+ <string name="time_task">時間</string>
+ <string name="day_sunday">日</string>
+ <string name="day_monday">月</string>
+ <string name="day_tuesday">火</string>
+ <string name="day_wednesday">水</string>
+ <string name="day_thursday">木</string>
+ <string name="day_friday">金</string>
+ <string name="day_saturday">土</string>
+
+ <string name="example_created">%1$s の作成に成功しました。</string>
+ <string name="title_feedback">フィードバック</string>
+ <string name="contact_text">当社ではTriggerをなるべく使いやすくすること心がけています。そのため、お客様のフィードバックは大変重要です。問題、ご意見、ご提案などありましたら、お気軽にお問い合わせください。</string>
+ <string name="other_nfc">他のNFCアクション</string>
+ <string name="write_status_waiting">タグを待っています...</string>
+ <string name="write_free_tags">NFCタグを購入</string>
+
+ <string name="previous">前</string>
+ <string name="title_configure_triggers">トリガー</string>
+ <string name="title_configure_task">タスク</string>
+ <string name="title_configure_switch">スイッチ</string>
+ <string name="us_customer">米国のお客様</string>
+ <string name="international_customer">海外のお客様</string>
+ <string name="checkout">決済</string>
+ <string name="examples_intro">自動的な設定変更、アプリ起動、メッセージ送信には、電話のセンサーを使用してください。\n\n下の例を利用して開始するか、自分のタスクを作成してください。</string>
+ <string name="got_it">はい、分かりました</string>
+ <string name="create_your_own">自分のタスクを作成</string>
+ <string name="no_triggers">上の+をクリックして、トリガーを追加。</string>
+ <string name="international">（海外）</string>
+ <string name="us">（米国）</string>
+     
+ <string name="geofence_help">ジオフェンスに関するご質問、問題は弊社のよくある質問をご覧ください。</string>
+ <string name="separator_or">- または -</string>
+ <string name="separator_and">- と -</string>
+ <string name="use_this_task">制限を追加</string>
+ <string name="between_these_times">間の期間</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">任意のネットワーク</string>
+ <string name="select_network">ネットワークを選択</string>
+ <string name="two_or_more">2以上のネットワーク</string>
+ <string name="display_between_times">%1$s と %2$sの間</string>
+ <string name="display_on_days">%1$sの間</string>
+ <string name="display_wifi_network">これに接続する時%1$s</string>
+ <string name="no_actions_found">アクションなし</string>
+ <string name="no_actions_found_message">%1$s にはアクションがありません。\n\n戻ってアクションを追加するか、続行してアクションがないままタスクを保存します。</string>
+ <string name="go_back">戻る</string>
+ <string name="payment_info">お支払情報</string>
+ <string name="card_number">カード番号</string>
+ <string name="expiration_date">失効日</string>
+ <string name="security_code">セキュリティコード</string>
+ <string name="mm">月</string>
+ <string name="yy">年</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">配送先住所</string>
+ <string name="full_name">氏名</string>
+ <string name="company_name">法人名</string>
+ <string name="email">メール</string>
+ <string name="street_address">住所</string>
+ <string name="apt_suite">アパート／マンション</string>
+ <string name="city">市</string>
+ <string name="region">都道府県</string>
+ <string name="postcode">郵便番号</string>
+ <string name="phone_number">電話番号</string>
+ <string name="billing_address">請求先住所</string>
+ <string name="use_shipping_info">配送情報を使用</string>
+ <string name="used_text">使用済み: %1$s</string>
+ <string name="pref_show_bytes">タスクサイズを表示</string>
+ <string name="plugin_tag_reuse">タグ再使用</string>
+ <string name="plugin_tag_reuse_description">機器で完全にサポートされないリードオンリーまたはタグを再使用</string>
+ <string name="plugin_call">電話</string>
+ <string name="plugin_call_description">番号自動入力のダイアラーを開く代わりに、コールアクションで直接電話できるようにします。</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">テキストアプリ内でSMSデータを自動入力する代わりにテキストメッセージアクションでメッセージを自動的に送信します。</string>
+ <string name="plugins">プラグイン</string>
+ <string-array name="radiusChoices">
+  <item>小</item>
+  <item>中</item>
+  <item>大</item>
+  <item>特大</item>
+ </string-array>
+ <string name="when_charger_connected">充電器が接続されている時</string>
+ <string name="when_wireless_charger_connected">無線の充電中</string>
+ <string name="when_charger_disconnected">充電器が外された時</string>
+ <string name="charger_title">充電中</string>
+ <string name="charger_description">無線または有線充電器を接続する、または接続を切る時にタスクを実行する。</string>
+ <string name="forget_network">Wifi を忘れる</string>
+
+ <string name="task_n">タスク (n)</string>
+ <string name="task_definition">トリガーに起動されたアクショングループ</string>
+ <string name="my_battery_task">私のバッテリータスク</string>
+ <string name="create_a_task">タスクを作成</string>
+ <string name="actions">アクション</string>
+ <string name="sign_in_trial">Google＋にサインインして、7日の無料試用版を開始するか、下でアップグレードしてください。</string>
+ <string name="upgrade_heading">選択された機能はトリガーPROでのみ使用できます。</string>
+ <string name="start_trial">試用版を開始</string>
+ <string name="upgrade">アップグレード</string>
+ <string name="trial_upgrade_only">この機能を使用するには下のアップグレードを選択してください。</string>
+ <string name="pro_feature">プロ機能</string>
+ <string name="trigger">トリガー</string>
+ <string name="any_time">いつでも</string>
+ <string name="headset_title">ヘッドセット</string>
+ <string name="when_connected">接続中</string>
+ <string name="when_disconnected">接続した時</string>
+ <string name="headset_description">ヘッドセットを接続した時、あるいは接続を切った時タスクを実行する。</string>
+ <string name="use_current_configuration">現在の設定を使用</string>
+ <string name="trial_expired_title">試用期限が終了しました</string>
+ <string name="trial_expired">Trigger Proの無料試用期間が終了しました。無料版では作成されたプロトリガーはご利用いただけません。</string>
+ <string name="my_tasks_example_description">バッテリーが低い時、WiFiをオフにして画面の明るさを下げる。</string>
+ <string name="show_actions_in_list">タスク説明リスト</string>
+ <string name="task_deleted">タスクが削除されました</string>
+ <string name="undo">元に戻す</string>
+ <string name="geofence_beta_description">Google Playサービスの変動姓のため、トリガーは現在ベータ版です。ほとんどの場合作動に問題はありませんが、常に正しく作動するという保証はありません。</string>
+ <string name="when_charging_usb">チャージ時 (USB)</string>
+ <string name="when_charging_ac">チャージ時 (AC)</string>
+ <string name="any_device">任意のデバイス</string>
+    <string name="two_or_more_devices">2つ以上のデバイス</string>
+    <string name="upgrade_general_heading">アップグレードすると、Triggerの全てのトリガーと機能および開発中のサポートがアンロックされます。</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">デバイスの接続を切る</string>
+    <string name="disconnect_from">次から接続を切る</string>
+    <string name="action_bluetooth_disconnect">* Bluetooth デバイスの接続を切っています</string>
+    <string name="widget_bluetooth_disconnect">接続が切られたBluetooth デバイス</string>
+    <string name="calendar_title">カレンダーイベント</string>
+    <string name="calendar_description">該当するカレンダーイベントが始まったらタスクを実行</string>
+
+    <string name="available">対応可能</string>
+    <string name="busy">忙しい</string>
+    <string name="any">任意</string>
+    <string name="attending">出席する</string>
+    <string name="not_attending">欠席する</string>
+    <string name="agent_title_string">%1$s１エージェント</string>
+    <string name="start">スタート</string>
+    <string name="stop">ストップ</string>
+    <string name="pause">一時停止</string>
+    <string name="meeting_agent">ミーティングエージェント</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">パーキングエージェント</string>
+    <string name="battery_agent">バッテリーエージェント</string>
+    <string name="sleep_agent">スリープエージェント</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">エージェント</string>
+    <string name="agent_title_start">エージェントをスタート</string>
+    <string name="agent_title_stop">エージェントをストップ</string>
+    <string name="agent_title_pause">エージェントを一時停止</string>
+    <string name="account">アカウント</string>
+    <string name="upgrade_spacer">下の全アイテムはPRO版アップグレードです。ここをクリックしてアップグレードするか、無償試用版をご使用ください。</string>
+    <string name="upgrade_now">今すぐアップグレード</string>
+    <string name="upgrade_main_description">全トリガーをアンロックするには7日間の無償試用版をお試しになるか、下のPRO版にアップグレードしてください。</string>
+    <string name="upgrade_unlocks_triggers_count">%1$s トリガーをアンロック</string>
+    <string name="wallet_signin_point_four">Trigger PRO版の7日無償試用版をご利用ください。</string>
+    <string name="receiver_marketing_materials">メールでディスカウントと重要アップデートを受け取る。</string>
+    <string name="example_silence_at_night">睡眠中は電話をサイレントにする</string>
+    <string name="example_silence_at_night_description">睡眠中は受信通知音をサイレントにする</string>
+    <string name="example_save_battery">バッテリー残量が少なくなったらバッテリーを節約する</string>
+    <string name="example_save_battery_description">Wifiをオフにし、画面の明るさを落とす</string>
+    <string name="example_driving">運転中、時間を節約する</string>
+    <string name="example_driving_description">運転中はWifiをオフにして、Googleマップを開く</string>
+    <string name="example_task_data_saver_on">携帯データを無効にする</string>
+    <string name="example_task_data_saver_off">携帯データを有効にする</string>
+    <string name="example_task_battery_saver">バッテリーセーバー</string>
+    <string name="example_set_battery_percentage">バッテリー残量が低くなったらバッテリーセーバーを実行する</string>
+    <string name="example_wifi_select_network">自宅のWifiネットワークを選択する</string>
+    <string name="example_task_night">おやすみなさい</string>
+    <string name="example_task_morning">朝</string>
+    <string name="start_now">今すぐスタート</string>
+    <string name="free_trial_short">Trigger PRO7日間無償試用版をお試しください。</string>
+    <string name="trial_started">試用版開始済み</string>
+    <string name="trial_try_free">7日間、無料でお試しください</string>
+    <string name="event_name">イベント名</string>
+    <string name="contains">含む</string>
+    <string name="matches">一致</string>
+    <string name="event_description">イベント内容</string>
+    <string name="description">内容</string>
+    <string name="availibility">利用可能性</string>
+    <string name="when_event_ends">イベントが終わる時</string>
+    <string name="when_event_starts">イベントが始まる時</string>
+    <string name="power_service_monitor_battery">バッテリーモニター中</string>
+    <string name="power_service_monitor_both">バッテリーモニター &amp; 充電中</string>
+    <string name="power_service_monitor_charging">充電をモニター中</string>
+    <string name="power_service_disable_notification">通知を無効にするにはタッチ</string>
+    <string name="power_service_on">バッテリーと充電トリガーはフォアグラウンドサービスを使用します。通知は継続的に表示されますが、OSがイベントモニターサービスを無効にすることを防ぎます。</string>
+    <string name="power_service_off">バッテリーと充電トリガーはOSによりサービスが無効にされたり、アプリが最近のアプリリストから削除された場合、実行されないことがあります。</string>
+    <string name="power_service_pref">電源トリガー用のフォアグラウンドサービス</string>
+    <string name="menu_remove">削除</string>
+    <string name="help_tasks_title">タスク作成中</string>
+    <string name="help_tasks_description">タスクやその作成方法についてのチュートリアルを見るにはここをクリックしてください。</string>
+    <string name="connect_dialog_body">"Triggerを使用いただき、ありがとうございます! 今すぐConnect をダウンロードし、ウェブからTrigger Tasksを実行してください!!(3日間無料で試用できます）"　</string>
+    <string name="no_thanks">いいえ結構です</string>
+    <string name="try_connect_now">今すぐ試用する</string>
+    <string name="feedback_rate_gplay">Google Playで評価してください</string>
+    <string name="rating_text">高い評価と＋1 は常に歓迎されます：</string>
+    <string name="show_brightness_window">明るさを変更する時、ウィンドウを表示</string>
+    <string name="request_root_access">ルートアクセスのリクエスト</string>
+    <string name="upgrade_successful">全機能のロックが解除されました。</string>
+    <string name="emulate_hardware_dock">ハードウェアドックをエミュレートする（ルートが必要です）</string>
+    <string name="wizard_trigger_help">上の+ をクリックすることで１以上のトリガーを追加</string>
+    <string name="wizard_actions_help">上の+ をクリックすることで１以上のアクションを追加.</string>
+    <string name="event_set_reminder">リマインダー設定</string>
+    <string name="forget_wifi_network">Wifiネットワークを削除</string>
+    <string name="show_user_text">テキストを表示</string>
+
+    <string name="samsung_hands_free">ハンズフリーモード</string>
+    <string name="samsung_smart_stay">スマートステイ</string>
+    <string name="htc_sleep_mode">スリープモード</string>
+    <string name="htc_power_saver">省電力</string>
+    <string name="htc_boom_sound">ブームサウンド</string>
+    <string name="htc_smart_display">スマートディスプレイ</string>
+    <string name="samsung_multi_window">マルチウィンドウ</string>
+    <string name="show_toast">トースト表示</string>
+    <string name="constraint_days">日数</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">充電中</string>
+    <string name="constraint_connected">接続済み</string>
+    <string name="constraint_not_connected">未接続</string>
+    <string name="display_not_connected">%1$sに接続していない時</string>
+    <string name="is_on">がオン</string>
+    <string name="is_off">がオフ</string>
+    <string name="play_sound">再生</string>
+    <string name="agent_description">エージェントが開始または停止する時タスクを実行する</string>
+    <string name="when_agent_starts">エージェントが開始する時</string>
+    <string name="when_agent_ends">エージェントが終了する時</string>
+    <string name="choose_agent">エージェントを選択</string>
+    <string name="agent_condition_starts">%1$s が開始する時</string>
+    <string name="agent_condition_ends">%1$s が終了する時</string>
+    <string name="clear">クリア</string>
+    <string name="export">エクスポート</string>
+    <string name="notification_timer_cancel">キャンセルするにはスワイプしてください</string>
+    <string name="notification_timer_extra_info">期限　%1$s</string>
+    <string name="installed">インストール済み</string>
+    <string name="plugin_lock">画面をロック</string>
+    <string name="plugin_lock_description">これにより実際の画面ロック設定が変更されます。
+画面ロックの無効はスライドすることで設定できます。有効にすると暗証番号または設定に基づくパスワードを設定します。</string>
+    <string name="configure">設定</string>
+</resources>
+
+
+
+
+

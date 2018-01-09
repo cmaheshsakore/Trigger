@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/activity_feed_item_height"
+    android:gravity="center_vertical"
+    android:background="@android:color/transparent"
+    android:paddingLeft="@dimen/keyline_exterior"
+    android:paddingRight="@dimen/keyline_exterior"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_feed_circle_size"
+        android:layout_height="@dimen/activity_feed_item_height">
+
+        <!-- Vertical line -->
+        <View
+            android:id="@+id/timeline"
+            android:layout_width="1dip"
+            android:layout_height="@dimen/activity_feed_item_height_half"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/highlight_green" />
+
+        <!-- Image container and icon -->
+        <LinearLayout
+            android:id="@+id/icon_container"
+            android:layout_width="@dimen/activity_feed_circle_size"
+            android:layout_height="@dimen/activity_feed_circle_size"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:background="@drawable/shape_circle_bordered">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/activity_feed_image_size"
+                android:layout_height="@dimen/activity_feed_image_size"
+                android:src="@drawable/ic_launcher" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Text description -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/activity_feed_text_padding">
+
+        <TextView
+            android:id="@+id/message"
+            android:textColor="#666"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/list_item_text_main"
+            android:layout_height="wrap_content"
+            tools:text="Task name" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fontFamily="sans-serif-light"
+            android:textSize="@dimen/list_item_text_detail"
+            tools:text="Last used" />
+
+    </LinearLayout>
+
+</LinearLayout>

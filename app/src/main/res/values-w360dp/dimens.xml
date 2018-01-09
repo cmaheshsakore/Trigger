@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="geofence_map_height">200dp</dimen>
+    <dimen name="geofence_map_width">300dp</dimen>
+
+    <dimen name="geofence_map_height_landscape">300dp</dimen>
+    <dimen name="geofence_map_width_landscape">200dp</dimen>
+    
+</resources>

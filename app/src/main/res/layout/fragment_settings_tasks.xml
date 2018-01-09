@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/LimitingContainer"
+            style="@style/PreferenceContainerNoCheckbox"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:onClick="preferenceClicked">
+
+            <TextView
+                android:id="@+id/prefLimitingText"
+                style="@style/PreferenceTitlePrimary"
+                android:text="@string/title_tag_limiting" />
+
+            <TextView
+                android:id="@+id/prefLimitingSubText"
+                style="@style/PreferenceTitleSub"
+                android:layout_below="@id/prefLimitingText"
+                android:text="@string/layoutPreferencesEnableLimitingSub" />
+        </RelativeLayout>
+
+        <View style="@style/SpacerLightPadded" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/prefExpireSwitchCheckbox"
+            style="@style/PreferencesSwitch"
+            android:text="@string/layoutPreferencesSwitchTimeout" />
+
+        <View style="@style/SpacerLightPadded" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/prefNFCAirplaneCheckbox"
+            style="@style/PreferencesSwitch"
+            android:text="@string/layoutPreferencesNFCAirplane" />
+
+        <View style="@style/SpacerLightPadded" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/prefShowBytesCheckbox"
+            style="@style/PreferencesSwitch"
+            android:text="@string/pref_show_bytes" />
+
+    </LinearLayout>
+</ScrollView>

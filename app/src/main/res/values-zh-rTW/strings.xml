@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">選擇動作:</string>
+ <string name="RingerTypePrompt">選擇一個響鈴類型:</string>
+ <string name="limitThreshholdPrompt">選擇一個單位:</string>
+ <string name="VibratePrompt">選擇振動時間:</string>
+
+ <string name="AuthTogglePrompt">選擇加密:</string>
+
+ <string name="menu_new_tag">新任務</string>
+ <string name="menu_help">關於</string>
+ <string name="menu_contact">聯絡我們</string>
+ <string name="menu_preferences">設定</string>
+ <string name="menu_delete">刪除</string>
+ <string name="menu_chooser_mail">傳送電子郵件</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Wifi</string>
+ <string name="adapterBluetooth">藍牙</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">秒</string>
+ <string name="timeMinutes">分鐘</string>
+ <string name="timeHours">小時</string>
+
+
+
+ <string name="enableText">啟用</string>
+ <string name="disableText">禁用</string>
+ <string name="toggleText">切換</string>
+
+ <string name="alwaysText">總是</string>
+ <string name="neverText">從不</string>
+ <string name="whenSilentText">當聲音關閉時</string>
+
+
+
+
+
+ <string name="authTypeOpen">開放</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">靜音</string>
+ <string name="ringerTypeVibrate">振動</string>
+ <string name="ringerTypeNormal">正常</string>
+
+
+ <string name="dialogOK">好</string>
+ <string name="dialogCancel">取消</string>
+ <string name="dialogYes">是</string>
+ <string name="dialogNo">否</string>
+ <string name="dialogSave">儲存</string>
+ <string name="dialogClose">關閉</string>
+ <string name="dialog_run">執行任務</string>
+
+ <string name="menuWireless">無線和網路</string>
+ <string name="menuBluetooth">藍牙</string>
+ <string name="menuSound">聲音和音量</string>
+ <string name="menuAlarm">鬧鐘</string>
+ <string name="menuCheckin">社交媒體</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">顯示</string>
+
+ <string name="addOptionsAddText">新增到任務</string>
+
+ <string name="displayAlarmSet">設定鬧鐘</string>
+ <string name="displayListAlarmSet">設定計時器</string>
+ <string name="defaultAlarmText">觸按以設定鬧鐘時間</string>
+
+ <string name="layoutAlarmSetText">設定鬧鐘</string>
+ <string name="layoutAlarmSelectTimeText">觸摸以設定鬧鐘時間</string>
+ <string name="layoutAlarmForwardText">分鐘從現在</string>
+
+ <string name="appListLoadingText">正在載入應用程式列表</string>
+ <string name="listLaunchText">啟動</string>
+ <string name="listLaunchTextCustom">啟動活動</string>
+ <string name="listNavText">導航到</string>
+
+
+ <string name="layoutAppLaunchURL">打開一個URL/URI</string>
+ <string name="layoutAppLaunchNavigation">導航</string>
+ <string name="layoutAppLaunchNavigationText">目的地</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: 簽到這裡</string>
+ <string name="optionsSocialFoursquareSearching">正在搜尋</string>
+ <string name="optionsSocialFoursquareSearchTitle">匹配地點</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: 簽到一個地點</string>
+ <string name="optionsSocialFoursquareVenueTitle">地點</string>
+ <string name="optionsSocialFoursquareVenueEmpty">未選擇地點</string>
+ <string name="optionsSocialFoursquareVenueSub">簽到一個特定地點</string>
+ <string name="optionsSocialFacebook">Facebook: 簽到</string>
+ <string name="optionsSocialPlaces">Google Places: 簽到</string>
+ <string name="optionsSocialTwitter">Twitter: 推文</string>
+
+ <string name="optionsFoursquareSearchFind">查找</string>
+
+ <string name="optionsFoursquareSearchNear">附近</string>
+
+ <string name="listFacebookText">簽到Facebook</string>
+ <string name="listFoursquareText">簽到Foursquare</string>
+ <string name="listFoursquareVenueText">簽到</string>
+ <string name="listPlacesText">簽到Google Places</string>
+ <string name="listTweetText">發表推文</string>
+
+ <string name="locationDisabledTitle">位置已禁用</string>
+ <string name="locationDisabledText">無法獲取位置。請啟用一個位置源。</string>
+
+ <string name="listHotspotText">可擕式熱點</string>
+
+ <string name="layoutHotspotActionText">動作:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">驗證類型:</string>
+ <string name="layoutHotspotAuthKeyText">驗證金鑰:</string>
+
+
+ <string name="soundRingerTypeText">設定響鈴類型</string>
+ <string name="listSoundRingtone">設定鈴聲:</string>
+ <string name="listSoundNotification">設定通知:</string>
+ <string name="listSoundRingerVolume">響鈴音量</string>
+ <string name="listSoundMediaVolume">媒體音量</string>
+
+ <string name="listSoundAlarmVolume">鬧鐘音量</string>
+ <string name="listSoundNotificationVolume">通知音量</string>
+ <string name="listSoundVibrate">響鈴時振動</string>
+
+ <string name="taskerNotInstalled">Tasker未安裝</string>
+ <string name="layoutTaskerLaunchText">Tasker任務</string>
+ <string name="layoutTaskerSelect">選擇任務</string>
+ <string name="layoutTaskerHelpText">請注意: Tasker*必須*在此應用程式前安裝並在Tasker的UI中設定“其他”/“允許外部存取”偏好。\n\n若有任務不工作，請卸載這兩個應用並在重新安裝Trigger前先安裝Tasker。</string>
+
+ <string name="wifiOptionsOperateWifi">Wifi開/關</string>
+ <string name="wifiOptionsConfigureSSID">Wifi連線</string>
+ <string name="wifiOptionsOperateBluetooth">藍牙開/關</string>
+ <string name="wifiOptionsBluetoothDiscoverable">藍牙可偵測性</string>
+ <string name="wifiOptionsAutoSync">自動同步</string>
+ <string name="wifiOptionsAirplaneMode">飛航模式</string>
+
+ <string name="hotspotOptions">WiFi熱點</string>
+
+ <string name="soundOptionsRinger">聲音設定檔</string>
+ <string name="soundOptionsRingtone">鈴聲</string>
+ <string name="soundOptionsRingVolume">鈴聲音量</string>
+ <string name="soundOptionsNotificationtone">通知鈴聲</string>
+ <string name="soundOptionsNotificationVolume">通知音量</string>
+ <string name="soundOptionsMediaVolume">媒體音量</string>
+ <string name="soundOptionsMediaStart">媒體播放</string>
+
+ <string name="soundOptionsAlarmVolume">鬧鐘音量</string>
+ <string name="soundOptionsVibrate">鈴響時振動</string>
+
+ <string name="listWifiAirplaneModeText">飛航模式</string>
+ <string name="listWifiAutoSync">自動同步</string>
+ <string name="listWifiConfigureConnectText">連線到</string>
+ <string name="listWifiBluetoothDiscoverableText">藍牙可偵測</string>
+ <string name="listWifiAssociateText">連線到</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">驗證類型:</string>
+ <string name="layoutWifiAuthKeyText">驗證金鑰:</string>
+
+ <string name="builderInvalidName">請輸入一個有效的名稱</string>
+
+
+ <string name="titleSelectAction">選擇分類</string>
+ <string name="titleConfigureAction">設定動作</string>
+ <string name="buttonTextAdd">新增動作</string>
+
+ <string name="layoutPreferencesTitleText">設定</string>
+ <string name="layoutPreferencesSelectNotification">通知鈴聲</string>
+ <string name="layoutPreferencesVibrate">振動</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">儲存</string>
+ <string name="layoutPreferencesRateLimitingDisable">禁用</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">當讀取標籤時</string>
+ <string name="layoutPreferencesVibrateOptionEnable">總是振動</string>
+ <string name="layoutPreferencesVibrateOptionDisable">從不振動</string>
+ <string name="layoutPreferencesVibrateSubAlways">總是振動</string>
+ <string name="layoutPreferencesVibrateSubNever">從不振動</string>
+
+ <string name="layoutPreferencesDebugOutput">偵錯</string>
+ <string name="layoutPreferencesDebugSend">傳送偵錯記錄檔</string>
+ <string name="layoutPreferencesEnableLimitingSub">已禁用</string>
+ <string name="layoutPreferencesUsage">允許Google Analytics</string>
+
+ <string name="layoutPreferencesNotificationsTitle">通知</string>
+ <string name="layoutPreferencesAdvancedTitle">進階</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">亮度</string>
+ <string name="layoutDisplayBrightnessAuto">啟用自動調節亮度</string>
+ <string name="layoutDisplayNotificationLight">通知燈</string>
+ <string name="listDisplayNotificationLightText">通知燈</string>
+
+ <string name="layoutDisplayAutoRotation">自動旋轉</string>
+ <string name="listDisplayAutoRotationText">自動旋轉</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">啟動自訂活動時發生異常</string>
+ <string name="actionLastActions">最後動作:</string>
+
+
+ <string name="actionEnableMediaPlayback">*開始/停止媒體播放</string>
+ <string name="widgetEnableMediaPlayback">開始/停止媒體播放</string>
+
+ <string name="actionLaunchPackage">*啟動應用程式</string>
+ <string name="widgetLaunchPackage">已啟動應用程式</string>
+
+ <string name="actionLaunchActivity">*啟動活動</string>
+ <string name="widgetLaunchActivity">已啟動活動</string>
+
+ <string name="actionNavigate">*導航到:</string>
+ <string name="widgetNavigate">導航到:</string>
+
+ <string name="actionConfigureSSID">*設定存取點和連線</string>
+ <string name="widgetConfigureSSID">已設定存取點和連線</string>
+
+ <string name="actionTaskerTask">*啟動Tasker任務</string>
+ <string name="widgetTaskerTask">已啟動Tasker任務</string>
+
+ <string name="actionAlarm">*設定鬧鐘</string>
+ <string name="widgetAlarm">已設定鬧鐘</string>
+
+ <string name="actionLaunchURL">*啟動URL</string>
+ <string name="widgetLaunchURL">已啟動URL</string>
+
+ <string name="actionSetVibration">*設定振動</string>
+ <string name="widgetSetVibration">已設定振動</string>
+
+ <string name="actionSendTweet">*發表推文</string>
+ <string name="widgetSendTweet">已發表推文</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">標籤寫入成功。</string>
+ <string name="layoutWriteTitle">寫入標籤</string>
+ <string name="layoutWritePrimaryMessageStart">將你的裝置放在標籤上以開始寫入。</string>
+ <string name="layoutWriteLockText">使標籤唯讀</string>
+
+ <string name="dialogWriteTitle">寫入完成</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">選擇觸發器</string>
+ <string name="layoutHomeFormat">擦除標籤</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">計時器已結束</string>
+
+ <string name="displayAlarmSetTimer">設定鬧鐘(計時器)</string>
+
+
+ <string name="actionTimer">*設定計時器</string>
+ <string name="widgetTimer">已設定計時器</string>
+
+ <string name="layoutAlarmSetTimerText">設定計時器</string>
+
+ <string name="alertSecureSetting">你正在設定安全設定。這需要root存取。</string>
+ <string name="alertSecureSettingTitle">安全設定</string>
+ <string name="alertSecureSettingMakeSystemApp">使系統應用</string>
+
+ <string name="wifiOptionsGPS">GPS開/關</string>
+ <string name="wifiOptionsMobileData">移動數據開/關</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">移動數據</string>
+
+ <string name="rebootTitle">完成</string>
+ <string name="rebootText">請重新啟動裝置。</string>
+
+ <string name="noRootText">不能獲取root存取。</string>
+
+ <string name="layoutDisplayTimeout">顯示超時</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15秒</item>
+  <item>30秒</item>
+  <item>1分鐘</item>
+  <item>2分鐘</item>
+  <item>5分鐘</item>
+  <item>10分鐘</item>
+  <item>30分鐘</item>
+  <item>從不</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">超時</string>
+
+ <string name="wifiOptions3GData">3G數據開/關</string>
+
+ <string name="layoutAppDeskDock">桌面底座</string>
+ <string name="layoutAppDeskDockSub">這對於所有裝置可能沒有影響。</string>
+ <string name="layoutAppCarDock">車內底座</string>
+
+ <string name="menuPhone">電話</string>
+
+ <string name="layoutPhoneSMS">傳送簡訊</string>
+ <string name="optionsPhoneSMS">傳送簡訊</string>
+ <string name="optionsPhoneSMSTo">收件者</string>
+ <string name="optionsPhoneSMSMessage">訊息</string>
+ <string name="optionsPhoneNumber">電話號碼</string>
+ <string name="optionsPhoneCall">打電話</string>
+ <string name="layoutPhoneCall">打電話</string>
+ <string name="optionsPhoneSMSNote">這將打開你的簡訊應用並自動填寫收件者和訊息欄位。要自動傳送訊息，請按一下此訊息以從Play商店下載簡訊外掛程式。</string>
+ <string name="optionsPhoneCallNote">這將打開撥號並輸入號碼。要自動打電話，請輕點此訊息以從Play商店下載呼叫外掛程式。</string>
+
+
+ <string name="listPhoneSMS">傳送簡訊</string>
+ <string name="listPhoneCall">打電話</string>
+
+ <string name="actionSendSMS">*傳送簡訊</string>
+ <string name="widgetSendSMS">已傳送簡訊</string>
+
+ <string name="actionPhoneCall">*打電話</string>
+ <string name="widgetPhoneCall">已打電話</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">在飛航模式中啟用NFC</string>
+
+ <string name="menuSecurity">安全</string>
+ <string name="layoutOptionsKeyguard">鎖定畫面</string>
+ <string name="securityOptionsOperateKeyguard">鎖定畫面開/關</string>
+ <string name="listSecurityKeyguardText">鎖定畫面</string>
+
+ <string name="optionsFoursquareSearchCity">當前位置</string>
+ <string name="optionsFoursquareSearchVenue">名稱</string>
+ <string name="optionsFoursquareSearchVenueIDText">地點id</string>
+ <string name="optionsFoursquareSearchOR">或</string>
+
+ <string name="menuApplications">應用程式和快速鍵</string>
+ <string name="layoutWriteNameText">包含標籤名稱</string>
+ <string name="layoutAppKillAppTextSub">關閉一個應用的預設活動</string>
+ <string name="layoutAppLaunchAppText">打開應用程式</string>
+ <string name="layoutAppKillAppText">關閉應用程式</string>
+ <string name="layoutAppLaunchActivityText">打開活動</string>
+ <string name="layoutAppKillTaskDisclaimer">沒有Root存取，這可能無法用於所有的應用程式。Root存取可確保強制關閉進程。</string>
+
+ <string name="layoutAlarmShowUI">顯示鬧鐘介面</string>
+ <string name="layoutAlarmTimePrefix">時間:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">類型</string>
+ <string name="NavTypeDriving">駕車</string>
+ <string name="NavTypeTransit">公共交通</string>
+ <string name="NavTypeWalking">步行</string>
+
+
+
+ <string name="layoutActivityAppList">選擇應用程式:</string>
+ <string name="layoutActivityList">選擇活動:</string>
+ <string name="layoutActivityWarning">所有活動可能無法啟動。</string>
+
+ <string name="readOnlyWarning">一旦標籤設為唯讀，你將不能再寫入。此動作無法撤銷。</string>
+ <string name="limitThreshholdOverride">覆寫此設定提示</string>
+ <string name="limitThreshholdOverrideDialogPrefix">此任務被跳過了，因為它是在%1$s%2$s內執行的</string>
+ <string name="limitThreshholdOverrideDialogSuffix">此對話方塊將在5秒後關閉。</string>
+ <string name="menu_context_delete">刪除</string>
+ <string name="menu_context_run">執行</string>
+ <string name="menu_context_share">分享</string>
+ <string name="listCloseApp">關閉應用程式</string>
+
+ <string name="listSoundPlayback">開始/停止媒體播放</string>
+ <string name="listDisplayBrightness">設定亮度為</string>
+ <string name="listDisplayBrightnessAuto">啟用自動調節亮度</string>
+ <string name="layoutImportPrimaryMessageStart">將標籤對著電話背面以匯入</string>
+ <string name="layoutMainBuilderImportText">匯入標籤</string>
+ <string name="layoutMainBuilderCopyText">複製標籤</string>
+
+
+ <string name="copyRead">1.) 掃描一個標籤以複製</string>
+ <string name="copyReading">2.) 讀取訊息</string>
+ <string name="copyWrite">3.) 輕碰一個標籤以寫入</string>
+ <string name="copyTitle">複製一個NFC標籤</string>
+ <string name="importTitle">匯入一個標籤</string>
+
+ <string name="copyDialogCopied">成功複製</string>
+ <string name="copyDialogCopyError">標籤無法複製</string>
+ <string name="copyDialogWritten">成功寫入</string>
+ <string name="copyDialogWriteError">標籤無法寫入</string>
+ <string name="layoutPreferencesSelectTimer">計時器鈴聲</string>
+ <string name="layoutPreferencesTagsTitle">任務</string>
+ <string name="layoutPreferencesTagsMore">更多</string>
+ <string name="layoutPreferencesNotifications">通知</string>
+ <string name="layoutPreferencesNotificationsSubBar">使用通知列</string>
+ <string name="layoutPreferencesNotificationsSubToast">使用toast訊息</string>
+ <string name="layoutPreferencesNotificationsSubBoth">使用兩者</string>
+ <string name="layoutPreferencesNotificationsSubNone">無</string>
+ <string name="menu_done">完成</string>
+ <string name="layoutPreferencesSwitchTimeout">12小時後重設切換任務</string>
+ <string name="menuEvents">事件</string>
+ <string name="menuEventsCalendarStatic">行事歷事件</string>
+ <string name="menuEventsCalendarTimestamp">行事歷時間戳記</string>
+ <string name="menuEventsCalendarTimestampText">插入一個使用標籤掃描時的日期和時間的行事歷事件。</string>
+ <string name="layoutEventCalendarTitle">標題</string>
+ <string name="layoutEventCalendarStart">開始</string>
+ <string name="layoutEventCalendarEnd">結束</string>
+ <string name="layoutEventCalendarAllDay">全天</string>
+ <string name="dateHint">輕點以設定日期</string>
+ <string name="timeHint">輕點以設定時間</string>
+ <string name="listDiaplayCalendarEvent">新增行事歷事件</string>
+ <string name="listDiaplayCalendarTimestamp">時間戳記行事歷</string>
+ <string name="actionCalendarEvent">新增行事歷事件</string>
+ <string name="widgetCalendarEvent">*新增行事歷事件</string>
+ <string name="actionCalendarTimestamp">新增時間戳記到行事歷</string>
+ <string name="widgetCalendarTimestamp">*新增時間戳記到行事歷</string>
+
+ <string name="layoutPreferencesCredentialsTitle">登入</string>
+ <string name="layoutPreferencesDialogTwitter">按一下“好”以清除Twitter登入資料</string>
+ <string name="layoutPreferencesDialogFoursquare">按一下“好”以清除Foursquare登入資料</string>
+
+
+ <string name="layoutAppPause">暫停</string>
+ <string name="layoutAppPauseSubTitle">暫停指定的時間長度後再繼續。</string>
+ <string name="actionPause">*暫停</string>
+ <string name="widgetPause">暫停</string>
+
+
+ <string name="loading">載入…</string>
+ <string name="error">出錯</string>
+ <string name="recommended_tags">NFC標籤</string>
+ <string name="buy_now">立即購買</string>
+ <string name="buy_tags">標籤商店</string>
+ <string name="popular_tags">建議任務</string>
+ <string name="my_tags">我的任務</string>
+ <string name="shop_more_title">查找更多嗎？</string>
+ <string name="shop_more_description">瀏覽我們完整的NFC產品目錄，包括NFC標籤和套件。</string>
+ <string name="welcome">歡迎</string>
+ <string name="buy_nfc_tags">購買NFC標籤</string>
+ <string name="used_never">已使用: 從未</string>
+ <string name="total_actions">總動作</string>
+
+ <string name="basic_tags">寫入基本標籤</string>
+
+ 
+ <string name="default_tag_name_format">任務%s</string>
+
+ <string name="save_and_write">儲存並寫入</string>
+ <string name="tag_name">名稱</string>
+ <string name="no_actions">動作</string>
+ <string name="tag_unsaved_changes">此任務有未儲存的更改。</string>
+ <string name="discard_changes">丟棄更改</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s位元組</item>
+  <item quantity="other">%s位元組</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">設定一個Wifi連線</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">打開藍牙可偵測性</string>
+ 
+ <string name="soundOptionsMediaStartSub">開始/停止媒體播放</string>
+ <string name="optionsSocialCheckinHereSub">簽到你的當前位置</string>
+ <string name="actionURLHeading">URL/URI</string>
+ <string name="optionsSocialTwitterSub">發表推文</string>
+ <string name="layoutAppLaunchNavigationSub">導航到一個位置</string>
+ <string name="alarmTimerConfigureSub">設定一個計時器</string>
+ <string name="carDockDrivingMode">包含駕駛模式(三星Galaxy裝置)</string>
+ <string name="airplaneModeWarning">飛航模式將禁用啟動的NFC。可在應用程式設定中打開“在飛航模式中啟用NFC”以不讓飛航模式更改NFC。</string>
+ <string name="write">寫入</string>
+ <string name="next">下一</string>
+
+ <string name="_continue">繼續</string>
+
+ <string name="shop_unavailable">商店暫時不可用。請檢查你的連線，並在幾分鐘後再試。</string>
+ <string name="titleSavedTagPicker">選擇一個儲存的任務以執行</string>
+ <string name="titleShareTagActivity">分享此標籤使用</string>
+ <string name="sharedReceiverDialogMessage">正在載入標籤</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">簡訊</string>
+ <string name="shareOptionEmail">電子郵件</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">我剛剛使用+Tagstand做了此NFC標籤。用Trigger應用試試:</string>
+ <string name="shareTwitterPrefix">看看這個我做的#NFC標籤</string>
+ <string name="shareTwitterSuffix">由@tagstand提供支援</string>
+ <string name="shareSMSPrefix">你好，看看這個我用Trigger做的NFC標籤:</string>
+ <string name="shareEmailPrefix">你好，\n\n我用Trigger做了此 \'%1$s\'標籤，我想分享給你。\n\n</string>
+ <string name="shareEmailSuffix">\n\n按一下以下載到你的手機。\n\n歡迎走向未來。</string>
+ <string name="shareEmailSubject">看看我的NFC標籤</string>
+ <string name="loadTagPayloadError">抱歉，一些功能不工作。可能是連線問題。</string>
+ <string name="loadTagNoPayload">無動作與此標籤關聯。</string>
+
+ <string name="layoutWifiHiddenSSID">隱藏SSID</string>
+ <string name="layoutEmailAddress">電子郵件地址</string>
+ <string name="layoutEmailMessage">訊息(可選)</string>
+ <string name="layoutEmailSubjectHint">主旨</string>
+ <string name="layoutEmailMessageHint">訊息</string>
+ <string name="layoutEmail">傳送電子郵件</string>
+ <string name="listDisplayEmail">傳送電子郵件至</string>
+ <string name="sendEmailChooserTitle">傳送電子郵件使用</string>
+
+ <string name="tag_write_failed_message">它仍然可以使用，但是輕碰它時會看見選擇器。</string>
+ <string name="tag_write_failed_no_plugin">你將需要從Play Store下載標籤重用外掛程式以使用此標籤。</string>
+ <string name="tag_write_failed">不能寫入此標籤。</string>
+ <string name="tag_write_success_message">你的標籤已可用。</string>
+ <string name="menu_help_text">說明</string>
+
+ <string name="warning">警告</string>
+
+
+ <string name="configure_connection_title">設定連線</string>
+ <string name="enter_network_name">輸入網路名稱(ssid)</string>
+ <string name="enter_bluetooth_name">輸入裝置名稱</string>
+ <string name="enter_bluetooth_mac">輸入mac地址</string>
+ <string name="when_connected_to">當連線到</string>
+ <string name="when_disconnected_from">當斷連從</string>
+ <string name="or">或</string>
+
+ <string name="color_white">白色</string>
+ <string name="color_black">黑色</string>
+ <string name="select_background_color">選擇風格</string>
+ <string name="action_send_email">*傳送電子郵件</string>
+ <string name="widget_send_email">已傳送電子郵件</string>
+ <string name="ignore_duplicate_check">阻止重複上一任務</string>
+ <string name="if_read_again">已阻止任務此時間內重複</string>
+ <string name="found_tag">已執行任務</string>
+ <string name="title_tag_limiting">阻止重複</string>
+ <string name="limit_last_tag_read">上一任務</string>
+ <string name="limit_time_frame">在%1$s%2$s內</string>
+
+ <string name="erase_tag_text">將手機背面放在標籤上以消除。</string>
+ <string name="copy_tag_text">將手機背面放在標籤上以複製。</string>
+
+ <string name="menuMessages">訊息</string>
+ <string name="widget_single_task">執行一個任務</string>
+ <string name="widget_single_task_configure_title">設定快速鍵</string>
+ <string name="soundOptionsRingVolumeCombined">鈴聲/通知音量</string>
+
+
+ <string name="switch_tag_details">切換任務包含兩個單獨的任務，每次輕碰NFC標籤時，將在它們之間切換。\n\n若要新增第二個任務，請觸按上面的“+”。</string>
+
+ <string name="driving_mode">駕駛模式</string>
+ <string name="power_saver">節電</string>
+ <string name="block_mode">阻止模式</string>
+ <string name="menuSamsung">三星</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">節電模式</string>
+ <string name="driving_mode_heading">駕駛模式</string>
+ <string name="blocking_mode_heading">阻止模式</string>
+
+ <string name="display_power_saver">節電程式</string>
+ <string name="display_blocking_mode">阻止模式</string>
+ <string name="display_driving_mode">駕駛模式</string>
+ <string name="heading_glympse">傳送Glympse</string>
+ <string name="hint_recipient_address">收件者</string>
+
+ <string name="widgetSendGlympse">已傳送Glympse</string>
+ <string name="actionSendGlympse">*傳送Glympse</string>
+
+ <string-array name="glympse_address_types">
+  <item>電子郵件</item>
+  <item>簡訊</item>
+  <item>Twitter</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">持續時間</string>
+
+
+ <string name="choose_shipping_method">選擇送貨方式</string>
+ <string name="tts_failed">錯誤: 無法啟動TTS</string>
+
+ <string name="action_speak_text">*朗讀文字</string>
+ <string name="widget_speak_text">已朗讀文字</string>
+
+ <string name="heading_tts">朗讀文字</string>
+ <string name="tts_hint">文字轉語音</string>
+
+
+ <string name="open_in_background">在背景打開</string>
+ <string name="help_answers">線上獲取答案</string>
+ <string name="help_email">給我們傳送電子郵件</string>
+ <string name="show_welcome">顯示歡迎螢幕和提示</string>
+
+
+ <string name="general">一般</string>
+ <string name="backup_restore">備份/恢復</string>
+ <string name="backup">備份</string>
+ <string name="restore">恢復</string>
+ <string name="last_operation">最後動作:</string>
+ <string name="backed_up">備份於%1$s</string>
+ <string name="restored">恢復於%1$s</string>
+ <string name="backup_local">本地</string>
+ <string name="backup_tagstand">雲</string>
+ <string name="backup_to">備份到</string>
+ <string name="restore_from">恢復從</string>
+ <string name="restoring">正在恢復</string>
+ <string name="perform_cloud_backup">正在執行雲備份</string>
+
+ <string name="sso_clear_dialog">按一下“好”以清除你的Google帳戶登入資料</string>
+
+ <string name="title_sso_explanation">使用Google帳戶登入</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">登出</string>
+ <string name="status_logged_out">登入</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">購買方式:</string>
+ <string name="ship_to">送貨到:</string>
+ <string name="confirm_order">確認訂單</string>
+ <string name="change">更改付款或地址</string>
+ <string name="change_shipping">更改送貨方式</string>
+ <string name="tax">稅:</string>
+ <string name="total">總計:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">運輸:</string>
+ <string name="titleConfirmPayment">訂單資訊</string>
+ <string name="item_price">價格:</string>
+ <string name="finalize_payment">確定購買</string>
+ <string name="confirmation_text">你的交易號碼是%1$s。\n\n你的%2$s帳戶將收到一封確認電子郵件。</string>
+ <string name="confirmation_error_text">處理你的交易出錯。\n\n%1$s</string>
+ <string name="wallet_error_title">Google Wallet出錯</string>
+ <string name="wallet_error_message">存取Google Wallet出現問題。可在幾分鐘後再試。錯誤: %1s</string>
+ <string name="titleOrderComplete">訂單完成</string>
+ <string name="spending_limit_exceeded">你已超出你的支出限制</string>
+ <string name="google_wallet_unavailable">Google Wallet不可用</string>
+ <string name="error_code">錯誤代碼: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">支付方式</string>
+ <string name="wallet_signin_point_one">再也不會丟失任務。使用Tagstand的雲服務來備份和恢復任務。</string>
+ <string name="wallet_signin_point_two">從Tagstand獲取兩個免費標籤。</string>
+ <string name="wallet_signin_point_three">使用Google Wallet更快更方便地購買標籤。</string>
+ <string name="wallet_signin_heading">使用你的Google帳戶並享受它帶來的好處。</string>
+ <string name="set_alarm_app">設定首選鬧鐘程式</string>
+ <string name="select_alarm_app">選擇你的首選鬧鐘程式</string>
+ <string name="sign_in_with_google">登入</string>
+ <string name="system_volume">系統音量</string>
+
+ <string name="actionSystemVolume">*設定系統音量為</string>
+ <string name="widgetSystemVolume">已設定系統音量</string>
+ <string name="media_next">下一媒體</string>
+ <string name="next_track">下一曲目</string>
+ <string name="media_previous">上一媒體</string>
+ <string name="previous_track">上一曲目</string>
+ <string name="actionMediaNext">*下一曲目</string>
+ <string name="widgetMediaNext">下一曲目</string>
+ <string name="actionMediaPrevious">*上一曲目</string>
+ <string name="widgetMediaPrevious">上一曲目</string>
+ <string name="menuMedia">媒體</string>
+
+ <string name="wifi_task">Wifi</string>
+ <string name="bluetooth_task">藍牙</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">輕碰一個NFC標籤時執行一個任務或切換任務。</string>
+ <string name="bluetooth_task_description">當連線或斷開藍牙裝置時執行一個任務。</string>
+ <string name="wifi_task_description">當連線或斷開wifi網路時執行一個任務。</string>
+ <string name="configure_connection_task_title">設定%1$s任務</string>
+
+ <string name="layoutProfileTaskChooserTitle">選擇一個任務</string>
+ <string name="layoutProfileNewTask">+ 新任務</string>
+ <string name="enable_bluetooth">必須啟用藍牙才能列出配對的裝置。</string>
+ <string name="enable_wifi">必須啟用WiFi才能列出儲存的網路。</string>
+ <string name="no_task">未找到任務。</string>
+ <string name="share_failed">共享標籤失敗。</string>
+
+ <string name="extension_description">顯示你最近的任務，並讓你可以直接
+  從DashClock啟動任務</string>
+ <string name="import_create_tag">未找到任務。你想使用此標籤建立一個新任務嗎？</string>
+ <string name="start_media_playback">開始媒體播放</string>
+ <string name="stop_media_playback">停止媒體播放</string>
+ <string name="receive_sip_calls">收到SIP呼叫</string>
+ <string name="sip_calls">SIP呼叫</string>
+
+ <string name="widget_enable">已啟用%1$s</string>
+ <string name="widget_disable">已禁用%1$s</string>
+ <string name="widget_toggle">已切換%1$s</string>
+
+ <string name="action_enable">*啟用%1$s</string>
+ <string name="action_disable">*禁用%1$s</string>
+ <string name="action_toggle">*切換%1$s</string>
+
+ <string name="action_set_generic">*設定%1$s</string>
+ <string name="widget_set_generic">已設定%1$s</string>
+ <string name="action_set_to">*設定%1$s為%2$s</string>
+ <string name="widget_set_to">已設定%1$s為%2$s</string>
+ <string name="action_checking_in">*簽到%1$s</string>
+ <string name="widget_checking_in">已簽到%1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare地點</string>
+ <string name="social_google_places">Google Places</string>
+ <string name="run_task">執行任務</string>
+ <string name="background_color">背景顏色</string>
+ <string name="white">白色</string>
+ <string name="black">黑色</string>
+ <string name="select_icon">選擇圖示</string>
+ <string name="select_task">選擇任務</string>
+
+ <string name="try_it_now">立即試試例子</string>
+
+ <string name="bluetooth_connect_a2dp_heading">連線裝置</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>電話和媒體</item>
+  <item>媒體</item>
+  <item>電話</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">選擇設定檔</string>
+ <string name="select_bluetooth_device">選擇裝置</string>
+ <string name="action_bluetooth_connect">*連線藍牙裝置</string>
+ <string name="widget_bluetooth_connect">已連線藍牙裝置</string>
+
+ <string name="write_options_title">寫入選項</string>
+ <string name="menu_context_edit">編輯</string>
+ <string name="set_media_app">設定偏好媒體播放程式</string>
+ <string name="select_media_app">選擇你的偏好媒體播放程式</string>
+ <string name="menuTravel">旅行</string>
+ <string name="item_info_title">資訊</string>
+ <string name="geofence_task">地理圍欄(beta)</string>
+ <string name="when_entering">進入時</string>
+ <string name="when_exiting">離開時</string>
+ <string name="address">地址</string>
+ <string name="geofence">地理圍欄</string>
+ <string name="radius">大小:</string>
+ <string name="no_location">未設定位置</string>
+ <string name="miracast_device">Miracast裝置</string>
+ <string name="battery_task">電池</string>
+ <string name="battery_task_description">當電池電量達到特定比例時執行一個任務。</string>
+ <string name="when_battery_level">當電池電量:</string>
+ <string name="nfc_gear_title">NFC產品</string>
+
+ <string name="goes_below">低於</string>
+ <string name="goes_above">高於</string>
+ <string name="activity_feed">活動記錄檔</string>
+ <string name="activity_feed_none">尚無觸發器觸發。</string>
+ <string name="menu_experimental">體驗</string>
+ <string name="time_task_description">在某一天或多天的特定時間執行一個任務。</string>
+ <string name="time_task">時間</string>
+ <string name="day_sunday">周日</string>
+ <string name="day_monday">週一</string>
+ <string name="day_tuesday">週二</string>
+ <string name="day_wednesday">週三</string>
+ <string name="day_thursday">週四</string>
+ <string name="day_friday">週五</string>
+ <string name="day_saturday">週六</string>
+
+ <string name="example_created">%1$s已成功建立。</string>
+ <string name="title_feedback">回饋</string>
+ <string name="contact_text">我們致力於將Trigger打造得儘量實用。你的回饋可幫助我們實現承諾。請隨時使用下面的資源向我們回饋任何問題、評論或建議。</string>
+ <string name="other_nfc">其他NFC動作</string>
+ <string name="write_status_waiting">等待標籤...</string>
+ <string name="write_free_tags">購買NFC標籤</string>
+
+ <string name="previous">上一</string>
+ <string name="title_configure_triggers">觸發器</string>
+ <string name="title_configure_task">任務</string>
+ <string name="title_configure_switch">開關</string>
+ <string name="us_customer">美國顧客</string>
+ <string name="international_customer">國際顧客</string>
+ <string name="checkout">結帳</string>
+ <string name="examples_intro">使用手機的感測器自動更改設定、啟動應用或傳送簡訊。\n\n可使用下面的示例任務開始或建立你自己的任務。</string>
+ <string name="got_it">好，知道了</string>
+ <string name="create_your_own">建立自己的</string>
+ <string name="no_triggers">按一下上面的“+”可新增觸發器。</string>
+ <string name="international">(國際)</string>
+ <string name="us">(美國)</string>
+     
+ <string name="geofence_help">若有任何關於地理圍欄任務的疑問或問題，請按一下以查看我們的常見問題。</string>
+ <string name="separator_or">- 或 -</string>
+ <string name="separator_and">- 和 -</string>
+ <string name="use_this_task">新增限制</string>
+ <string name="between_these_times">在這些時間之間:</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">任何網路</string>
+ <string name="select_network">選擇網路</string>
+ <string name="two_or_more">兩個或更多網路</string>
+ <string name="display_between_times">在%1$s與%2$s之間</string>
+ <string name="display_on_days">在%1$s</string>
+ <string name="display_wifi_network">當連線到%1$s</string>
+ <string name="no_actions_found">無動作</string>
+ <string name="no_actions_found_message">%1$s無動作。\n\n請返回新增動作或繼續儲存此無動作的任務。</string>
+ <string name="go_back">返回</string>
+ <string name="payment_info">付款資訊</string>
+ <string name="card_number">卡號</string>
+ <string name="expiration_date">到期日期</string>
+ <string name="security_code">安全代碼</string>
+ <string name="mm">月</string>
+ <string name="yy">年</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">配送地址</string>
+ <string name="full_name">全名</string>
+ <string name="company_name">公司名稱</string>
+ <string name="email">電子郵件</string>
+ <string name="street_address">街道地址</string>
+ <string name="apt_suite">公寓/房號</string>
+ <string name="city">城市</string>
+ <string name="region">地區</string>
+ <string name="postcode">郵編</string>
+ <string name="phone_number">電話號碼</string>
+ <string name="billing_address">帳單地址</string>
+ <string name="use_shipping_info">使用配送資訊</string>
+ <string name="used_text">已使用: %1$s</string>
+ <string name="pref_show_bytes">顯示任務大小</string>
+ <string name="plugin_tag_reuse">標籤重複利用</string>
+ <string name="plugin_tag_reuse_description">重複利用唯讀或裝置不完全支援的標籤。</string>
+ <string name="plugin_call">呼叫</string>
+ <string name="plugin_call_description">這將允許呼叫動作直接執行呼叫，而非開啟預填充號碼的撥號器</string>
+ <string name="plugin_sms">簡訊</string>
+ <string name="plugin_sms_description">這將允許發簡訊動作自動傳送簡訊，而非在簡訊應用中預填充簡訊資料。</string>
+ <string name="plugins">外掛程式</string>
+ <string-array name="radiusChoices">
+  <item>小</item>
+  <item>中</item>
+  <item>大</item>
+  <item>超大</item>
+ </string-array>
+ <string name="when_charger_connected">當連線充電器時</string>
+ <string name="when_wireless_charger_connected">當無線充電時</string>
+ <string name="when_charger_disconnected">當斷開連線充電器時</string>
+ <string name="charger_title">充電</string>
+ <string name="charger_description">當連線或斷開連線一個有線或無線充電器時執行一個任務。</string>
+ <string name="forget_network">忘記Wifi</string>
+
+ <string name="task_n">任務(n)</string>
+ <string name="task_definition">一組由觸發器啟動的動作</string>
+ <string name="my_battery_task">我的電池任務</string>
+ <string name="create_a_task">建立任務</string>
+ <string name="actions">動作</string>
+ <string name="sign_in_trial">使用Google+登入可免費試用7天或在下面升級。</string>
+ <string name="upgrade_heading">你所選的功能僅限Trigger PRO可用。</string>
+ <string name="start_trial">開始試用</string>
+ <string name="upgrade">升級</string>
+ <string name="trial_upgrade_only">選擇下面的升級可使用此功能。</string>
+ <string name="pro_feature">專業版功能</string>
+ <string name="trigger">觸發器</string>
+ <string name="any_time">任何時間</string>
+ <string name="headset_title">耳機</string>
+ <string name="when_connected">連線時</string>
+ <string name="when_disconnected">斷開連線時</string>
+ <string name="headset_description">當連線或斷開連線耳機時執行一個任務。</string>
+ <string name="use_current_configuration">使用當前設定</string>
+ <string name="trial_expired_title">試用已過期</string>
+ <string name="trial_expired">您的Trigger Pro免費試用已過期。在免費版中建立的所有專業版觸發器將不能再用。</string>
+ <string name="my_tasks_example_description">當電量低時，關閉WiFi並降低螢幕亮度。</string>
+ <string name="show_actions_in_list">描述性任務列表</string>
+ <string name="task_deleted">任務已刪除</string>
+ <string name="undo">復原</string>
+ <string name="geofence_beta_description">由於Google Play服務的波動性，這目前只是一個Beta觸發器。大多情況下都可以使用，但不保證其始終可用。</string>
+ <string name="when_charging_usb">充電時(USB)</string>
+ <string name="when_charging_ac">充電時(AC)</string>
+ <string name="any_device">任何裝置</string>
+    <string name="two_or_more_devices">兩個或更多裝置</string>
+    <string name="upgrade_general_heading">升級將可解鎖所有Trigger觸發器和功能，並支援進行中的開發。</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">斷開連線一個裝置</string>
+    <string name="disconnect_from">斷開連線</string>
+    <string name="action_bluetooth_disconnect">* 斷開連線一個藍牙裝置</string>
+    <string name="widget_bluetooth_disconnect">已斷開一個藍牙裝置</string>
+    <string name="calendar_title">行事歷事件</string>
+    <string name="calendar_description">當匹配的行事歷事件開始時執行一個任務</string>
+
+    <string name="available">空閒</string>
+    <string name="busy">繁忙</string>
+    <string name="any">任一</string>
+    <string name="attending">參加</string>
+    <string name="not_attending">不參加</string>
+    <string name="agent_title_string">%1$s一個助理</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="pause">暫停</string>
+    <string name="meeting_agent">會議助理</string>
+    <string name="drive_agent">駕車代理</string>
+    <string name="parking_agent">泊車助理</string>
+    <string name="battery_agent">電池助理</string>
+    <string name="sleep_agent">睡眠助理</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">助理</string>
+    <string name="agent_title_start">開始一個助理</string>
+    <string name="agent_title_stop">停止一個助理</string>
+    <string name="agent_title_pause">暫停一個助理</string>
+    <string name="account">帳戶</string>
+    <string name="upgrade_spacer">專業版升級包含以下所有項目。按一下此處升級或開始免費試用。</string>
+    <string name="upgrade_now">立即升級</string>
+    <string name="upgrade_main_description">請嘗試7天免費試用或升級到下面的專業版解鎖所有觸發器。</string>
+    <string name="upgrade_unlocks_triggers_count">解鎖%1$s個額外觸發器</string>
+    <string name="wallet_signin_point_four">利用Trigger PRO 7天免費試用。</string>
+    <string name="receiver_marketing_materials">透過郵件接收折扣和重要更新。</string>
+    <string name="example_silence_at_night">睡眠時手機靜音</string>
+    <string name="example_silence_at_night_description">睡眠時新通知靜音</string>
+    <string name="example_save_battery">電池電量低時幫我節電</string>
+    <string name="example_save_battery_description">關閉wifi並調低螢幕亮度</string>
+    <string name="example_driving">駕車時節省時間</string>
+    <string name="example_driving_description">駕車時關閉wifi並開啟Google地圖</string>
+    <string name="example_task_data_saver_on">禁用移動資料</string>
+    <string name="example_task_data_saver_off">啟用移動資料</string>
+    <string name="example_task_battery_saver">節電程式</string>
+    <string name="example_set_battery_percentage">當電量低時執行節電程式</string>
+    <string name="example_wifi_select_network">選擇你的家庭wifi網路</string>
+    <string name="example_task_night">晚安</string>
+    <string name="example_task_morning">早上好</string>
+    <string name="start_now">立即啟動</string>
+    <string name="free_trial_short">免費試用Trigger PRO 7天。</string>
+    <string name="trial_started">試用已開始</string>
+    <string name="trial_try_free">免費試用7天</string>
+    <string name="event_name">事件名稱</string>
+    <string name="contains">包含</string>
+    <string name="matches">匹配</string>
+    <string name="event_description">事件描述</string>
+    <string name="description">描述</string>
+    <string name="availibility">可用性</string>
+    <string name="when_event_ends">當事件結束時</string>
+    <string name="when_event_starts">當事件開始時</string>
+    <string name="power_service_monitor_battery">監測電量</string>
+    <string name="power_service_monitor_both">監測電量&amp;充電</string>
+    <string name="power_service_monitor_charging">監測充電</string>
+    <string name="power_service_disable_notification">點按禁用通知</string>
+    <string name="power_service_on">電量和充電觸發器將使用一個前景服務。其會顯示一個進行中的通知，但會阻止OS強制關閉監測這些事件所需的該服務。</string>
+    <string name="power_service_off">如果該服務被OS強制關閉或此應用被從最近的應用列表中刪除，電量和充電觸發器將無法觸發。</string>
+    <string name="power_service_pref">用於電量觸發器的前景服務</string>
+    <string name="menu_remove">移除</string>
+    <string name="help_tasks_title">建立任務</string>
+    <string name="help_tasks_description">按一下此處可檢視任務介紹及如何建立任務快速教程</string>
+    <string name="connect_dialog_body">"感謝您使用Trigger! 立即下載Connect並開始從Web執行Trigger Tasks(包含3天免費試用)!!"</string>
+    <string name="no_thanks">不，謝謝</string>
+    <string name="try_connect_now">馬上試試</string>
+    <string name="feedback_rate_gplay">在Google Play上給我們評分</string>
+    <string name="rating_text">如果您喜歡，非常感謝您給個高評分和+1s</string>
+    <string name="show_brightness_window">更改亮度時顯示視窗</string>
+    <string name="request_root_access">請求root存取權限</string>
+    <string name="upgrade_successful">所有功能現已解鎖。</string>
+    <string name="emulate_hardware_dock">模擬硬體dock(需要root)</string>
+    <string name="wizard_trigger_help">按上方的+新增一個或多個觸發器。</string>
+    <string name="wizard_actions_help">按上方的+新增一個或多個動作。</string>
+    <string name="event_set_reminder">設定提醒</string>
+    <string name="forget_wifi_network">忘記一個Wifi網路</string>
+    <string name="show_user_text">顯示文字</string>
+
+    <string name="samsung_hands_free">免提模式</string>
+    <string name="samsung_smart_stay">智慧休眠</string>
+    <string name="htc_sleep_mode">睡眠模式</string>
+    <string name="htc_power_saver">Power Saver</string>
+    <string name="htc_boom_sound">Boom Sound</string>
+    <string name="htc_smart_display">智慧顯示</string>
+    <string name="samsung_multi_window">多視窗</string>
+    <string name="show_toast">顯示toast</string>
+    <string name="constraint_days">天</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">藍牙</string>
+    <string name="constraint_charging">充電</string>
+    <string name="constraint_connected">已連線到</string>
+    <string name="constraint_not_connected">未連線到</string>
+    <string name="display_not_connected">當未連線到%1$s</string>
+    <string name="is_on">為開</string>
+    <string name="is_off">為關</string>
+    <string name="play_sound">播放聲音</string>
+    <string name="agent_description">當一個助理開始或停止時執行一個任務</string>
+    <string name="when_agent_starts">當一個助理開始時</string>
+    <string name="when_agent_ends">當一個助理結束時</string>
+    <string name="choose_agent">選擇助理</string>
+    <string name="agent_condition_starts">當%1$s開始時</string>
+    <string name="agent_condition_ends">當%1$s結束時</string>
+    <string name="clear">清除</string>
+    <string name="export">匯出</string>
+    <string name="notification_timer_cancel">滑動取消</string>
+    <string name="notification_timer_extra_info">到時間 %1$s</string>
+    <string name="installed">已安裝</string>
+    <string name="plugin_lock">鎖定畫面</string>
+    <string name="plugin_lock_description">可更改實際的底層鎖定畫面設定。禁用鎖定畫面將設定為滑動。啟用將根據組態設定為Pin或密碼。</string>
+    <string name="configure">組態</string>
+</resources>
+
+
+
+
+

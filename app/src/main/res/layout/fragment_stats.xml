@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textAllCaps="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="@string/activity_feed"
+            android:textColor="@color/highlight_green"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="@dimen/TextSizeOne" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/highlight_green" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#bbeeeeee"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/keyline_exterior"
+        android:paddingRight="@dimen/keyline_exterior">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/actions_performed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginRight="4dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:textAllCaps="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_actions"
+                android:fontFamily="sans-serif-light"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_action_trash"
+            android:background="@drawable/list_selector"
+            android:layout_marginRight="4dp"
+            android:gravity="center_vertical" />
+
+
+        <ImageView
+            android:id="@+id/export"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_action_export"
+            android:background="@drawable/list_selector"
+            android:gravity="center_vertical" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Notification Light -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option012"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/WifiAdapterTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutDisplayNotificationLight" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/NotificationLightToggle"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/AdapterTogglePrompt" />
+
+</LinearLayout><!-- End Notification Light -->

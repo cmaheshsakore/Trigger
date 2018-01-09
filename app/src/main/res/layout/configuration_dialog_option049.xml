@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option049"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/WifiAdapterTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/securityOptionsOperateKeyguard" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/keyguardSpinner"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="start"
+        android:text="For best results download the lock screen plugin."/>
+
+</LinearLayout><!-- End Operate Wifi -->

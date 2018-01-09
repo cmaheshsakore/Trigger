@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Alarm Static -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option026"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/displayAlarmSet" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:id="@+id/alarmStaticPrimary"
+        style="@style/ActionContent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/AlarmTimePrefix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:singleLine="false"
+            android:text="@string/layoutAlarmTimePrefix"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeThree"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AlarmTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:singleLine="false"
+            android:text="@string/layoutAlarmSelectTimeText"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeThree" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/alarmMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/optionsPhoneSMSMessage" />
+
+    <CheckBox
+        android:id="@+id/checkShowUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/layoutAlarmShowUI"
+        android:textColor="@color/TextColor"
+        android:textSize="@dimen/TextSizeOne"
+        android:visibility="gone" />
+
+</LinearLayout> <!-- End Alarm static -->

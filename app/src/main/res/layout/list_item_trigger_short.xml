@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/keyline_exterior"
+    android:paddingRight="@dimen/keyline_exterior"
+    android:paddingTop="8dp" >
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        tools:src="@drawable/ic_launcher"/>
+
+    <include layout="@layout/include_pro_banner" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@android:id/icon"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Title"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@android:id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Trigger description goes here."
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+</RelativeLayout>

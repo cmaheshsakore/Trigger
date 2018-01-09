@@ -1,0 +1,10 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="300dp"
+    android:minHeight="62dp"
+    android:minResizeWidth="140dp"
+    android:minResizeHeight="56dp"
+    android:configure="com.mobiroo.n.sourcenextcorporation.trigger.launcher.activity.WidgetConfigurationActivity"
+    android:resizeMode="horizontal"
+    android:widgetCategory="keyguard|home_screen"
+    android:initialLayout="@layout/widget_primary">
+</appwidget-provider>

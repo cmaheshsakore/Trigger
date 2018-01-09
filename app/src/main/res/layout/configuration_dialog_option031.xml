@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start URL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option001"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/actionURLHeading" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <EditText
+        android:id="@+id/urlText"
+        style="@style/EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        android:hint="http://www.google.com" />
+
+    <CheckBox
+        android:id="@+id/check_open_in_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/TextColor"
+        android:text="@string/open_in_background"
+        />
+</LinearLayout><!-- End URL -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Navigation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option038"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutAppLaunchNavigationSub" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:id="@+id/navSecondary"
+        style="@style/ActionContentNoHeight"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/navTypeTitle"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:text="@string/layoutAppLaunchNavigationTypeText"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeSix" />
+
+        <Spinner
+            android:id="@+id/navTypeToggle"
+            style="@style/AddSelect"
+            android:layout_width="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navPrimary"
+        style="@style/ActionContentNoHeight"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/navTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingRight="5sp"
+            android:shadowRadius="2.75"
+            android:text="@string/layoutAppLaunchNavigationText"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeSix" />
+
+        <EditText
+            android:id="@+id/navText"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="top"
+            android:inputType="text"
+            android:lines="1"
+            android:singleLine="true"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout><!-- End Navigation -->

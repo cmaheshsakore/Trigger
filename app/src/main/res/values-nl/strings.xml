@@ -1,0 +1,981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Kies actie:</string>
+ <string name="RingerTypePrompt">Kies een belsignaal:</string>
+ <string name="limitThreshholdPrompt">Kies een eenheid:</string>
+ <string name="VibratePrompt">Kies wanneer te trillen:</string>
+
+ <string name="AuthTogglePrompt">Kies versleuteling:</string>
+
+ <string name="menu_new_tag">Nieuwe taak</string>
+ <string name="menu_help">Over</string>
+ <string name="menu_contact">Neem contact met ons op</string>
+ <string name="menu_preferences">Instellingen</string>
+ <string name="menu_delete">Wissen</string>
+ <string name="menu_chooser_mail">E-mail versturen</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Wifi</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Seconden</string>
+ <string name="timeMinutes">Minuten</string>
+ <string name="timeHours">Uren</string>
+
+
+
+ <string name="enableText">Inschakelen</string>
+ <string name="disableText">Uitschakelen</string>
+ <string name="toggleText">Schakelen</string>
+
+ <string name="alwaysText">Altijd</string>
+ <string name="neverText">Nooit</string>
+ <string name="whenSilentText">Als geluid uitstaat</string>
+
+
+
+
+
+ <string name="authTypeOpen">Open</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Stil</string>
+ <string name="ringerTypeVibrate">Trillen</string>
+ <string name="ringerTypeNormal">Normaal</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">Annuleren</string>
+ <string name="dialogYes">Ja</string>
+ <string name="dialogNo">Nee</string>
+ <string name="dialogSave">Opslaan</string>
+ <string name="dialogClose">Afsluiten</string>
+ <string name="dialog_run">Taak uitvoeren</string>
+
+ <string name="menuWireless">Draadloos &amp; Netwerken</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Geluid &amp; Volume</string>
+ <string name="menuAlarm">Wekkers</string>
+ <string name="menuCheckin">Sociale media</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">Weergave</string>
+
+ <string name="addOptionsAddText">Toevoegen aan taak</string>
+
+ <string name="displayAlarmSet">Wekker instellen</string>
+ <string name="displayListAlarmSet">Timer instellen</string>
+ <string name="defaultAlarmText">Aanraken om wekkertijd in te stellen</string>
+
+ <string name="layoutAlarmSetText">Wekkertijd instellen op</string>
+ <string name="layoutAlarmSelectTimeText">Aanraken om wekkertijd in te stellen</string>
+ <string name="layoutAlarmForwardText">minuten vanaf nu</string>
+
+ <string name="appListLoadingText">Applicatielijst laden...</string>
+ <string name="listLaunchText">Starten</string>
+ <string name="listLaunchTextCustom">Startactiviteit</string>
+ <string name="listNavText">Navigeren naar</string>
+
+
+ <string name="layoutAppLaunchURL">Een URL/URI openen</string>
+ <string name="layoutAppLaunchNavigation">Navigatie</string>
+ <string name="layoutAppLaunchNavigationText">Bestemming</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Hier inchecken</string>
+ <string name="optionsSocialFoursquareSearching">Zoeken...</string>
+ <string name="optionsSocialFoursquareSearchTitle">Overeenkomende ontmoetingsplaatsen</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Inchecken bij een ontmoetingsplaats</string>
+ <string name="optionsSocialFoursquareVenueTitle">Ontmoetingsplaats</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Geen ontmoetingsplaats geselecteerd</string>
+ <string name="optionsSocialFoursquareVenueSub">Inchecken bij een specifieke ontmoetingsplaats</string>
+ <string name="optionsSocialFacebook">Facebook: Check in</string>
+ <string name="optionsSocialPlaces">Google Places: Check in</string>
+ <string name="optionsSocialTwitter">Twitter: Tweet</string>
+
+ <string name="optionsFoursquareSearchFind">Zoeken</string>
+
+ <string name="optionsFoursquareSearchNear">vlakbij</string>
+
+ <string name="listFacebookText">Inchecken op Facebook</string>
+ <string name="listFoursquareText">Inchecken bij Foursquare</string>
+ <string name="listFoursquareVenueText">Inchecken bij</string>
+ <string name="listPlacesText">Inchecken bij Google Places</string>
+ <string name="listTweetText">Tweet posten</string>
+
+ <string name="locationDisabledTitle">Locatie niet beschikbaar</string>
+ <string name="locationDisabledText">Kon geen locatie vinden. Schakel aub een locatiebron in.</string>
+
+ <string name="listHotspotText">Mobiele hotspot</string>
+
+ <string name="layoutHotspotActionText">Actie:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Verificatietype:</string>
+ <string name="layoutHotspotAuthKeyText">Verificatiesleutel:</string>
+
+
+ <string name="soundRingerTypeText">Type belsignaal instellen</string>
+ <string name="listSoundRingtone">Belsignaal instellen:</string>
+ <string name="listSoundNotification">Melding instellen:</string>
+ <string name="listSoundRingerVolume">Belvolume</string>
+ <string name="listSoundMediaVolume">Mediavolume</string>
+
+ <string name="listSoundAlarmVolume">Volume wekkersignaal</string>
+ <string name="listSoundNotificationVolume">Volume meldingen</string>
+ <string name="listSoundVibrate">Trillen tijdens bellen</string>
+
+ <string name="taskerNotInstalled">Tasker niet geïnstalleerd</string>
+ <string name="layoutTaskerLaunchText">Tasker taak</string>
+ <string name="layoutTaskerSelect">Taak selecteren</string>
+ <string name="layoutTaskerHelpText">Note: Tasker *moet* geïnstalleerd zijn voordat deze app en de voorkeursinstellingen "Div / Externe toegang toestaan" zijn ingesteld in de UI van  Tasker.\n\nAls je problemen hebt met het activeren van de taken, verwijder dan beide apps en installeer Tasker opnieuw voordat je de NFC Task Launcher installeert.</string>
+
+ <string name="wifiOptionsOperateWifi">Wifi Aan/Uit</string>
+ <string name="wifiOptionsConfigureSSID">Wifi verbinden</string>
+ <string name="wifiOptionsOperateBluetooth">Bluetooth Aan/Uit</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Bluetooth zichtbaarheid</string>
+ <string name="wifiOptionsAutoSync">Auto-sync</string>
+ <string name="wifiOptionsAirplaneMode">Vliegtuigstand</string>
+
+ <string name="hotspotOptions">Wifi hotspot</string>
+
+ <string name="soundOptionsRinger">Geluidsprofiel</string>
+ <string name="soundOptionsRingtone">Belsignaal</string>
+ <string name="soundOptionsRingVolume">Belvolume</string>
+ <string name="soundOptionsNotificationtone">Meldingssignaal</string>
+ <string name="soundOptionsNotificationVolume">Meldingsvolume</string>
+ <string name="soundOptionsMediaVolume">Mediavolume</string>
+ <string name="soundOptionsMediaStart">Media afspelen</string>
+
+ <string name="soundOptionsAlarmVolume">Wekkersignaalvolume</string>
+ <string name="soundOptionsVibrate">Trillen tijdens bellen</string>
+
+ <string name="listWifiAirplaneModeText">Vliegtuigstand</string>
+ <string name="listWifiAutoSync">Auto-sync</string>
+ <string name="listWifiConfigureConnectText">Verbinden met</string>
+ <string name="listWifiBluetoothDiscoverableText">Bluetooth zichtbaar</string>
+ <string name="listWifiAssociateText">Verbinden met</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Verificatietype:</string>
+ <string name="layoutWifiAuthKeyText">Verificatiesleutel:</string>
+
+ <string name="builderInvalidName">Voer aub een geldige naam in</string>
+
+
+ <string name="titleSelectAction">Categorieën kiezen</string>
+ <string name="titleConfigureAction">Acties configureren</string>
+ <string name="buttonTextAdd">Acties toevoegen</string>
+
+ <string name="layoutPreferencesTitleText">Instellingen</string>
+ <string name="layoutPreferencesSelectNotification">Belsignaal meldingen</string>
+ <string name="layoutPreferencesVibrate">Trillen</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Opslaan</string>
+ <string name="layoutPreferencesRateLimitingDisable">Uitschakelen</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Als een label wordt gelezen</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Altijd trillen</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Nooit trillen</string>
+ <string name="layoutPreferencesVibrateSubAlways">Altijd trillen</string>
+ <string name="layoutPreferencesVibrateSubNever">Nooit trillen</string>
+
+ <string name="layoutPreferencesDebugOutput">Foutopsporing</string>
+ <string name="layoutPreferencesDebugSend">Stuur een foutopsporingslog</string>
+ <string name="layoutPreferencesEnableLimitingSub">Uitgeschakeld</string>
+ <string name="layoutPreferencesUsage">Google Analytics toestaan</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Meldingen</string>
+ <string name="layoutPreferencesAdvancedTitle">Geavanceerd</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Helderheid</string>
+ <string name="layoutDisplayBrightnessAuto">Auto-Helderheid inschakelen</string>
+ <string name="layoutDisplayNotificationLight">Licht meldingen</string>
+ <string name="listDisplayNotificationLightText">Licht meldingen</string>
+
+ <string name="layoutDisplayAutoRotation">Auto-rotatie</string>
+ <string name="listDisplayAutoRotationText">Auto-rotatie</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Uitzondering gemaakt tijdens het starten van een aangepaste activiteit</string>
+ <string name="actionLastActions">Laatste acties:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Start / Stop media afspelen</string>
+ <string name="widgetEnableMediaPlayback">Start / Stop media afspelen</string>
+
+ <string name="actionLaunchPackage">* Applicatie starten...</string>
+ <string name="widgetLaunchPackage">Applicatie is gestart</string>
+
+ <string name="actionLaunchActivity">* Activiteit starten...</string>
+ <string name="widgetLaunchActivity">Activiteit is gestart</string>
+
+ <string name="actionNavigate">* Navigeren naar:</string>
+ <string name="widgetNavigate">Navigeren naar:</string>
+
+ <string name="actionConfigureSSID">* AP en verbinding configureren...</string>
+ <string name="widgetConfigureSSID">AP en verbinding geconfigureerd</string>
+
+ <string name="actionTaskerTask">* Tasker taak starten</string>
+ <string name="widgetTaskerTask">Tasker taak gestart</string>
+
+ <string name="actionAlarm">* Wekker instellen voor</string>
+ <string name="widgetAlarm">Wekker instellen voor</string>
+
+ <string name="actionLaunchURL">* URL starten...</string>
+ <string name="widgetLaunchURL">URL is gestart</string>
+
+ <string name="actionSetVibration">* Trillen instellen</string>
+ <string name="widgetSetVibration">Trillen instellen</string>
+
+ <string name="actionSendTweet">* Tweet posten...</string>
+ <string name="widgetSendTweet">Tweet is gepost</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">Label schrijven voltooid.</string>
+ <string name="layoutWriteTitle">Label schrijven</string>
+ <string name="layoutWritePrimaryMessageStart">Plaats je toestel op een NFC-label en begin met schrijven.</string>
+ <string name="layoutWriteLockText">Maak label alleen-lezen</string>
+
+ <string name="dialogWriteTitle">Schrijven voltooid</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Trigger selecteren</string>
+ <string name="layoutHomeFormat">Label wissen</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Timer afgelopen</string>
+
+ <string name="displayAlarmSetTimer">Wekker (timer) instellen</string>
+
+
+ <string name="actionTimer">* Timer instellen voor</string>
+ <string name="widgetTimer">Timer instellen voor</string>
+
+ <string name="layoutAlarmSetTimerText">Timer instellen voor</string>
+
+ <string name="alertSecureSetting">Je configureert een beveiligde instelling. Dit vereist toegang tot de hoofdmap.</string>
+ <string name="alertSecureSettingTitle">Beveiligde instelling</string>
+ <string name="alertSecureSettingMakeSystemApp">Systeem app maken</string>
+
+ <string name="wifiOptionsGPS">GPS Aan/Uit</string>
+ <string name="wifiOptionsMobileData">Mobiele data Aan/Uit</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Mobiele data</string>
+
+ <string name="rebootTitle">Voltooid</string>
+ <string name="rebootText">Toestel aub opnieuw opstarten.</string>
+
+ <string name="noRootText">Kreeg geen toegang tot hoofdmap</string>
+
+ <string name="layoutDisplayTimeout">Time-out beeldscherm</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 seconden</item>
+  <item>30 seconden</item>
+  <item>1 minuut</item>
+  <item>2 minuten</item>
+  <item>5 minuten</item>
+  <item>10 minuten</item>
+  <item>30 minuten</item>
+  <item>Nooit</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Time-out</string>
+
+ <string name="wifiOptions3GData">3G data Aan/Uit</string>
+
+ <string name="layoutAppDeskDock">Desktop dock</string>
+ <string name="layoutAppDeskDockSub">Dit heeft misschien geen effect op alle toestellen.</string>
+ <string name="layoutAppCarDock">Auto dock</string>
+
+ <string name="menuPhone">Telefoon</string>
+
+ <string name="layoutPhoneSMS">Stuur een sms</string>
+ <string name="optionsPhoneSMS">stuur een sms</string>
+ <string name="optionsPhoneSMSTo">Naar</string>
+ <string name="optionsPhoneSMSMessage">Sms</string>
+ <string name="optionsPhoneNumber">Telefoonnummer</string>
+ <string name="optionsPhoneCall">begin een telefoongesprek</string>
+ <string name="layoutPhoneCall">Begin een telefoongesprek</string>
+ <string name="optionsPhoneSMSNote">Dit opent je SMS app met de velden Naar en Bericht ingevuld. Om het bericht automatisch te versturen, tik je op dit bericht om de SMS-plugin te downloaden van de play store.</string>
+ <string name="optionsPhoneCallNote">Dit opent de kiezer met het nummer ingevoerd. Om automatisch een gesprek te beginnen, tik je op dit bericht om de Bel-plugin te downloaden van de play store.</string>
+
+
+ <string name="listPhoneSMS">Stuur SMS</string>
+ <string name="listPhoneCall">Begin een telefoongesprek</string>
+
+ <string name="actionSendSMS">* SMS versturen...</string>
+ <string name="widgetSendSMS">SMS verstuurd</string>
+
+ <string name="actionPhoneCall">* Een telefoongesprek versturen...</string>
+ <string name="widgetPhoneCall">Een telefoongesprek begonnen</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">NFC inschakelen in vliegtuigstand</string>
+
+ <string name="menuSecurity">Beveiliging</string>
+ <string name="layoutOptionsKeyguard">Vergrendelingsscherm</string>
+ <string name="securityOptionsOperateKeyguard">Vergrendelingsscherm Aan/Uit</string>
+ <string name="listSecurityKeyguardText">Vergrendelingsscherm</string>
+
+ <string name="optionsFoursquareSearchCity">huidige locatie</string>
+ <string name="optionsFoursquareSearchVenue">naam</string>
+ <string name="optionsFoursquareSearchVenueIDText">ontmoetingsplaats id</string>
+ <string name="optionsFoursquareSearchOR">of</string>
+
+ <string name="menuApplications">Applicaties &amp; Snelkoppelingen</string>
+ <string name="layoutWriteNameText">Labelnaam toevoegen</string>
+ <string name="layoutAppKillAppTextSub">sluit de standaardactiviteit van een app</string>
+ <string name="layoutAppLaunchAppText">Application openen</string>
+ <string name="layoutAppKillAppText">Applicatie afsluiten</string>
+ <string name="layoutAppLaunchActivityText">Activiteit openen</string>
+ <string name="layoutAppKillTaskDisclaimer">Dit werkt zonder toegang tot de hoofdmap misschien niet met alle apps. Toegang tot de hoofdmap verzekert je ervan dat het proces met succes is geannuleerd.</string>
+
+ <string name="layoutAlarmShowUI">wekker ui tonen</string>
+ <string name="layoutAlarmTimePrefix">Tijd:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Type</string>
+ <string name="NavTypeDriving">Rijden</string>
+ <string name="NavTypeTransit">Transit</string>
+ <string name="NavTypeWalking">Lopen</string>
+
+
+
+ <string name="layoutActivityAppList">Selecteer applicatie:</string>
+ <string name="layoutActivityList">Selecteer activiteit:</string>
+ <string name="layoutActivityWarning">Alle activiteiten zijn misschien niet op te starten.</string>
+
+ <string name="readOnlyWarning">Als een label eenmaal alleen-lezen is gemaakt, kun je er niet meer op schrijven. Deze actie kan niet ongedaan worden gemaakt.</string>
+ <string name="limitThreshholdOverride">Prompt om deze instelling te negeren</string>
+ <string name="limitThreshholdOverrideDialogPrefix">Deze taak is overgeslagen omdat hij werd uitgevoerd binnen %1$s %2$s</string>
+ <string name="limitThreshholdOverrideDialogSuffix">Deze dialoog wordt na 5 seconden verwijderd.</string>
+ <string name="menu_context_delete">Verwijderen</string>
+ <string name="menu_context_run">Uitvoeren</string>
+ <string name="menu_context_share">Delen</string>
+ <string name="listCloseApp">Applicatie sluiten</string>
+
+ <string name="listSoundPlayback">Start / Stop media afspelen</string>
+ <string name="listDisplayBrightness">Helderheid instellen op</string>
+ <string name="listDisplayBrightnessAuto">Auto-helderheid inschakelen</string>
+ <string name="layoutImportPrimaryMessageStart">Plaats label tegen de achterkant van de telefoon om te importeren</string>
+ <string name="layoutMainBuilderImportText">Label importeren</string>
+ <string name="layoutMainBuilderCopyText">Label kopiëren</string>
+
+
+ <string name="copyRead">1.) Scan een label om te kopiëren</string>
+ <string name="copyReading">2.) Berichten lezen</string>
+ <string name="copyWrite">3.) Tik op een label om te schrijven</string>
+ <string name="copyTitle">Een NFC-label kopiëren</string>
+ <string name="importTitle">Een label importeren</string>
+
+ <string name="copyDialogCopied">Kopiëren voltooid</string>
+ <string name="copyDialogCopyError">Label kon niet worden gekopieerd</string>
+ <string name="copyDialogWritten">Schrijven voltooid</string>
+ <string name="copyDialogWriteError">Label kon niet worden beschreven</string>
+ <string name="layoutPreferencesSelectTimer">Belsignaal timer</string>
+ <string name="layoutPreferencesTagsTitle">Taken</string>
+ <string name="layoutPreferencesTagsMore">Meer</string>
+ <string name="layoutPreferencesNotifications">Meldingen</string>
+ <string name="layoutPreferencesNotificationsSubBar">Meldingsbalk gebruiken</string>
+ <string name="layoutPreferencesNotificationsSubToast">Weergaveberichten gebruiken</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Gebruik beiden</string>
+ <string name="layoutPreferencesNotificationsSubNone">Geen</string>
+ <string name="menu_done">Voltooid</string>
+ <string name="layoutPreferencesSwitchTimeout">Stel taken wisselen na 12 uur opnieuw in</string>
+ <string name="menuEvents">Gebeurtenissen</string>
+ <string name="menuEventsCalendarStatic">Kalendergebeurtenis</string>
+ <string name="menuEventsCalendarTimestamp">Kalender tijdstempel</string>
+ <string name="menuEventsCalendarTimestampText">Voeg een kalendergebeurtenis in op dezelfde datum en tijd dat het label is gescand.</string>
+ <string name="layoutEventCalendarTitle">Titel</string>
+ <string name="layoutEventCalendarStart">Starttijd</string>
+ <string name="layoutEventCalendarEnd">Eindtijd</string>
+ <string name="layoutEventCalendarAllDay">De hele dag</string>
+ <string name="dateHint">Tik om datum in te stellen</string>
+ <string name="timeHint">Tik om tijd in te stellen</string>
+ <string name="listDiaplayCalendarEvent">Kalendergebeurtenis toevoegen</string>
+ <string name="listDiaplayCalendarTimestamp">Tijdstempel kalender</string>
+ <string name="actionCalendarEvent">Kalendergebeurtenis toevoegen...</string>
+ <string name="widgetCalendarEvent">* Kalendergebeurtenis toevoegen...</string>
+ <string name="actionCalendarTimestamp">Tijdstempel toevoegen aan kalender...</string>
+ <string name="widgetCalendarTimestamp">* Tijdstempel toevoegen aan kalender...</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Aanmeldingen</string>
+ <string name="layoutPreferencesDialogTwitter">Klik op OK om de logindata voor Twitter te wissen</string>
+ <string name="layoutPreferencesDialogFoursquare">Klik op OK om inloggegevens voor Foursquare te wissen</string>
+
+
+ <string name="layoutAppPause">Pauze</string>
+ <string name="layoutAppPauseSubTitle">Pauzeer een opgegeven tijdsduur voordat je doorgaat.</string>
+ <string name="actionPause">* Pauzeren tot...</string>
+ <string name="widgetPause">Pauzeren tot...</string>
+
+
+ <string name="loading">Laden...</string>
+ <string name="error">Fout</string>
+ <string name="recommended_tags">NFC-labels</string>
+ <string name="buy_now">Koop nu</string>
+ <string name="buy_tags">Trigger shop</string>
+ <string name="popular_tags">Voorgestelde taken</string>
+ <string name="my_tags">Mijn taken</string>
+ <string name="shop_more_title">Zoek je meer?</string>
+ <string name="shop_more_description">Blader door onze volledige catalogus met NFC-producten, inclusief NFC-labels en artikelen.</string>
+ <string name="welcome">Welkom</string>
+ <string name="buy_nfc_tags">Koop NFC-labels</string>
+ <string name="used_never">Gebruikt: Nooit</string>
+ <string name="total_actions">Alle acties</string>
+
+ <string name="basic_tags">Schrijf basislabels</string>
+
+ 
+ <string name="default_tag_name_format">Taak %s</string>
+
+ <string name="save_and_write">Opslaan &amp; Schrijven</string>
+ <string name="tag_name">Naam</string>
+ <string name="no_actions">Acties</string>
+ <string name="tag_unsaved_changes">Misschien zijn er wijzigingen in deze taak niet opgeslagen.</string>
+ <string name="discard_changes">Wijzigingen negeren</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s byte</item>
+  <item quantity="other">%s bytes</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Configureer een Wifi-verbinding</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Bluetooth zichtbaarheid aanzetten</string>
+ 
+ <string name="soundOptionsMediaStartSub">Start/Stop media afspelen</string>
+ <string name="optionsSocialCheckinHereSub">Inchecken bij je huidige locatie</string>
+ <string name="actionURLHeading">URL / URI</string>
+ <string name="optionsSocialTwitterSub">Post een tweet</string>
+ <string name="layoutAppLaunchNavigationSub">Naar een locatie navigeren</string>
+ <string name="alarmTimerConfigureSub">Een timer instellen</string>
+ <string name="carDockDrivingMode">Rijdstand toevoegen (Samsung Galaxy toestellen)</string>
+ <string name="airplaneModeWarning">Als de vliegtuigstand wordt geactiveerd, schakelt die NFC uit. Je kunt NFC van verandering door de vliegtuigstand uitsluiten in de applicatie-instellingen onder NFC inschakelen in de vliegtuigstand.</string>
+ <string name="write">Schrijven</string>
+ <string name="next">Volgende</string>
+
+ <string name="_continue">Doorgaan</string>
+
+ <string name="shop_unavailable">De shop is tijdelijk niet bereikbaar. Controleer je verbinding en probeer over een paar minuten opnieuw.</string>
+ <string name="titleSavedTagPicker">Selecteer een opgeslagen taak om uit te voeren</string>
+ <string name="titleShareTagActivity">Deel deze taak met gebruikmaking van</string>
+ <string name="sharedReceiverDialogMessage">Label laden...</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">E-mail</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Ik heb zojuist dit NFC-label gemaakt met +Tagstand. Bekijk hem door de NFC Task Launcher app te gebruiken op:</string>
+ <string name="shareTwitterPrefix">Bekijk dit #NFC-label eens dat ik heb gemaakt</string>
+ <string name="shareTwitterSuffix">powered by @tagstand</string>
+ <string name="shareSMSPrefix">hé, bekijk dit NFC-label eens, dat ik heb gemaakt met NFC Task Launcher:</string>
+ <string name="shareEmailPrefix">Hé,\n\nI maakte dit label \'%1$s\' met NFC Task Launcher en ik wil hem graag met je delen.\n\n</string>
+ <string name="shareEmailSuffix">\n\nKlik om naar je telefoon te downloaden.\n\nWelkom in de toekomst.</string>
+ <string name="shareEmailSubject">Bekijk mijn NFC-label</string>
+ <string name="loadTagPayloadError">Sorry, er werkt iets niet. Misschien is het je verbinding.</string>
+ <string name="loadTagNoPayload">Er zijn geen acties aan dit label gekoppeld.</string>
+
+ <string name="layoutWifiHiddenSSID">Verborgen SSID</string>
+ <string name="layoutEmailAddress">E-mailadres</string>
+ <string name="layoutEmailMessage">Bericht (optioneel)</string>
+ <string name="layoutEmailSubjectHint">Onderwerp</string>
+ <string name="layoutEmailMessageHint">Bericht</string>
+ <string name="layoutEmail">E-mail versturen</string>
+ <string name="listDisplayEmail">E-mail versturen aan</string>
+ <string name="sendEmailChooserTitle">E-mail versturen met gebruikmaking van</string>
+
+ <string name="tag_write_failed_message">Het werkt nog steeds, maar misschien zie je de kiezer als je tikt.</string>
+ <string name="tag_write_failed_no_plugin">Je moet de label-hergebruik plugin van de Play Store downloaden om dit label te gebruiken.</string>
+ <string name="tag_write_failed">Kon niet naar dit label schrijven.</string>
+ <string name="tag_write_success_message">Je label is klaar om te gebruiken.</string>
+ <string name="menu_help_text">Help</string>
+
+ <string name="warning">Waarschuwing</string>
+
+
+ <string name="configure_connection_title">Verbinding configureren</string>
+ <string name="enter_network_name">naam netwerk invoeren (ssid)</string>
+ <string name="enter_bluetooth_name">naam toestel invoeren</string>
+ <string name="enter_bluetooth_mac">mac-adres invoeren</string>
+ <string name="when_connected_to">Indien verbonden met</string>
+ <string name="when_disconnected_from">Indien verbinding is verbroken met</string>
+ <string name="or">of</string>
+
+ <string name="color_white">Wit</string>
+ <string name="color_black">Zwart</string>
+ <string name="select_background_color">Stijl selecteren</string>
+ <string name="action_send_email">* E-mail versturen...</string>
+ <string name="widget_send_email">E-mail verstuurd</string>
+ <string name="ignore_duplicate_check">Voorkom herhaling van vorige taak</string>
+ <string name="if_read_again">Voorkom herhaling taak binnen</string>
+ <string name="found_tag">Taak uitgevoerd</string>
+ <string name="title_tag_limiting">Voorkom herhaling</string>
+ <string name="limit_last_tag_read">van vorige taak</string>
+ <string name="limit_time_frame">binnen %1$s %2$s</string>
+
+ <string name="erase_tag_text">Plaats de achterkant van de telefoon op het label om te wissen.</string>
+ <string name="copy_tag_text">Plaats de achterkant van de telefoon op het label om te kopiëren.</string>
+
+ <string name="menuMessages">Berichten</string>
+ <string name="widget_single_task">Een taak uitvoeren</string>
+ <string name="widget_single_task_configure_title">Snelkoppeling configureren</string>
+ <string name="soundOptionsRingVolumeCombined">Bel / Meldingsvolume</string>
+
+
+ <string name="switch_tag_details">Wissel van taken die twee aparte taken bevatten en schakel elke keer als er op een nfc-label is getikt tussen die twee. \n\nAls je een tweede taak wilt toevoegen om met het nfc-label te gebruiken, tik dan op de + boven.</string>
+
+ <string name="driving_mode">Rijdstand</string>
+ <string name="power_saver">Energiebesparing</string>
+ <string name="block_mode">Blokkeerstand</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Energiebesparingsstand</string>
+ <string name="driving_mode_heading">Rijdstand</string>
+ <string name="blocking_mode_heading">Blokkeerstand</string>
+
+ <string name="display_power_saver">Energiebesparing</string>
+ <string name="display_blocking_mode">Blokkeerstand</string>
+ <string name="display_driving_mode">Rijdstand</string>
+ <string name="heading_glympse">Verstuur een Glympse</string>
+ <string name="hint_recipient_address">Ontvanger</string>
+
+ <string name="widgetSendGlympse">Verstuur een Glympse</string>
+ <string name="actionSendGlympse">* Glympse versturen...</string>
+
+ <string-array name="glympse_address_types">
+  <item>e-mail</item>
+  <item>sms</item>
+  <item>twitter</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">Duur</string>
+
+
+ <string name="choose_shipping_method">Kies verzendwijze</string>
+ <string name="tts_failed">Fout: Kon TTS niet starten</string>
+
+ <string name="action_speak_text">* Tekst uitspreken...</string>
+ <string name="widget_speak_text">Tekst uitgesproken</string>
+
+ <string name="heading_tts">Tekst uitspreken</string>
+ <string name="tts_hint">Tekst om uit te spreken</string>
+
+
+ <string name="open_in_background">openen in de achtergrond</string>
+ <string name="help_answers">Zoek antwoorden online</string>
+ <string name="help_email">Stuur ons een e-mail</string>
+ <string name="show_welcome">Toon welkom en hints</string>
+
+
+ <string name="general">Algemeen</string>
+ <string name="backup_restore">Back-up / Herstellen</string>
+ <string name="backup">Back-up</string>
+ <string name="restore">Herstellen</string>
+ <string name="last_operation">Laatste bewerking:</string>
+ <string name="backed_up">Back-up gemaakt om %1$s</string>
+ <string name="restored">Herstelt om %1$s</string>
+ <string name="backup_local">Plaatselijk</string>
+ <string name="backup_tagstand">Cloud</string>
+ <string name="backup_to">Back-up maken op</string>
+ <string name="restore_from">Herstellen van</string>
+ <string name="restoring">Herstellen...</string>
+ <string name="perform_cloud_backup">Cloud back-up maken...</string>
+
+ <string name="sso_clear_dialog">Klik op OK om logindata voor je Google-account te wissen</string>
+
+ <string name="title_sso_explanation">Aanmelden met Google</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">Uitloggen</string>
+ <string name="status_logged_out">Inloggen</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Kopen met:</string>
+ <string name="ship_to">Verzenden naar:</string>
+ <string name="confirm_order">Bestelling bevestigen</string>
+ <string name="change">Betaalwijze of adres wijzigen</string>
+ <string name="change_shipping">Verzendwijze wijzigen</string>
+ <string name="tax">Belasting:</string>
+ <string name="total">Totaal:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">Verzenden:</string>
+ <string name="titleConfirmPayment">Informatie bestelling</string>
+ <string name="item_price">Prijs:</string>
+ <string name="finalize_payment">Aankoop afronden</string>
+ <string name="confirmation_text">Je transactienummer is %1$s.\n\nJe ontvangt een e-mail ter bevestiging op %2$s.</string>
+ <string name="confirmation_error_text">Er is een probleem opgetreden bij het verwerken van je transactie.\n\n%1$s</string>
+ <string name="wallet_error_title">Google Wallet fout</string>
+ <string name="wallet_error_message">Er is een probleem opgetreden bij het gaan naar Google Wallet. Je kunt het over een paar minuten weer proberen. Fout: %1s</string>
+ <string name="titleOrderComplete">Bestelling compleet</string>
+ <string name="spending_limit_exceeded">Je hebt je uitgavenlimiet overschreden</string>
+ <string name="google_wallet_unavailable">Google Wallet is niet beschikbaar</string>
+ <string name="error_code">Foutcode: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Betaald met</string>
+ <string name="wallet_signin_point_one">Nooit meer je taken verliezen. Gebruik Tagstand\'s cloud om een back-up te maken van je taken en ze te herstellen.</string>
+ <string name="wallet_signin_point_two">Ontvang twee gratis labels van Tagstand.</string>
+ <string name="wallet_signin_point_three">Maak het kopen van labels eenvoudiger en sneller met Google Wallet.</string>
+ <string name="wallet_signin_heading">Gebruik je Google-account en geniet van de voordelen.</string>
+ <string name="set_alarm_app">Stel je voorkeurwekker app in</string>
+ <string name="select_alarm_app">Selecteer je voorkeurwekker app</string>
+ <string name="sign_in_with_google">Aanmelden</string>
+ <string name="system_volume">Systeemvolume</string>
+
+ <string name="actionSystemVolume">* Systeemvolume instellen op...</string>
+ <string name="widgetSystemVolume">Systeemvolume instellen</string>
+ <string name="media_next">Media Volgende</string>
+ <string name="next_track">Volgende nummer</string>
+ <string name="media_previous">Media Vorig</string>
+ <string name="previous_track">Vorig nummer</string>
+ <string name="actionMediaNext">* Volgende nummer</string>
+ <string name="widgetMediaNext">Volgende nummer</string>
+ <string name="actionMediaPrevious">* Vorige nummer</string>
+ <string name="widgetMediaPrevious">Vorige nummer</string>
+ <string name="menuMedia">Media</string>
+
+ <string name="wifi_task">Wifi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Voer een taak uit of wissel van taak door op een NFC-label te tikken.</string>
+ <string name="bluetooth_task_description">Een taak uitvoeren als je verbinding maakt of verbreekt met een bluetooth toestel.</string>
+ <string name="wifi_task_description">Een taak uitvoeren als je verbinding maakt of verbreekt met een wifi-netwerk.</string>
+ <string name="configure_connection_task_title">Configureer %1$s taak</string>
+
+ <string name="layoutProfileTaskChooserTitle">Selecteer een taak</string>
+ <string name="layoutProfileNewTask">+ Nieuwe taak</string>
+ <string name="enable_bluetooth">Bluetooth moet ingeschakeld zijn om gekoppelde toestellen in een lijst op te nemen.</string>
+ <string name="enable_wifi">Wifi moet ingeschakeld zijn om netwerken in een lijst op te nemen.</string>
+ <string name="no_task">Geen taak gevonden.</string>
+ <string name="share_failed">Label delen is mislukt.</string>
+
+ <string name="extension_description">Toont je meest recente taak en laat je taken direct van DashClock starten</string>
+ <string name="import_create_tag">Er zijn geen taken gevonden. Wil je met dit label een nieuwe taak creëren?</string>
+ <string name="start_media_playback">Start media afspelen</string>
+ <string name="stop_media_playback">Stop media afspelen</string>
+ <string name="receive_sip_calls">Ontvang SIP telefoongesprekken</string>
+ <string name="sip_calls">SIP telefoongesprekken</string>
+
+ <string name="widget_enable">Ingeschakeld %1$s</string>
+ <string name="widget_disable">Uitgeschakeld %1$s</string>
+ <string name="widget_toggle">Gewisseld %1$s</string>
+
+ <string name="action_enable">* %1$s inschakelen...</string>
+ <string name="action_disable">* %1$s uitschakelen...</string>
+ <string name="action_toggle">* %1$s wisselen...</string>
+
+ <string name="action_set_generic">* %1$s instellen</string>
+ <string name="widget_set_generic">%1$s instellen</string>
+ <string name="action_set_to">* %1$s instellen op %2$s</string>
+ <string name="widget_set_to">%1$s instellen op %2$s</string>
+ <string name="action_checking_in">* Bij %1$s inchecken...</string>
+ <string name="widget_checking_in">Ingecheckt bij %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare ontmoetingsplaats</string>
+ <string name="social_google_places">Google Places</string>
+ <string name="run_task">Taak uitvoeren</string>
+ <string name="background_color">Achtergrondkleur</string>
+ <string name="white">Wit</string>
+ <string name="black">Zwart</string>
+ <string name="select_icon">Pictogram selecteren</string>
+ <string name="select_task">Taak selecteren</string>
+
+ <string name="try_it_now">Probeer nu een voorbeeld</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Verbind een toestel</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Telefoon en media</item>
+  <item>Media</item>
+  <item>Telefoon</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Kies een profiel</string>
+ <string name="select_bluetooth_device">Kies een toestel</string>
+ <string name="action_bluetooth_connect">* Verbinden met een Bluetooth toestel...</string>
+ <string name="widget_bluetooth_connect">Verbonden met een Bluetooth toestel</string>
+
+ <string name="write_options_title">Schrijf opties</string>
+ <string name="menu_context_edit">Bewerken</string>
+ <string name="set_media_app">Stel je favoriete mediaspeler in</string>
+ <string name="select_media_app">Selecteer je favoriete mediaspeler</string>
+ <string name="menuTravel">Reizen</string>
+ <string name="item_info_title">Info</string>
+ <string name="geofence_task">Geofence (beta)</string>
+ <string name="when_entering">Bij het binnengaan</string>
+ <string name="when_exiting">Bij het weggaan</string>
+ <string name="address">Adres</string>
+ <string name="geofence">Geofence</string>
+ <string name="radius">Afmeting:</string>
+ <string name="no_location">Geen locatie ingesteld</string>
+ <string name="miracast_device">Miracast toestel</string>
+ <string name="battery_task">Batterij</string>
+ <string name="battery_task_description">Een taak uitvoeren als je batterij een specifiek percentage heeft bereikt.</string>
+ <string name="when_battery_level">Als de batterij:</string>
+ <string name="nfc_gear_title">NFC Gear</string>
+
+ <string name="goes_below">gaat onder</string>
+ <string name="goes_above">gaat boven</string>
+ <string name="activity_feed">Activiteitenlog</string>
+ <string name="activity_feed_none">Nog geen triggers gebruikt.</string>
+ <string name="menu_experimental">Experimenteel</string>
+ <string name="time_task_description">Een taak uitvoeren op een of meer dagen op een specifieke tijd.</string>
+ <string name="time_task">Tijd</string>
+ <string name="day_sunday">ZON</string>
+ <string name="day_monday">MA</string>
+ <string name="day_tuesday">DI</string>
+ <string name="day_wednesday">WO</string>
+ <string name="day_thursday">DO</string>
+ <string name="day_friday">VRIJ</string>
+ <string name="day_saturday">ZA</string>
+
+ <string name="example_created">%1$s is met succes gecreëerd.</string>
+ <string name="title_feedback">Feedback</string>
+ <string name="contact_text">We zijn erg gemotiveerd om Trigger zo nuttig mogelijk voor jullie te maken. Jullie feedback helpt ons daarbij. Voel je vrij om contact met ons op te nemen over om het even welk probleem, met commentaar of suggesties die je misschien hebt als je de voorzieningen hieronder gebruikt.</string>
+ <string name="other_nfc">Andere NFC acties</string>
+ <string name="write_status_waiting">Wachten op label...</string>
+ <string name="write_free_tags">Koop NFC-labels</string>
+
+ <string name="previous">Vorige</string>
+ <string name="title_configure_triggers">Triggers</string>
+ <string name="title_configure_task">Taak</string>
+ <string name="title_configure_switch">Wisselen</string>
+ <string name="us_customer">US-klanten</string>
+ <string name="international_customer">Internationale klanten</string>
+ <string name="checkout">Check-out</string>
+ <string name="examples_intro">Gebruik de sensoren van je telefoon om instellingen automatisch te wijzigen, apps te starten of berichten te versturen.\n\nBegin met onze voorbeelden hieronder of creëer je eigen taken.</string>
+ <string name="got_it">OK, ik snap het</string>
+ <string name="create_your_own">Creëer je eigen</string>
+ <string name="no_triggers">Voeg Triggers toe door hierboven op + te klikken.</string>
+ <string name="international">(Internationaal)</string>
+ <string name="us">(US)</string>
+     
+ <string name="geofence_help">Voor vragen en problemen met Geofence taken kun je klikken om onze FAQ te bekijken.</string>
+ <string name="separator_or">- OF -</string>
+ <string name="separator_and">- EN -</string>
+ <string name="use_this_task">Restricties toevoegen</string>
+ <string name="between_these_times">Tussen</string>
+ <string name="_8_00">08:00u</string>
+ <string name="_20_00">20:00u</string>
+ <string name="any_network">elk netwerk</string>
+ <string name="select_network">Selecteer netwerken</string>
+ <string name="two_or_more">Twee of meer netwerken</string>
+ <string name="display_between_times">Tussen %1$s en %2$s</string>
+ <string name="display_on_days">Op %1$s</string>
+ <string name="display_wifi_network">Indien verbonden met %1$s</string>
+ <string name="no_actions_found">Geen acties</string>
+ <string name="no_actions_found_message">%1$s heeft geen acties.\n\nGa terug om acties toe te voegen of ga door om deze actie op te slaan zonder acties.</string>
+ <string name="go_back">Ga terug</string>
+ <string name="payment_info">Betalingsinfo</string>
+ <string name="card_number">Card nummer</string>
+ <string name="expiration_date">Vervaldatum</string>
+ <string name="security_code">Beveiligingscode</string>
+ <string name="mm">MM</string>
+ <string name="yy">JJ</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Verzendadres</string>
+ <string name="full_name">Volledige naam</string>
+ <string name="company_name">Naam bedrijf</string>
+ <string name="email">E-mail</string>
+ <string name="street_address">Straat</string>
+ <string name="apt_suite">Apt./Suite</string>
+ <string name="city">Stad</string>
+ <string name="region">Provincie</string>
+ <string name="postcode">Postcode</string>
+ <string name="phone_number">Telefoonnummer</string>
+ <string name="billing_address">Factuuradres</string>
+ <string name="use_shipping_info">gebruik verzendinfo</string>
+ <string name="used_text">Gebruikt: %1$s</string>
+ <string name="pref_show_bytes">Toon taakgrootte</string>
+ <string name="plugin_tag_reuse">Label hergebruik</string>
+ <string name="plugin_tag_reuse_description">Hergebruik alleen-lezen of labels die niet volledig door je toestel worden ondersteund.</string>
+ <string name="plugin_call">Bellen</string>
+ <string name="plugin_call_description">Hiermee kan de Bel-actie een telefoongesprek direct plaatsen, in plaats van de kiezer te moeten openen met het vooraf ingestelde nummer.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">Hiermee kan de SMS-actie automatisch een sms versturen, in plaats van de SMS-data vooraf in je sms-app te moeten plaatsen.</string>
+ <string name="plugins">Plugins</string>
+ <string-array name="radiusChoices">
+  <item>klein</item>
+  <item>medium</item>
+  <item>groot</item>
+  <item>enorm</item>
+ </string-array>
+ <string name="when_charger_connected">Als lader is verbonden</string>
+ <string name="when_wireless_charger_connected">Als draadloze telefoon oplaadt</string>
+ <string name="when_charger_disconnected">Als lader is niet is verbonden</string>
+ <string name="charger_title">Laden...</string>
+ <string name="charger_description">Een taak uitvoeren als je een draadloze of bekabelde lader vebindt of de verbinding verbreekt.</string>
+ <string name="forget_network">Wifi vergeten</string>
+
+ <string name="task_n">taak (n)</string>
+ <string name="task_definition">een groep ACTIES, geactiveerd door TRIGGERS</string>
+ <string name="my_battery_task">Mijn Battery-taak</string>
+ <string name="create_a_task">Creëer een taak</string>
+ <string name="actions">ACTIES</string>
+ <string name="sign_in_trial">Meld je aan bij Google+ voor een proefperiode van 7 dagen of upgrade hieronder.</string>
+ <string name="upgrade_heading">De functie die je hebt geselecteerd werkt alleen met Trigger PRO.</string>
+ <string name="start_trial">Begin proefperiode</string>
+ <string name="upgrade">Upgraden</string>
+ <string name="trial_upgrade_only">Selecteer hieronder Upgrade om deze functie te gebruiken.</string>
+ <string name="pro_feature">Pro functie</string>
+ <string name="trigger">TRIGGER</string>
+ <string name="any_time">altijd</string>
+ <string name="headset_title">Headset</string>
+ <string name="when_connected">Indien verbonden</string>
+ <string name="when_disconnected">Indien niet verbonden</string>
+ <string name="headset_description">Een taak uitvoeren als je verbinding maakt met een headset of die verbinding verbreekt.</string>
+ <string name="use_current_configuration">gebruik huidige configuratie</string>
+ <string name="trial_expired_title">Proefperiode verlopen</string>
+ <string name="trial_expired">Je proefperiode van Trigger Pro is verlopen. De Pro triggers die je hebt gecreëerd werken niet in de gratis versie.</string>
+ <string name="my_tasks_example_description">Zet wifi uit en verlaag de helderheid van het scherm, als mijn batterij bijna leeg is.</string>
+ <string name="show_actions_in_list">Beschrijvende taaklijst</string>
+ <string name="task_deleted">Taak verwijderd</string>
+ <string name="undo">ongedaan maken</string>
+ <string name="geofence_beta_description">Vanwege de instabiliteit van Google Play Services is dit nu een Beta-trigger. Voor veel mensen werkt het, maar we kunnen niet garanderen dat het altijd werkt.</string>
+ <string name="when_charging_usb">Tijdens het laden (USB)</string>
+ <string name="when_charging_ac">Tijdens het laden (AC)</string>
+ <string name="any_device">elk toestel</string>
+    <string name="two_or_more_devices">Twee of meer toestellen</string>
+    <string name="upgrade_general_heading">Door te upgraden worden alle functies en triggers van Trigger ontgrendeld, alsmede lopende ontwikkelingen ondersteund.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Verbreek de verbinding met een toestel</string>
+    <string name="disconnect_from">Verbinding verbreken met</string>
+    <string name="action_bluetooth_disconnect">* Verbinding verbreken met een Bluetooth toestel...</string>
+    <string name="widget_bluetooth_disconnect">Verbinding met een Bluetooth toestel verbroken</string>
+    <string name="calendar_title">Kalendergebeurtenis</string>
+    <string name="calendar_description">Een taak uitvoeren als een overeenkomstige kalendergebeurtenis begint.</string>
+
+    <string name="available">beschikbaar</string>
+    <string name="busy">bezet</string>
+    <string name="any">om het even wat</string>
+    <string name="attending">aanwezig</string>
+    <string name="not_attending">niet aanwezig</string>
+    <string name="agent_title_string">%1$s een agent</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pauze</string>
+    <string name="meeting_agent">Meeting Agent</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">Parking Agent</string>
+    <string name="battery_agent">Battery Agent</string>
+    <string name="sleep_agent">Sleep Agent</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">Agent</string>
+    <string name="agent_title_start">Start een agent</string>
+    <string name="agent_title_stop">Stop een agent</string>
+    <string name="agent_title_pause">Pauzeer een agent</string>
+    <string name="account">Account</string>
+    <string name="upgrade_spacer">Alle items hieronder zijn onderdeel van de PRO upgrade. Klik hier om te upgraden of begin de gratis proefperiode.</string>
+    <string name="upgrade_now">Nu upgraden</string>
+    <string name="upgrade_main_description">Probeer een proefperiode van 7 dagen of upgrade naar de PRO versie hieronder om alle triggers te ontgrendelen.</string>
+    <string name="upgrade_unlocks_triggers_count">ontgrendelt %1$s extra triggers</string>
+    <string name="wallet_signin_point_four">Profiteer van de gratis profperiode van 7 dagen van Trigger PRO.</string>
+    <string name="receiver_marketing_materials">Ontvang kortingen en belangrijke updates via e-mail.</string>
+    <string name="example_silence_at_night">Zet mijn telefoon op Stil als ik slaap</string>
+    <string name="example_silence_at_night_description">maakt binnenkomende meldingen stil als je slaapt</string>
+    <string name="example_save_battery">Help me de batterij te sparen als die bijna leeg is</string>
+    <string name="example_save_battery_description">zet wifi uit en verlaagt de helderheid van het scherm</string>
+    <string name="example_driving">Bespaar tijd tijdens het rijden</string>
+    <string name="example_driving_description">zet wifi uit en opent Google Maps tijdens het rijden</string>
+    <string name="example_task_data_saver_on">Mobiele data uitschakelen</string>
+    <string name="example_task_data_saver_off">Mobiele data inschakelen</string>
+    <string name="example_task_battery_saver">Batterijbesparing</string>
+    <string name="example_set_battery_percentage">Laat batterijbesparing werken als de batterij lager is dan</string>
+    <string name="example_wifi_select_network">Selecteer je wifi-netwerk thuis</string>
+    <string name="example_task_night">Goedenacht</string>
+    <string name="example_task_morning">Morgen</string>
+    <string name="start_now">Nu starten</string>
+    <string name="free_trial_short">Probeer een proefperiode van 7 dagen van Trigger PRO.</string>
+    <string name="trial_started">Proefperiode is begonnen</string>
+    <string name="trial_try_free">Probeer het gratis 7 dagen</string>
+    <string name="event_name">Naam gebeurtenis</string>
+    <string name="contains">bevat</string>
+    <string name="matches">komt overeen met</string>
+    <string name="event_description">Beschrijving gebeurtenis</string>
+    <string name="description">beschrijving</string>
+    <string name="availibility">Beschikbaarheid</string>
+    <string name="when_event_ends">Wanneer een gebeurtenis eindigt</string>
+    <string name="when_event_starts">Als een gebeurtenis begint</string>
+    <string name="power_service_monitor_battery">Batterij controleren</string>
+    <string name="power_service_monitor_both">Batterij controleren &amp; opladen</string>
+    <string name="power_service_monitor_charging">Opladen controleren...</string>
+    <string name="power_service_disable_notification">Aanraken om melding uit te schakelen</string>
+    <string name="power_service_on">Batterij-en Oplaadtriggers gebruiken een voorgrondservice. Je ziet lopende meldingen, maar voorkomt dat de OS de service annuleert die nodig is om deze gebeurtenissen te controleren.</string>
+    <string name="power_service_off">De batterij- en laadtriggers starten misschien niet als de service is geannuleerd door de OS of als de app is verwijderd van de recente app-lijst.</string>
+    <string name="power_service_pref">Voorgrondservice voor Power triggers</string>
+    <string name="menu_remove">Verwijderen</string>
+    <string name="help_tasks_title">Taken creëren...</string>
+    <string name="help_tasks_description">Klik hier om een korte handleiding te bekijken over wat taken zijn en hoe je ze kunt creëren.</string>
+    <string name="connect_dialog_body">"Bedankt dat je Trigger gebruikt! Download nu Verbinden en begin met Trigger Tasks vanaf het web te gebruiken!! (inclusief gratis proefperiode van 3 dagen)"</string>
+    <string name="no_thanks">Nee, bedankt</string>
+    <string name="try_connect_now">Probeer het nu</string>
+    <string name="feedback_rate_gplay">Beoordeel ons op Google Play</string>
+    <string name="rating_text">Als je de aandrang voelt, goede beoordelingen en +1\' worden erg gewaardeerd:</string>
+    <string name="show_brightness_window">Toon venster als de helderheid wordt gewijzigd</string>
+    <string name="request_root_access">Verzoek toegang tot hoofdmap</string>
+    <string name="upgrade_successful">Alle functies zijn nu ontgrendeld.</string>
+    <string name="emulate_hardware_dock">Hardware dock emuleren (vereist hoofdmap)</string>
+    <string name="wizard_trigger_help">Voeg een of meer triggers toe door op + hierboven te klikken.</string>
+    <string name="wizard_actions_help">Voeg een of meer acties toe door op + hierboven te klikken.</string>
+    <string name="event_set_reminder">Herinnering instellen</string>
+    <string name="forget_wifi_network">Vergeet een Wifi netwerk</string>
+    <string name="show_user_text">Toon tekst</string>
+
+    <string name="samsung_hands_free">Hands-free stand</string>
+    <string name="samsung_smart_stay">Smart Stay</string>
+    <string name="htc_sleep_mode">Slaapstand</string>
+    <string name="htc_power_saver">Energiebesparing</string>
+    <string name="htc_boom_sound">Boom Sound</string>
+    <string name="htc_smart_display">Smart Display</string>
+    <string name="samsung_multi_window">Multi-venster</string>
+    <string name="show_toast">Toon toast</string>
+    <string name="constraint_days">Dagen</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Opladen...</string>
+    <string name="constraint_connected">Verbonden met</string>
+    <string name="constraint_not_connected">Niet verbonden met</string>
+    <string name="display_not_connected">Indien niet verbonden met %1$s</string>
+    <string name="is_on">Is aan</string>
+    <string name="is_off">Is uit</string>
+    <string name="play_sound">Geluid afspelen</string>
+    <string name="agent_description">Start een taak als een agent start of stopt</string>
+    <string name="when_agent_starts">Als een agent start</string>
+    <string name="when_agent_ends">Als een agent stopt</string>
+    <string name="choose_agent">Selecteer agent</string>
+    <string name="agent_condition_starts">Als %1$s start</string>
+    <string name="agent_condition_ends">Als %1$s stopt</string>
+    <string name="clear">Wissen</string>
+    <string name="export">Exporteren</string>
+    <string name="notification_timer_cancel">Wegvegen om te annuleren</string>
+    <string name="notification_timer_extra_info">Verloopt op %1$s</string>
+    <string name="installed">geïnstalleerd</string>
+    <string name="plugin_lock">Vergrendelingsscherm</string>
+    <string name="plugin_lock_description">Hierdoor kunnen de actuele, onderliggende instellingen van het vergendelingsscherm worden gewijzigd. Het vergrendelingsscherm uitschakelen stelt hem in op schuiven. Inschakelen stelt de Pin of het wachtwoord in op basis van wat is geconfigureerd.</string>
+    <string name="configure">configureren</string>
+</resources>
+
+
+
+
+

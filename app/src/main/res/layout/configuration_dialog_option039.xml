@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Auto Rotate -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option039"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutDisplayAutoRotation" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/autoRotateToggle"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/AdapterTogglePrompt" />
+
+</LinearLayout><!-- End Auto Rotate -->

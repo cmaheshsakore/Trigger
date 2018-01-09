@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Alarm Volume -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option001"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/soundOptionsAlarmVolume" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical" >
+
+        <SeekBar
+            android:id="@+id/AlarmVolumeSeek"
+            style="@style/VolumeSlider"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/sliderLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@id/AlarmVolumeSeek"
+            android:layout_toLeftOf="@id/AlarmVolumeSeek"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="99"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+    </RelativeLayout>
+
+</LinearLayout><!-- End ALarm Volume -->

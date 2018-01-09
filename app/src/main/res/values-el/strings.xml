@@ -1,0 +1,990 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Επιλέξτε ενέργεια:</string>
+ <string name="RingerTypePrompt">Επιλέξτε τύπο κουδουνιού:</string>
+ <string name="limitThreshholdPrompt">Επιλέξτε μονάδα:</string>
+ <string name="VibratePrompt">Επιλέξτε πότε να δονείται:</string>
+
+ <string name="AuthTogglePrompt">Επιλέξτε κρυπτογράφηση:</string>
+
+ <string name="menu_new_tag">Νέα εργασία</string>
+ <string name="menu_help">Πληροφορίες</string>
+ <string name="menu_contact">Επικοινωνήστε μαζί μας</string>
+ <string name="menu_preferences">Ρυθμίσεις</string>
+ <string name="menu_delete">Διαγραφή</string>
+ <string name="menu_chooser_mail">Αποστολή email</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Wifi</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Δευτερόλεπτα</string>
+ <string name="timeMinutes">Λεπτά</string>
+ <string name="timeHours">Ώρες</string>
+
+
+
+ <string name="enableText">Ενεργοποίηση</string>
+ <string name="disableText">Απενεργοποίηση</string>
+ <string name="toggleText">Εναλλαγή</string>
+
+ <string name="alwaysText">Πάντα</string>
+ <string name="neverText">Ποτέ</string>
+ <string name="whenSilentText">Όταν ο ήχος είναι σβηστός</string>
+
+
+
+
+
+ <string name="authTypeOpen">Χωρίς</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Αθόρυβο</string>
+ <string name="ringerTypeVibrate">Δόνηση</string>
+ <string name="ringerTypeNormal">Κανονικό</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">Άκυρο</string>
+ <string name="dialogYes">Ναι</string>
+ <string name="dialogNo">Όχι</string>
+ <string name="dialogSave">Αποθήκευση</string>
+ <string name="dialogClose">Κλείσιμο</string>
+ <string name="dialog_run">Εκτέλεση εργασίας</string>
+
+ <string name="menuWireless">Ασύρματο &amp; Δίκτυα</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Ήχοι &amp; Ένταση</string>
+ <string name="menuAlarm">Αφιπνύσεις</string>
+ <string name="menuCheckin">Κοινωνικά μέσα</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">Εμφάνιση</string>
+
+ <string name="addOptionsAddText">Προσθήκη σε Εργασία</string>
+
+ <string name="displayAlarmSet">Ορισμός αφύπνισης</string>
+ <string name="displayListAlarmSet">Ορισμός χρονομέτρου</string>
+ <string name="defaultAlarmText">Αγγίξτε για ορισμό χρόνου αφύπινισης</string>
+
+ <string name="layoutAlarmSetText">Αφύπνιση στις</string>
+ <string name="layoutAlarmSelectTimeText">Αγγίξτε για ορισμό χρόνου αφύπνισης</string>
+ <string name="layoutAlarmForwardText">λεπτά από τώρα</string>
+
+ <string name="appListLoadingText">Φορτώνεται η λίστα Εφαρμογών</string>
+ <string name="listLaunchText">Εκκίνηση</string>
+ <string name="listLaunchTextCustom">Εκκίνηση δραστηριότητας</string>
+ <string name="listNavText">Πλοήγηση σε</string>
+
+
+ <string name="layoutAppLaunchURL">Άνοιγμα URL/URI</string>
+ <string name="layoutAppLaunchNavigation">Πλοήγηση</string>
+ <string name="layoutAppLaunchNavigationText">Προορισμός</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Κάντε Check in εδώ</string>
+ <string name="optionsSocialFoursquareSearching">Γίνεται αναζήτηση</string>
+ <string name="optionsSocialFoursquareSearchTitle">Συμβατοί χώροι</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Check in σε χώρο</string>
+ <string name="optionsSocialFoursquareVenueTitle">Χώρος</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Δεν επιλέχθηκε χώρος</string>
+ <string name="optionsSocialFoursquareVenueSub">Check in σε συγκεκριμένο χώρο</string>
+ <string name="optionsSocialFacebook">Facebook: Check in</string>
+ <string name="optionsSocialPlaces">Google Places: Check in</string>
+ <string name="optionsSocialTwitter">Twitter: Tweet</string>
+
+ <string name="optionsFoursquareSearchFind">Έρευση</string>
+
+ <string name="optionsFoursquareSearchNear">κοντά</string>
+
+ <string name="listFacebookText">Check in στο Facebook</string>
+ <string name="listFoursquareText">Check in στο Foursquare</string>
+ <string name="listFoursquareVenueText">Check in σε</string>
+ <string name="listPlacesText">Check in στο Google Places</string>
+ <string name="listTweetText">Ανάρτηση Tweet</string>
+
+ <string name="locationDisabledTitle">Τοποθεσία απενεργοποιημένη</string>
+ <string name="locationDisabledText">Αδύνατη η ανάκτηση τοποθεσίας. Ενεργοποιήστε μια πηγή
+τοποθεσίας.</string>
+
+ <string name="listHotspotText">Φορητό Hotspot</string>
+
+ <string name="layoutHotspotActionText">Ενέργεια:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Τύπος ελέγχου ταυτότ:</string>
+ <string name="layoutHotspotAuthKeyText">Κλειδί ελέγχου ταυτότ:</string>
+
+
+ <string name="soundRingerTypeText">Ορισμός τύπου κουδουνίσματος</string>
+ <string name="listSoundRingtone">Ορισμός ήχου κουδουνίσματος:</string>
+ <string name="listSoundNotification">Ορισμός ειδοποίησης:</string>
+ <string name="listSoundRingerVolume">Ένταση ήχου κουδουνίσματος</string>
+ <string name="listSoundMediaVolume">Ένταση πολυμέσων</string>
+
+ <string name="listSoundAlarmVolume">Ένταση αφύπνισης</string>
+ <string name="listSoundNotificationVolume">Ένταση ειδοποίησης</string>
+ <string name="listSoundVibrate">Να δονείται κατά το κουδούνισμα</string>
+
+ <string name="taskerNotInstalled">Το Tasker δεν έχει εγκατασταθεί</string>
+ <string name="layoutTaskerLaunchText">Εργασία Tasker</string>
+ <string name="layoutTaskerSelect">Επιλογή εργασίας</string>
+ <string name="layoutTaskerHelpText">Σημείωση: Το Tasker *πρέπει* να εγκατασταθεί πριν χρησιμοποιήσετε αυτήν την εφαρμογή, ενώ η προτίμηση Misc (Διάφορα) / Allow External Access (Να επιτρέπεται εξωτερική πρόσβαση) πρέπει να οριστεί στο περιβάλλον χρήστη του Tasker.\n\nΑν συναντήσετε δυσκολίες με εργασίες που δεν ξεκινούν, απεγκαταστήστε και τις δύο εφαρμογές και εγκαταστήστε ξανά το Tasker, πριν εγκαταστήσετε το NFC Task Launcher.</string>
+
+ <string name="wifiOptionsOperateWifi">Wifi Ενεργό/Ανενεργό</string>
+ <string name="wifiOptionsConfigureSSID">Wifi Connect</string>
+ <string name="wifiOptionsOperateBluetooth">Bluetooth Ενεργό/Ανενεργό</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Ανιχνευσιμότητα Bluetooth</string>
+ <string name="wifiOptionsAutoSync">Αυτόματος συγχρονισμός</string>
+ <string name="wifiOptionsAirplaneMode">Λειτουργία πτήσης</string>
+
+ <string name="hotspotOptions">Wifi Hotspot</string>
+
+ <string name="soundOptionsRinger">Προφίλ ήχου</string>
+ <string name="soundOptionsRingtone">Τόνος κουδουνίσματος</string>
+ <string name="soundOptionsRingVolume">Ένταση κουδουνίσματος</string>
+ <string name="soundOptionsNotificationtone">Τόνος ειδοποίησης</string>
+ <string name="soundOptionsNotificationVolume">Ένταση ειδοποίησης</string>
+ <string name="soundOptionsMediaVolume">Ένταση πολυμέσων</string>
+ <string name="soundOptionsMediaStart">Αναπαραγωγή πολυμέσων</string>
+
+ <string name="soundOptionsAlarmVolume">Ένταση αφύπνισης</string>
+ <string name="soundOptionsVibrate">Να δονείται κατά το κουδούνισμα</string>
+
+ <string name="listWifiAirplaneModeText">Λειτουργία πτήσης</string>
+ <string name="listWifiAutoSync">Αυτόματος συγχρονισμός</string>
+ <string name="listWifiConfigureConnectText">Σύνδεση σε</string>
+ <string name="listWifiBluetoothDiscoverableText">Bluetooth ανιχνεύσιμο</string>
+ <string name="listWifiAssociateText">Σύνδεση σε</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Τύπος ελέγχου ταυτότ:</string>
+ <string name="layoutWifiAuthKeyText">Κλειδί ελέγχου ταυτότ:</string>
+
+ <string name="builderInvalidName">Δώστε ένα έγκυρο όνομα</string>
+
+
+ <string name="titleSelectAction">Επιλέξτε κατηγορίες</string>
+ <string name="titleConfigureAction">Ρύθμιση ενεργειών</string>
+ <string name="buttonTextAdd">Προσθήκη ενεργειών</string>
+
+ <string name="layoutPreferencesTitleText">Ρυθμίσεις</string>
+ <string name="layoutPreferencesSelectNotification">Ήχος κουδουνίσματος ειδοποίησης</string>
+ <string name="layoutPreferencesVibrate">Δόνηση</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Αποθήκευση</string>
+ <string name="layoutPreferencesRateLimitingDisable">Απενεργοποίηση</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Όταν διαβαστεί μια ετικέτα</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Να δονείται πάντα</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Να μη δονείται ποτέ</string>
+ <string name="layoutPreferencesVibrateSubAlways">Να δονείται πάντα</string>
+ <string name="layoutPreferencesVibrateSubNever">Να μη δονείται ποτέ</string>
+
+ <string name="layoutPreferencesDebugOutput">Εντοπισμός σφαλμάτων</string>
+ <string name="layoutPreferencesDebugSend">Αποστολή αρχείου καταγραφής εντοπισμού σφαλμάτων</string>
+ <string name="layoutPreferencesEnableLimitingSub">Απενεργοποιημένο</string>
+ <string name="layoutPreferencesUsage">Να επιτρέπεται το Google Analytics</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Ειδοποιήσεις</string>
+ <string name="layoutPreferencesAdvancedTitle">Σύνθετες</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Φωτεινότητα</string>
+ <string name="layoutDisplayBrightnessAuto">Ενεργοποίηση αυτοματης φωτεινότητας</string>
+ <string name="layoutDisplayNotificationLight">Φως ειδοποίησης</string>
+ <string name="listDisplayNotificationLightText">Φως ειδοποίησης</string>
+
+ <string name="layoutDisplayAutoRotation">Αυτόματη περιστροφή</string>
+ <string name="listDisplayAutoRotationText">Αυτόματη περιστροφή</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Προέκυψε εξαίρεση κατά την εκκίνηση προσαρμοσμένης δραστηριότητας</string>
+ <string name="actionLastActions">Τελευταίες ενέργειες:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Έναρξη / Διακοπή αναπαραγωγής πολυμέσων</string>
+ <string name="widgetEnableMediaPlayback">Έναρξη / Διακοπή αναπαραγωγής πολυμέσων</string>
+
+ <string name="actionLaunchPackage">* Γίνεται εκκίνηση εφαρμογής</string>
+ <string name="widgetLaunchPackage">Η εφαρμογή εκκινήθηκε</string>
+
+ <string name="actionLaunchActivity">* Γίνεται εκκίνηση δραστηριότητας</string>
+ <string name="widgetLaunchActivity">Η δραστηριότητα εκκινήθηκε</string>
+
+ <string name="actionNavigate">* Πλοήγηση σε:</string>
+ <string name="widgetNavigate">Πλοήγηση σε:</string>
+
+ <string name="actionConfigureSSID">* Γίνεται ρύθμιση AP και Σύνδεση</string>
+ <string name="widgetConfigureSSID">Γίνεται ρύθμιση AP και Σύνδεση</string>
+
+ <string name="actionTaskerTask">* Γίνεται εκκίνηση εργασίας Tasker</string>
+ <string name="widgetTaskerTask">Εργασία Tasker εκκινήθηκε</string>
+
+ <string name="actionAlarm">* Γίνεται ρύθμιση Αφύπνισης στις</string>
+ <string name="widgetAlarm">Η Αφύπνιση ρυθμίστηκε στις</string>
+
+ <string name="actionLaunchURL">* Γίνεται εκκίνηση URL</string>
+ <string name="widgetLaunchURL">Το URL εκκινήθηκε</string>
+
+ <string name="actionSetVibration">* Γίνεται ρύθμιση δόνησης</string>
+ <string name="widgetSetVibration">Η δόνηση ορίστηκε</string>
+
+ <string name="actionSendTweet">* Το Tweet αναρτάται</string>
+ <string name="widgetSendTweet">Το Tweet αναρτήθηκε</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">Η ετικέτα γράφτηκε επιτυχώς.</string>
+ <string name="layoutWriteTitle">Εγγραφή ετικέτας</string>
+ <string name="layoutWritePrimaryMessageStart">Τοποθετήστε τη συσκευή σας πάνω από μια ετικέτα NFC για έναρξη εγγραφής.</string>
+ <string name="layoutWriteLockText">Μετατροπή ετικέτας μόνο για ανάγνωση</string>
+
+ <string name="dialogWriteTitle">Η εγγραφή ολοκληρώθηκε</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Επιλέξτε έναυσμα</string>
+ <string name="layoutHomeFormat">Διαγραφή ετικέτας</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Ολοκλήρωση χρονομέτρησης</string>
+
+ <string name="displayAlarmSetTimer">Ορισμός αφύπνισης (χρονομέτρου)</string>
+
+
+ <string name="actionTimer">* Γίνεται ρύθμιση χρονομέτρου για</string>
+ <string name="widgetTimer">Το χρονόμετρο ορίστηκε για</string>
+
+ <string name="layoutAlarmSetTimerText">Το χρονόμετρο ορίστηκε για</string>
+
+ <string name="alertSecureSetting">Πραγματοποιείτε ρύθμιση ασφαλούς παραμέτρου. Απαιτείται πρόσβαση υπερχρήστη.</string>
+ <string name="alertSecureSettingTitle">Ασφαλής παράμετρος</string>
+ <string name="alertSecureSettingMakeSystemApp">Μετατροπή σε εφαρμογή συστήματος</string>
+
+ <string name="wifiOptionsGPS">GPS Ενεργό/Ανενεργό</string>
+ <string name="wifiOptionsMobileData">Δεδομένα κιν. τηλ/νίας Ενεργά/Ανενεργά</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Δεδομένα κιν. τηλ/νίας</string>
+
+ <string name="rebootTitle">Ολοκληρώθηκε</string>
+ <string name="rebootText">Κάντε επανεκκίνηση συσκευής.</string>
+
+ <string name="noRootText">Αδύνατη η λήψη πρόσβασης υπερχρήστη.</string>
+
+ <string name="layoutDisplayTimeout">Χρόνος όριο εμφάνισης</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 δευτερόλεπτα</item>
+  <item>30 δευτερόλεπτα</item>
+  <item>1 λεπτό</item>
+  <item>2 λεπτά</item>
+  <item>5 λεπτά</item>
+  <item>10 λεπτά</item>
+  <item>30 λεπτά</item>
+  <item>Ποτέ</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Χρόνος όριο</string>
+
+ <string name="wifiOptions3GData">Δεδομένα 3G Ενεργά/Ανενεργά</string>
+
+ <string name="layoutAppDeskDock">Αγκύρωση επιφάνειας εργασίας</string>
+ <string name="layoutAppDeskDockSub">Μπορεί να μην έχει αποτέλεσμα σε όλες τις συσκευές.</string>
+ <string name="layoutAppCarDock">Βάση αυτοκινήτου</string>
+
+ <string name="menuPhone">Τηλέφωνο</string>
+
+ <string name="layoutPhoneSMS">Αποστολή μηνύματος κειμένου</string>
+ <string name="optionsPhoneSMS">αποστολή μηνύματος κειμένου</string>
+ <string name="optionsPhoneSMSTo">Προς</string>
+ <string name="optionsPhoneSMSMessage">Μήνυμα</string>
+ <string name="optionsPhoneNumber">Αριθμός τηλεφώνου</string>
+ <string name="optionsPhoneCall">πραγματοποίηση κλήσης</string>
+ <string name="layoutPhoneCall">Πραγματοποίηση κλήσης</string>
+ <string name="optionsPhoneSMSNote">Αυτό θα ανοίξει την εφαρμογή SMS σας με συμπληρωμένα τα πεδία Προς και Μήνυμα.  Για να στείλετε αυτόματα το μήνυμα, πατήστε σε αυτό το μήνυμα και κατεβάστε την Προσθήκη SMS από το Play Store.</string>
+ <string name="optionsPhoneCallNote">Αυτό θα ανοίξει το πληκτρολόγιο με συμπληρωμένο τον αριθμό. Για να πραγματοποιήσετε αυτόματα μια κλήση, πατήστε σε αυτό το μήνυμα και κατεβάστε την Προσθήκη Κλήσης από το Play Store.</string>
+
+
+ <string name="listPhoneSMS">Αποστολή SMS</string>
+ <string name="listPhoneCall">Πραγματοποίηση κλήσης</string>
+
+ <string name="actionSendSMS">* Γίνεται αποστολή SMS</string>
+ <string name="widgetSendSMS">To SMS στάλθηκε</string>
+
+ <string name="actionPhoneCall">* Πραγματοποίηση κλήσης</string>
+ <string name="widgetPhoneCall">Πραγματοποιήθηκε κλήση</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">Ενεργοποίηση NFC σε λειτουργία πτήσης</string>
+
+ <string name="menuSecurity">Ασφάλεια</string>
+ <string name="layoutOptionsKeyguard">Οθόνη κλειδώματος</string>
+ <string name="securityOptionsOperateKeyguard">Οθόνη κλειδώματος Ενεργή/Ανενεργή</string>
+ <string name="listSecurityKeyguardText">Οθόνη κλειδώματος</string>
+
+ <string name="optionsFoursquareSearchCity">τρέχουσα τοποθεσία</string>
+ <string name="optionsFoursquareSearchVenue">όνομα</string>
+ <string name="optionsFoursquareSearchVenueIDText">αναγνωριστικό χώρου</string>
+ <string name="optionsFoursquareSearchOR">ή</string>
+
+ <string name="menuApplications">Εφαρμογές &amp; Συντομεύσεις</string>
+ <string name="layoutWriteNameText">Συμπερίληψη ονόματος ετικέτας</string>
+ <string name="layoutAppKillAppTextSub">κλείσιμο προεπιλεγμένης δραστηριότητας μιας εφαρμογής</string>
+ <string name="layoutAppLaunchAppText">Άνοιγμα εφαρμογής</string>
+ <string name="layoutAppKillAppText">Κλείσιμο εφαρμογής</string>
+ <string name="layoutAppLaunchActivityText">Άνοιγμα δραστηριότητας</string>
+ <string name="layoutAppKillTaskDisclaimer">Αυτό μπορεί να μη λειτουργήσει με όλες τις εφαρμογές χωρίς πρόσβαση υπερχρήστη. Η πρόσβαση υπερχρήστη θα εξασφαλίσει τον επιτυχή τερματισμό της διαδικασίας.</string>
+
+ <string name="layoutAlarmShowUI">εμφάνιση διεπαφής αφύπνισης</string>
+ <string name="layoutAlarmTimePrefix">Χρόνος:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Τύπος</string>
+ <string name="NavTypeDriving">Οδήγηση</string>
+ <string name="NavTypeTransit">Μαζική μεταφορά</string>
+ <string name="NavTypeWalking">Περπάτημα</string>
+
+
+
+ <string name="layoutActivityAppList">Επιλογή εφαρμογής:</string>
+ <string name="layoutActivityList">Επιλογή δραστηριότητας:</string>
+ <string name="layoutActivityWarning">Ενδέχεται να μην είναι δυνατή η εκκίνηση όλων των δραστηριοτήτων.</string>
+
+ <string name="readOnlyWarning">Αφού μια ετικέτα γίνει μόνο για ανάγνωση δεν θα μπορείτε πια να
+γράψετε σε αυτήν. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί.</string>
+ <string name="limitThreshholdOverride">Προτροπή υπέρβασης αυτής της ρύθμισης</string>
+ <string name="limitThreshholdOverrideDialogPrefix">Αυτή η εργασία παραλείπεται γιατί εκτελέστηκε εντός %1$s %2$s</string>
+ <string name="limitThreshholdOverrideDialogSuffix">Αυτό το παράθυρο διαλόγου θα εξαφανιστεί μετά από 5 δευτ.</string>
+ <string name="menu_context_delete">Διαγραφή</string>
+ <string name="menu_context_run">Εκτέλεση</string>
+ <string name="menu_context_share">Κοινοποίηση</string>
+ <string name="listCloseApp">Κλείσιμο εφαρμογής</string>
+
+ <string name="listSoundPlayback">Έναρξη / Διακοπή αναπαραγωγής πολυμέσων</string>
+ <string name="listDisplayBrightness">Ορισμός φωτεινότητας σε</string>
+ <string name="listDisplayBrightnessAuto">Ενεργοποίηση αυτόματης φωτεινότητας</string>
+ <string name="layoutImportPrimaryMessageStart">Τοποθετήστε την ετικέτα στο πίσω μέρος του τηλεφώνου για εισαγωγή</string>
+ <string name="layoutMainBuilderImportText">Εισαγωγή ετικέτας</string>
+ <string name="layoutMainBuilderCopyText">Αντιγραφή ετικέτας</string>
+
+
+ <string name="copyRead">1.) Σάρωση ετικέτας σε αντίγραφο</string>
+ <string name="copyReading">2.) Ανάγνωση μηνυμάτων</string>
+ <string name="copyWrite">3.) Αγγίξτε μια ετικέτα για εγγραφή</string>
+ <string name="copyTitle">Αντιγραφή ετικέτας NFC</string>
+ <string name="importTitle">Εισαγωγή ετικέτας</string>
+
+ <string name="copyDialogCopied">Αντιγράφηκε επιτυχώς</string>
+ <string name="copyDialogCopyError">Αδύνατη η αντιγραφή της ετικέτας</string>
+ <string name="copyDialogWritten">Γράφτηκε επιτυχώς</string>
+ <string name="copyDialogWriteError">Αδύνατη η εγγραφή της ετικέτας</string>
+ <string name="layoutPreferencesSelectTimer">Ήχος κουδουνίσματος χρονόμετρου</string>
+ <string name="layoutPreferencesTagsTitle">Εργασίες</string>
+ <string name="layoutPreferencesTagsMore">Περισσότερα</string>
+ <string name="layoutPreferencesNotifications">Ειδοποιήσεις</string>
+ <string name="layoutPreferencesNotificationsSubBar">Χρήση γραμμής ειδοποιήσεων</string>
+ <string name="layoutPreferencesNotificationsSubToast">Χρήστη προσωρινών μηνυμάτων</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Χρήση και των δύο</string>
+ <string name="layoutPreferencesNotificationsSubNone">Καθόλου</string>
+ <string name="menu_done">Ολοκληρώθηκε</string>
+ <string name="layoutPreferencesSwitchTimeout">Επαναφορά εργασιών εναλλαγής μετά από 12 ώρες</string>
+ <string name="menuEvents">Συμβάντα</string>
+ <string name="menuEventsCalendarStatic">Συμβάν ημερολογίου</string>
+ <string name="menuEventsCalendarTimestamp">Χρονική σήμανση ημερολογίου</string>
+ <string name="menuEventsCalendarTimestampText">Εισάγει ένα συμβάν ημερολογίου την ακριβή ημέρα και ώρα
+που σαρώνετε την ετικέτα.</string>
+ <string name="layoutEventCalendarTitle">Τίτλος</string>
+ <string name="layoutEventCalendarStart">Έναρξη</string>
+ <string name="layoutEventCalendarEnd">Τέλος</string>
+ <string name="layoutEventCalendarAllDay">Ολοήμερο</string>
+ <string name="dateHint">Αγγίξτε για ορισμό ημερομηνίας</string>
+ <string name="timeHint">Αγγίξτε για ορισμό ώρας</string>
+ <string name="listDiaplayCalendarEvent">Προσθήκη συμβάντος ημερολογίου</string>
+ <string name="listDiaplayCalendarTimestamp">Χρονική σήμανση ημερολογίου</string>
+ <string name="actionCalendarEvent">Γίνεται προσθήκη συμβάντος ημερολογίου</string>
+ <string name="widgetCalendarEvent">* Γίνεται προσθήκη συμβάντος ημερολογίου</string>
+ <string name="actionCalendarTimestamp">Γίνεται προσθήκη χρονικής σήμανσης στο ημερολόγιο</string>
+ <string name="widgetCalendarTimestamp">* Γίνεται προσθήκη χρονικής σήμανσης στο ημερολόγιο</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Συνδέσεις</string>
+ <string name="layoutPreferencesDialogTwitter">Κάντε κλικ στο OK για απαλοιφή δεδομένων σύνδεσης Twitter</string>
+ <string name="layoutPreferencesDialogFoursquare">Κάντε κλικ στο OK για απαλοιφή δεδομένων σύνδεσης Foursquare</string>
+
+
+ <string name="layoutAppPause">Παύση</string>
+ <string name="layoutAppPauseSubTitle">Παύση για ένα καθορισμένο χρονικό διάστημα, πριν συνεχίσει.</string>
+ <string name="actionPause">* Γίνεται παύση για</string>
+ <string name="widgetPause">Γίνεται παύση για</string>
+
+
+ <string name="loading">Φόρτωση...</string>
+ <string name="error">Σφάλμα</string>
+ <string name="recommended_tags">Ετικέτες NFC</string>
+ <string name="buy_now">Αγορά τώρα</string>
+ <string name="buy_tags">Κατάστημα Trigger</string>
+ <string name="popular_tags">Προτεινόμενες εργασίες</string>
+ <string name="my_tags">Οι εργασίες μου</string>
+ <string name="shop_more_title">Ψάχνετε περισσότερα;</string>
+ <string name="shop_more_description">Εξερευνήστε τον πλήρη κατάλογο μας με προϊόντα NFC, όπως ετικέτες και κιτ NFC.</string>
+ <string name="welcome">Καλωσορίσατε</string>
+ <string name="buy_nfc_tags">Αγορά ετικετών NFC</string>
+ <string name="used_never">Χρησιμοποιήθηκε: Ποτέ</string>
+ <string name="total_actions">Συνολικές ενέργειες</string>
+
+ <string name="basic_tags">Εγγραφή βασικών ετικετών</string>
+
+ 
+ <string name="default_tag_name_format">Εργασία %s</string>
+
+ <string name="save_and_write">Αποθήκευση &amp; Εγγραφή</string>
+ <string name="tag_name">Όνομα</string>
+ <string name="no_actions">Ενέργειες</string>
+ <string name="tag_unsaved_changes">Ενδέχεται να υπάρχουν μη αποθηκευμένες αλλαγές σε αυτήν την εργασία.</string>
+ <string name="discard_changes">Απόρριψη αλλαγών</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s byte</item>
+  <item quantity="other">%s bytes</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Ρύθμιση σύνδεσης Wifi</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Ενεργοποίηση ανιχνευσιμότητας Bluetooth</string>
+ 
+ <string name="soundOptionsMediaStartSub">Έναρξη/Διακοπή αναπαραγωγής πολυμέσων</string>
+ <string name="optionsSocialCheckinHereSub">Check in στην τρέχουσα τοποθεσία σας</string>
+ <string name="actionURLHeading">URL / URI</string>
+ <string name="optionsSocialTwitterSub">Ανάρτηση Tweet</string>
+ <string name="layoutAppLaunchNavigationSub">Πλοήγηση σε τοποθεσία</string>
+ <string name="alarmTimerConfigureSub">Ορισμός χρονομέτρου</string>
+ <string name="carDockDrivingMode">Συμπερίληψη Λειτουργίας οδήγησης (συσκευές Samsung Galaxy)</string>
+ <string name="airplaneModeWarning">Όταν ενεργοποιηθεί η Λειτουργία πτήσης, θα απενεργοποιήσει το NFC. Μπορείτε να εξαιρέσετε την αλλαγή του NFC από τη Λειτουργία πτήσης στις ρυθμίσεις εφαρμογής, στην επιλογή Ενεργοποίηση NFC στη Λειτουργία πτήσης.</string>
+ <string name="write">Εγγραφή</string>
+ <string name="next">Επόμενο</string>
+
+ <string name="_continue">Συνέχεια</string>
+
+ <string name="shop_unavailable">Το κατάστημα δεν είναι διαθέσιμο προσωρινά. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά σε λίγα λεπτά.</string>
+ <string name="titleSavedTagPicker">Επιλέξτε μια αποθηκευμένη Εργασία προς εκτέλεση</string>
+ <string name="titleShareTagActivity">Κοινοποιήστε αυτήν την ετικέτα</string>
+ <string name="sharedReceiverDialogMessage">Γίνεται φόρτωση ετικέτα</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">Email</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Μόλις έφτιαξα μία ετικέτα NFC με το +Tagstand. Τσέκαρέ τη χρησιμοποιώντας την εφαρμογή NFC Task Launcher στο:</string>
+ <string name="shareTwitterPrefix">Τσέκαρε αυτήν την ετικέτα #NFC που έφτιαξα</string>
+ <string name="shareTwitterSuffix">παρέχεται από την @tagstand</string>
+ <string name="shareSMSPrefix">έι, τσέκαρε αυτήν την ετικέτα NFC που έφτιαξα με το NFC Task Launcher:</string>
+ <string name="shareEmailPrefix">Έι,\n\nέφτιαξα αυτήν την ετικέτα \'%1$s\' με το NFC Task Launcher και θα ήθελα να την μοιραστώ μαζί σου.\n\n</string>
+ <string name="shareEmailSuffix">\n\nΚάνε κλικ για να το κατεβάσεις στο τηλέφωνό σου.\n\nΚαλωσόρισες στο μέλλον.</string>
+ <string name="shareEmailSubject">Τσέκαρε την ετικέτα NFC μου</string>
+ <string name="loadTagPayloadError">Λυπούμαστε, κάτι δεν πάει καλά. Μπορεί να φταίει η σύνδεσή σας.</string>
+ <string name="loadTagNoPayload">Δεν έχει συσχετιστεί καμία ενέργεια με αυτήν την ετικέτα.</string>
+
+ <string name="layoutWifiHiddenSSID">Κρυμμένο SSID</string>
+ <string name="layoutEmailAddress">Διεύθυνση email</string>
+ <string name="layoutEmailMessage">Μήνυμα (προαιρετικό)</string>
+ <string name="layoutEmailSubjectHint">Θέμα</string>
+ <string name="layoutEmailMessageHint">Μήνυμα</string>
+ <string name="layoutEmail">Αποστολή Email</string>
+ <string name="listDisplayEmail">Αποστολή email σε</string>
+ <string name="sendEmailChooserTitle">Αποστολή email με</string>
+
+ <string name="tag_write_failed_message">Θα συνεχίσει να λειτουργεί, αλλά μπορεί να δείτε τον επιλογέα όταν αγγίζετε το κινητό σας πάνω της.</string>
+ <string name="tag_write_failed_no_plugin">Θα χρειαστεί να κατεβάσετε την προσθήκη επαναχρησιμοποίησης ετικέτας από το Play Store για να χρησιμοποιήσετε αυτήν την ετικέτα.</string>
+ <string name="tag_write_failed">Αδύνατη η εγγραφή σε αυτήν την ετικέτα.</string>
+ <string name="tag_write_success_message">Η ετικέτα σου είναι έτοιμη για χρήση.</string>
+ <string name="menu_help_text">Βοήθεια</string>
+
+ <string name="warning">Προειδοποίηση</string>
+
+
+ <string name="configure_connection_title">Ρύθμιση σύνδεσης</string>
+ <string name="enter_network_name">δώστε όνομα δικτύου (ssid)</string>
+ <string name="enter_bluetooth_name">δώστε όνομα συσκευής</string>
+ <string name="enter_bluetooth_mac">δώστε διεύθυνση MAC</string>
+ <string name="when_connected_to">Όταν συνδέεται σε</string>
+ <string name="when_disconnected_from">Όταν αποσυνδέεται από</string>
+ <string name="or">ή</string>
+
+ <string name="color_white">Λευκό</string>
+ <string name="color_black">Μαύρο</string>
+ <string name="select_background_color">Επιλογή στιλ</string>
+ <string name="action_send_email">* Γίνεται αποστολή email</string>
+ <string name="widget_send_email">To email στάλθηκε</string>
+ <string name="ignore_duplicate_check">Εμποδισμός επανάληψης της προηγούμενης εργασίας</string>
+ <string name="if_read_again">Εμποδίζει την επανάληψη της εργασίας εντός</string>
+ <string name="found_tag">Η εργασία εκτελέστηκε</string>
+ <string name="title_tag_limiting">Εμποδισμός επανάληψης</string>
+ <string name="limit_last_tag_read">της προηγούμενης εργασίας</string>
+ <string name="limit_time_frame">εντός %1$s %2$s</string>
+
+ <string name="erase_tag_text">Φέρτε την πίσω όψη του κινητού πάνω από την ετικέτα για διαγραφή.</string>
+ <string name="copy_tag_text">Φέρτε την πίσω όψη του κινητού πάνω από την ετικέτα για αντιγραφή.</string>
+
+ <string name="menuMessages">Μηνύματα</string>
+ <string name="widget_single_task">Εκτέλεση εργασίας</string>
+ <string name="widget_single_task_configure_title">Ρύθμιση συντόμευσης</string>
+ <string name="soundOptionsRingVolumeCombined">Ένταση Κουδουνίσματος / Ειδοποίησης</string>
+
+
+ <string name="switch_tag_details">Οι εργασίες εναλλαγής περιέχουν δύο χωριστές εργασίες που εναλλάσσονται μεταξύ
+τους κάθε φορά που αγγίζετε μια ετικέτα NFC.\n\nΑν θέλετε να προσθέσετε και δεύτερη
+εργασία για χρήση με ετικέτες NFC, αγγίξτε το + παραπάνω.</string>
+
+ <string name="driving_mode">Λειτουργία οδήγησης</string>
+ <string name="power_saver">Εξοικονόμηση ενέργειας</string>
+ <string name="block_mode">Λειτουργία φραγής</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Λειτουργία εξοικονόμησης ενέργειας</string>
+ <string name="driving_mode_heading">Λειτουργία οδήγησης</string>
+ <string name="blocking_mode_heading">Λειτουργία φραγής</string>
+
+ <string name="display_power_saver">Εξοικονόμηση ενέργειας</string>
+ <string name="display_blocking_mode">Λειτουργία φραγής</string>
+ <string name="display_driving_mode">Λειτουργία οδήγησης</string>
+ <string name="heading_glympse">Αποστολή Glympse</string>
+ <string name="hint_recipient_address">Αποδέκτης</string>
+
+ <string name="widgetSendGlympse">Στάλθηκε Glympse</string>
+ <string name="actionSendGlympse">* Γίνεται αποστολή Glympse</string>
+
+ <string-array name="glympse_address_types">
+  <item>email</item>
+  <item>sms</item>
+  <item>twitter</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">Διάρκεια</string>
+
+
+ <string name="choose_shipping_method">Επιλογή μεθόδου αποστολής</string>
+ <string name="tts_failed">Σφάλμα: Αδύνατη η έναρξη TTS</string>
+
+ <string name="action_speak_text">* Μετατροπή κειμένου σε ομιλία</string>
+ <string name="widget_speak_text">Έγινε μετατροπή κειμένου σε ομιλία</string>
+
+ <string name="heading_tts">Κείμενο σε ομιλία</string>
+ <string name="tts_hint">Κείμενο προς ομιλία</string>
+
+
+ <string name="open_in_background">άνοιγμα στο παρασκήνιο</string>
+ <string name="help_answers">Λήψη απαντήσεων από το διαδίκτυο</string>
+ <string name="help_email">Στείλτε μας email</string>
+ <string name="show_welcome">Εμφάνιση καλωσορίσματος και συμβουλών</string>
+
+
+ <string name="general">Γενικά</string>
+ <string name="backup_restore">Δημιουργία / Επαναφορά αντίγραφου ασφαλείας</string>
+ <string name="backup">Αντίγραφο ασφαλείας</string>
+ <string name="restore">Επαναφορά ασφαλείας</string>
+ <string name="last_operation">Τελευταία λειτουργία:</string>
+ <string name="backed_up">Αντίγραφο ασφαλείας στις %1$s</string>
+ <string name="restored">Επαναφορά στις %1$s</string>
+ <string name="backup_local">Τοπικό</string>
+ <string name="backup_tagstand">Νέφους</string>
+ <string name="backup_to">Αντίγραφο εργασίας σε</string>
+ <string name="restore_from">Επαναφορά από</string>
+ <string name="restoring">Γίνεται επαναφορά</string>
+ <string name="perform_cloud_backup">Εκτελείται επαναφορά από νέφος</string>
+
+ <string name="sso_clear_dialog">Κάντε κλικ στο OK για απαλοιφή δεδομένων σύνδεσης του λογαριασμού
+Google</string>
+
+ <string name="title_sso_explanation">Σύνδεση με Google</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">Αποσύνδεση</string>
+ <string name="status_logged_out">Σύνδεση</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Αγορά με:</string>
+ <string name="ship_to">Αποστολή σε:</string>
+ <string name="confirm_order">Επιβεβαίωση παραγγελίας</string>
+ <string name="change">Αλλαγή πληρωμής ή διεύθυνσης</string>
+ <string name="change_shipping">Αλλαγή μεθόδου αποστολής</string>
+ <string name="tax">Φόρος:</string>
+ <string name="total">Σύνολο:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">%.2f$</string>
+ <string name="shipping">Αποστολή:</string>
+ <string name="titleConfirmPayment">Στοιχεία παραγγελίας:</string>
+ <string name="item_price">Τιμή:</string>
+ <string name="finalize_payment">Γίνεται οριστικοποίηση αγοράς</string>
+ <string name="confirmation_text">Ο αριθμός συναλλαγής σας είναι %1$s.\n\nΘα λάβετε ένα email επιβεβαίωσης στο %2$s.</string>
+ <string name="confirmation_error_text">Προέκυψε πρόβλημα κατά την επεξεργασία της συναλλαγής σας.\n\n%1$s</string>
+ <string name="wallet_error_title">Σφάλμα Google Wallet</string>
+ <string name="wallet_error_message">Προέκυψε πρόβλημα πρόσβασης στο Google Wallet. Μπορείτε να δοκιμάσετε ξανά σε λίγα λεπτά. Σφάλμα: %1s</string>
+ <string name="titleOrderComplete">Η παραγγελία ολοκληρώθηκε</string>
+ <string name="spending_limit_exceeded">Ξεπεράσατε το πιστωτικό σας όριο</string>
+ <string name="google_wallet_unavailable">Το Google Wallet δεν είναι διαθέσιμο</string>
+ <string name="error_code">Κωδικός σφάλματος: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Πληρώθηκε με</string>
+ <string name="wallet_signin_point_one">Μην χάσετε ποτέ ξανά τις εργασίες σας. Χρησιμοποιήστε το Νέφος του Tagstand για να δημιουργήσετε και να επαναφέρετε αντίγραφα ασφαλείας.</string>
+ <string name="wallet_signin_point_two">Κερδίστε δύο δωρεάν ετικέτες από το Tagstand.</string>
+ <string name="wallet_signin_point_three">Κάντε την αγορά ετικετών ευκολότερη και γρηγορότερη χρησιμοποιώντας το Google Wallet.</string>
+ <string name="wallet_signin_heading">Χρησιμοποιήστε τον λογαριασμό σας στο Google και απολαύστε τα πλεονεκτήματα.</string>
+ <string name="set_alarm_app">Ορισμός προτιμόμενης εφαρμογής αφύπνισης</string>
+ <string name="select_alarm_app">Επιλέξτε την προτιμώμενη εφαρμογή αφύπνισης</string>
+ <string name="sign_in_with_google">Σύνδεση</string>
+ <string name="system_volume">Ένταση ήχου συστήματος</string>
+
+ <string name="actionSystemVolume">* Ορισμός έντασης ήχου συστήματος σε</string>
+ <string name="widgetSystemVolume">Ορισμός έντασης ήχου συστήματος</string>
+ <string name="media_next">Επόμενο πολυμέσο</string>
+ <string name="next_track">Επόμενο κομμάτι</string>
+ <string name="media_previous">Προηγούμενο πολυμέσο</string>
+ <string name="previous_track">Προηγούμενο κομμάτι</string>
+ <string name="actionMediaNext">* Επόμενο κομμάτι</string>
+ <string name="widgetMediaNext">Επόμενο κομμάτι</string>
+ <string name="actionMediaPrevious">* Προηγούμενο κομμάτι</string>
+ <string name="widgetMediaPrevious">Προηγούμενο κομμάτι</string>
+ <string name="menuMedia">Πολυμέσο</string>
+
+ <string name="wifi_task">Wifi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Εκτέλεση ή εναλλαγή εργασίας όταν αγγίζετε μια ετικέτα NFC.</string>
+ <string name="bluetooth_task_description">Εκτέλεση εργασίας όταν συνδέετε ή αποσυνδέετε μια
+συσκευή Bluetooth.</string>
+ <string name="wifi_task_description">Εκτέλεση εργασίας όταν συνδέεστε ή αποσυνδέεστε από ένα δίκτυο Wifi.</string>
+ <string name="configure_connection_task_title">Ρύθμιση εργασίας %1$s</string>
+
+ <string name="layoutProfileTaskChooserTitle">Επιλέξτε εργασία</string>
+ <string name="layoutProfileNewTask">+ Νέα εργασία</string>
+ <string name="enable_bluetooth">Το Bluetooth πρέπει να είναι ενεργοποιημένο για προβολή συζευγμένων συσκευών.</string>
+ <string name="enable_wifi">Το Wifi πρέπει να είναι ενεργοποιημένο για προβολή αποθηκευμένων δικτύων.</string>
+ <string name="no_task">Δεν βρέθηκε εργασία.</string>
+ <string name="share_failed">Αποτυχία κοινοποίησης ετικέτας.</string>
+
+ <string name="extension_description">Δείχνει την πιο πρόσφατη εργασίας σας και σας επιτρέπει να
+εκκινήσετε εργασίες απευθείας από το DashClock</string>
+ <string name="import_create_tag">Δεν βρέθηκαν εργασίες. Θέλετε να δημιουργήσετε μια νέα εργασία
+με αυτήν την ετικέτα;</string>
+ <string name="start_media_playback">Έναρξη αναπαραγωγής πολυμέσου</string>
+ <string name="stop_media_playback">Διακοπή αναπαραγωγής πολυμέσου</string>
+ <string name="receive_sip_calls">Αποδοχή κλήσεων SIP</string>
+ <string name="sip_calls">Κλήσεις SIP</string>
+
+ <string name="widget_enable">Ενεργοποιημένο %1$s</string>
+ <string name="widget_disable">Απενεργοποιημένο %1$s</string>
+ <string name="widget_toggle">Εναλλαγή %1$s</string>
+
+ <string name="action_enable">* Ενεργοποιείται %1$s</string>
+ <string name="action_disable">* Απενεργοποιείται %1$s</string>
+ <string name="action_toggle">* Γίνεται εναλλαγή %1$s</string>
+
+ <string name="action_set_generic">* Γίνεται ορισμός %1$s</string>
+ <string name="widget_set_generic">Ορισμός %1$s</string>
+ <string name="action_set_to">* Γίνεται ορισμός %1$s σε %2$s</string>
+ <string name="widget_set_to">Ορισμός %1$s σε %2$s</string>
+ <string name="action_checking_in">* Γίνεται Check in σε %1$s</string>
+ <string name="widget_checking_in">Έγινε Check in σε %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Χώρος Foursquare</string>
+ <string name="social_google_places">Google Places</string>
+ <string name="run_task">Εκτέλεση εργασίας</string>
+ <string name="background_color">Χρώμα φόντου</string>
+ <string name="white">Λευκό</string>
+ <string name="black">Μαύρο</string>
+ <string name="select_icon">Επιλογή εικονιδίου</string>
+ <string name="select_task">Επιλογή εργασίας</string>
+
+ <string name="try_it_now">Δοκιμάστε δείγμα τώρα</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Συνδέστε μια συσκευή</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Τηλέφωνο και Πολυμέσα</item>
+  <item>Πολυμέσα</item>
+  <item>Τηλέφωνο</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Επιλέξτε προφίλ</string>
+ <string name="select_bluetooth_device">Επιλέξτε συσκευή</string>
+ <string name="action_bluetooth_connect">* Γίνεται σύνδεση με συσκευή Bluetooth</string>
+ <string name="widget_bluetooth_connect">Έγινε σύνδεση με συσκευή Bluetooth</string>
+
+ <string name="write_options_title">Επιλογές εγγραφής</string>
+ <string name="menu_context_edit">Επεξεργασία</string>
+ <string name="set_media_app">Ορισμός προτιμώμενου προγρ. αναπαραγωγής πολυμέσων</string>
+ <string name="select_media_app">Επιλέξτε το πρόγραμμα αναπαραγωγής της προτίμησής σας</string>
+ <string name="menuTravel">Ταξίδι</string>
+ <string name="item_info_title">Πληροφορίες</string>
+ <string name="geofence_task">Geofence (beta)</string>
+ <string name="when_entering">Όταν εισέρχεστε</string>
+ <string name="when_exiting">Όταν αποχωρείτε</string>
+ <string name="address">Διεύθυνση</string>
+ <string name="geofence">Geofence</string>
+ <string name="radius">Μέγεθος:</string>
+ <string name="no_location">Δεν έχει οριστεί τοποθεσία</string>
+ <string name="miracast_device">Συσκευή Miracast</string>
+ <string name="battery_task">Μπαταρία</string>
+ <string name="battery_task_description">Εκτελέστε μια εργασία όταν η μπαταρία φτάσει σε ένα συγκεκριμένο ποσοστό.</string>
+ <string name="when_battery_level">Όταν η μπαταρία:</string>
+ <string name="nfc_gear_title">Εξοπλισμός NFC</string>
+
+ <string name="goes_below">πέσει κάτω από</string>
+ <string name="goes_above">ανέβει πάνω από</string>
+ <string name="activity_feed">Αρχείο καταγραφής δραστηριοτήτων</string>
+ <string name="activity_feed_none">Δεν έχουν πυροδοτηθεί εναύσματα ακόμα.</string>
+ <string name="menu_experimental">Πειραματικές</string>
+ <string name="time_task_description">Εκτέλεση εργασίας σε συγκεκριμένη ώρα σε μία ή περισσότερες ημέρες.</string>
+ <string name="time_task">Ώρα</string>
+ <string name="day_sunday">ΚΥΡ</string>
+ <string name="day_monday">ΔΕΥ</string>
+ <string name="day_tuesday">ΤΡΙ</string>
+ <string name="day_wednesday">ΤΕΤ</string>
+ <string name="day_thursday">ΠΕΜ</string>
+ <string name="day_friday">ΠΑΡ</string>
+ <string name="day_saturday">ΣΑΒ</string>
+
+ <string name="example_created">%1$s δημιουργήθηκε επιτυχώς.</string>
+ <string name="title_feedback">Σχόλια</string>
+ <string name="contact_text">Σκοπός μας είναι να κάνουμε το Trigger όσο το δυνατόν πιο εύχρηστο για εσάς. Τα σχόλιά σας μας βοηθούν να το πετύχουμε. Μη διστάσετε να επικοινωνήσετε μαζί μας σχετικά με οποιοδήποτε θέμα, σχόλιο ή πρόταση που έχετε, χρησιμοποιώντας τα παρακάτω μέσα.</string>
+ <string name="other_nfc">Άλλες ενέργειες NFC</string>
+ <string name="write_status_waiting">Αναμονή για ετικέτα...</string>
+ <string name="write_free_tags">Αγορά ετικετών NFC</string>
+
+ <string name="previous">Προηγούμενο</string>
+ <string name="title_configure_triggers">Εναύσματα</string>
+ <string name="title_configure_task">Εργασία</string>
+ <string name="title_configure_switch">Εναλλαγή</string>
+ <string name="us_customer">Πελάτες στις ΗΠΑ</string>
+ <string name="international_customer">Διεθνείς πελάτες</string>
+ <string name="checkout">Check out</string>
+ <string name="examples_intro">Χρησιμοποιήστε τους αισθητήρες του τηλεφώνου σας για να αλλάξετε αυτόματα ρυθμίσεις, να εκκινήσετε εφαρμογές ή να στείλετε.\n\nΞεκινήστε με τα παρακάτω δείγματα ή δημιουργήστε τις δικές σας εργασίες.</string>
+ <string name="got_it">OK, κατάλαβα</string>
+ <string name="create_your_own">Δημιουργήστε τη δική σας</string>
+ <string name="no_triggers">Προσθέστε εναύσματα πατώντας στο + παραπάνω.</string>
+ <string name="international">(Διεθνείς)</string>
+ <string name="us">(ΗΠΑ)</string>
+     
+ <string name="geofence_help">Για οποιαδήποτε ερώτηση ή θέματα με εργασίες Geofence, κάντε κλικ για να δείτε τις Συχνές Ερωτήσεις μας.</string>
+ <string name="separator_or">- Ή -</string>
+ <string name="separator_and">- ΚΑΙ -</string>
+ <string name="use_this_task">Προσθήκη περιορισμών</string>
+ <string name="between_these_times">Μεταξύ</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">οποιοδήποτε δίκτυο</string>
+ <string name="select_network">Επιλεγμένα δίκτυα</string>
+ <string name="two_or_more">Δύο ή περισσότερα δίκτυα</string>
+ <string name="display_between_times">Μεταξύ %1$s και %2$s</string>
+ <string name="display_on_days">Τις %1$s</string>
+ <string name="display_wifi_network">Όταν συνδέεται σε %1$s</string>
+ <string name="no_actions_found">Χωρίς ενέργειες</string>
+ <string name="no_actions_found_message">Η εργασία %1$s δεν περιέχει ενέργειες.\n\nΕπιστρέψτε για να προσθέσετε ενέργειες ή συνεχίσετε για αποθήκευση της εργασίας χωρίς ενέργειες.</string>
+ <string name="go_back">Επιστροφή</string>
+ <string name="payment_info">Στοιχεία πληρωμής</string>
+ <string name="card_number">Αριθμός κάρτας</string>
+ <string name="expiration_date">Ημερομηνία λήξης</string>
+ <string name="security_code">Κωδικός ασφαλείας</string>
+ <string name="mm">ΜΜ</string>
+ <string name="yy">ΕΕ</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Διεύθυνση αποστολής</string>
+ <string name="full_name">Ονοματεπώνυμο</string>
+ <string name="company_name">Όνομα επιχείρησης</string>
+ <string name="email">Email</string>
+ <string name="street_address">Οδός και αριθμός</string>
+ <string name="apt_suite">Διαμέρισμα/Δωμάτιο</string>
+ <string name="city">Πόλη</string>
+ <string name="region">Περιοχή</string>
+ <string name="postcode">ΤΚ</string>
+ <string name="phone_number">Αριθμός τηλεφώνου</string>
+ <string name="billing_address">Διεύθυνση χρέωσης</string>
+ <string name="use_shipping_info">χρήση στοιχείων αποστολής</string>
+ <string name="used_text">Χρησιμοποιήθηκε: %1$s</string>
+ <string name="pref_show_bytes">Εμφάνιση μεγέθους εργασίας</string>
+ <string name="plugin_tag_reuse">Επαναχρησιμοποίηση ετικέτας</string>
+ <string name="plugin_tag_reuse_description">Επαναχρησιμοποίηση ετικετών μόνο για ανάγνωση ή που δεν υποστηρίζονται πλήρως από τη συσκευή σας.</string>
+ <string name="plugin_call">Κλήση</string>
+ <string name="plugin_call_description">Επιτρέπει στην ενέργεια Κλήσης να πραγματοποιεί απευθείας κλήσεις, αντί να ανοίγει το πληκτρολόγιο με τον αριθμό συμπληρωμένο.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">Επιτρέπει στην ενέργεια Μήνυμα Κειμένου να στέλνει αυτόματα μηνύματα κειμένου, αντί να συμπληρώνει τα στοιχεία SMS στην εφαρμογή αποστολής μηνυμάτων κειμένου σας.</string>
+ <string name="plugins">Προσθήκες</string>
+ <string-array name="radiusChoices">
+  <item>μικρή</item>
+  <item>μεσαία</item>
+  <item>μεγάλη</item>
+  <item>τεράστια</item>
+ </string-array>
+ <string name="when_charger_connected">Όταν συνδέεται ο φορτιστής</string>
+ <string name="when_wireless_charger_connected">Κατά την ασύρματη φόρτιση</string>
+ <string name="when_charger_disconnected">Όταν αποσυνδέεται ο φορτιστής</string>
+ <string name="charger_title">Φορτίζει</string>
+ <string name="charger_description">Εκτέλεση εργασίας όταν συνδέετε ή αποσυνδέετε έναν ενσύρματο ή ασύρματο φορτιστή.</string>
+ <string name="forget_network">Διαγραφή Wifi από τη μνήμη</string>
+
+ <string name="task_n">εργασία (n)</string>
+ <string name="task_definition">μία ομάδα ΕΝΕΡΓΕΙΩΝ που ενεργοποιούνται από ΕΝΑΥΣΜΑΤΑ</string>
+ <string name="my_battery_task">Η Εργασία Μπαταρίας μου</string>
+ <string name="create_a_task">Δημιουργία εργασίας</string>
+ <string name="actions">ΕΝΕΡΓΕΙΕΣ</string>
+ <string name="sign_in_trial">Συνδεθείτε στο Google+ για έναρξη δωρεάν δοκιμαστικής περιόδου 7 ημερών ή κάντε αναβάθμιση παρακάτω.</string>
+ <string name="upgrade_heading">Η δυνατότητα που επιλέξατε διατίθεται μόνο στο Trigger PRO.</string>
+ <string name="start_trial">Έναρξη δοκιμής</string>
+ <string name="upgrade">Αναβάθμιση</string>
+ <string name="trial_upgrade_only">Επιλέξτε Αναβάθμιση παρακάτω για χρήση αυτής της δυνατότητας.</string>
+ <string name="pro_feature">Δυνατότητα Pro</string>
+ <string name="trigger">ΕΝΑΥΣΜΑ</string>
+ <string name="any_time">οποτεδήποτε</string>
+ <string name="headset_title">Σετ ακουστικών</string>
+ <string name="when_connected">Όταν συνδέεται</string>
+ <string name="when_disconnected">Όταν αποσυνδέεται</string>
+ <string name="headset_description">Εκτέλεση εργασίας όταν συνδέετε ή αποσυνδέετε ένα σετ ακουστικών.</string>
+ <string name="use_current_configuration">χρήση τωρινών ρυθμίσεων</string>
+ <string name="trial_expired_title">Η δοκιμή έληξε</string>
+ <string name="trial_expired">Η δωρεάν δοκιμαστική περίοδο του Trigger Pro έληξε. Τα εναύσματα Pro που δημιουργήσατε δεν θα λειτουργούν στην δωρεάν έκδοση.</string>
+ <string name="my_tasks_example_description">Όταν η μπαταρία μου πέσει, να απενεργοποιείται το Wifi και να μειώνεται η φωτεινότητα οθόνης.</string>
+ <string name="show_actions_in_list">Περιγραφική λίστα εργασιών</string>
+ <string name="task_deleted">Η εργασία διαγράφηκε</string>
+ <string name="undo">αναίρεση</string>
+ <string name="geofence_beta_description">Λόγω αστάθειας των Υπηρεσιών Google Play, αυτό το έναυσμα βρίσκεται σε κατάσταση Beta. Αν και για πολλούς χρήστες λειτουργεί καλά, δεν μπορούμε να εγγυηθούμε ότι θα λειτουργεί πάντα.</string>
+ <string name="when_charging_usb">Όταν φορτίζει (USB)</string>
+ <string name="when_charging_ac">Όταν φορτίζει (AC)</string>
+ <string name="any_device">οποιαδήποτε συσκευή</string>
+    <string name="two_or_more_devices">Δύο ή περισσότερες συσκευές</string>
+    <string name="upgrade_general_heading">Η αναβάθμιση ξεκλειδώνει όλα τα εναύσματα και τις λειτουργίες του Trigger, ενώ στηρίζει τη συνεχόμενη ανάπτυξη του.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Αποσύνδεση συσκευής</string>
+    <string name="disconnect_from">Αποσύνδεση από</string>
+    <string name="action_bluetooth_disconnect">* Αποσυνδέεται συσκευή Bluetooth</string>
+    <string name="widget_bluetooth_disconnect">Αποσυνδέθηκε συσκευή Bluetooth</string>
+    <string name="calendar_title">Συμβάν ημερολογίου</string>
+    <string name="calendar_description">Εκτέλεση εργασίας όταν ξεκινάει ένα συμβατό συμβάν ημερολογίου</string>
+
+    <string name="available">διαθέσιμος</string>
+    <string name="busy">απασχολημένος</string>
+    <string name="any">όλα</string>
+    <string name="attending">θα πάω</string>
+    <string name="not_attending">δεν θα πάω</string>
+    <string name="agent_title_string">%1$s ενός Agent</string>
+    <string name="start">Έναρξη</string>
+    <string name="stop">Διακοπή</string>
+    <string name="pause">Παύση</string>
+    <string name="meeting_agent">Agent συνάντησης</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">Agent παρκαρίσματος</string>
+    <string name="battery_agent">Agent μπαταρίας</string>
+    <string name="sleep_agent">Agent ύπνου</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">Agent</string>
+    <string name="agent_title_start">Έναρξη Agent</string>
+    <string name="agent_title_stop">Διακοπή Agent</string>
+    <string name="agent_title_pause">Πάυση Agent</string>
+    <string name="account">Λογαριασμός</string>
+    <string name="upgrade_spacer">Όλα τα παρακάτω αποτελούν μέρη της αναβάθμισης σε PRO. Κάντε κλικ εδώ για αναβάθμιση ή ξεκινήστε τη δωρεάν δοκιμή.</string>
+    <string name="upgrade_now">Αναβάθμιση τώρα</string>
+    <string name="upgrade_main_description">Δοκιμάστε μία δωρεάν δοκιμαστική περίοδο 7 ημερών ή κάντε αναβάθμιση στην έκδοση PRO παρακάτω για να ξεκλειδώσετε όλα τα εναύσματα.</string>
+    <string name="upgrade_unlocks_triggers_count">ξεκλειδώνει %1$s επιπλέον εναύσματα</string>
+    <string name="wallet_signin_point_four">Εκμεταλλευτείτε τη δωρεάν δοκιμαστική περίοδο 7 ημερών του Trigger PRO.</string>
+    <string name="receiver_marketing_materials">Λάβετε εκπτώσεις και σημαντικές ενημερώσεις μέσω email.</string>
+    <string name="example_silence_at_night">Μετάβαση του τηλεφώνου μου σε αθόρυβο όταν κοιμάμαι</string>
+    <string name="example_silence_at_night_description">σιγάζει εισερχόμενες ειδοποιήσεις όταν κοιμάστε</string>
+    <string name="example_save_battery">Βοήθεια με την εξοικονόμηση ενέργειας όταν η μπαταρία μου πέφτει</string>
+    <string name="example_save_battery_description">απενεργοποιεί το Wifi και χαμηλώνει τη φωτεινότητα οθόνης</string>
+    <string name="example_driving">Εξοικονόμηση χρόνου όταν οδηγώ</string>
+    <string name="example_driving_description">απενεργοποιηεί το Wifi και ανοίγει το Google Maps όταν οδηγείτε</string>
+    <string name="example_task_data_saver_on">Απενεργοποίηση δεδομένων κιν. τηλ/νίας</string>
+    <string name="example_task_data_saver_off">Ενεργοποίηση δεδομένων κιν. τηλ/νίας</string>
+    <string name="example_task_battery_saver">Εξοικονόμηση μπαταρίας</string>
+    <string name="example_set_battery_percentage">Εκτέλεση της εξοικονόμησης μπαταρίας όταν η μπαταρία πέσει κάτω από</string>
+    <string name="example_wifi_select_network">Επιλέξτε το οικιακό σας δίκτυο Wifi</string>
+    <string name="example_task_night">Καληνύχτα</string>
+    <string name="example_task_morning">Καλημέρα</string>
+    <string name="start_now">Έναρξη τώρα</string>
+    <string name="free_trial_short">Δοκιμάστε μια δωρεάν δοκιμαστική περίοδο 7 ημερών του Trigger PRO.</string>
+    <string name="trial_started">Η δοκιμή ξεκίνηση</string>
+    <string name="trial_try_free">Δοκιμάστε το δωρεάν για 7 ημέρες</string>
+    <string name="event_name">Όνομα συμβάντος</string>
+    <string name="contains">περιέχει</string>
+    <string name="matches">συμβαδίζει</string>
+    <string name="event_description">Περιγραφή συμβάντος</string>
+    <string name="description">περιγραφή</string>
+    <string name="availibility">Διαθεσιμότητα</string>
+    <string name="when_event_ends">Όταν τελειώνει ένα συμβάν</string>
+    <string name="when_event_starts">Όταν αρχίζει ένα συμβάν</string>
+    <string name="power_service_monitor_battery">Παρακολούθηση μπαταρίας</string>
+    <string name="power_service_monitor_both">Παρακολούθηση μπαταρίας &amp; φόρτιση</string>
+    <string name="power_service_monitor_charging">Παρακολούθηση φόρτισης</string>
+    <string name="power_service_disable_notification">Αγγίξτε για απενεργοποίηση ειδοποίησης</string>
+    <string name="power_service_on">Τα εναύσματα Μπαταρίας και Φόρτισης χρησιμοποιούν μία υπηρεσία προσκηνίου, που εμφανίζει μία συνεχόμενη ειδοποίηση, αλλά εμποδίζει τον τερματισμό της υπηρεσίας που χρειάζεται για την παρακολούθηση των συμβάντων από το λειτουργικό σύστημα.</string>
+    <string name="power_service_off">Τα εναύσματα Μπαταρίας και Φόρτισης ενδέχεται να μην πυροδοτηθούν αν η υπηρεσία τερματιστεί από το λειτουργικό σύστημα ή αν αφαιρεθεί η εφαρμογή από τη λίστα πρόσφατων εφαρμογών.</string>
+    <string name="power_service_pref">Υπηρεσία παρασκηνίου για εναύσματα Ισχύος</string>
+    <string name="menu_remove">Αφαίρεση</string>
+    <string name="help_tasks_title">Δημιουργία εργασιών</string>
+    <string name="help_tasks_description">Κάντε κλικ εδώ για να δείτε μια γρήγορη εκμάθηση για το τι είναι οι εργασίες και πώς να τις δημιουργήσετε.</string>
+    <string name="connect_dialog_body">"Ευχαριστούμε που χρησιμοποιείτε το Trigger! Κατεβάστε το Connect now και ξεκινήστε να εκτελείτε Εργασίες εναυσμάτων από το διαδίκτυο!! (συμπεριλαμβάνεται δοκιμαστική περίοδος 3 ημερών)"</string>
+    <string name="no_thanks">Όχι ευχαριστώ</string>
+    <string name="try_connect_now">Δοκιμάστε το τώρα</string>
+    <string name="feedback_rate_gplay">Βαθμολογήστε μας στο Google Play</string>
+    <string name="rating_text">Θα το εκτιμούσαμε πολύ αν μας δίνατε μια καλή βαθμολογία και +1:</string>
+    <string name="show_brightness_window">Εμφάνιση παραθύρου κατά την αλλαγή φωτεινότητας</string>
+    <string name="request_root_access">Αίτημα πρόσβασης υπερχρήστη</string>
+    <string name="upgrade_successful">Όλες οι δυνατότητες ξεκλειδώθηκαν.</string>
+    <string name="emulate_hardware_dock">Προσομοίωση βάσης υλικού (χρειάζεται πρόσβαση υπερχρήστη)</string>
+    <string name="wizard_trigger_help">Προσθέστε ένα ή περισσότερα εναύσματα κάνοντας κλικ στο + παραπάνω.</string>
+    <string name="wizard_actions_help">Προσθέστε μία ή περισσότερες ενέργειες κάνοντας κλικ στο + παραπάνω.</string>
+    <string name="event_set_reminder">Ρύθμιση υπενθύμισης</string>
+    <string name="forget_wifi_network">Διαγραφή δικτύου Wifi από τη μνήμη</string>
+    <string name="show_user_text">Εμφάνιση κειμένου</string>
+
+    <string name="samsung_hands_free">Λειτουργία αποδέσμευσης χεριών</string>
+    <string name="samsung_smart_stay">Smart Stay</string>
+    <string name="htc_sleep_mode">Λειτουργία ύπνου</string>
+    <string name="htc_power_saver">Εξοικονόμηση ενέργειας</string>
+    <string name="htc_boom_sound">Boom Sound</string>
+    <string name="htc_smart_display">Smart Display</string>
+    <string name="samsung_multi_window">Multi Window</string>
+    <string name="show_toast">Εμφάνιση προσωρινού μηνύματος</string>
+    <string name="constraint_days">Ημέρες</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Φορτίζει</string>
+    <string name="constraint_connected">Έχει συνδεθεί σε</string>
+    <string name="constraint_not_connected">Δεν έχει συνδεθεί σε</string>
+    <string name="display_not_connected">Όταν δεν έχει συνδεθεί σε %1$s</string>
+    <string name="is_on">Είναι ενεργοποιημένο</string>
+    <string name="is_off">Είναι απενεργοποιημένο</string>
+    <string name="play_sound">Αναπαραγωγή ήχου</string>
+    <string name="agent_description">Εκτέλεση εργασίας όταν ένας Agent ξεκινάει ή σταματάει</string>
+    <string name="when_agent_starts">Όταν ένας Agent ξεκινάει</string>
+    <string name="when_agent_ends">Όταν ένας Agent τελειώνει</string>
+    <string name="choose_agent">Επιλογή Agent</string>
+    <string name="agent_condition_starts">Όταν ξεκινάει ο %1$s</string>
+    <string name="agent_condition_ends">Όταν τελειώνει ο %1$s</string>
+    <string name="clear">Απαλοιφή</string>
+    <string name="export">Εξαγωγή</string>
+    <string name="notification_timer_cancel">Σαρώστε μακριά για ακύρωση</string>
+    <string name="notification_timer_extra_info">Λήγει στις %1$s</string>
+    <string name="installed">εγκατεστημένο</string>
+    <string name="plugin_lock">Οθόνη κλειδώματος</string>
+    <string name="plugin_lock_description">Επιτρέπει την αλλαγή των κρυφών ρυθμίσεων οθόνης κλειδώματος. Η απενεργοποίηση της οθόνης κλειδώματος θα τη θέσει σε λειτουργία ολίσθησης. Η ενεργοποίησή της, θα τη θέσει είτε σε PIN είτε κωδικό πρόσβασης, ανάλογα με το τι έχει ρυθμιστεί.</string>
+    <string name="configure">ρύθμιση</string>
+</resources>
+
+
+
+
+

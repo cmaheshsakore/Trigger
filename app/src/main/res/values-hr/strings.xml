@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Odaberite radnju:</string>
+ <string name="RingerTypePrompt">Odaberite vrstu zvona:</string>
+ <string name="limitThreshholdPrompt">Odaberite jedinicu:</string>
+ <string name="VibratePrompt">Odaberite vrijeme vibracije:</string>
+
+ <string name="AuthTogglePrompt">Odaberite šifriranje:</string>
+
+ <string name="menu_new_tag">Novi zadatak</string>
+ <string name="menu_help">Osnovni podatci</string>
+ <string name="menu_contact">Kontakt s nama</string>
+ <string name="menu_preferences">Postavke</string>
+ <string name="menu_delete">Izbriši</string>
+ <string name="menu_chooser_mail">Pošalji e-poštu</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Bežično</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Sekunde</string>
+ <string name="timeMinutes">Minute</string>
+ <string name="timeHours">Sati</string>
+
+
+
+ <string name="enableText">Omogući</string>
+ <string name="disableText">Onemogući</string>
+ <string name="toggleText">Prebaci</string>
+
+ <string name="alwaysText">Uvijek</string>
+ <string name="neverText">Nikad</string>
+ <string name="whenSilentText">Kad je zvuk isključen</string>
+
+
+
+
+
+ <string name="authTypeOpen">Otvoreno</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Tiho</string>
+ <string name="ringerTypeVibrate">Vibriraj</string>
+ <string name="ringerTypeNormal">Normalno</string>
+
+
+ <string name="dialogOK">U redu</string>
+ <string name="dialogCancel">Odustani</string>
+ <string name="dialogYes">Da</string>
+ <string name="dialogNo">Ne</string>
+ <string name="dialogSave">Spremi</string>
+ <string name="dialogClose">Zatvori</string>
+ <string name="dialog_run">Pokreni zadatak</string>
+
+ <string name="menuWireless">Bežična i mreže</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Zvukovi i jačina</string>
+ <string name="menuAlarm">Alarmi</string>
+ <string name="menuCheckin">Društveni mediji</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">Zaslon</string>
+
+ <string name="addOptionsAddText">Dodaj zadatku</string>
+
+ <string name="displayAlarmSet">Postavi alarm</string>
+ <string name="displayListAlarmSet">Postavi mjerač vremena</string>
+ <string name="defaultAlarmText">Dodirnite za postavku vremena alarma</string>
+
+ <string name="layoutAlarmSetText">Postavi alarm za</string>
+ <string name="layoutAlarmSelectTimeText">Dodirnite za postavku vremena alarma</string>
+ <string name="layoutAlarmForwardText">minuta od ovog trenutka</string>
+
+ <string name="appListLoadingText">Učitavanje popisa aplikacija</string>
+ <string name="listLaunchText">Pokreni</string>
+ <string name="listLaunchTextCustom">Pokreni aktivnost</string>
+ <string name="listNavText">Prijeđi na</string>
+
+
+ <string name="layoutAppLaunchURL">Otvori URL/URI</string>
+ <string name="layoutAppLaunchNavigation">Navigacija</string>
+ <string name="layoutAppLaunchNavigationText">Odredište</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Prijavi se ovdje</string>
+ <string name="optionsSocialFoursquareSearching">Pretraživanje</string>
+ <string name="optionsSocialFoursquareSearchTitle">Uparivanje sastajališta</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Prijavi se na sastajalištu</string>
+ <string name="optionsSocialFoursquareVenueTitle">Sastajalište</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Nema odabranih sastajališta</string>
+ <string name="optionsSocialFoursquareVenueSub">prijavi se na određenom sastajalištu</string>
+ <string name="optionsSocialFacebook">Facebook: Prijavi se</string>
+ <string name="optionsSocialPlaces">Google mjesta: Prijavi se</string>
+ <string name="optionsSocialTwitter">Twitter: tweetuj</string>
+
+ <string name="optionsFoursquareSearchFind">Nađi</string>
+
+ <string name="optionsFoursquareSearchNear">blizu</string>
+
+ <string name="listFacebookText">Prijavi se na Facebook</string>
+ <string name="listFoursquareText">Prijavi se na Foursquare</string>
+ <string name="listFoursquareVenueText">Prijavi se na</string>
+ <string name="listPlacesText">Prijavi se na Google mjesta</string>
+ <string name="listTweetText">Objavi tweet</string>
+
+ <string name="locationDisabledTitle">Lokacija je onemogućena</string>
+ <string name="locationDisabledText">Nije moguće preuzeti lokaciju. Omogućite jedan od izvora lokacije.</string>
+
+ <string name="listHotspotText">Prijenosna pristupna točka</string>
+
+ <string name="layoutHotspotActionText">Radnja:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Vrsta provjere:</string>
+ <string name="layoutHotspotAuthKeyText">Ključ za provjeru:</string>
+
+
+ <string name="soundRingerTypeText">Postavi vrstu zvona</string>
+ <string name="listSoundRingtone">Postavi melodiju:</string>
+ <string name="listSoundNotification">Postavi obavijest:</string>
+ <string name="listSoundRingerVolume">Jačina zvona</string>
+ <string name="listSoundMediaVolume">Jačina zvuka medija</string>
+
+ <string name="listSoundAlarmVolume">Jačina alarma</string>
+ <string name="listSoundNotificationVolume">Jačina obavijesti</string>
+ <string name="listSoundVibrate">Vibriraj uz zvono</string>
+
+ <string name="taskerNotInstalled">Tasker nije instaliran</string>
+ <string name="layoutTaskerLaunchText">Zadatak u Taskeru</string>
+ <string name="layoutTaskerSelect">Odaberite zadatak</string>
+ <string name="layoutTaskerHelpText">Napominjemo: Tasker *mora* biti instaliran prije ove aplikacije, a u korisničkom sučelju Taskera mora biti postavljena željena vrijednost Razno / Dopusti pristup izvana.\n\nImate li problema sa zadacima koji se ne pokreću tad uklonite instalaciju obje aplikacije i ponovno instalirajte Tasker prije nego instalirate pokretač NFC Task Launcher.</string>
+
+ <string name="wifiOptionsOperateWifi">Uključivanje i isključivanje bežične veze</string>
+ <string name="wifiOptionsConfigureSSID">Povezivanje bežične veze</string>
+ <string name="wifiOptionsOperateBluetooth">Uključivanje i isključivanje bluetootha</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Otkrivanje bluetootha</string>
+ <string name="wifiOptionsAutoSync">Automatsko sinkroniziranje</string>
+ <string name="wifiOptionsAirplaneMode">Režim rada u zrakoplovu</string>
+
+ <string name="hotspotOptions">Pristupna točka za bežičnu vezu</string>
+
+ <string name="soundOptionsRinger">Zvučni profil</string>
+ <string name="soundOptionsRingtone">Melodija zvona</string>
+ <string name="soundOptionsRingVolume">Jačina zvona</string>
+ <string name="soundOptionsNotificationtone">Zvuk obavijesti</string>
+ <string name="soundOptionsNotificationVolume">Jačina obavijesti</string>
+ <string name="soundOptionsMediaVolume">Jačina medija</string>
+ <string name="soundOptionsMediaStart">Reproduciranje medija</string>
+
+ <string name="soundOptionsAlarmVolume">Jačina alarma</string>
+ <string name="soundOptionsVibrate">Vibriranje pri zvonjenju</string>
+
+ <string name="listWifiAirplaneModeText">Režim rada u zrakoplovu</string>
+ <string name="listWifiAutoSync">Automatsko sinkroniziranje</string>
+ <string name="listWifiConfigureConnectText">Poveži se s</string>
+ <string name="listWifiBluetoothDiscoverableText">Bluetooth je moguće otkriti</string>
+ <string name="listWifiAssociateText">Poveži se s</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Vrsta provjere:</string>
+ <string name="layoutWifiAuthKeyText">Ključ za provjeru:</string>
+
+ <string name="builderInvalidName">Upišite valjano ime</string>
+
+
+ <string name="titleSelectAction">Odaberite kategorije</string>
+ <string name="titleConfigureAction">Konfigurirajte radnje</string>
+ <string name="buttonTextAdd">Dodajte radnje</string>
+
+ <string name="layoutPreferencesTitleText">Postavke</string>
+ <string name="layoutPreferencesSelectNotification">Melodija obavijesti</string>
+ <string name="layoutPreferencesVibrate">Vibriraj</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Spremi</string>
+ <string name="layoutPreferencesRateLimitingDisable">Onemogući</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Kad se oznaku pročita</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Uvijek vibriraj</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Nikad ne vibriraj</string>
+ <string name="layoutPreferencesVibrateSubAlways">Uvijek vibriraj</string>
+ <string name="layoutPreferencesVibrateSubNever">Nikad ne vibriraj</string>
+
+ <string name="layoutPreferencesDebugOutput">Ispravljanje pogrešaka</string>
+ <string name="layoutPreferencesDebugSend">Pošalji zapisnik ispravljanja pogrešaka</string>
+ <string name="layoutPreferencesEnableLimitingSub">Onemogućeno</string>
+ <string name="layoutPreferencesUsage">Dopusti Google analitiku</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Obavijesti</string>
+ <string name="layoutPreferencesAdvancedTitle">Napredno</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Svjetlina</string>
+ <string name="layoutDisplayBrightnessAuto">Omogući automatsku svjetlinu</string>
+ <string name="layoutDisplayNotificationLight">Svjetlo obavijesti</string>
+ <string name="listDisplayNotificationLightText">Svjetlo obavijesti</string>
+
+ <string name="layoutDisplayAutoRotation">Automatsko zakretanje</string>
+ <string name="listDisplayAutoRotationText">Automatsko zakretanje</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Izuzetak kad se pokreće prilagođena aktivnost</string>
+ <string name="actionLastActions">Zadnje radnje:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Pokretanje i zaustavljanje reproduciranja medija</string>
+ <string name="widgetEnableMediaPlayback">Pokretanje i zaustavljanje reproduciranja medija</string>
+
+ <string name="actionLaunchPackage">* Pokretanje aplikacije</string>
+ <string name="widgetLaunchPackage">Pokrenuta aplikacija</string>
+
+ <string name="actionLaunchActivity">* Pokretanje aktivnosti</string>
+ <string name="widgetLaunchActivity">Pokrenuta aktivnost</string>
+
+ <string name="actionNavigate">* Prijeđi na:</string>
+ <string name="widgetNavigate">Prijeđi na:</string>
+
+ <string name="actionConfigureSSID">* Konfiguriranje AP i povezivanje</string>
+ <string name="widgetConfigureSSID">Konfiguriran AP i povezivanje</string>
+
+ <string name="actionTaskerTask">* Pokretanje zadatka u Taskeru</string>
+ <string name="widgetTaskerTask">Pokrenut zadatak u Taskeru</string>
+
+ <string name="actionAlarm">* Postavljanje alarma za</string>
+ <string name="widgetAlarm">Postavljen alarm za</string>
+
+ <string name="actionLaunchURL">* Pokretanje URL-a</string>
+ <string name="widgetLaunchURL">Pokrenut URL</string>
+
+ <string name="actionSetVibration">* Postavljanje vibracije</string>
+ <string name="widgetSetVibration">Postavljena vibracija</string>
+
+ <string name="actionSendTweet">* Objavljivanje tweeta</string>
+ <string name="widgetSendTweet">Objavljen tweet</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">Oznaka uspješno upisana.</string>
+ <string name="layoutWriteTitle">Upiši oznaku</string>
+ <string name="layoutWritePrimaryMessageStart">Da biste počeli pisati, postavite svoj uređaj iznad NFC oznake.</string>
+ <string name="layoutWriteLockText">Neka oznaka bude samo za čitanje</string>
+
+ <string name="dialogWriteTitle">Upisivanje završeno</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Odaberite okidač</string>
+ <string name="layoutHomeFormat">Obriši oznaku</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Mjerač vremena je završio</string>
+
+ <string name="displayAlarmSetTimer">Postavi alarm (mjerač vremena)</string>
+
+
+ <string name="actionTimer">* Postavljanje mjerača vremena za</string>
+ <string name="widgetTimer">Postavljen mjerač vremena za</string>
+
+ <string name="layoutAlarmSetTimerText">Postavljen mjerač vremena za</string>
+
+ <string name="alertSecureSetting">Konfigurirate sigurne postavke. Za to je neophodan korijenski pristup.</string>
+ <string name="alertSecureSettingTitle">Sigurne postavke</string>
+ <string name="alertSecureSettingMakeSystemApp">Napravi aplikaciju sustava</string>
+
+ <string name="wifiOptionsGPS">Uključivanje i isključivanje GPS-a</string>
+ <string name="wifiOptionsMobileData">Uključivanje i isključivanje mobilnih podataka</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Mobilni podatci</string>
+
+ <string name="rebootTitle">Završeno</string>
+ <string name="rebootText">Ponovno pokrenite uređaj</string>
+
+ <string name="noRootText">Nije moguće dobiti korijenski pristup.</string>
+
+ <string name="layoutDisplayTimeout">Prekoračenje vremena za zaslon</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 sekundi</item>
+  <item>30 sekundi</item>
+  <item>1 minuta</item>
+  <item>2 minute</item>
+  <item>5 minuta</item>
+  <item>10 minuta</item>
+  <item>30 minuta</item>
+  <item>Nikad</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Prekoračenje vremena</string>
+
+ <string name="wifiOptions3GData">Uključivanje i isključivanje 3G podataka</string>
+
+ <string name="layoutAppDeskDock">Pristupna postaja na radnom stolu</string>
+ <string name="layoutAppDeskDockSub">Ovo možda neće imati utjecaja na sve uređaje.</string>
+ <string name="layoutAppCarDock">Pristupna postaja u automobilu</string>
+
+ <string name="menuPhone">Telefon</string>
+
+ <string name="layoutPhoneSMS">Pošalji tekstualnu poruku</string>
+ <string name="optionsPhoneSMS">pošalji tekstualnu poruku</string>
+ <string name="optionsPhoneSMSTo">Za</string>
+ <string name="optionsPhoneSMSMessage">Poruka</string>
+ <string name="optionsPhoneNumber">Telefonski broj</string>
+ <string name="optionsPhoneCall">pozovi broj</string>
+ <string name="layoutPhoneCall">Pozovi broj</string>
+ <string name="optionsPhoneSMSNote">To će otvoriti vašu SMS aplikaciju s popunjenim poljima primatelja i poruke. Da bi se poruku slalo automatski dodirnite ovu poruku kako biste iz trgovine Play preuzeli SMS priključak.</string>
+ <string name="optionsPhoneCallNote">To će otvoriti pozivanje brojeva s upisanim brojem koji se poziva. Da bi se pozivanje radilo automatski dodirnite ovu poruku kako biste iz trgovine Play preuzeli priključak za pozivanje.</string>
+
+
+ <string name="listPhoneSMS">Pošalji SMS</string>
+ <string name="listPhoneCall">Pozovi broj</string>
+
+ <string name="actionSendSMS">* Slanje SMS-a</string>
+ <string name="widgetSendSMS">SMS poslana</string>
+
+ <string name="actionPhoneCall">* Pozivanje broja</string>
+ <string name="widgetPhoneCall">Broj pozvan</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">Omogući NFC u režimu rada u zrakoplovu</string>
+
+ <string name="menuSecurity">Sigurnost</string>
+ <string name="layoutOptionsKeyguard">Zaključaj zaslon</string>
+ <string name="securityOptionsOperateKeyguard">Zaključaj/otključaj zaslon</string>
+ <string name="listSecurityKeyguardText">Zaključaj zaslon</string>
+
+ <string name="optionsFoursquareSearchCity">trenutnačna lokacija</string>
+ <string name="optionsFoursquareSearchVenue">ime</string>
+ <string name="optionsFoursquareSearchVenueIDText">oznaka sastajališta</string>
+ <string name="optionsFoursquareSearchOR">ili</string>
+
+ <string name="menuApplications">Aplikacije i prečaci</string>
+ <string name="layoutWriteNameText">Uključi naziv oznake</string>
+ <string name="layoutAppKillAppTextSub">zatvori podrazumijevanu aktivnost aplikacije</string>
+ <string name="layoutAppLaunchAppText">Otvori aplikaciju</string>
+ <string name="layoutAppKillAppText">Zatvori aplikaciju</string>
+ <string name="layoutAppLaunchActivityText">Otvori aktivnost</string>
+ <string name="layoutAppKillTaskDisclaimer">Bez korijenskog pristupa ovo možda neće funkcionirati za sve aplikacije. Korijenski pristup će omogućiti uspješno uklanjanje procesa.</string>
+
+ <string name="layoutAlarmShowUI">pokaži sučelje za alarme</string>
+ <string name="layoutAlarmTimePrefix">Vrijeme:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Vrsta</string>
+ <string name="NavTypeDriving">Vožnja</string>
+ <string name="NavTypeTransit">Prijelaz</string>
+ <string name="NavTypeWalking">Pješačenje</string>
+
+
+
+ <string name="layoutActivityAppList">Odaberite aplikaciju:</string>
+ <string name="layoutActivityList">Odaberite aktivnost:</string>
+ <string name="layoutActivityWarning">Možda neće biti moguće pokrenuti svaku aktivnost.</string>
+
+ <string name="readOnlyWarning">Kad se jednom oznaku učini dostupnom samo za čitanje
+u nju više neće biti moguće upisivati. Ta radnja se ne može vratiti.</string>
+ <string name="limitThreshholdOverride">Traži potvrdu za izuzimanje ove postavke</string>
+ <string name="limitThreshholdOverrideDialogPrefix">Ovog zadatka sada se preskače jer je pokrenut u okviru %1$s %2$s</string>
+ <string name="limitThreshholdOverrideDialogSuffix">Ovaj dijalog nestat će poslije 5 sekundi.</string>
+ <string name="menu_context_delete">Obriši</string>
+ <string name="menu_context_run">Pokreni</string>
+ <string name="menu_context_share">Dijeli</string>
+ <string name="listCloseApp">Zatvori aplikaciju</string>
+
+ <string name="listSoundPlayback">Pokreni / Zaustavi reproduciranje medija</string>
+ <string name="listDisplayBrightness">Postavi svjetlinu na</string>
+ <string name="listDisplayBrightnessAuto">Omogući automatsku svjetlinu</string>
+ <string name="layoutImportPrimaryMessageStart">Za uvoz postavite oznaku uz zadnju stranu telefona</string>
+ <string name="layoutMainBuilderImportText">Uvezi oznaku</string>
+ <string name="layoutMainBuilderCopyText">Kopiraj oznaku</string>
+
+
+ <string name="copyRead">1.) Skenirajte oznaku koju se kopira</string>
+ <string name="copyReading">2.) Čitanje poruka</string>
+ <string name="copyWrite">3.) Dodirnite oznaku da biste pisali</string>
+ <string name="copyTitle">Kopiraj NFC oznaku</string>
+ <string name="importTitle">Uvezi oznaku</string>
+
+ <string name="copyDialogCopied">Uspješno kopirano</string>
+ <string name="copyDialogCopyError">Oznaku nije bilo moguće kopirati</string>
+ <string name="copyDialogWritten">Uspješno upisano</string>
+ <string name="copyDialogWriteError">Oznaku nije bilo moguće upisati</string>
+ <string name="layoutPreferencesSelectTimer">Melodija mjerača vremena</string>
+ <string name="layoutPreferencesTagsTitle">Zadatci</string>
+ <string name="layoutPreferencesTagsMore">Više</string>
+ <string name="layoutPreferencesNotifications">Obavijesti</string>
+ <string name="layoutPreferencesNotificationsSubBar">Koristi traku za obavijesti</string>
+ <string name="layoutPreferencesNotificationsSubToast">Koristi skočne poruke</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Koristi oboje</string>
+ <string name="layoutPreferencesNotificationsSubNone">Nijedno</string>
+ <string name="menu_done">Završeno</string>
+ <string name="layoutPreferencesSwitchTimeout">Poslije 12 sati poništi naizmjenične zadatke</string>
+ <string name="menuEvents">Događaji</string>
+ <string name="menuEventsCalendarStatic">Kalendarski događaj</string>
+ <string name="menuEventsCalendarTimestamp">Kalendarska vremenska oznaka</string>
+ <string name="menuEventsCalendarTimestampText">Umetni kalendarski događaj točno na onaj datum i vrijeme
+ kad je oznaka skenirana.</string>
+ <string name="layoutEventCalendarTitle">Naslov</string>
+ <string name="layoutEventCalendarStart">Početak</string>
+ <string name="layoutEventCalendarEnd">Svršetak</string>
+ <string name="layoutEventCalendarAllDay">Cio dan</string>
+ <string name="dateHint">Dodirnite da postavite datum</string>
+ <string name="timeHint">Dodirnite da postavite vrijeme</string>
+ <string name="listDiaplayCalendarEvent">Dodaj kalendarski događaj</string>
+ <string name="listDiaplayCalendarTimestamp">Kalendarska vremenska oznaka</string>
+ <string name="actionCalendarEvent">Dodavanje kalendarskog događaja</string>
+ <string name="widgetCalendarEvent">* Dodavanje kalendarskog događaja</string>
+ <string name="actionCalendarTimestamp">Dodavanje vremenske oznake u kalendar</string>
+ <string name="widgetCalendarTimestamp">* Dodavanje vremenske oznake u kalendar</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Prijavljivanja</string>
+ <string name="layoutPreferencesDialogTwitter">Kliknite na U redu da očistite podatke o prijavljivanjima za Twitter</string>
+ <string name="layoutPreferencesDialogFoursquare">Kliknite na U redu da očistite podatke o prijavljivanjima za Foursquare</string>
+
+
+ <string name="layoutAppPause">Stanka</string>
+ <string name="layoutAppPauseSubTitle">Prije nastavka napravi stanku određene duljine.</string>
+ <string name="actionPause">* Stanka u trajanju</string>
+ <string name="widgetPause">Stanka u trajanju</string>
+
+
+ <string name="loading">Učitavanje…</string>
+ <string name="error">Pogreška</string>
+ <string name="recommended_tags">NFC oznake</string>
+ <string name="buy_now">Kupi odmah</string>
+ <string name="buy_tags">Trigger trgovina</string>
+ <string name="popular_tags">Preporučani zadatci</string>
+ <string name="my_tags">Moji zadatci</string>
+ <string name="shop_more_title">Želite li još?</string>
+ <string name="shop_more_description">Pregledajte cio naš katalog NFC proizvoda, uključujući NFC oznake i pribor.</string>
+ <string name="welcome">Dobrodošli</string>
+ <string name="buy_nfc_tags">Kupite NFC oznake</string>
+ <string name="used_never">Korišteno: nikad</string>
+ <string name="total_actions">Ukupne radnje</string>
+
+ <string name="basic_tags">Napišite osnovne oznake</string>
+
+ 
+ <string name="default_tag_name_format">Zadatak %s</string>
+
+ <string name="save_and_write">Spremi i zapiši</string>
+ <string name="tag_name">Ime</string>
+ <string name="no_actions">Radnje</string>
+ <string name="tag_unsaved_changes">Ovaj zadatak možda ima izmjena koje nisu spremljene.</string>
+ <string name="discard_changes">Odbaci izmjene</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s bajt</item>
+  <item quantity="other">%s bajtova</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Konfiguriraj bežičnu vezu</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Uključi otkrivanje bluetootha</string>
+ 
+ <string name="soundOptionsMediaStartSub">Pokretanje i zaustavljanje reproduciranja medija</string>
+ <string name="optionsSocialCheckinHereSub">Prijavite se na trenutačnoj lokaciji</string>
+ <string name="actionURLHeading">URL / URI</string>
+ <string name="optionsSocialTwitterSub">Objavi tweet</string>
+ <string name="layoutAppLaunchNavigationSub">Prijeđi na lokaciju</string>
+ <string name="alarmTimerConfigureSub">Postavi mjerač vremena</string>
+ <string name="carDockDrivingMode">Uključi režim rada u vožnji (za uređaje Samsung Galaxy)</string>
+ <string name="airplaneModeWarning">Kad se aktivira režim rada u zrakoplovu NFC se onemogući. Izmjenu NFC-a režimom rada u zrakoplovu možete isključiti u postavkama aplikacije, pod stavkom Omogući NFC u režimu rada u zrakoplovu.</string>
+ <string name="write">Piši</string>
+ <string name="next">Dalje</string>
+
+ <string name="_continue">Nastavi</string>
+
+ <string name="shop_unavailable">Trgovina je privremeno nedostupna. Provjerite svoju vezu i pokušajte ponovno za nekoliko minuta.</string>
+ <string name="titleSavedTagPicker">Odaberite spremljeni zadatak kojeg će se pokrenuti</string>
+ <string name="titleShareTagActivity">Dijeli ovu oznaku preko</string>
+ <string name="sharedReceiverDialogMessage">Učitavanje oznake</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">E-pošta</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Upravo sam izradio ovu NFC oznaku pomoću aplikacije +Tagstand. Pogledaj je pomoću aplikacije NFC Task Launcher na:</string>
+ <string name="shareTwitterPrefix">Pogledaj ovu #NFC oznaku koju sam izradio</string>
+ <string name="shareTwitterSuffix">omogućava @tagstand</string>
+ <string name="shareSMSPrefix">bok, pogledaj ovu NFC oznaku koju sam izradio aplikacijom NFC Task Launcher:</string>
+ <string name="shareEmailPrefix">Bok,\n\nIzradio sam ovu oznaku \'%1$s\' pomoću aplikacije NFC Task Launcher, i volio bih je podijeliti s tobom.\n\n</string>
+ <string name="shareEmailSuffix">\n\nKlikni da je preuzmeš na svoj telefon.\n\nDobrodošli u budućnost.</string>
+ <string name="shareEmailSubject">Pogledaj moju NFC oznaku</string>
+ <string name="loadTagPayloadError">Nažalost, nešto ne funkcionira. Možda je do vaše veze.</string>
+ <string name="loadTagNoPayload">Za ovu oznaku nema pridruženih radnji.</string>
+
+ <string name="layoutWifiHiddenSSID">Skriveni SSID</string>
+ <string name="layoutEmailAddress">Adresa e-pošte</string>
+ <string name="layoutEmailMessage">Poruka (nije obavezno)</string>
+ <string name="layoutEmailSubjectHint">Predmet</string>
+ <string name="layoutEmailMessageHint">Poruka</string>
+ <string name="layoutEmail">Pošalji e-poštu</string>
+ <string name="listDisplayEmail">Pošalji e-poštu za</string>
+ <string name="sendEmailChooserTitle">Pošalji e-poštu pomoću</string>
+
+ <string name="tag_write_failed_message">I dalje će funkcionirati, ali kad je dodirnete možda ćete vidjeti izbornik.</string>
+ <string name="tag_write_failed_no_plugin">Da biste koristili ovu oznaku trebate s trgovine Play preuzeti priključak za ponovno korištenje oznaka.</string>
+ <string name="tag_write_failed">Nije bilo moguće upisati u ovu oznaku.</string>
+ <string name="tag_write_success_message">Vaša oznaka je spremna za korištenje.</string>
+ <string name="menu_help_text">Pomoć</string>
+
+ <string name="warning">Upozorenje</string>
+
+
+ <string name="configure_connection_title">Konfigurirajte vezu</string>
+ <string name="enter_network_name">upišite naziv mreže (SSID)</string>
+ <string name="enter_bluetooth_name">upišite naziv uređaja</string>
+ <string name="enter_bluetooth_mac">upišite MAC adresu</string>
+ <string name="when_connected_to">Kad se uspostavi veza s</string>
+ <string name="when_disconnected_from">Kad se prekine veza s</string>
+ <string name="or">ili</string>
+
+ <string name="color_white">Bijelo</string>
+ <string name="color_black">Crno</string>
+ <string name="select_background_color">Odaberite stil</string>
+ <string name="action_send_email">* Šalje se e-pošta</string>
+ <string name="widget_send_email">E-pošta poslana</string>
+ <string name="ignore_duplicate_check">Spriječi ponavljanje ranijeg zadatka</string>
+ <string name="if_read_again">Spriječi ponavljanje zadatka u okviru</string>
+ <string name="found_tag">Pokrenut zadatak</string>
+ <string name="title_tag_limiting">Spriječi ponavljanje</string>
+ <string name="limit_last_tag_read">ranijeg zadatka</string>
+ <string name="limit_time_frame">u okviru %1$s %2$s</string>
+
+ <string name="erase_tag_text">Za brisanje nadnesite stražnji dio telefona preko oznake.</string>
+ <string name="copy_tag_text">Za kopiranje nadnesite stražnji dio telefona preko oznake.</string>
+
+ <string name="menuMessages">Poruke</string>
+ <string name="widget_single_task">Pokreni zadatak</string>
+ <string name="widget_single_task_configure_title">Konfiguriraj prečac</string>
+ <string name="soundOptionsRingVolumeCombined">Jačina zvona ili obavijesti</string>
+
+
+ <string name="switch_tag_details">Naizmjenični zadatci sadrže dva zasebna zadatka
+koji se pokreću naizmjenično svaki put kad se dodirne neka NFC oznaka.\n\nAko želite dodati drugi zadatak koji će se koristiti s NFC oznakama dodirnite znak + gore.</string>
+
+ <string name="driving_mode">Režim rada u vožnji</string>
+ <string name="power_saver">Štednja energije</string>
+ <string name="block_mode">Režim blokiranja</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Režim štednje energije</string>
+ <string name="driving_mode_heading">Režim rada u vožnji</string>
+ <string name="blocking_mode_heading">Režim blokiranja</string>
+
+ <string name="display_power_saver">Štednja energije</string>
+ <string name="display_blocking_mode">Režim blokiranja</string>
+ <string name="display_driving_mode">Režim rada u vožnji</string>
+ <string name="heading_glympse">Pošalji Glympse</string>
+ <string name="hint_recipient_address">Primatelj</string>
+
+ <string name="widgetSendGlympse">Glympse poslan</string>
+ <string name="actionSendGlympse">* Šalje se Glympse</string>
+
+ <string-array name="glympse_address_types">
+  <item>e-pošta</item>
+  <item>SMS</item>
+  <item>Twitter</item>
+  <item>Facebook</item>
+ </string-array>
+
+
+ <string name="duration">Trajanje</string>
+
+
+ <string name="choose_shipping_method">Odaberite način dostave</string>
+ <string name="tts_failed">Pogreška: nije bilo moguće pokrenuti TTS</string>
+
+ <string name="action_speak_text">* Izgovaranje teksta</string>
+ <string name="widget_speak_text">Izgovoren tekst</string>
+
+ <string name="heading_tts">Izgovorite tekst</string>
+ <string name="tts_hint">Tekst kojeg se treba izgovoriti</string>
+
+
+ <string name="open_in_background">otvori u pozadini</string>
+ <string name="help_answers">Potraži odgovore na mreži</string>
+ <string name="help_email">Pošaljite nam e-poštu</string>
+ <string name="show_welcome">Pokaži zaslon dobrodošlice i savjete</string>
+
+
+ <string name="general">Općenito</string>
+ <string name="backup_restore">Izradi ili vrati sigurnosnu kopiju</string>
+ <string name="backup">Izradi kopiju</string>
+ <string name="restore">Vrati kopiju</string>
+ <string name="last_operation">Zadnja operacija:</string>
+ <string name="backed_up">Izrađena kopija u %1$s</string>
+ <string name="restored">Vraćena kopija u %1$s</string>
+ <string name="backup_local">Lokalno</string>
+ <string name="backup_tagstand">Oblak</string>
+ <string name="backup_to">Izradi kopiju na</string>
+ <string name="restore_from">Vrati kopiju s</string>
+ <string name="restoring">Vraćanje kopije</string>
+ <string name="perform_cloud_backup">Izrada kopije u oblak</string>
+
+ <string name="sso_clear_dialog">Kliknite U REDU da očistite pristupne podatke za svoj Google
+račun</string>
+
+ <string name="title_sso_explanation">Prijavite se s Google računom</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">Odjavite se</string>
+ <string name="status_logged_out">Prijavite se</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Kupite pomoću:</string>
+ <string name="ship_to">Dostaviti na:</string>
+ <string name="confirm_order">Potvrdite porudžbinu</string>
+ <string name="change">Promijenite način plaćanja ili adresu</string>
+ <string name="change_shipping">Promijenite način dostave</string>
+ <string name="tax">Porez:</string>
+ <string name="total">Ukupno:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">Dostava:</string>
+ <string name="titleConfirmPayment">Podatci o porudžbini</string>
+ <string name="item_price">Cijena:</string>
+ <string name="finalize_payment">Dovršavanje kupovine</string>
+ <string name="confirmation_text">Broj vaše transakcije je %1$s.\n\nE-poštom na adresu %2$s dobit ćete poruku za potvrdu.</string>
+ <string name="confirmation_error_text">Pojavio se problem tijekom obrade vaše transakcije.\n\n%1$s</string>
+ <string name="wallet_error_title">Pogreška s Google novčanikom</string>
+ <string name="wallet_error_message">Pojavio se problem tijekom pristupanja Google novčaniku. Možete pokušati ponovno poslije nekoliko minuta. Pogreška: %1s</string>
+ <string name="titleOrderComplete">Porudžbina je gotova</string>
+ <string name="spending_limit_exceeded">Prešli ste ograničenje za potrošnju</string>
+ <string name="google_wallet_unavailable">Google novčanik nije dostupan</string>
+ <string name="error_code">Oznaka pogreške: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Plaćeno pomoću</string>
+ <string name="wallet_signin_point_one">Nemojte ikad više izgubiti svoje zadatke. Koristite oblak Tagstand\'s za izradu i vraćanje sigurnosnih kopija svojih zadataka.</string>
+ <string name="wallet_signin_point_two">Zatražite dvije besplatne oznake od Tagstanda.</string>
+ <string name="wallet_signin_point_three">Pomoću Google novčanika kupovina oznaka je jednostavnija i brža.</string>
+ <string name="wallet_signin_heading">Iskoristite svoj Google račun i uživajte u prednostima.</string>
+ <string name="set_alarm_app">Postavite željenu aplikaciju za alarme</string>
+ <string name="select_alarm_app">Odaberite svoju željenu aplikaciju za alarme</string>
+ <string name="sign_in_with_google">Prijavite se</string>
+ <string name="system_volume">Jačina sistemskog zvuka</string>
+
+ <string name="actionSystemVolume">* Postavljanje jačine sistemskog zvuka na</string>
+ <string name="widgetSystemVolume">Postavi jačinu sistemskog zvuka</string>
+ <string name="media_next">Sljedeći medij</string>
+ <string name="next_track">Sljedeći zapis</string>
+ <string name="media_previous">Prethodni medij</string>
+ <string name="previous_track">Prethodni zapis</string>
+ <string name="actionMediaNext">* Sljedeći zapis</string>
+ <string name="widgetMediaNext">Sljedeći zapis</string>
+ <string name="actionMediaPrevious">* Prethodni zapis</string>
+ <string name="widgetMediaPrevious">Prethodni zapis</string>
+ <string name="menuMedia">Medij</string>
+
+ <string name="wifi_task">Bežično</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Pokrenite zadatak ili prijeđite na drugi zadatak kad dodirnete neku NFC oznaku.</string>
+ <string name="bluetooth_task_description">Pokrenite zadatak kad se spojite ili prekinete vezu s
+bluetooth uređajem.</string>
+ <string name="wifi_task_description">Pokrenite zadatak kad se spojite ili prekinete vezu s bežičnom mrežom.</string>
+ <string name="configure_connection_task_title">Konfiguriraj %1$s zadatak</string>
+
+ <string name="layoutProfileTaskChooserTitle">Odaberite zadatak</string>
+ <string name="layoutProfileNewTask">+ Novi zadatak</string>
+ <string name="enable_bluetooth">Za popis povezanih uređaja mora biti omogućen bluetooth.</string>
+ <string name="enable_wifi">Za popis spremljenih mreža mora biti omogućeno bežično povezivanje.</string>
+ <string name="no_task">Nema pronađenih zadataka.</string>
+ <string name="share_failed">Dijeljenje oznake nije uspjelo.</string>
+
+ <string name="extension_description">Pokazuje vaše zadnje zadatke i i omogućava vam pokretanje
+zadataka izravno iz DashClocka</string>
+ <string name="import_create_tag">Nema pronađenih zadataka. Želite li izraditi novi zadatak
+koristeći ovu oznaku?</string>
+ <string name="start_media_playback">Pokreni reproduciranje medija</string>
+ <string name="stop_media_playback">Zaustavi reproduciranje medija</string>
+ <string name="receive_sip_calls">Primi SIP pozive</string>
+ <string name="sip_calls">SIP pozivi</string>
+
+ <string name="widget_enable">Omogućeno %1$s</string>
+ <string name="widget_disable">Onemogućeno %1$s</string>
+ <string name="widget_toggle">Promijenjeno %1$s</string>
+
+ <string name="action_enable">* Omogućavanje %1$s</string>
+ <string name="action_disable">* Onemogućavanje %1$s</string>
+ <string name="action_toggle">* Promjena %1$s</string>
+
+ <string name="action_set_generic">* Postavljanje %1$s</string>
+ <string name="widget_set_generic">Postavi %1$s</string>
+ <string name="action_set_to">* Postavljanje %1$s na %2$s</string>
+ <string name="widget_set_to">Postavi %1$s na %2$s</string>
+ <string name="action_checking_in">* Prijavljivanje u %1$s</string>
+ <string name="widget_checking_in">Prijavljen na %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare sastajalište</string>
+ <string name="social_google_places">Google mjesta</string>
+ <string name="run_task">Pokreni zadatak</string>
+ <string name="background_color">Boja pozadine</string>
+ <string name="white">Bijelo</string>
+ <string name="black">Crno</string>
+ <string name="select_icon">Odaberi ikonu</string>
+ <string name="select_task">Odaberi zadatak</string>
+
+ <string name="try_it_now">Probajte primjer sada</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Poveži uređaj</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Telefon i mediji</item>
+  <item>Mediji</item>
+  <item>Telefon</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Odaberite profil</string>
+ <string name="select_bluetooth_device">Odaberite uređaj</string>
+ <string name="action_bluetooth_connect">* Povezivanje s Bluetooth uređajem</string>
+ <string name="widget_bluetooth_connect">Povezan s Bluetooth uređajem</string>
+
+ <string name="write_options_title">Opcije upisivanja</string>
+ <string name="menu_context_edit">Uredi</string>
+ <string name="set_media_app">Postavi željeni pokretač medija</string>
+ <string name="select_media_app">Postavite svoj željeni pokretač medija</string>
+ <string name="menuTravel">Putovanje</string>
+ <string name="item_info_title">Informacije</string>
+ <string name="geofence_task">Geofence (beta)</string>
+ <string name="when_entering">Pri dolasku</string>
+ <string name="when_exiting">Pri odlasku</string>
+ <string name="address">Adresa</string>
+ <string name="geofence">Geofence</string>
+ <string name="radius">Veličina:</string>
+ <string name="no_location">Lokacija nije postavljena</string>
+ <string name="miracast_device">Miracast uređaj</string>
+ <string name="battery_task">Baterija</string>
+ <string name="battery_task_description">Pokrenite zadatak kad baterija dostigne određenu razinu.</string>
+ <string name="when_battery_level">Kad baterija:</string>
+ <string name="nfc_gear_title">NFC oprema</string>
+
+ <string name="goes_below">padne ispod</string>
+ <string name="goes_above">poraste preko</string>
+ <string name="activity_feed">Zapisnik aktivnosti</string>
+ <string name="activity_feed_none">Nijedan okidač još uvijek nije aktiviran.</string>
+ <string name="menu_experimental">Probno</string>
+ <string name="time_task_description">Pokrenite zadatak u točno određeno vrijeme jednog ili više dana u tjednu.</string>
+ <string name="time_task">Vrijeme</string>
+ <string name="day_sunday">NED</string>
+ <string name="day_monday">PON</string>
+ <string name="day_tuesday">UTO</string>
+ <string name="day_wednesday">SRI</string>
+ <string name="day_thursday">ČET</string>
+ <string name="day_friday">PET</string>
+ <string name="day_saturday">SUB</string>
+
+ <string name="example_created">%1$s je uspješno izrađen.</string>
+ <string name="title_feedback">Povratne informacije</string>
+ <string name="contact_text">Imamo želju učiniti Trigger što učinkovitijim za vas. Vaše nam povratne informacije u tomu pomažu. Budite slobodni kontaktirati s nama s bilo kojim problemima, primjedbama, ili prijedlozima koje imate tijekom korištenja donjih resursa.</string>
+ <string name="other_nfc">Druge NFC radnje</string>
+ <string name="write_status_waiting">Čeka se na oznaku...</string>
+ <string name="write_free_tags">Kupite NFC oznake</string>
+
+ <string name="previous">Prethodno</string>
+ <string name="title_configure_triggers">Okidači</string>
+ <string name="title_configure_task">Zadatak</string>
+ <string name="title_configure_switch">Prekidač</string>
+ <string name="us_customer">Kupci iz SAD</string>
+ <string name="international_customer">Međunarodni kupci</string>
+ <string name="checkout">Završetak kupnje</string>
+ <string name="examples_intro">Koristite senzore svog telefona za automatsku izmjenu postavki, pokretanje aplikacija ili slanje poruka.\n\nPočnite s našim primjerima dolje ili izradom vlastitih zadataka.</string>
+ <string name="got_it">U redu, shvaćam</string>
+ <string name="create_your_own">Izradite vlastite</string>
+ <string name="no_triggers">Dodajte okidače klikom na znak + gore.</string>
+ <string name="international">(međunarodno)</string>
+ <string name="us">(SAD)</string>
+     
+ <string name="geofence_help">Za bilo koja pitanja ili probleme u vezi s Geofence zadatcima kliknite da vidite naša česta pitanja.</string>
+ <string name="separator_or">- ILI -</string>
+ <string name="separator_and">- I -</string>
+ <string name="use_this_task">Dodajte ograničenja</string>
+ <string name="between_these_times">Između</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">bilo koja mreža</string>
+ <string name="select_network">Odaberite mreže</string>
+ <string name="two_or_more">Dvije mreže ili više</string>
+ <string name="display_between_times">Između %1$s i %2$s</string>
+ <string name="display_on_days">Na dan %1$s</string>
+ <string name="display_wifi_network">Kad je uspostavljena veza s %1$s</string>
+ <string name="no_actions_found">Nema radnji</string>
+ <string name="no_actions_found_message">%1$s nema radnji .\n\nVratite se da dodate radnje ili nastavite da spremite ovaj zadatak bez radnji.</string>
+ <string name="go_back">Natrag</string>
+ <string name="payment_info">Podatci o plaćanju</string>
+ <string name="card_number">Broj kartice</string>
+ <string name="expiration_date">Rok važenja</string>
+ <string name="security_code">Sigurnosni broj</string>
+ <string name="mm">MM</string>
+ <string name="yy">GG</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Adresa za dostavu</string>
+ <string name="full_name">Puno ime i prezime</string>
+ <string name="company_name">Naziv tvrtke</string>
+ <string name="email">E-pošta</string>
+ <string name="street_address">Ulica</string>
+ <string name="apt_suite">Kućni broj</string>
+ <string name="city">Grad</string>
+ <string name="region">Regija</string>
+ <string name="postcode">Poštanski broj</string>
+ <string name="phone_number">Telefonski broj</string>
+ <string name="billing_address">Adresa za naplatu</string>
+ <string name="use_shipping_info">koristi podatke upisane za dostavu</string>
+ <string name="used_text">Iskorišteno: %1$s</string>
+ <string name="pref_show_bytes">Pokaži veličinu zadatka</string>
+ <string name="plugin_tag_reuse">Ponovno korištenje oznake</string>
+ <string name="plugin_tag_reuse_description">Ponovno iskoristite oznake koje su samo za čitanje ili one koje vaš uređaj ne podržava u cjelosti.</string>
+ <string name="plugin_call">Pozovi</string>
+ <string name="plugin_call_description">Ovim ćete dopustiti da se pozivanje izvrši izravno, a ne otvaranjem brojčanika s već upisanim brojem.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">Ovim ćete dopustiti da se poruka pošalje izravno, a ne otvaranjem poruke za slanje s već upisanim podacima.</string>
+ <string name="plugins">Priključci</string>
+ <string-array name="radiusChoices">
+  <item>mali</item>
+  <item>srednji</item>
+  <item>veliki</item>
+  <item>ogromni</item>
+ </string-array>
+ <string name="when_charger_connected">Kad je punjač povezan</string>
+ <string name="when_wireless_charger_connected">Kad se punjenje vrši bežično</string>
+ <string name="when_charger_disconnected">Kad je punjač iskopčan</string>
+ <string name="charger_title">Punjenje</string>
+ <string name="charger_description">Pokrenite zadatak kad ukopčate ili iskopčate žični ili bežični punjač.</string>
+ <string name="forget_network">Zaboravi bežičnu mrežu</string>
+
+ <string name="task_n">zadatak (n)</string>
+ <string name="task_definition">skupina RADNJI koju aktiviraju OKIDAČI</string>
+ <string name="my_battery_task">Zadatak za moju bateriju</string>
+ <string name="create_a_task">Izradite zadatak</string>
+ <string name="actions">RADNJE</string>
+ <string name="sign_in_trial">Prijavite se pomoću Google+ računa kako biste započeli besplatni 7-dnevni probni period ili izvršite nadogradnju dolje.</string>
+ <string name="upgrade_heading">Značajka koju ste odabrali ograničena je na inačicu Trigger PRO.</string>
+ <string name="start_trial">Započni probni period</string>
+ <string name="upgrade">Nadogradi</string>
+ <string name="trial_upgrade_only">Da biste koristili ovu značajku odaberite dolje Nadogradi.</string>
+ <string name="pro_feature">Pro značajka</string>
+ <string name="trigger">OKIDAČ</string>
+ <string name="any_time">bilo kad</string>
+ <string name="headset_title">Slušalice</string>
+ <string name="when_connected">Kad su ukopčane</string>
+ <string name="when_disconnected">Kad su iskopčane</string>
+ <string name="headset_description">Pokrenite zadatak kad ukopčate ili iskopčate slušalice.</string>
+ <string name="use_current_configuration">koristi trenutačnu konfiguraciju</string>
+ <string name="trial_expired_title">Probni period je istekao</string>
+ <string name="trial_expired">Vaš besplatni probni period za Trigger Pro je istekao. U besplatnoj inačici neće djelovati nijedan Pro okidač koji ste izradili.</string>
+ <string name="my_tasks_example_description">Kad moja baterija oslabi isključi bežično povezivanje i smanji svjetlinu zaslona.</string>
+ <string name="show_actions_in_list">Opisni popis zadataka</string>
+ <string name="task_deleted">Zadatak je izbrisan</string>
+ <string name="undo">poništi</string>
+ <string name="geofence_beta_description">Zbog neustaljenosti usluga Google Play ovo je trenutačno Beta inačica okidača. Mnogima on funkcionira dobro, ali ne možemo garantirati da će uvijek funkcionirati.</string>
+ <string name="when_charging_usb">Tijekom punjenja (USB)</string>
+ <string name="when_charging_ac">Tijekom punjenja (AC)</string>
+ <string name="any_device">bilo koji uređaj</string>
+    <string name="two_or_more_devices">Dva ili više uređaja</string>
+    <string name="upgrade_general_heading">Nadogradnjom ćete otključati sve okidače i značajke aplikacije Trigger, a dat ćete i potporu daljnjem razvoju.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Iskopčaj uređaj</string>
+    <string name="disconnect_from">Iskopčaj s</string>
+    <string name="action_bluetooth_disconnect">* Iskapčanje bluetooth uređaja</string>
+    <string name="widget_bluetooth_disconnect">Iskopčan bluetooth uređaj</string>
+    <string name="calendar_title">Kalendarski događaj</string>
+    <string name="calendar_description">Pokreni zadatak kad započne odgovarajući kalendarski događaj</string>
+
+    <string name="available">dostupno</string>
+    <string name="busy">zauzet</string>
+    <string name="any">bilo koji</string>
+    <string name="attending">nazočujem</string>
+    <string name="not_attending">ne nazočujem</string>
+    <string name="agent_title_string">%1$s zastupnik</string>
+    <string name="start">Počni</string>
+    <string name="stop">Zaustavi</string>
+    <string name="pause">Stanka</string>
+    <string name="meeting_agent">Zastupnik za sastanke</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">Zastupnik za parkiranje</string>
+    <string name="battery_agent">Zastupnik za bateriju</string>
+    <string name="sleep_agent">Zastupnik za spavanje</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">Zastupnik</string>
+    <string name="agent_title_start">Pokreni zastupnik</string>
+    <string name="agent_title_stop">Zaustavi zastupnik</string>
+    <string name="agent_title_pause">Pauziraj zastupnik</string>
+    <string name="account">Račun</string>
+    <string name="upgrade_spacer">Sve donje stavke dio su PRO nadogradnje. Kliknite ovdje za nadogradnju ili da pokrenete besplatni probni period.</string>
+    <string name="upgrade_now">Nadogradi sad</string>
+    <string name="upgrade_main_description">Da otključate sve okidače pokrenite besplatni probni period od 7 dana ili dolje nadogradite na PRO inačicu.</string>
+    <string name="upgrade_unlocks_triggers_count">otključava %1$s dodatnih okidača</string>
+    <string name="wallet_signin_point_four">Iskoristite 7 dana besplatnog probnog perioda za Trigger PRO.</string>
+    <string name="receiver_marketing_materials">Primajte e-poštom popuste i važna ažuriranja.</string>
+    <string name="example_silence_at_night">Utišaj moj telefon dok spavam</string>
+    <string name="example_silence_at_night_description">utišava dolazne obavijesti dok spavate</string>
+    <string name="example_save_battery">Pomozi mi da sačuvam bateriju kad razina napunjenosti padne</string>
+    <string name="example_save_battery_description">isključuje bežično povezivanje i smanjuje svjetlinu zaslona</string>
+    <string name="example_driving">Štedi vrijeme tijekom vožnje</string>
+    <string name="example_driving_description">isključuje bežično povezivanje i otvara Google mape tijekom vožnje</string>
+    <string name="example_task_data_saver_on">Onemogući protok mobilnih podataka</string>
+    <string name="example_task_data_saver_off">Omogući protok mobilnih podataka</string>
+    <string name="example_task_battery_saver">Štednja baterije</string>
+    <string name="example_set_battery_percentage">Pokreni štednju baterije kad razina napunjenosti padne ispod</string>
+    <string name="example_wifi_select_network">Odaberite svoju kućnu bežičnu mrežu</string>
+    <string name="example_task_night">Laku noć</string>
+    <string name="example_task_morning">Jutro</string>
+    <string name="start_now">Pokreni sad</string>
+    <string name="free_trial_short">Započnite besplatni 7-dnevni probni period za Trigger PRO.</string>
+    <string name="trial_started">Probni period je započeo</string>
+    <string name="trial_try_free">Probajte ga besplatno tijekom 7 dana</string>
+    <string name="event_name">Naziv događaja</string>
+    <string name="contains">sadrži</string>
+    <string name="matches">jednak je</string>
+    <string name="event_description">Opis događaja</string>
+    <string name="description">opis</string>
+    <string name="availibility">Dostupnost</string>
+    <string name="when_event_ends">Kad se događaj svrši</string>
+    <string name="when_event_starts">Kad događaj počne</string>
+    <string name="power_service_monitor_battery">Praćenje baterije</string>
+    <string name="power_service_monitor_both">Praćenje baterije i punjenja</string>
+    <string name="power_service_monitor_charging">Praćenje punjenja</string>
+    <string name="power_service_disable_notification">Dodirnite da onemogućite obavijesti</string>
+    <string name="power_service_on">Okidači za bateriju i punjenje koristiće usluge u prednjem planu. To će pokazati trajnu obavijest ali će spriječiti OS da zaustavi proces koji je neophodan za praćenje tih događaja.</string>
+    <string name="power_service_off">Okidači za bateriju i punjenje možda se neće aktivirati ako OS zaustavi uslugu ili ako se aplikacija ukloni iz popisa zadnjih aplikacija.</string>
+    <string name="power_service_pref">Usluga u prednjem planu za okidače napajanja</string>
+    <string name="menu_remove">Ukloni</string>
+    <string name="help_tasks_title">Izrada zadataka</string>
+    <string name="help_tasks_description">Kliknite ovdje da vidite brze upute što su to zadatci i kako ih izraditi.</string>
+    <string name="connect_dialog_body">„Hvala vam što koristite Trigger! Sad preuzmite Connect i počnite pokretati zadatke za Trigger s weba! (uključuje 3-dnevni besplatni probni period)“</string>
+    <string name="no_thanks">Ne hvala</string>
+    <string name="try_connect_now">Probajte odmah</string>
+    <string name="feedback_rate_gplay">Ocijenite nas u trgovini Google Play</string>
+    <string name="rating_text">Ako se slažete, mi uvijek cijenimo vaše dobre ocjene i označavanje s +1:</string>
+    <string name="show_brightness_window">Pokaži prozor tijekom promjene jačine svjetline</string>
+    <string name="request_root_access">Zahtijevaj korijenski pristup</string>
+    <string name="upgrade_successful">Sad su sve značajke otključane.</string>
+    <string name="emulate_hardware_dock">Emuliraj hardverski dok (potreban korijenski pristup)</string>
+    <string name="wizard_trigger_help">Klikom na znak + gore dodajte jedan ili više okidača.</string>
+    <string name="wizard_actions_help">Klikom na znak + gore dodajte jednu ili više radnji.</string>
+    <string name="event_set_reminder">Postavi podsjetnik</string>
+    <string name="forget_wifi_network">Zaboravi bežičnu mrežu</string>
+    <string name="show_user_text">Pokaži tekst</string>
+
+    <string name="samsung_hands_free">Režim slobodnih ruku</string>
+    <string name="samsung_smart_stay">Smart Stay</string>
+    <string name="htc_sleep_mode">Sleep Mode</string>
+    <string name="htc_power_saver">Power Saver</string>
+    <string name="htc_boom_sound">Boom Sound</string>
+    <string name="htc_smart_display">Smart Display</string>
+    <string name="samsung_multi_window">Multi Window</string>
+    <string name="show_toast">Pokaži skočnu poruku</string>
+    <string name="constraint_days">Dani</string>
+    <string name="constraint_wifi">Bežična</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Punjenje</string>
+    <string name="constraint_connected">Povezan s</string>
+    <string name="constraint_not_connected">Nije povezan s</string>
+    <string name="display_not_connected">Kad nije povezan s %1$s</string>
+    <string name="is_on">Uključen</string>
+    <string name="is_off">Isključen</string>
+    <string name="play_sound">Reproduciraj zvuk</string>
+    <string name="agent_description">Pokreni zadatak kad se zastupnik pokrene ili zaustavi</string>
+    <string name="when_agent_starts">Kad se zastupnik pokrene</string>
+    <string name="when_agent_ends">Kad se zastupnik zaustavi</string>
+    <string name="choose_agent">Odaberi zastupnika</string>
+    <string name="agent_condition_starts">Kad se %1$s pokrene</string>
+    <string name="agent_condition_ends">Kad se %1$s okonča</string>
+    <string name="clear">Obriši</string>
+    <string name="export">Izvezi</string>
+    <string name="notification_timer_cancel">Za odustajanje odbacite prstom</string>
+    <string name="notification_timer_extra_info">Istječe u %1$s</string>
+    <string name="installed">instalirano</string>
+    <string name="plugin_lock">Zaključan zaslon</string>
+    <string name="plugin_lock_description">Ovo dopušta izmjenu postavki zaključanog zaslona. Onemogućavanjem zaključanog zaslona  postavljate ga na prevlačenje prstom. Omogućavanjem postavljate na korištenje PIN-a ili zaporke, ovisno o konfiguraciji.</string>
+    <string name="configure">konfiguriraj</string>
+</resources>
+
+
+
+
+

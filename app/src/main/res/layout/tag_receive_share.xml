@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/BGColor"
+    android:scrollbars="vertical|horizontal" >
+
+    <LinearLayout
+        android:id="@+id/WriteContentRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Primary Message -->
+
+        <LinearLayout
+            style="@style/ActionNoMarginPadded"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0sp"
+            android:gravity="center_vertical"
+            android:paddingTop="5dp" >
+        </LinearLayout>
+        <!-- End Primary Message -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp" >
+
+            <View style="@style/SpacerBG" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ActionNoMarginPadded"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:padding="10sp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/write_mid" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

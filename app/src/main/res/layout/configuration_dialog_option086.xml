@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option057"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/adapter_title"
+        android:text="@string/voice_input_control"
+        style="@style/ConfigurationActionHeading"/>
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/adapter_toggle"
+        style="@style/AddSelect"
+        android:entries="@array/ToggleChoices"
+        android:layout_width="fill_parent" />
+
+</LinearLayout>

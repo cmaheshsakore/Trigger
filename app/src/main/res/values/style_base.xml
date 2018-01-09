@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseColors">
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="boldText">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="helpBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/TextSizeSix</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="helpNormal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/TextSizeSix</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+</resources>

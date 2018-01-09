@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Operate Wifi -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option001"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/WifiAdapterTitle"
+        android:text="@string/wifiOptionsOperateWifi" 
+        style="@style/ConfigurationActionHeading"/>
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/WifiAdapterToggle"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent" />
+
+</LinearLayout><!-- End Operate Wifi -->

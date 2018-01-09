@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/rate_title"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Rate the app"
+                android:textColor="@color/highlight_green"
+                android:textSize="@dimen/TextSizeOne" />
+
+            <TextView
+                android:id="@+id/rate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_alignLeft="@id/rate_title"
+                android:layout_below="@id/rate_title"
+                android:text="@string/rating_text" />
+
+            <LinearLayout
+                android:id="@+id/rate_on_play_button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/list_clickable"
+                android:layout_gravity="center_vertical"
+                android:layout_alignLeft="@id/rate_title"
+                android:layout_below="@id/rate_text"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_play_button"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:gravity="center_vertical"
+                    android:text="@string/feedback_rate_gplay"
+                    android:textColor="@color/TextColor"
+                    android:textSize="@dimen/TextSizeThree" />
+            </LinearLayout>
+
+
+            <com.google.android.gms.plus.PlusOneButton xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
+                android:id="@+id/plus_one_button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_below="@id/rate_on_play_button"
+                android:layout_alignLeft="@id/rate_title"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:paddingBottom="4dp"
+                plus:annotation="inline"
+                plus:size="standard" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card_clickable"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:id="@+id/task_help"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:text="@string/help_tasks_title"
+                android:textColor="@color/highlight_green"
+                android:textSize="@dimen/TextSizeOne" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:text="@string/help_tasks_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card_clickable"
+            android:clickable="true"
+            android:id="@+id/geofence_help"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:text="@string/geofence_task"
+                android:textColor="@color/highlight_green"
+                android:textSize="@dimen/TextSizeOne" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/geofence_help"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+
+            <TextView
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_contact"
+                android:textColor="@color/highlight_green"
+                android:textSize="@dimen/TextSizeOne" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:text="@string/contact_text" />
+
+            <LinearLayout
+                android:id="@+id/tags_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

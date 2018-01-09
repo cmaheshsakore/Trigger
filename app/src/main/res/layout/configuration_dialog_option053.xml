@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Application -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option001"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/menuEventsCalendarTimestamp" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/eventTitle"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:hint="@string/layoutEventCalendarTitle"
+            android:inputType="text"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal" />
+
+        <TextView
+            android:id="@+id/eventStartText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/eventTitle"
+            android:layout_below="@id/eventTitle"
+            android:gravity="center_vertical"
+            android:paddingTop="5dp"
+            android:text="@string/menuEventsCalendarTimestampText"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+    </RelativeLayout>
+
+</LinearLayout><!-- End Application -->

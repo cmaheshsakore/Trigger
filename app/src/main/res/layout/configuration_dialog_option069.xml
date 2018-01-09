@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option069"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/WifiAdapterTitle"
+        android:text="Wireless Display: Connect device" 
+        style="@style/ConfigurationActionHeading"/>
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent" />
+
+</LinearLayout>

@@ -1,0 +1,981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Wybierz działanie:</string>
+ <string name="RingerTypePrompt">Wybierz rodzaj dzwonka:</string>
+ <string name="limitThreshholdPrompt">Wybierz jednostkę:</string>
+ <string name="VibratePrompt">Wybierz, kiedy włączyć wibrację:</string>
+
+ <string name="AuthTogglePrompt">Wybierz rodzaj kodowania:</string>
+
+ <string name="menu_new_tag">Nowe zadanie</string>
+ <string name="menu_help">O nas</string>
+ <string name="menu_contact">Skontaktuj się z nami</string>
+ <string name="menu_preferences">Ustawienia</string>
+ <string name="menu_delete">Usuń</string>
+ <string name="menu_chooser_mail">Wyślij e-mail</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">WiFi</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Sekund(y)</string>
+ <string name="timeMinutes">Minut(y)</string>
+ <string name="timeHours">Godzin(y)</string>
+
+
+
+ <string name="enableText">Aktywuj</string>
+ <string name="disableText">Dezaktywuj</string>
+ <string name="toggleText">Przełącz</string>
+
+ <string name="alwaysText">Zawsze</string>
+ <string name="neverText">Nigdy</string>
+ <string name="whenSilentText">Przy wyłączonym dźwięku</string>
+
+
+
+
+
+ <string name="authTypeOpen">Otwórz</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Cichy</string>
+ <string name="ringerTypeVibrate">Wibracja</string>
+ <string name="ringerTypeNormal">Normalny</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">Anuluj</string>
+ <string name="dialogYes">Tak</string>
+ <string name="dialogNo">Nie</string>
+ <string name="dialogSave">Zapisz</string>
+ <string name="dialogClose">Zamknij</string>
+ <string name="dialog_run">Uruchom zadanie</string>
+
+ <string name="menuWireless">Bezprzewodowe &amp; Sieci</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Dźwięki &amp; Głośność</string>
+ <string name="menuAlarm">Alarmy</string>
+ <string name="menuCheckin">Media społecznościowe</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">Wyświetlacz</string>
+
+ <string name="addOptionsAddText">Dodaj do zadania</string>
+
+ <string name="displayAlarmSet">Ustaw alarm</string>
+ <string name="displayListAlarmSet">Ustaw minutnik</string>
+ <string name="defaultAlarmText">Dotknij, aby ustawić czas alarmu</string>
+
+ <string name="layoutAlarmSetText">Ustaw alarm na</string>
+ <string name="layoutAlarmSelectTimeText">Dotknij, aby ustawić czas alarmu</string>
+ <string name="layoutAlarmForwardText">minut(y) od tego momentu</string>
+
+ <string name="appListLoadingText">Wczytywanie listy aplikacji</string>
+ <string name="listLaunchText">Uruchom</string>
+ <string name="listLaunchTextCustom">Uruchom czynność</string>
+ <string name="listNavText">Prowadź do</string>
+
+
+ <string name="layoutAppLaunchURL">Otwórz URL/URI</string>
+ <string name="layoutAppLaunchNavigation">Nawigacja</string>
+ <string name="layoutAppLaunchNavigationText">Miejsce docelowe</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Zamelduj się tutaj</string>
+ <string name="optionsSocialFoursquareSearching">Wyszukiwanie</string>
+ <string name="optionsSocialFoursquareSearchTitle">Pasujące lokalizacje</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Zamelduj się w lokalizacji</string>
+ <string name="optionsSocialFoursquareVenueTitle">Lokalizacja</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Nie wybrano lokalizacji</string>
+ <string name="optionsSocialFoursquareVenueSub">zamelduj się w określonej lokalizacji</string>
+ <string name="optionsSocialFacebook">Facebook: Zamelduj się</string>
+ <string name="optionsSocialPlaces">Miejsca Google: Zamelduj się</string>
+ <string name="optionsSocialTwitter">Twitter: Tweetuj</string>
+
+ <string name="optionsFoursquareSearchFind">Znajdź</string>
+
+ <string name="optionsFoursquareSearchNear">w pobliżu</string>
+
+ <string name="listFacebookText">Zamelduj się na Facebooku</string>
+ <string name="listFoursquareText">Zamelduj się na Foursquare</string>
+ <string name="listFoursquareVenueText">Zamelduj się na</string>
+ <string name="listPlacesText">Zamelduj się w Miejscach Google</string>
+ <string name="listTweetText">Opublikuj tweet</string>
+
+ <string name="locationDisabledTitle">Lokalizacja nieaktywna</string>
+ <string name="locationDisabledText">Nie można pobrać lokalizacji. Aktywuj źródło lokalizacji.</string>
+
+ <string name="listHotspotText">Przenośny hotspot</string>
+
+ <string name="layoutHotspotActionText">Działanie:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Rodzaj uwierzytelniania:</string>
+ <string name="layoutHotspotAuthKeyText">Klucz uwierzytelniający:</string>
+
+
+ <string name="soundRingerTypeText">Ustaw rodzaj dzwonka</string>
+ <string name="listSoundRingtone">Ustaw dzwonek:</string>
+ <string name="listSoundNotification">Ustaw powiadomienie:</string>
+ <string name="listSoundRingerVolume">Głośność dzwonka</string>
+ <string name="listSoundMediaVolume">Głośność mediów</string>
+
+ <string name="listSoundAlarmVolume">Głośność alarmu</string>
+ <string name="listSoundNotificationVolume">Głośność powiadomień</string>
+ <string name="listSoundVibrate">Wibracja podczas dzwonienia</string>
+
+ <string name="taskerNotInstalled">Nie zainstalowano Taskera</string>
+ <string name="layoutTaskerLaunchText">Zadanie Taskera</string>
+ <string name="layoutTaskerSelect">Wybierz zadanie</string>
+ <string name="layoutTaskerHelpText">Uwaga: Tasker *należy* zainstalować przed tą aplikacją. W Interfejsie Użytkownika Taskera należy ustawić preferencję Różne/Zezwól na zewnętrzny dostęp. Jeśli masz problemy z uruchomieniem zadań, odinstaluj obie aplikacje i zainstaluj ponownie Tasker, a następnie NFC Task Launcher.</string>
+
+ <string name="wifiOptionsOperateWifi">Wł./Wył. WiFi</string>
+ <string name="wifiOptionsConfigureSSID">Połączenie WiFi</string>
+ <string name="wifiOptionsOperateBluetooth">Wł./Wył. Bluetooth</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Wykrywanie Bluetooth</string>
+ <string name="wifiOptionsAutoSync">Synchronizacja automatyczna</string>
+ <string name="wifiOptionsAirplaneMode">Tryb samolotowy</string>
+
+ <string name="hotspotOptions">Hotspot WiFi</string>
+
+ <string name="soundOptionsRinger">Profil dźwięku</string>
+ <string name="soundOptionsRingtone">Dźwięk dzwonka</string>
+ <string name="soundOptionsRingVolume">Głośność dzwonka</string>
+ <string name="soundOptionsNotificationtone">Dźwięk powiadomień</string>
+ <string name="soundOptionsNotificationVolume">Głośność powiadomień</string>
+ <string name="soundOptionsMediaVolume">Głośność mediów</string>
+ <string name="soundOptionsMediaStart">Odtwarzanie mediów</string>
+
+ <string name="soundOptionsAlarmVolume">Głośność alarmu</string>
+ <string name="soundOptionsVibrate">Wibracja podczas dzwonienia</string>
+
+ <string name="listWifiAirplaneModeText">Tryb samolotowy</string>
+ <string name="listWifiAutoSync">Synchronizacja automatyczna</string>
+ <string name="listWifiConfigureConnectText">Połącz z</string>
+ <string name="listWifiBluetoothDiscoverableText">Wykrywalny Bluetooth</string>
+ <string name="listWifiAssociateText">Połącz z</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Rodzaj uwierzytelniania:</string>
+ <string name="layoutWifiAuthKeyText">Klucz uwierzytelniający:</string>
+
+ <string name="builderInvalidName">Wprowadź prawidłową nazwę</string>
+
+
+ <string name="titleSelectAction">Wybierz kategorie</string>
+ <string name="titleConfigureAction">Konfiguracja działania</string>
+ <string name="buttonTextAdd">Dodaj działania</string>
+
+ <string name="layoutPreferencesTitleText">Ustawienia</string>
+ <string name="layoutPreferencesSelectNotification">Dźwięk powiadomień</string>
+ <string name="layoutPreferencesVibrate">Wibracja</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Zapisz</string>
+ <string name="layoutPreferencesRateLimitingDisable">Dezaktywuj</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Gdy naklejka jest odczytana</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Wibruj zawsze</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Nigdy nie wibruj</string>
+ <string name="layoutPreferencesVibrateSubAlways">Wibruj zawsze</string>
+ <string name="layoutPreferencesVibrateSubNever">Nigdy nie wibruj</string>
+
+ <string name="layoutPreferencesDebugOutput">Debugowanie</string>
+ <string name="layoutPreferencesDebugSend">Wyślij log debugowania</string>
+ <string name="layoutPreferencesEnableLimitingSub">Nieaktywny</string>
+ <string name="layoutPreferencesUsage">Zezwalaj na dostęp Google Analytics</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Powiadomienia</string>
+ <string name="layoutPreferencesAdvancedTitle">Zaawansowane</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Jasność</string>
+ <string name="layoutDisplayBrightnessAuto">Aktywuj automatyczną jasność</string>
+ <string name="layoutDisplayNotificationLight">Światełko powiadomień</string>
+ <string name="listDisplayNotificationLightText">Światełko powiadomień</string>
+
+ <string name="layoutDisplayAutoRotation">Automatyczny obrót</string>
+ <string name="listDisplayAutoRotationText">Automatyczny obrót</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Podczas uruchamiania niestandardowej czynności został rzucony wyjątek</string>
+ <string name="actionLastActions">Ostatnie działania:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Uruchom/Zatrzymaj odtwarzanie mediów</string>
+ <string name="widgetEnableMediaPlayback">Uruchom/Zatrzymaj odtwarzanie mediów</string>
+
+ <string name="actionLaunchPackage">* Uruchamianie aplikacji</string>
+ <string name="widgetLaunchPackage">Uruchomiona aplikacja</string>
+
+ <string name="actionLaunchActivity">* Uruchamianie czynności</string>
+ <string name="widgetLaunchActivity">Uruchomiono czynność</string>
+
+ <string name="actionNavigate">* Prowadź do:</string>
+ <string name="widgetNavigate">Prowadź do:</string>
+
+ <string name="actionConfigureSSID">* Konfiguracja AP i łączenie</string>
+ <string name="widgetConfigureSSID">Skonfigurowano AP i połączono</string>
+
+ <string name="actionTaskerTask">* Uruchamianie zadania Taskera</string>
+ <string name="widgetTaskerTask">Uruchomiono zadanie Taskera</string>
+
+ <string name="actionAlarm">* Ustawianie alarmu na</string>
+ <string name="widgetAlarm">Ustaw alarm na</string>
+
+ <string name="actionLaunchURL">* Uruchamianie URL</string>
+ <string name="widgetLaunchURL">Uruchomiony adres URL</string>
+
+ <string name="actionSetVibration">* Ustawianie wibracji</string>
+ <string name="widgetSetVibration">Ustaw wibrację</string>
+
+ <string name="actionSendTweet">* Publikowanie Tweeta</string>
+ <string name="widgetSendTweet">Opublikowany Tweet</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">Udało się utworzyć naklejkę.</string>
+ <string name="layoutWriteTitle">Zaprogramuj naklejkę</string>
+ <string name="layoutWritePrimaryMessageStart">Umieść swoje urządzenie nad naklejką NFC, aby rozpocząć programowanie.</string>
+ <string name="layoutWriteLockText">Utwórz naklejkę tylko do odczytu</string>
+
+ <string name="dialogWriteTitle">Ukończono programowanie</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Wybierz wyzwalacz</string>
+ <string name="layoutHomeFormat">Usuń naklejkę</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Czas minął</string>
+
+ <string name="displayAlarmSetTimer">Ustaw alarm (minutnik)</string>
+
+
+ <string name="actionTimer">* Ustawianie minutnika na</string>
+ <string name="widgetTimer">Ustaw minutnik na</string>
+
+ <string name="layoutAlarmSetTimerText">Ustaw minutnik na</string>
+
+ <string name="alertSecureSetting">Konfigurujesz bezpieczne ustawienie. Wymaga to uprawnień roota.</string>
+ <string name="alertSecureSettingTitle">Bezpieczne ustawienie</string>
+ <string name="alertSecureSettingMakeSystemApp">Utwórz aplikację systemową</string>
+
+ <string name="wifiOptionsGPS">Wł./Wył. GPS</string>
+ <string name="wifiOptionsMobileData">Wł./Wył. dane komórkowe</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Dane komórkowe</string>
+
+ <string name="rebootTitle">Ukończono</string>
+ <string name="rebootText">Uruchom urządzenie ponownie.</string>
+
+ <string name="noRootText">Brak uprawnień roota.</string>
+
+ <string name="layoutDisplayTimeout">Wygaszanie ekranu</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 sekund</item>
+  <item>30 sekund</item>
+  <item>1 minuta</item>
+  <item>2 minuty</item>
+  <item>5 minut</item>
+  <item>10 minut</item>
+  <item>30 minut</item>
+  <item>Nigdy</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Wygaszanie</string>
+
+ <string name="wifiOptions3GData">Wł./Wył. dane 3G</string>
+
+ <string name="layoutAppDeskDock">Pasek szybkiego uruchamiania</string>
+ <string name="layoutAppDeskDockSub">Może nie zadziałać na niektórych urządzeniach.</string>
+ <string name="layoutAppCarDock">Ładowarka samochodowa</string>
+
+ <string name="menuPhone">Telefon</string>
+
+ <string name="layoutPhoneSMS">Wyślij wiadomość tekstową</string>
+ <string name="optionsPhoneSMS">wyślij wiadomość tekstową</string>
+ <string name="optionsPhoneSMSTo">Do</string>
+ <string name="optionsPhoneSMSMessage">Wiadomość</string>
+ <string name="optionsPhoneNumber">Numer telefonu</string>
+ <string name="optionsPhoneCall">zadzwoń</string>
+ <string name="layoutPhoneCall">Zadzwoń</string>
+ <string name="optionsPhoneSMSNote">Dzięki temu otworzysz swoją aplikację SMS z wypełnionymi polami odbiorcy i wiadomości. Aby automatycznie wysłać wiadomość, dotknij ją i pobierz wtyczkę SMS ze sklepu Play.</string>
+ <string name="optionsPhoneCallNote">Dzięki temu otworzysz dialer z wybranym numerem. Aby automatycznie wybrać numer, dotknij tę wiadomość i pobierz wtyczkę Telefonu ze sklepu Play.</string>
+
+
+ <string name="listPhoneSMS">Wyślij SMS</string>
+ <string name="listPhoneCall">Zadzwoń</string>
+
+ <string name="actionSendSMS">* Wysyłanie SMS</string>
+ <string name="widgetSendSMS">Wysłany SMS</string>
+
+ <string name="actionPhoneCall">* Wybieranie numeru</string>
+ <string name="widgetPhoneCall">Wybrany numer</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">Aktywuj NFC w trybie samolotowym</string>
+
+ <string name="menuSecurity">Bezpieczeństwo</string>
+ <string name="layoutOptionsKeyguard">Zablokuj ekran</string>
+ <string name="securityOptionsOperateKeyguard">Wł./Wył. blokadę ekranu</string>
+ <string name="listSecurityKeyguardText">Zablokuj ekran</string>
+
+ <string name="optionsFoursquareSearchCity">bieżąca lokalizacja</string>
+ <string name="optionsFoursquareSearchVenue">nazwa</string>
+ <string name="optionsFoursquareSearchVenueIDText">identyfikator lokalizacji</string>
+ <string name="optionsFoursquareSearchOR">lub</string>
+
+ <string name="menuApplications">Aplikacje &amp; Skróty</string>
+ <string name="layoutWriteNameText">Zawrzyj nazwę naklejki</string>
+ <string name="layoutAppKillAppTextSub">zamknij domyślną czynność aplikacji</string>
+ <string name="layoutAppLaunchAppText">Otwórz aplikację</string>
+ <string name="layoutAppKillAppText">Zamknij aplikację</string>
+ <string name="layoutAppLaunchActivityText">Otwórz czynność</string>
+ <string name="layoutAppKillTaskDisclaimer">Może nie zadziałać na niektórych urządzeniach, które nie posiadają uprawnień roota. Uprawnienia roota dają gwarancję skutecznego zabicia procesu.</string>
+
+ <string name="layoutAlarmShowUI">pokaż interfejs użytkownika alarmu</string>
+ <string name="layoutAlarmTimePrefix">Czas:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Rodzaj</string>
+ <string name="NavTypeDriving">Jazda</string>
+ <string name="NavTypeTransit">Tranzyt</string>
+ <string name="NavTypeWalking">Chodzenie</string>
+
+
+
+ <string name="layoutActivityAppList">Wybierz aplikację:</string>
+ <string name="layoutActivityList">Wybierz czynność:</string>
+ <string name="layoutActivityWarning">Nie wszystkie działania mogą się uruchomić.</string>
+
+ <string name="readOnlyWarning">Do naklejki tylko do odczytu nie można niczego dopisać. Tej czynności nie można cofnąć.</string>
+ <string name="limitThreshholdOverride">Gotowy, aby zignorować to ustawienie</string>
+ <string name="limitThreshholdOverrideDialogPrefix">To zadanie zostanie pominięte, bo działało przez ostatnie/-ich %1$s %2$s</string>
+ <string name="limitThreshholdOverrideDialogSuffix">To okno dialogowe zostanie zignorowane po 5 sekundach.</string>
+ <string name="menu_context_delete">Usuń</string>
+ <string name="menu_context_run">Uruchom</string>
+ <string name="menu_context_share">Opublikuj</string>
+ <string name="listCloseApp">Zamknij aplikację</string>
+
+ <string name="listSoundPlayback">Uruchom/Zatrzymaj odtwarzanie mediów</string>
+ <string name="listDisplayBrightness">Ustaw jasność na</string>
+ <string name="listDisplayBrightnessAuto">Aktywuj automatyczną jasność</string>
+ <string name="layoutImportPrimaryMessageStart">Umieść naklejkę z tyłu telefonu, aby importować</string>
+ <string name="layoutMainBuilderImportText">Naklejka importu</string>
+ <string name="layoutMainBuilderCopyText">Naklejka kopiowania</string>
+
+
+ <string name="copyRead">1.) Zeskanuj naklejkę, aby skopiować</string>
+ <string name="copyReading">2.) Odczytywanie wiadomości</string>
+ <string name="copyWrite">3.) Dotknij naklejkę, aby programować</string>
+ <string name="copyTitle">Kopiuj naklejkę NFC</string>
+ <string name="importTitle">Importuj naklejkę</string>
+
+ <string name="copyDialogCopied">Kopiowanie udało się</string>
+ <string name="copyDialogCopyError">Nie udało się skopiować naklejki</string>
+ <string name="copyDialogWritten">Programowania udało się</string>
+ <string name="copyDialogWriteError">Nie udało się zaprogramować naklejki</string>
+ <string name="layoutPreferencesSelectTimer">Dźwięk minutnika</string>
+ <string name="layoutPreferencesTagsTitle">Zadania</string>
+ <string name="layoutPreferencesTagsMore">Więcej</string>
+ <string name="layoutPreferencesNotifications">Powiadomienia</string>
+ <string name="layoutPreferencesNotificationsSubBar">Użyj paska powiadomień</string>
+ <string name="layoutPreferencesNotificationsSubToast">Użyj powiadomień typu toast</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Użyj obu</string>
+ <string name="layoutPreferencesNotificationsSubNone">Żaden</string>
+ <string name="menu_done">Gotowe</string>
+ <string name="layoutPreferencesSwitchTimeout">Resetuj „Przełącz zadania” po 12 godzinach</string>
+ <string name="menuEvents">Wydarzenia</string>
+ <string name="menuEventsCalendarStatic">Wydarzenie w kalendarzu</string>
+ <string name="menuEventsCalendarTimestamp">Znaczniki czasu w kalendarzu</string>
+ <string name="menuEventsCalendarTimestampText">Wstaw wydarzenie w kalendarzu w określonym dniu i czasie wynikającym ze skanowanej naklejki.</string>
+ <string name="layoutEventCalendarTitle">Tytuł</string>
+ <string name="layoutEventCalendarStart">Początek</string>
+ <string name="layoutEventCalendarEnd">Koniec</string>
+ <string name="layoutEventCalendarAllDay">Cały dzień</string>
+ <string name="dateHint">Dotknij, aby ustawić datę</string>
+ <string name="timeHint">Dotknij, aby ustawić czas</string>
+ <string name="listDiaplayCalendarEvent">Dodaj wydarzenie w kalendarzu</string>
+ <string name="listDiaplayCalendarTimestamp">Znacznik czasu w kalendarzu</string>
+ <string name="actionCalendarEvent">Dodawanie wydarzenia w kalendarzu</string>
+ <string name="widgetCalendarEvent">* Dodawanie wydarzenia w kalendarzu</string>
+ <string name="actionCalendarTimestamp">Dodawanie znacznika czasu do kalendarza</string>
+ <string name="widgetCalendarTimestamp">* Dodawanie znacznika czasu do kalendarza</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Dane logowania</string>
+ <string name="layoutPreferencesDialogTwitter">Kliknij OK, aby wyczyścić dane logowania do Twittera</string>
+ <string name="layoutPreferencesDialogFoursquare">Kliknij OK, aby wyczyścić dane logowania do Foursquare</string>
+
+
+ <string name="layoutAppPause">Pauza</string>
+ <string name="layoutAppPauseSubTitle">Zatrzymaj na określony czas przed kontynuacją.</string>
+ <string name="actionPause">* Zatrzymanie na</string>
+ <string name="widgetPause">Zatrzymanie na</string>
+
+
+ <string name="loading">Ładowanie...</string>
+ <string name="error">Błąd</string>
+ <string name="recommended_tags">Naklejki NFC</string>
+ <string name="buy_now">Kup teraz</string>
+ <string name="buy_tags">Sklep Trigger</string>
+ <string name="popular_tags">Sugerowane zadania</string>
+ <string name="my_tags">Moje zadania</string>
+ <string name="shop_more_title">Chcesz więcej?</string>
+ <string name="shop_more_description">Obejrzyj nasz kompletny katalog produktów NFC w tym naklejki i zestawy NFC.</string>
+ <string name="welcome">Witaj</string>
+ <string name="buy_nfc_tags">Kup naklejki NFC</string>
+ <string name="used_never">Używane: Nigdy</string>
+ <string name="total_actions">Wszystkie działania</string>
+
+ <string name="basic_tags">Programuj podstawowe naklejki</string>
+
+ 
+ <string name="default_tag_name_format">Zadania %s</string>
+
+ <string name="save_and_write">Zapisz &amp; Programuj</string>
+ <string name="tag_name">Nazwa</string>
+ <string name="no_actions">Działania</string>
+ <string name="tag_unsaved_changes">W tym zadaniu mogą znajdować się niezachowane zmiany.</string>
+ <string name="discard_changes">Ignoruj zmiany</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s bajt</item>
+  <item quantity="other">%s bajty/-ów</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Konfiguracja połączenia WiFi</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Włącz wykrywanie Bluetooth</string>
+ 
+ <string name="soundOptionsMediaStartSub">Uruchom/Zatrzymaj odtwarzanie mediów</string>
+ <string name="optionsSocialCheckinHereSub">Zamelduj się w bieżącej lokalizacji</string>
+ <string name="actionURLHeading">URL/URI</string>
+ <string name="optionsSocialTwitterSub">Opublikuj tweet</string>
+ <string name="layoutAppLaunchNavigationSub">Prowadź do lokalizacji</string>
+ <string name="alarmTimerConfigureSub">Ustaw minutnik</string>
+ <string name="carDockDrivingMode">Uwzględnij tryb samochodowy (Urządzenia Samsung Galaxy)</string>
+ <string name="airplaneModeWarning">Aktywacja trybu samolotowego dezaktywuje NFC. Tryb samolotowy nie musi wpływać na NFC, jeśli aktywujesz NFC w trybie samolotowym w ustawieniach aplikacji.</string>
+ <string name="write">Programuj</string>
+ <string name="next">Następny</string>
+
+ <string name="_continue">Kontynuuj</string>
+
+ <string name="shop_unavailable">Sklep jest tymczasowo niedostępny. Sprawdź połączenie i spróbuj ponownie za kilka minut.</string>
+ <string name="titleSavedTagPicker">Wybierz zapisane zadanie, które chcesz uruchomić</string>
+ <string name="titleShareTagActivity">Podziel się naklejką przy pomocy</string>
+ <string name="sharedReceiverDialogMessage">Ładowanie naklejki</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">E-mail</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Właśnie zrobiłem tę naklejkę NFC przy pomocy +Tagstand. Wypróbuj ją przy pomocy aplikacji NFC Task Launcher znjajdującej się pod adresem:</string>
+ <string name="shareTwitterPrefix">Wypróbuj zrobioną przeze mnie  #naklejkę NFC</string>
+ <string name="shareTwitterSuffix">obsługiwany przez @tagstand</string>
+ <string name="shareSMSPrefix">hej, wypróbuj zrobioną przeze mnie przy pomocy NFC Task Launcher naklejkę NFC:</string>
+ <string name="shareEmailPrefix">Hej,\n\nZrobiłem tę naklejkę \'%1$s\' przy pomocy NFC Task Launcher i chcę się nią z Tobą podzielić.\n\n</string>
+ <string name="shareEmailSuffix">\n\nKliknij, aby ją pobrać na swój telefon.\n\nWitaj w przyszłości.</string>
+ <string name="shareEmailSubject">Wypróbuj moją naklejkę NFC</string>
+ <string name="loadTagPayloadError">Wystąpił problem. Być może chodzi o połączenie.</string>
+ <string name="loadTagNoPayload">Żadne działania nie zostały skojarzone z tą naklejką.</string>
+
+ <string name="layoutWifiHiddenSSID">Ukryte SSID</string>
+ <string name="layoutEmailAddress">Adres e-mail</string>
+ <string name="layoutEmailMessage">Wiadomość (opcjonalnie)</string>
+ <string name="layoutEmailSubjectHint">Temat</string>
+ <string name="layoutEmailMessageHint">Wiadomość</string>
+ <string name="layoutEmail">Wyślij e-mail</string>
+ <string name="listDisplayEmail">Wyślij e-mail do</string>
+ <string name="sendEmailChooserTitle">Wyślij e-mail przy pomocy</string>
+
+ <string name="tag_write_failed_message">Wciąż będzie działać, ale po dotknięciu możesz widzieć program do wyboru urządzeń.</string>
+ <string name="tag_write_failed_no_plugin">Należy pobrać wtyczkę ponownego użycia naklejki ze sklepu Play, aby użyć tej naklejki.</string>
+ <string name="tag_write_failed">Tej naklejki nie można zaprogramować.</string>
+ <string name="tag_write_success_message">Twoja naklejka jest gotowa do użycia.</string>
+ <string name="menu_help_text">Pomoc</string>
+
+ <string name="warning">Ostrzeżenie</string>
+
+
+ <string name="configure_connection_title">Skonfiguruj połączenie</string>
+ <string name="enter_network_name">wprowadź nazwę sieci (ssid)</string>
+ <string name="enter_bluetooth_name">wprowadź nazwę urządzenia</string>
+ <string name="enter_bluetooth_mac">wprowadź adres mac</string>
+ <string name="when_connected_to">Po połączeniu z</string>
+ <string name="when_disconnected_from">Po odłączeniu od</string>
+ <string name="or">lub</string>
+
+ <string name="color_white">Biały</string>
+ <string name="color_black">Czarny</string>
+ <string name="select_background_color">Wybierz styl</string>
+ <string name="action_send_email">* Wysyłanie e-maila</string>
+ <string name="widget_send_email">Wysłany e-mail</string>
+ <string name="ignore_duplicate_check">Nie pozwól na powtórzenie poprzedniego zadania</string>
+ <string name="if_read_again">Nie pozwól na powtórzenie zadania przez</string>
+ <string name="found_tag">Uruchomione zadanie</string>
+ <string name="title_tag_limiting">Nie pozwól na powtórzenie</string>
+ <string name="limit_last_tag_read">poprzedniego zadania</string>
+ <string name="limit_time_frame">w czasie %1$s %2$s</string>
+
+ <string name="erase_tag_text">Aby usunąć, umieść tylną część telefonu nad naklejką.</string>
+ <string name="copy_tag_text">Aby skopiować, umieść tylną część telefonu nad naklejką.</string>
+
+ <string name="menuMessages">Wiadomości</string>
+ <string name="widget_single_task">Uruchom zadanie</string>
+ <string name="widget_single_task_configure_title">Skonfiguruj skrót</string>
+ <string name="soundOptionsRingVolumeCombined">Głośność dzwonka/powiadomień</string>
+
+
+ <string name="switch_tag_details">„Przełącz zadania” zawiera dwa oddzielne zadania, które są przełączane między sobą za każdym razem, gdy dotykasz naklejki NFC.\n\nJeśli chcesz dodać drugie zadanie do naklejki NFC, dotknij widoczny powyżej „+” widoczny powyżej.</string>
+
+ <string name="driving_mode">Tryb samochodowy</string>
+ <string name="power_saver">Oszczędzanie energii</string>
+ <string name="block_mode">Tryb blokady</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Tryb oszczędzania energii</string>
+ <string name="driving_mode_heading">Tryb samochodowy</string>
+ <string name="blocking_mode_heading">Tryb blokady</string>
+
+ <string name="display_power_saver">Oszczędzanie energii</string>
+ <string name="display_blocking_mode">Tryb blokady</string>
+ <string name="display_driving_mode">Tryb samochodowy</string>
+ <string name="heading_glympse">Wyślij Glympse</string>
+ <string name="hint_recipient_address">Odbiorca</string>
+
+ <string name="widgetSendGlympse">Wyślij Glympse</string>
+ <string name="actionSendGlympse">* Wysyłanie Glympse</string>
+
+ <string-array name="glympse_address_types">
+  <item>e-mail</item>
+  <item>sms</item>
+  <item>twitter</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">Czas trwania</string>
+
+
+ <string name="choose_shipping_method">Wybierz sposób dostawy</string>
+ <string name="tts_failed">Błąd: Nie można uruchomić TTS</string>
+
+ <string name="action_speak_text">* Wypowiadanie tekstu</string>
+ <string name="widget_speak_text">Wypowiedziany tekst</string>
+
+ <string name="heading_tts">Wypowiedz tekst</string>
+ <string name="tts_hint">Tekst do wypowiedzenia</string>
+
+
+ <string name="open_in_background">otwórz w tle</string>
+ <string name="help_answers">Znajdź odpowiedzi online</string>
+ <string name="help_email">Wyślij nam e-mail</string>
+ <string name="show_welcome">Pokaż powitanie i wskazówki</string>
+
+
+ <string name="general">Ogólny</string>
+ <string name="backup_restore">Kopia zapasowa/Przywróć</string>
+ <string name="backup">Kopia zapasowa</string>
+ <string name="restore">Przywróć</string>
+ <string name="last_operation">Ostatnia operacja:</string>
+ <string name="backed_up">Utworzono kopię zapasową o %1$s</string>
+ <string name="restored">Prywrócono o %1$s</string>
+ <string name="backup_local">Lokalna</string>
+ <string name="backup_tagstand">Chmura</string>
+ <string name="backup_to">Kopia zapasowa w</string>
+ <string name="restore_from">Przywróć z</string>
+ <string name="restoring">Przywracanie</string>
+ <string name="perform_cloud_backup">Tworzenie kopii zapasowej w chmurze</string>
+
+ <string name="sso_clear_dialog">Kliknij OK, aby wyczyścić dane logowania na koncie Google</string>
+
+ <string name="title_sso_explanation">Zaloguj się przy pomocy Google</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">Wyloguj się</string>
+ <string name="status_logged_out">Zaloguj się</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Kup przy pomocy:</string>
+ <string name="ship_to">Dostawa do:</string>
+ <string name="confirm_order">Potwierdź zamówienie</string>
+ <string name="change">Zmień sposób płatności lub adres</string>
+ <string name="change_shipping">Zmień sposób dostawy</string>
+ <string name="tax">Podatek:</string>
+ <string name="total">Razem:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">Dostawa:</string>
+ <string name="titleConfirmPayment">Informacje o zamówieniu</string>
+ <string name="item_price">Cena:</string>
+ <string name="finalize_payment">Finalizacja zakupu</string>
+ <string name="confirmation_text">Twój numer transakcji to %1$s.\n\nOtrzymasz e-mail potwierdzający na adres %2$s.</string>
+ <string name="confirmation_error_text">Podczas przetwarzania Twojej transakcji wystąpił problem.\n\n%1$s</string>
+ <string name="wallet_error_title">Błąd Portfela Google</string>
+ <string name="wallet_error_message">Podczas próby dostępu do Portfela Google wystąpił problem. Spróbuj ponownie za kilka minut. Błąd: %1s</string>
+ <string name="titleOrderComplete">Zamówienie zrealizowane</string>
+ <string name="spending_limit_exceeded">Przekroczyłeś prędkość</string>
+ <string name="google_wallet_unavailable">Portfel Google jest niedostępny</string>
+ <string name="error_code">Kod błędu: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Zapłacono przy pomocy</string>
+ <string name="wallet_signin_point_one">Nie utrać więcej swoich zadań. Użyj chmury Tagstand\'s, aby utworzyć kopię zapasową i przywrócić swoje zadania.</string>
+ <string name="wallet_signin_point_two">Odbierz dwie darmowe naklejki od Tagstand.</string>
+ <string name="wallet_signin_point_three">Zakup naklejek może być łatwiejszy i szybszy dzięki Portfelowi Google.</string>
+ <string name="wallet_signin_heading">Użyj swojego konta Google i czerp z niego korzyści.</string>
+ <string name="set_alarm_app">Ustaw preferowaną aplikację alarmu</string>
+ <string name="select_alarm_app">Wybierz preferowaną aplikację alarmu</string>
+ <string name="sign_in_with_google">Zaloguj się</string>
+ <string name="system_volume">Głośność systemu</string>
+
+ <string name="actionSystemVolume">* Ustawianie głośności systemu do</string>
+ <string name="widgetSystemVolume">Ustaw głośność systemu</string>
+ <string name="media_next">Kolejne media</string>
+ <string name="next_track">Następna ścieżka</string>
+ <string name="media_previous">Poprzednie media</string>
+ <string name="previous_track">Poprzednia ścieżka</string>
+ <string name="actionMediaNext">* Następna ścieżka</string>
+ <string name="widgetMediaNext">Następna ścieżka</string>
+ <string name="actionMediaPrevious">* Poprzednia ścieżka</string>
+ <string name="widgetMediaPrevious">Poprzednia ścieżka</string>
+ <string name="menuMedia">Media</string>
+
+ <string name="wifi_task">WiFi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Uruchamia zadanie lub je przełącza po dotknięciu naklejki NFC.</string>
+ <string name="bluetooth_task_description">Uruchamia zadanie, gdy podłączasz lub odłączasz urządzenie Bluetooth.</string>
+ <string name="wifi_task_description">Uruchamia zadanie, gdy łączysz się lub rozłączasz z siecią WiFi.</string>
+ <string name="configure_connection_task_title">Skonfiguruj %1$s zadanie</string>
+
+ <string name="layoutProfileTaskChooserTitle">Wybierz zadanie</string>
+ <string name="layoutProfileNewTask">+ Nowe zadanie</string>
+ <string name="enable_bluetooth">Aby pokazać listę skojarzonych urządzeń, należy aktywować Bluetooth.</string>
+ <string name="enable_wifi">Aby pokazać zapisane sieci, należy aktywować WiFi.</string>
+ <string name="no_task">Nie znaleziono zadania.</string>
+ <string name="share_failed">Publikacja naklejki nie powiodła się.</string>
+
+ <string name="extension_description">Pokazuje ostatnie zadania i pozwala Ci je uruchomić bezpośrednio z DashClock</string>
+ <string name="import_create_tag">Nie znaleziono zadań. Czy chcesz utworzyć nowe zadanie, wykorzystując tę naklejkę?</string>
+ <string name="start_media_playback">Rozpocznij odtwarzanie mediów</string>
+ <string name="stop_media_playback">Zatrzymaj odtwarzanie mediów</string>
+ <string name="receive_sip_calls">Akceptuj połączenia SIP</string>
+ <string name="sip_calls">Połączenia SIP</string>
+
+ <string name="widget_enable">Aktywowano %1$s</string>
+ <string name="widget_disable">Dezaktywowano %1$s</string>
+ <string name="widget_toggle">Włączono %1$s</string>
+
+ <string name="action_enable">* Aktywacja %1$s</string>
+ <string name="action_disable">* Dezaktywacja %1$s</string>
+ <string name="action_toggle">* Przełączanie %1$s</string>
+
+ <string name="action_set_generic">* Ustawianie %1$s</string>
+ <string name="widget_set_generic">Ustaw %1$s</string>
+ <string name="action_set_to">* Ustawianie %1$s na %2$s</string>
+ <string name="widget_set_to">Ustaw %1$s na %2$s</string>
+ <string name="action_checking_in">* Meldowanie w %1$s</string>
+ <string name="widget_checking_in">Zameldowano w %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Lokalizacja Foursquare</string>
+ <string name="social_google_places">Miejsca Google</string>
+ <string name="run_task">Uruchom zadanie</string>
+ <string name="background_color">Kolor tła</string>
+ <string name="white">Biały</string>
+ <string name="black">Czarny</string>
+ <string name="select_icon">Wybierz ikonę</string>
+ <string name="select_task">Wybierz zadanie</string>
+
+ <string name="try_it_now">Wypróbuj przykładowy egzemplarz</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Podłącz urządzenie</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Telefon i media</item>
+  <item>Media</item>
+  <item>Telefon</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Wybierz profil</string>
+ <string name="select_bluetooth_device">Wybierz urządzenie</string>
+ <string name="action_bluetooth_connect">* Łączenie z urządzeniem Bluetooth</string>
+ <string name="widget_bluetooth_connect">Połączono z urządzeniem Bluetooth</string>
+
+ <string name="write_options_title">Opcje programowania</string>
+ <string name="menu_context_edit">Edycja</string>
+ <string name="set_media_app">Ustaw preferowany odtwarzacz multimedialny</string>
+ <string name="select_media_app">Wybierz preferowany odtwarzacz multimedialny</string>
+ <string name="menuTravel">Podróż</string>
+ <string name="item_info_title">Informacje</string>
+ <string name="geofence_task">Geofence (beta)</string>
+ <string name="when_entering">Gdy wchodzisz</string>
+ <string name="when_exiting">Gdy opuszczasz</string>
+ <string name="address">Adres</string>
+ <string name="geofence">Geofence</string>
+ <string name="radius">Rozmiar:</string>
+ <string name="no_location">Nie ustawiono lokalizacji</string>
+ <string name="miracast_device">Urządzenie Miracast</string>
+ <string name="battery_task">Bateria</string>
+ <string name="battery_task_description">Uruchom zadanie, gdy bateria osiąga określony poziom.</string>
+ <string name="when_battery_level">Gdy bateria:</string>
+ <string name="nfc_gear_title">NFC Gear</string>
+
+ <string name="goes_below">spada poniżej</string>
+ <string name="goes_above">wzrasta powyżej</string>
+ <string name="activity_feed">Log czynności</string>
+ <string name="activity_feed_none">Jeszcze nie uruchomiono wyzwalaczy.</string>
+ <string name="menu_experimental">Eksperymentalny</string>
+ <string name="time_task_description">Uruchom zadanie o określonej godzinie, w wybranym dniu/wybranych dniach.</string>
+ <string name="time_task">Godzina</string>
+ <string name="day_sunday">NDZ</string>
+ <string name="day_monday">PON</string>
+ <string name="day_tuesday">WT</string>
+ <string name="day_wednesday">ŚR</string>
+ <string name="day_thursday">CZW</string>
+ <string name="day_friday">PT</string>
+ <string name="day_saturday">SOB</string>
+
+ <string name="example_created">Udało się utworzyć %1$s.</string>
+ <string name="title_feedback">Informacja zwrotna</string>
+ <string name="contact_text">Chcemy, aby Trigger był dla Ciebie jak najbardziej użyteczny. Twoja opinia pomoże nam osiągnąć ten cel. Informuj nas o wszelkich problemach, opiniach lub sugestiach, które mogą się pojawić podczas korzystania z poniższych źródeł.</string>
+ <string name="other_nfc">Inne działania NFC</string>
+ <string name="write_status_waiting">Oczekiwanie na naklejkę...</string>
+ <string name="write_free_tags">Kup naklejki NFC</string>
+
+ <string name="previous">Poprzedni</string>
+ <string name="title_configure_triggers">Wyzwalacze</string>
+ <string name="title_configure_task">Zadanie</string>
+ <string name="title_configure_switch">Przełącz</string>
+ <string name="us_customer">Klienci z USA</string>
+ <string name="international_customer">Klienci z pozostałych krajów</string>
+ <string name="checkout">Zakończ zakupy</string>
+ <string name="examples_intro">Wykorzystaj czujniki w telefonie, aby automatycznie zmienić ustawienia, uruchomić aplikacje lub wysyłać wiadomości.\n\nWypróbuj poniższe przykładowe zadania lub utwórz własne.</string>
+ <string name="got_it">OK, rozumiem</string>
+ <string name="create_your_own">Utwórz własny</string>
+ <string name="no_triggers">Dodaj wyzwalacze, klikając „+” widoczny powyżej.</string>
+ <string name="international">(Inne kraje)</string>
+ <string name="us">(USA)</string>
+     
+ <string name="geofence_help">W razie pytań lub problemów z zadaniami Geofence przejdź do naszej sekcji FAQ.</string>
+ <string name="separator_or">- LUB -</string>
+ <string name="separator_and">- I -</string>
+ <string name="use_this_task">Dodaj ograniczenia</string>
+ <string name="between_these_times">Między</string>
+ <string name="_8_00">8.00</string>
+ <string name="_20_00">20.00</string>
+ <string name="any_network">jakiejkolwiek sieci</string>
+ <string name="select_network">Wybierz sieci</string>
+ <string name="two_or_more">Dwie lub więcej sieci</string>
+ <string name="display_between_times">Między %1$s a %2$s</string>
+ <string name="display_on_days">W %1$s</string>
+ <string name="display_wifi_network">Po podłączeniu do %1$s</string>
+ <string name="no_actions_found">Brak działań</string>
+ <string name="no_actions_found_message">%1$s nie ma przypisanych działań.\n\nWróć się i dodaj działania lub kontynuuj u zapisz zadanie bez działań.</string>
+ <string name="go_back">Wróć</string>
+ <string name="payment_info">Informacje o płatności</string>
+ <string name="card_number">Numer karty</string>
+ <string name="expiration_date">Data ważności</string>
+ <string name="security_code">Kod weryfikacyjny</string>
+ <string name="mm">MM</string>
+ <string name="yy">RR</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Adres wysyłki</string>
+ <string name="full_name">Imię i nazwisko</string>
+ <string name="company_name">Nazwa firmy</string>
+ <string name="email">E-mail</string>
+ <string name="street_address">Ulica</string>
+ <string name="apt_suite">Nr lokalu</string>
+ <string name="city">Miejscowość</string>
+ <string name="region">Województwo</string>
+ <string name="postcode">Kod pocztowy</string>
+ <string name="phone_number">Numer telefonu</string>
+ <string name="billing_address">Adres fakturowania</string>
+ <string name="use_shipping_info">wykorzystaj adres wysyłki</string>
+ <string name="used_text">Wykorzystano: %1$s</string>
+ <string name="pref_show_bytes">Pokaż rozmiar zadania</string>
+ <string name="plugin_tag_reuse">Ponowne wykorzystanie naklejki</string>
+ <string name="plugin_tag_reuse_description">Wykorzystuje ponownie naklejki tylko do odczytu lub te, które nie są w pełni obsługiwane przez Twoje urządzenie.</string>
+ <string name="plugin_call">Telefon</string>
+ <string name="plugin_call_description">Działanie „Telefon” wybiera numer bezpośrednio zamiast otwierać dialer z automatycznie wstawionym numerem.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">Działanie „WiadomośćTekstowa ” automatycznie wysyła wiadomość tekstową zamiast wstępnie wypełniać dane SMS-owe w Twojej aplikacji wiadomości tekstowych.</string>
+ <string name="plugins">Wtyczki</string>
+ <string-array name="radiusChoices">
+  <item>mały</item>
+  <item>średni</item>
+  <item>duży</item>
+  <item>wielki</item>
+ </string-array>
+ <string name="when_charger_connected">Gdy podłączono ładowarkę</string>
+ <string name="when_wireless_charger_connected">Podczas ładowania bezprzewodowego</string>
+ <string name="when_charger_disconnected">Gdy ładowarka jest odłączona</string>
+ <string name="charger_title">Ładowanie</string>
+ <string name="charger_description">Uruchom działanie, gdy podłączasz lub odłączasz ładowarkę przewodową lub bezprzewodową.</string>
+ <string name="forget_network">Zapomnij o WiFi</string>
+
+ <string name="task_n">zadanie (n)</string>
+ <string name="task_definition">grupa DZIAŁAŃ aktywowana przez WYZWALACZE</string>
+ <string name="my_battery_task">Moje zadania związane z baterią</string>
+ <string name="create_a_task">Utwórz zadanie</string>
+ <string name="actions">DZIAŁANIA</string>
+ <string name="sign_in_trial">Zaloguj się przy pomocy Google+, aby rozpocząć bezpłatny okres użytkowania 7-dniowej wersji próbnej lub rozszerz ją, korzystając z poniższej opcji.</string>
+ <string name="upgrade_heading">Opcja, którą wybrałeś działa tylko w wersji Trigger PRO.</string>
+ <string name="start_trial">Aktywuj wersję próbną</string>
+ <string name="upgrade">Rozszerz</string>
+ <string name="trial_upgrade_only">Wybierz opcję rozszerzenia poniżej, aby skorzystać z tej funkcji.</string>
+ <string name="pro_feature">Opcja pro</string>
+ <string name="trigger">TRIGGER</string>
+ <string name="any_time">kiedykolwiek</string>
+ <string name="headset_title">Zestaw słuchawkowy</string>
+ <string name="when_connected">Gdy jest podłączony</string>
+ <string name="when_disconnected">Gdy jest rozłączony</string>
+ <string name="headset_description">Uruchom zadanie, gdy podłączasz lub odłączasz zestaw słuchawkowy.</string>
+ <string name="use_current_configuration">użyj bieżącej konfiguracji</string>
+ <string name="trial_expired_title">Wersja próbna wygasła</string>
+ <string name="trial_expired">Wersja próbna Trigger Pro wygasła. Utworzone przez Ciebie wyzwalacze Pro nie będą działały w bezpłatnej wersji.</string>
+ <string name="my_tasks_example_description">Gdy poziom mojej baterii jest niski, wyłącza WiFi i obniża poziom jasności ekranu.</string>
+ <string name="show_actions_in_list">Opisowa lista zadań</string>
+ <string name="task_deleted">Usunięto zadanie</string>
+ <string name="undo">wstecz</string>
+ <string name="geofence_beta_description">W związku z nieprzewidywalnością usług Google Play, obecnz wersja wyzwalacza jest wersją Beta. W wielu wypadkach działa dobrze, ale nie możemy zagwarantować, że zadziała zawsze.</string>
+ <string name="when_charging_usb">Podczas ładowania (USB)</string>
+ <string name="when_charging_ac">Podczas ładowania (AC)</string>
+ <string name="any_device">każde urządzenie</string>
+    <string name="two_or_more_devices">Dwa urządzenia lub więcej</string>
+    <string name="upgrade_general_heading">Rozszerzenie odblokuje wszystkie wyzwalacze i opcje aplikacji Trigger oraz wesprze jej rozwój.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Odłącz urządzenie</string>
+    <string name="disconnect_from">Odłącz od</string>
+    <string name="action_bluetooth_disconnect">* Odłączanie urządzenia Bluetooth</string>
+    <string name="widget_bluetooth_disconnect">Odłączono od urządzenia Bluetooth</string>
+    <string name="calendar_title">Wydarzenie w kalendarzu</string>
+    <string name="calendar_description">Uruchom zadanie, gdy rozpoczyna się odpowiednie wydarzenie w kalendarzu</string>
+
+    <string name="available">dostępny</string>
+    <string name="busy">zajęty</string>
+    <string name="any">każdy</string>
+    <string name="attending">weźmie udział</string>
+    <string name="not_attending">nie weźmie udziału</string>
+    <string name="agent_title_string">%1$s agent</string>
+    <string name="start">Uruchom</string>
+    <string name="stop">Zatrzymaj</string>
+    <string name="pause">Wstrzymaj</string>
+    <string name="meeting_agent">Agent spotkań</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">Agent parkowania</string>
+    <string name="battery_agent">Agent baterii</string>
+    <string name="sleep_agent">Agent snu</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">Agent</string>
+    <string name="agent_title_start">Uruchom agenta</string>
+    <string name="agent_title_stop">Zatrzymaj agenta</string>
+    <string name="agent_title_pause">Wstrzymaj agenta</string>
+    <string name="account">Konto</string>
+    <string name="upgrade_spacer">Wszystkie pozycje poniżej są częścią rozszerzenia PRO. Kliknij tutaj, aby aktywować darmowy okres próbny.</string>
+    <string name="upgrade_now">Rozszerz teraz</string>
+    <string name="upgrade_main_description">Wypróbuj 7-dniową wersję próbną lub rozszerz do wersji PRO, aby odblokować wszystkie wyzwalacze.</string>
+    <string name="upgrade_unlocks_triggers_count">odblokowuje %1$s dodatkowe/-ych wyzwalaczy</string>
+    <string name="wallet_signin_point_four">Skorzystaj z 7-dniowego okresu próbnego Trigger PRO.</string>
+    <string name="receiver_marketing_materials">Otrzymuj zniżki i ważne aktualizacje e-mailem.</string>
+    <string name="example_silence_at_night">Wycisz telefon, gdy śpię</string>
+    <string name="example_silence_at_night_description">wycisza przychodzące powiadomienia podczas snu</string>
+    <string name="example_save_battery">Pomaga mi oszczędzać baterię, gdy jej poziom jest niski</string>
+    <string name="example_save_battery_description">wyłącza WiFi i obniża poziom jasności ekranu</string>
+    <string name="example_driving">Oszczędza czas podczas jazdy</string>
+    <string name="example_driving_description">wyłącza WiFi i otwiera Mapy Google podczas jazdy</string>
+    <string name="example_task_data_saver_on">Wyłącza dane komórkowe</string>
+    <string name="example_task_data_saver_off">Włącza dane komórkowe</string>
+    <string name="example_task_battery_saver">Oszczędzanie baterii</string>
+    <string name="example_set_battery_percentage">Uruchamia oszczędzanie baterii, gdy poziom baterii spada poniżej</string>
+    <string name="example_wifi_select_network">Wybierz domową sieć WiFi</string>
+    <string name="example_task_night">Dobranoc</string>
+    <string name="example_task_morning">Ranek</string>
+    <string name="start_now">Uruchom teraz</string>
+    <string name="free_trial_short">Aktywuj 7-dniową wersję próbną Trigger PRO.</string>
+    <string name="trial_started">Rozpoczęto okres próbny</string>
+    <string name="trial_try_free">Wypróbuj bezpłatnie przez 7 dni</string>
+    <string name="event_name">Nazwa wydarzenia</string>
+    <string name="contains">zawiera</string>
+    <string name="matches">dopasowuje</string>
+    <string name="event_description">Opis wydarzenia</string>
+    <string name="description">opis</string>
+    <string name="availibility">Dostępność</string>
+    <string name="when_event_ends">Po zakończeniu wydarzenia</string>
+    <string name="when_event_starts">Po rozpoczęciu wydarzenia</string>
+    <string name="power_service_monitor_battery">Monitorowanie baterii</string>
+    <string name="power_service_monitor_both">Monitorowanie baterii &amp; ładowanie</string>
+    <string name="power_service_monitor_charging">Monitorowanie ładowania</string>
+    <string name="power_service_disable_notification">Dotknij, aby dezaktywować powiadomienia</string>
+    <string name="power_service_on">Wyzwalacze „Baterii” i „Ładowania” wykorzystują usługę pierwszego planu. Pokażą przychodzące powiadomienia, ale nie pozwolą OS na wyłączenie usługi koniecznej do monitorowania tych wydarzeń.</string>
+    <string name="power_service_off">Wyzwalacze „Baterii” i „Ładowania” mogą nie uruchomić się, jeśli usługa jest zabita przez OS lub aplikacja jest usunięta z listy ostatnich aplikacji.</string>
+    <string name="power_service_pref">Usługa pierwszego planu dla wyzwalaczy energii</string>
+    <string name="menu_remove">Usuń</string>
+    <string name="help_tasks_title">Tworzenie zadań</string>
+    <string name="help_tasks_description">Kliknij tutaj, aby zobaczyć samouczek dotyczący rodzajów zadań i ich tworzenia.</string>
+    <string name="connect_dialog_body">„Dziękujemy za korzystanie z aplikacji Trigger! Pobierz „Połącz” i uruchom zadania Trigger z Internetu!! (dostępny 3-dniowy okres próbny)”</string>
+    <string name="no_thanks">Nie, dziękuję</string>
+    <string name="try_connect_now">Wypróbuj teraz</string>
+    <string name="feedback_rate_gplay">Oceń nas na Google Play</string>
+    <string name="rating_text">Nie wahaj się. Dobra ocena oraz +1 są zawsze mile widziane:</string>
+    <string name="show_brightness_window">Podczas zmiany jasności pokaż okno</string>
+    <string name="request_root_access">Zażądaj uprawnień roota</string>
+    <string name="upgrade_successful">Odblokowano wszystkie opcje.</string>
+    <string name="emulate_hardware_dock">Emulator stacji dokującej (wymaga roota)</string>
+    <string name="wizard_trigger_help">Dodaj jeden wyzwalacz lub więcej, klikając „+” widoczny powyżej.</string>
+    <string name="wizard_actions_help">Dodaj jedno działanie lub więcej, klikając „+” widoczny powyżej.</string>
+    <string name="event_set_reminder">Ustaw przypomnienie</string>
+    <string name="forget_wifi_network">Zapomnij o sieci WiFi</string>
+    <string name="show_user_text">Pokaż tekst</string>
+
+    <string name="samsung_hands_free">Tryb „bez rąk”</string>
+    <string name="samsung_smart_stay">Inteligentny postój</string>
+    <string name="htc_sleep_mode">Tryb snu</string>
+    <string name="htc_power_saver">Oszczędzanie energii</string>
+    <string name="htc_boom_sound">Wybuch dźwięku</string>
+    <string name="htc_smart_display">Inteligentny wyświetlacz</string>
+    <string name="samsung_multi_window">Wiele okien</string>
+    <string name="show_toast">Pokaż powiadomienia toast</string>
+    <string name="constraint_days">Dni</string>
+    <string name="constraint_wifi">WiFi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Ładowanie</string>
+    <string name="constraint_connected">Połączono z</string>
+    <string name="constraint_not_connected">Nie połączono z</string>
+    <string name="display_not_connected">Gdy nie połączony z %1$s</string>
+    <string name="is_on">Jest włączony</string>
+    <string name="is_off">Jest wyłączony</string>
+    <string name="play_sound">Odtwórz dźwięk</string>
+    <string name="agent_description">Uruchom zadanie, gdy agent uruchamia się bądź zatrzymuje</string>
+    <string name="when_agent_starts">Gdy agent uruchamia się</string>
+    <string name="when_agent_ends">Gdy agent zatrzymuje się</string>
+    <string name="choose_agent">Wybierz agenta</string>
+    <string name="agent_condition_starts">Gdy %1$s uruchamia się</string>
+    <string name="agent_condition_ends">Gdy %1$s zatrzymuje się</string>
+    <string name="clear">Wyczyść</string>
+    <string name="export">Eksportuj</string>
+    <string name="notification_timer_cancel">Przeciągnij palcem, aby anulować</string>
+    <string name="notification_timer_extra_info">Kończy się za %1$s</string>
+    <string name="installed">zainstalowano</string>
+    <string name="plugin_lock">Zablokuj ekran</string>
+    <string name="plugin_lock_description">Umożliwia zmianę ustawień blokady ekranu. Po wyłączeniu blokady ekranu, odblokujesz telefon przesunięciem palca. Włączenie blokady oznacza, w zależności od ustawień, wprowadzenie kodu PIN lub hasła.</string>
+    <string name="configure">konfiguracja</string>
+</resources>
+
+
+
+
+

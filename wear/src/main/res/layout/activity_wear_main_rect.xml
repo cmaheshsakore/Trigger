@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WearDisplayActivity"
+    android:gravity="center"
+    tools:deviceIds="wear_square">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.wearable.view.WearableListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:background="#717171"
+        android:layout_height="match_parent"/>
+
+    <android.support.wearable.view.CardFrame
+        android:id="@+id/card_none"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-light"
+                    android:drawableTop="@drawable/ic_launcher"
+                    android:drawablePadding="8dp"
+                    android:text="Your tasks have not yet been synced from your mobile device." />
+            </LinearLayout>
+
+            <View
+                android:background="#ddd"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="4dp"/>
+            <TextView
+                android:id="@+id/sync"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="Sync Now" />
+        </LinearLayout>
+
+
+    </android.support.wearable.view.CardFrame>
+
+
+
+</LinearLayout>
+
+
+

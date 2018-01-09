@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option048"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutPhoneCall" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="@string/optionsPhoneNumber"
+            android:inputType="phone"
+            android:lines="1"
+            android:singleLine="true" />
+
+        <include layout="@layout/include_contact_picker_button" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/smsText"
+        style="@style/ConfigurationActionSubText"
+        android:layout_marginTop="8dp"
+        android:text="@string/optionsPhoneCallNote" />
+
+</LinearLayout>

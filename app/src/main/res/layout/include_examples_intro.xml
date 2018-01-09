@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/examples_help"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/card_help"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="12dp" >
+
+    <TextView
+        style="@style/CardHelpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/examples_intro" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/create"
+            style="@style/CardHelpText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list_selector_holo_light"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/create_your_own"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ddd" />
+
+        <TextView
+            android:id="@+id/dismiss"
+            style="@style/CardHelpText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list_selector_holo_light"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/got_it"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

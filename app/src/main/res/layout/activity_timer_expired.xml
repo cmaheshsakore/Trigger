@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notificationTimerMessage"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/divider_orange"
+        android:layout_marginLeft="8dp"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="32dp"
+        android:paddingTop="32dp"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="8dp"
+            tools:text="Task name here" />
+
+        <TextView
+            android:id="@android:id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            tools:text="Time elapsed 1 m 25s" />
+
+
+        <ImageView
+            android:src="@drawable/ic_clock"
+            android:layout_marginTop="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/button_close"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:text="@string/dialogClose"
+        android:textColor="@color/white"
+        android:background="@drawable/button_orange_clickable"
+        android:textSize="18sp" />
+
+</LinearLayout>

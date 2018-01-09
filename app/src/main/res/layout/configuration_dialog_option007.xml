@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Bluetooth Discoverable -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option007"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/BluetoothDiscoverableTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/wifiOptionsBluetoothDiscoverable" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TextView
+        android:id="@+id/BluetoothDiscoverableSubTitle"
+        android:text="@string/wifiOptionsBluetoothDiscoverableSub" 
+        style="@style/ConfigurationActionSubText"/>
+
+</LinearLayout><!-- End Bluetooth Discoverable -->

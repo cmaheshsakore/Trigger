@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Foursquare Venue -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option028"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/optionsSocialFoursquareVenue" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TableLayout
+        android:id="@+id/foursquareSearchHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/foursquareFindText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:shadowRadius="2.75"
+                android:text="@string/optionsFoursquareSearchFind"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/TextSizeOne"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/foursquareVenue"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="5dp"
+                android:hint="@string/optionsFoursquareSearchVenue"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/TextSizeOne" />
+
+            <ImageButton
+                android:id="@+id/foursquareSearchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_search" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/foursquareNearText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:shadowRadius="2.75"
+                android:text="@string/optionsFoursquareSearchNear"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/TextSizeOne"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/foursquareNear"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginRight="5sp"
+                android:hint="@string/optionsFoursquareSearchCity"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/TextSizeOne" />
+        </TableRow>
+    </TableLayout>
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/foursquareOrText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:shadowRadius="2.75"
+                android:text="@string/optionsFoursquareSearchOR"
+                android:textColor="@color/TextColor"
+                android:textSize="@dimen/TextSizeOne"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/foursquareSearchVenueID"
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/optionsFoursquareSearchVenueIDText"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/TextSizeOne" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/foursquareSearchPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/foursquareVenueName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center"
+            android:shadowRadius="2.75"
+            android:text="@string/optionsSocialFoursquareVenueEmpty"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeSix"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/foursquareVenueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:text="@string/optionsSocialFoursquareVenueTitle"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/foursquareVenueID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:text="@string/optionsSocialFoursquareVenueEmpty"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/foursquareSearchSecondary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/foursquareSubVenueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="10sp"
+            android:paddingTop="5sp"
+            android:text="@string/optionsSocialFoursquareVenueSub"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
+    <!-- End Foursquare Venue -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MockBar">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#66676b</item>
+		<item name="android:paddingTop">0sp</item>
+		<item name="android:paddingBottom">0sp</item>
+		<item name="android:paddingLeft">2sp</item>
+    </style>
+</resources>

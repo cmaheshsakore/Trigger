@@ -1,0 +1,981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">작업 선택:</string>
+ <string name="RingerTypePrompt">벨 종류 선택:</string>
+ <string name="limitThreshholdPrompt">갯수 선택:</string>
+ <string name="VibratePrompt">진동 시점 선택:</string>
+
+ <string name="AuthTogglePrompt">암호 선택:</string>
+
+ <string name="menu_new_tag">새 태그</string>
+ <string name="menu_help">회사 소개</string>
+ <string name="menu_contact">연락처</string>
+ <string name="menu_preferences">설정</string>
+ <string name="menu_delete">삭제</string>
+ <string name="menu_chooser_mail">이메일 보내기</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Wi-Fi</string>
+ <string name="adapterBluetooth">블루투스</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">초</string>
+ <string name="timeMinutes">분</string>
+ <string name="timeHours">시간</string>
+
+
+
+ <string name="enableText">사용</string>
+ <string name="disableText">사용안함</string>
+ <string name="toggleText">토글</string>
+
+ <string name="alwaysText">항상</string>
+ <string name="neverText">끄기</string>
+ <string name="whenSilentText">소리가 꺼져 있을 때</string>
+
+
+
+
+
+ <string name="authTypeOpen">열기</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">무음</string>
+ <string name="ringerTypeVibrate">진동</string>
+ <string name="ringerTypeNormal">보통</string>
+
+
+ <string name="dialogOK">확인</string>
+ <string name="dialogCancel">취소</string>
+ <string name="dialogYes">네</string>
+ <string name="dialogNo">아니오</string>
+ <string name="dialogSave">저장</string>
+ <string name="dialogClose">닫기</string>
+ <string name="dialog_run">작업 실행</string>
+
+ <string name="menuWireless">무선 및 네트워크</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">소리 &amp; 볼륨</string>
+ <string name="menuAlarm">알람</string>
+ <string name="menuCheckin">소셜 미디어</string>
+ <string name="menuTasker">작업관리자</string>
+ <string name="menuDisplay">출력</string>
+
+ <string name="addOptionsAddText">작업 추가</string>
+
+ <string name="displayAlarmSet">알람 설정</string>
+ <string name="displayListAlarmSet">타이머 설정</string>
+ <string name="defaultAlarmText">알람시간을 설정하려면 터치하세요.</string>
+
+ <string name="layoutAlarmSetText">다음으로 알람을 설정</string>
+ <string name="layoutAlarmSelectTimeText">알람시간을 설정하려면 터치하세요.</string>
+ <string name="layoutAlarmForwardText">분 후</string>
+
+ <string name="appListLoadingText">현재 로드 중인 앱 목록</string>
+ <string name="listLaunchText">실행</string>
+ <string name="listLaunchTextCustom">실행 액티비티</string>
+ <string name="listNavText">다음으로 이동</string>
+
+
+ <string name="layoutAppLaunchURL">URL/URI 열기</string>
+ <string name="layoutAppLaunchNavigation">네비게이션</string>
+ <string name="layoutAppLaunchNavigationText">목적지</string>
+
+ <string name="optionsSocialFoursquare">포스퀘어: 여기에서 체크인</string>
+ <string name="optionsSocialFoursquareSearching">검색중</string>
+ <string name="optionsSocialFoursquareSearchTitle">장소 매칭</string>
+ <string name="optionsSocialFoursquareVenue">포스퀘어: 장소에서 체크인</string>
+ <string name="optionsSocialFoursquareVenueTitle">장소</string>
+ <string name="optionsSocialFoursquareVenueEmpty">장소가 선택되지 않았습니다.</string>
+ <string name="optionsSocialFoursquareVenueSub">특정 장소로 체크인</string>
+ <string name="optionsSocialFacebook">페이스북: 체크인</string>
+ <string name="optionsSocialPlaces">구글 플레이스: 체크인</string>
+ <string name="optionsSocialTwitter">트위터: 트윗</string>
+
+ <string name="optionsFoursquareSearchFind">찾기</string>
+
+ <string name="optionsFoursquareSearchNear">근처</string>
+
+ <string name="listFacebookText">페이스북으로 체크인</string>
+ <string name="listFoursquareText">포스퀘어로 체크인</string>
+ <string name="listFoursquareVenueText">다음 장소로 체크인</string>
+ <string name="listPlacesText">구글 플레이스로 체크인</string>
+ <string name="listTweetText">트윗 전송</string>
+
+ <string name="locationDisabledTitle">위치 사용안함</string>
+ <string name="locationDisabledText">위치정보 사용불가.  위치 출처를 사용함으로 설정해주세요.</string>
+
+ <string name="listHotspotText">이동식 핫스팟</string>
+
+ <string name="layoutHotspotActionText">작업:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">인증 종류:</string>
+ <string name="layoutHotspotAuthKeyText">인증키:</string>
+
+
+ <string name="soundRingerTypeText">벨 종류 설정</string>
+ <string name="listSoundRingtone">벨소리 설정:</string>
+ <string name="listSoundNotification">알림 메시지 설정:</string>
+ <string name="listSoundRingerVolume">벨소리 볼륨</string>
+ <string name="listSoundMediaVolume">미디어 파일 볼륨</string>
+
+ <string name="listSoundAlarmVolume">알람 볼륨</string>
+ <string name="listSoundNotificationVolume">알림메시지 볼륨</string>
+ <string name="listSoundVibrate">벨 울릴 때 진동</string>
+
+ <string name="taskerNotInstalled">작업관리자 미설치</string>
+ <string name="layoutTaskerLaunchText">작업관리자 작업</string>
+ <string name="layoutTaskerSelect">작업 선택</string>
+ <string name="layoutTaskerHelpText">참고: 작업관리자는 반드시 본 앱 설치 전에 그 설치가 완료되어야 하며, [기타/외부 접속 허용] 메뉴 또한 작업관리자\의 UI상에서 설정을 완료하여야 합니다.\n\n작업 설정이 되지않는 문제가 발생 시, 두 개의 앱을 모두 삭제한 후, 작업관리자를 먼저 재설치하고, NFC 작업 실행기를 뒤이어 설치합니다. 설치순서에 유의하시기 바랍니다.</string>
+
+ <string name="wifiOptionsOperateWifi">Wi-Fi ON/OFF</string>
+ <string name="wifiOptionsConfigureSSID">Wi-Fi 연결</string>
+ <string name="wifiOptionsOperateBluetooth">블루투스 ON/OFF</string>
+ <string name="wifiOptionsBluetoothDiscoverable">블루투스 프로파일</string>
+ <string name="wifiOptionsAutoSync">오토싱크</string>
+ <string name="wifiOptionsAirplaneMode">비행기 모드</string>
+
+ <string name="hotspotOptions">Wi-Fi 핫스팟</string>
+
+ <string name="soundOptionsRinger">소리 프로필</string>
+ <string name="soundOptionsRingtone">벨소리</string>
+ <string name="soundOptionsRingVolume">벨소리 볼륨</string>
+ <string name="soundOptionsNotificationtone">공지 알림소리</string>
+ <string name="soundOptionsNotificationVolume">공지알림 볼륨</string>
+ <string name="soundOptionsMediaVolume">미디어 파일 볼륨</string>
+ <string name="soundOptionsMediaStart">미디어 파일 재생</string>
+
+ <string name="soundOptionsAlarmVolume">알람 볼륨</string>
+ <string name="soundOptionsVibrate">벨 울릴 때 진동</string>
+
+ <string name="listWifiAirplaneModeText">비행기 모드</string>
+ <string name="listWifiAutoSync">오토싱크</string>
+ <string name="listWifiConfigureConnectText">다음으로 연결</string>
+ <string name="listWifiBluetoothDiscoverableText">블루투스 프로파일 모드</string>
+ <string name="listWifiAssociateText">다음으로 연결</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">인증 종류:</string>
+ <string name="layoutWifiAuthKeyText">인증키:</string>
+
+ <string name="builderInvalidName">유효한 이름을 입력해주십시오.</string>
+
+
+ <string name="titleSelectAction">카테고리 선택</string>
+ <string name="titleConfigureAction">작업 구성</string>
+ <string name="buttonTextAdd">작업 추가</string>
+
+ <string name="layoutPreferencesTitleText">설정</string>
+ <string name="layoutPreferencesSelectNotification">알림: 벨소리</string>
+ <string name="layoutPreferencesVibrate">진동</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">저장</string>
+ <string name="layoutPreferencesRateLimitingDisable">사용안함</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">태그가 읽힐 경우</string>
+ <string name="layoutPreferencesVibrateOptionEnable">항상 진동</string>
+ <string name="layoutPreferencesVibrateOptionDisable">진동 끄기</string>
+ <string name="layoutPreferencesVibrateSubAlways">항상 진동</string>
+ <string name="layoutPreferencesVibrateSubNever">진동 끄기</string>
+
+ <string name="layoutPreferencesDebugOutput">디버깅</string>
+ <string name="layoutPreferencesDebugSend">디버깅 로그 보내기</string>
+ <string name="layoutPreferencesEnableLimitingSub">사용안함</string>
+ <string name="layoutPreferencesUsage">Google Analytics 허용</string>
+
+ <string name="layoutPreferencesNotificationsTitle">알림</string>
+ <string name="layoutPreferencesAdvancedTitle">고급</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">밝기</string>
+ <string name="layoutDisplayBrightnessAuto">자동밝기 사용</string>
+ <string name="layoutDisplayNotificationLight">알림 조명</string>
+ <string name="listDisplayNotificationLightText">알림 조명</string>
+
+ <string name="layoutDisplayAutoRotation">자동회전</string>
+ <string name="listDisplayAutoRotationText">자동회전</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">사용자 설정 액티비티 실행 시 예외상황 발생.</string>
+ <string name="actionLastActions">최종 작업:</string>
+
+
+ <string name="actionEnableMediaPlayback">* 미디어 파일재생 시작/중지</string>
+ <string name="widgetEnableMediaPlayback">미디어 파일재생 시작/중지</string>
+
+ <string name="actionLaunchPackage">* 앱 실행하기</string>
+ <string name="widgetLaunchPackage">실행된 앱</string>
+
+ <string name="actionLaunchActivity">* 액티비티 실행하기:</string>
+ <string name="widgetLaunchActivity">실행된 액티비티</string>
+
+ <string name="actionNavigate">* 다음으로 이동:</string>
+ <string name="widgetNavigate">다음으로 이동:</string>
+
+ <string name="actionConfigureSSID">* AP 구성 및 연결하기</string>
+ <string name="widgetConfigureSSID">구성된 AP로 연결</string>
+
+ <string name="actionTaskerTask">* 작업관리자 작업 실행</string>
+ <string name="widgetTaskerTask">실행된 작업관리자 작업</string>
+
+ <string name="actionAlarm">* 다음으로 알람 설정하기</string>
+ <string name="widgetAlarm">다음으로 알람을 설정</string>
+
+ <string name="actionLaunchURL">* URL 실행하기</string>
+ <string name="widgetLaunchURL">실행된 URL</string>
+
+ <string name="actionSetVibration">* 진동 설정</string>
+ <string name="widgetSetVibration">진동 설정</string>
+
+ <string name="actionSendTweet">* 트윗 전송하기</string>
+ <string name="widgetSendTweet">전송된 트윗 메시지</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">태그 작성이 완료되었습니다.</string>
+ <string name="layoutWriteTitle">태그 작성</string>
+ <string name="layoutWritePrimaryMessageStart">장치를 NFC 태그 위에 두고 작성하세요.</string>
+ <string name="layoutWriteLockText">태그를 읽기 전용으로</string>
+
+ <string name="dialogWriteTitle">작성 완료</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">트리거 선택</string>
+ <string name="layoutHomeFormat">태그 지우기</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">타이머 완료</string>
+
+ <string name="displayAlarmSetTimer">알람 설정(타이머)</string>
+
+
+ <string name="actionTimer">* 다음으로 타이머 설정하기</string>
+ <string name="widgetTimer">다음으로 타이머 설정</string>
+
+ <string name="layoutAlarmSetTimerText">다음으로 타이머 설정</string>
+
+ <string name="alertSecureSetting">보안설정을 구성 중입니다. 이 작업은 루트 접속이 필요합니다.</string>
+ <string name="alertSecureSettingTitle">보안 설정</string>
+ <string name="alertSecureSettingMakeSystemApp">시스템 앱으로 설정</string>
+
+ <string name="wifiOptionsGPS">GPS ON/OFF</string>
+ <string name="wifiOptionsMobileData">모바일 데이터 ON/OFF</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">모바일 데이터</string>
+
+ <string name="rebootTitle">완료</string>
+ <string name="rebootText">장치를 재부팅 해주세요.</string>
+
+ <string name="noRootText">루트 접속이 불가합니다.</string>
+
+ <string name="layoutDisplayTimeout">디스플레이 조명시간</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15초</item>
+  <item>30초</item>
+  <item>1분</item>
+  <item>2분</item>
+  <item>5분</item>
+  <item>10분</item>
+  <item>30분</item>
+  <item>안 함</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">조명시간</string>
+
+ <string name="wifiOptions3GData">3G 데이터 ON/OFF</string>
+
+ <string name="layoutAppDeskDock">데스크톱 도크</string>
+ <string name="layoutAppDeskDockSub">이것은 모든 장치에 영향을 주지는 않습니다.</string>
+ <string name="layoutAppCarDock">자동차 도크</string>
+
+ <string name="menuPhone">전화</string>
+
+ <string name="layoutPhoneSMS">문자 메시지 전송</string>
+ <string name="optionsPhoneSMS">문자 메시지 전송</string>
+ <string name="optionsPhoneSMSTo">수신:</string>
+ <string name="optionsPhoneSMSMessage">메시지</string>
+ <string name="optionsPhoneNumber">전화번호</string>
+ <string name="optionsPhoneCall">전화하기</string>
+ <string name="layoutPhoneCall">전화하기</string>
+ <string name="optionsPhoneSMSNote">이것은 받는 이와 메시지가 입력된 SMS 앱을 열 것입니다. 자동으로 메시지를 전송하시려면 이 메시지를 탭하여 플레이 스토어에서 SMS 플러그인을 다운로드하세요.</string>
+ <string name="optionsPhoneCallNote">이것은 번호가 입력된 다이얼러를 열 것입니다. 자동으로 전화를 거시려면 이 메시지를 탭하여 플레이 스토어에서 전화걸기 플러그인을 다운로드하세요.</string>
+
+
+ <string name="listPhoneSMS">SMS 전송</string>
+ <string name="listPhoneCall">전화하기</string>
+
+ <string name="actionSendSMS">* SMS 전송하기</string>
+ <string name="widgetSendSMS">SMS 전송 완료</string>
+
+ <string name="actionPhoneCall">* 전화하기</string>
+ <string name="widgetPhoneCall">전화함</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">에어플레인 모드에서 NFC 켜기</string>
+
+ <string name="menuSecurity">보안</string>
+ <string name="layoutOptionsKeyguard">화면 잠금</string>
+ <string name="securityOptionsOperateKeyguard">화면 잠금 켬/끔</string>
+ <string name="listSecurityKeyguardText">화면 잠금</string>
+
+ <string name="optionsFoursquareSearchCity">도시</string>
+ <string name="optionsFoursquareSearchVenue">장소</string>
+ <string name="optionsFoursquareSearchVenueIDText">장소 ID</string>
+ <string name="optionsFoursquareSearchOR">또는</string>
+
+ <string name="menuApplications">어플리케이션 및 바로가기</string>
+ <string name="layoutWriteNameText">태그 이름 포함</string>
+ <string name="layoutAppKillAppTextSub">앱 기본 액티비티 닫기</string>
+ <string name="layoutAppLaunchAppText">어플리케이션 열기</string>
+ <string name="layoutAppKillAppText">어플리케이션 닫기</string>
+ <string name="layoutAppLaunchActivityText">액티비티 열기</string>
+ <string name="layoutAppKillTaskDisclaimer">루트 액세스 없이는 다른 앱과 함께 작동하지 않습니다. 루트 액세스는 프로세스를 완전히 종료시킬 수 있습니다.</string>
+
+ <string name="layoutAlarmShowUI">알람 UI 표시</string>
+ <string name="layoutAlarmTimePrefix">시간:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">종류</string>
+ <string name="NavTypeDriving">운전</string>
+ <string name="NavTypeTransit">환승</string>
+ <string name="NavTypeWalking">도보</string>
+
+
+
+ <string name="layoutActivityAppList">어플리케이션 선택:</string>
+ <string name="layoutActivityList">액티비티 선택:</string>
+ <string name="layoutActivityWarning">실행할 수 없는 액티비티가 있을 수 있습니다.</string>
+
+ <string name="readOnlyWarning">태그를 읽기 전용으로 작성하시면 더 이상 태그를 작성할 수 없습니다. 이 작업은 되돌릴 수 없습니다.</string>
+ <string name="limitThreshholdOverride">대화상자를 표시하여 이 설정 무시</string>
+ <string name="limitThreshholdOverrideDialogPrefix">이 작업은 최근 %1$s %2$s 내에 실행되었기 때문에 무시될 것입니다:</string>
+ <string name="limitThreshholdOverrideDialogSuffix">이 대화창은 5초 후에 사라집니다.</string>
+ <string name="menu_context_delete">삭제</string>
+ <string name="menu_context_run">실행</string>
+ <string name="menu_context_share">공유</string>
+ <string name="listCloseApp">어플리케이션 닫기</string>
+
+ <string name="listSoundPlayback">미디어 재생 시작/중지</string>
+ <string name="listDisplayBrightness">밝기 설정:</string>
+ <string name="listDisplayBrightnessAuto">자동 밝기 사용</string>
+ <string name="layoutImportPrimaryMessageStart">가져오기를 하려면 폰 뒷면에 태그를 붙이세요</string>
+ <string name="layoutMainBuilderImportText">태그 가져오기</string>
+ <string name="layoutMainBuilderCopyText">태그 복사</string>
+
+
+ <string name="copyRead">1.) 복사할 태그를 스캔합니다</string>
+ <string name="copyReading">2.) 메시지 읽기</string>
+ <string name="copyWrite">3.) 기록할 태그를 탭합니다</string>
+ <string name="copyTitle">NFC 태그 복사</string>
+ <string name="importTitle">태그 가져오기</string>
+
+ <string name="copyDialogCopied">복사 성공</string>
+ <string name="copyDialogCopyError">태그를 복사할 수 없습니다</string>
+ <string name="copyDialogWritten">기록 성공</string>
+ <string name="copyDialogWriteError">태그를 기록할 수 없습니다</string>
+ <string name="layoutPreferencesSelectTimer">타이머 벨소리</string>
+ <string name="layoutPreferencesTagsTitle">작업</string>
+ <string name="layoutPreferencesTagsMore">더 보기</string>
+ <string name="layoutPreferencesNotifications">알림</string>
+ <string name="layoutPreferencesNotificationsSubBar">알림 바 사용</string>
+ <string name="layoutPreferencesNotificationsSubToast">토스트 메시지 사용</string>
+ <string name="layoutPreferencesNotificationsSubBoth">둘 다 사용</string>
+ <string name="layoutPreferencesNotificationsSubNone">없음</string>
+ <string name="menu_done">완료</string>
+ <string name="layoutPreferencesSwitchTimeout">12시간 후에 작업 전환 초기화</string>
+ <string name="menuEvents">이벤트</string>
+ <string name="menuEventsCalendarStatic">달력 이벤트</string>
+ <string name="menuEventsCalendarTimestamp">달력 타임스탬프</string>
+ <string name="menuEventsCalendarTimestampText">태그가 스캔된 정확한 일시에 달력 이벤트를 삽입하세요.</string>
+ <string name="layoutEventCalendarTitle">제목</string>
+ <string name="layoutEventCalendarStart">시작</string>
+ <string name="layoutEventCalendarEnd">종료</string>
+ <string name="layoutEventCalendarAllDay">종일</string>
+ <string name="dateHint">탭하여 날짜 설정</string>
+ <string name="timeHint">탭하여 시간 설정</string>
+ <string name="listDiaplayCalendarEvent">달력 이벤트 추가</string>
+ <string name="listDiaplayCalendarTimestamp">타임스탬프 달력</string>
+ <string name="actionCalendarEvent">달력 이벤트 추가</string>
+ <string name="widgetCalendarEvent">* 달력 이벤트 추가</string>
+ <string name="actionCalendarTimestamp">달력에 타임스탬프 추가</string>
+ <string name="widgetCalendarTimestamp">* 달력에 타임스탬프 추가</string>
+
+ <string name="layoutPreferencesCredentialsTitle">로그인</string>
+ <string name="layoutPreferencesDialogTwitter">확인을 클릭하여 저장된 Twitter 로그인 데이터를 지우세요</string>
+ <string name="layoutPreferencesDialogFoursquare">확인을 클릭하여 Foursquare 로그인 데이터를 지우세요</string>
+
+
+ <string name="layoutAppPause">일시정지</string>
+ <string name="layoutAppPauseSubTitle">계속하기 전에 지정된 시간 동안 일시정지합니다.</string>
+ <string name="actionPause">* 일시정지 시간:</string>
+ <string name="widgetPause">일시정지 시간:</string>
+
+
+ <string name="loading">로드 중…</string>
+ <string name="error">오류</string>
+ <string name="recommended_tags">NFC 태그</string>
+ <string name="buy_now">지금 구입</string>
+ <string name="buy_tags">트리거 상점</string>
+ <string name="popular_tags">추천 작업</string>
+ <string name="my_tags">내 작업</string>
+ <string name="shop_more_title">더 찾으시겠습니까?</string>
+ <string name="shop_more_description">NFC 태그 및 키트 등 NFC 제품의 전체 카탈로그를 살펴보세요.</string>
+ <string name="welcome">환영합니다</string>
+ <string name="buy_nfc_tags">NFC 태그 구입</string>
+ <string name="used_never">사용: 안 함</string>
+ <string name="total_actions">전체 작업</string>
+
+ <string name="basic_tags">기본 태그 작성</string>
+
+ 
+ <string name="default_tag_name_format">작업 %s</string>
+
+ <string name="save_and_write">저장 및 작성</string>
+ <string name="tag_name">이름</string>
+ <string name="no_actions">작업</string>
+ <string name="tag_unsaved_changes">이 작업에 저장되지 않은 변경내용이 있을 수 있습니다.</string>
+ <string name="discard_changes">변경내용 취소</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s바이트</item>
+  <item quantity="other">%s바이트</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Wi-Fi 연결 설정</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">블루투스 검색 기능 켜기</string>
+ 
+ <string name="soundOptionsMediaStartSub">미디어 재생 시작/정지</string>
+ <string name="optionsSocialCheckinHereSub">현재 위치에 체크인</string>
+ <string name="actionURLHeading">URL / URI</string>
+ <string name="optionsSocialTwitterSub">트윗 올리기</string>
+ <string name="layoutAppLaunchNavigationSub">지정 장소로 이동</string>
+ <string name="alarmTimerConfigureSub">타이머 설정</string>
+ <string name="carDockDrivingMode">운전 모드 포함(삼성 갤럭시 장치)</string>
+ <string name="airplaneModeWarning">에어플레인 모드를 활성화하면 NFC가 꺼집니다. 어플리케이션 설정의 \'에어플레인 모드에서 NFC 켜기\'에서  에어플레인 모드를 활성화할 때 NFC가 꺼지지 않도록 설정할 수 있습니다.</string>
+ <string name="write">작성</string>
+ <string name="next">다음</string>
+
+ <string name="_continue">계속</string>
+
+ <string name="shop_unavailable">일시적으로 상점을 이용할 수 없습니다. 연결을 확인하고 몇 분 후에 다시 시도하세요.</string>
+ <string name="titleSavedTagPicker">실행할 저장된 작업 선택</string>
+ <string name="titleShareTagActivity">다음을 사용하여 이 태그 공유:</string>
+ <string name="sharedReceiverDialogMessage">태그 로드 중</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">이메일</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">방금 +Tagstand로 이 NFC 태그를 만들었습니다. Trigger 앱을 사용하여 태그를 확인하세요:</string>
+ <string name="shareTwitterPrefix">제가 만든 이 #NFC 태그를 확인해보세요</string>
+ <string name="shareTwitterSuffix">tagstand 기술 지원</string>
+ <string name="shareSMSPrefix">안녕하세요. 제가 Trigger로 만든 이 NFC 태그를 확인해보세요:</string>
+ <string name="shareEmailPrefix">안녕하세요.\n\n제가 Trigger로 이 \'%1$s\' 태그를 만들었어요. 한 번 확인해보세요.\n\n</string>
+ <string name="shareEmailSuffix">\n\n클릭하여 폰으로 다운로드하세요.\n\n미래로 오신 것을 환영합니다.</string>
+ <string name="shareEmailSubject">제 NFC 태그를 확인해보세요</string>
+ <string name="loadTagPayloadError">죄송합니다. 문제가 발생했습니다. 연결에 문제가 있을 수 있습니다.</string>
+ <string name="loadTagNoPayload">이 태그에는 관련된 작업이 없습니다.</string>
+
+ <string name="layoutWifiHiddenSSID">숨겨진 SSID</string>
+ <string name="layoutEmailAddress">이메일 주소</string>
+ <string name="layoutEmailMessage">메시지(선택사항)</string>
+ <string name="layoutEmailSubjectHint">제목</string>
+ <string name="layoutEmailMessageHint">메시지</string>
+ <string name="layoutEmail">이메일 전송</string>
+ <string name="listDisplayEmail">다음으로 이메일 전송:</string>
+ <string name="sendEmailChooserTitle">다음을 사용하여 이메일 전송:</string>
+
+ <string name="tag_write_failed_message">그래도 작동은 하지만 탭할 때 선택창이 보일 수 있습니다.</string>
+ <string name="tag_write_failed_no_plugin">이 태그를 사용하려면 Play Store에서 태그 재사용 플러그인을 다운로드해야 합니다.</string>
+ <string name="tag_write_failed">이 태그에 기록할 수 없습니다.</string>
+ <string name="tag_write_success_message">태그를 사용할 준비가 되었습니다.</string>
+ <string name="menu_help_text">도움말</string>
+
+ <string name="warning">경고</string>
+
+
+ <string name="configure_connection_title">연결 구성</string>
+ <string name="enter_network_name">네트워크 이름(ssid) 입력</string>
+ <string name="enter_bluetooth_name">장치 이름 입력</string>
+ <string name="enter_bluetooth_mac">mac 주소 입력</string>
+ <string name="when_connected_to">다음에 연결 시:</string>
+ <string name="when_disconnected_from">다음에서 연결해제 시:</string>
+ <string name="or">또는</string>
+
+ <string name="color_white">흰색</string>
+ <string name="color_black">검은색</string>
+ <string name="select_background_color">스타일 선택</string>
+ <string name="action_send_email">* 이메일 보내기</string>
+ <string name="widget_send_email">이메일 전송됨</string>
+ <string name="ignore_duplicate_check">이전 작업 반복 방지</string>
+ <string name="if_read_again">다음 내에 작업 반복 방지:</string>
+ <string name="found_tag">실행한 작업</string>
+ <string name="title_tag_limiting">반복 방지</string>
+ <string name="limit_last_tag_read">이전 작업</string>
+ <string name="limit_time_frame">%1$s %2$s 내</string>
+
+ <string name="erase_tag_text">지우려면 폰의 뒷면을 태그 위에 놓으세요.</string>
+ <string name="copy_tag_text">복사하려면 폰의 뒷면을 태그 위에 놓으세요.</string>
+
+ <string name="menuMessages">메시지</string>
+ <string name="widget_single_task">작업 실행</string>
+ <string name="widget_single_task_configure_title">바로가기 설정</string>
+ <string name="soundOptionsRingVolumeCombined">벨소리 / 알림 볼륨</string>
+
+
+ <string name="switch_tag_details">전환 작업에는 2개의 작업이 있으며 NFC 태그를 탭할 때마다 작업을 전환합니다.\n\nNFC 태그를 사용하기 위해 두 번째 작업을 추가하려면 위의 +를 탭하세요.</string>
+
+ <string name="driving_mode">운전 모드</string>
+ <string name="power_saver">절전</string>
+ <string name="block_mode">차단 모드</string>
+ <string name="menuSamsung">삼성</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">절전 모드</string>
+ <string name="driving_mode_heading">운전 모드</string>
+ <string name="blocking_mode_heading">차단 모드</string>
+
+ <string name="display_power_saver">절전 기능</string>
+ <string name="display_blocking_mode">차단 모드</string>
+ <string name="display_driving_mode">운전 모드</string>
+ <string name="heading_glympse">Glympse 전송</string>
+ <string name="hint_recipient_address">수신자</string>
+
+ <string name="widgetSendGlympse">Glympse 전송됨</string>
+ <string name="actionSendGlympse">* Glympse 전송</string>
+
+ <string-array name="glympse_address_types">
+  <item>이메일</item>
+  <item>SMS</item>
+  <item>Twitter</item>
+  <item>Facebook</item>
+ </string-array>
+
+
+ <string name="duration">지속시간</string>
+
+
+ <string name="choose_shipping_method">배송방법 선택</string>
+ <string name="tts_failed">오류: TTS를 시작할 수 없음</string>
+
+ <string name="action_speak_text">* 텍스트 말하기</string>
+ <string name="widget_speak_text">텍스트 말함</string>
+
+ <string name="heading_tts">텍스트 말하기</string>
+ <string name="tts_hint">말할 텍스트</string>
+
+
+ <string name="open_in_background">백그라운드에서 열기</string>
+ <string name="help_answers">온라인으로 답변 받기</string>
+ <string name="help_email">지원팀에 이메일 보내기</string>
+ <string name="show_welcome">환영 화면 및 힌트 표시</string>
+
+
+ <string name="general">일반</string>
+ <string name="backup_restore">백업 / 복원</string>
+ <string name="backup">백업</string>
+ <string name="restore">복원</string>
+ <string name="last_operation">마지막 작업:</string>
+ <string name="backed_up">%1$s에 백업</string>
+ <string name="restored">%1$s에 복원</string>
+ <string name="backup_local">로컬</string>
+ <string name="backup_tagstand">클라우드</string>
+ <string name="backup_to">다음에 백업:</string>
+ <string name="restore_from">다음에서 복원:</string>
+ <string name="restoring">복원 중</string>
+ <string name="perform_cloud_backup">클라우드 백업 수행 중</string>
+
+ <string name="sso_clear_dialog">확인을 클릭하여 Google 계정의 로그인 데이터를 지우세요</string>
+
+ <string name="title_sso_explanation">Google 로그인</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">로그아웃</string>
+ <string name="status_logged_out">로그인</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">다음으로 구입:</string>
+ <string name="ship_to">다음으로 배송:</string>
+ <string name="confirm_order">주문 확인</string>
+ <string name="change">지불 또는 주소 변경</string>
+ <string name="change_shipping">배송 방법 변경</string>
+ <string name="tax">세금:</string>
+ <string name="total">합계:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">배송:</string>
+ <string name="titleConfirmPayment">주문 정보</string>
+ <string name="item_price">가격:</string>
+ <string name="finalize_payment">구매 확정 중</string>
+ <string name="confirmation_text">거래 번호는 %1$s입니다.\n\n%2$s(으)로 확인 이메일이 전송될 것입니다.</string>
+ <string name="confirmation_error_text">거래를 처리하는 중에 문제가 발생했습니다.\n\n%1$s</string>
+ <string name="wallet_error_title">Google Wallet 오류</string>
+ <string name="wallet_error_message">Google Wallet에 접속하는 중에 문제가 발생했습니다. 몇 분 후에 다시 시도하실 수 있습니다. 오류: %1s</string>
+ <string name="titleOrderComplete">주문 완료</string>
+ <string name="spending_limit_exceeded">지출 한도를 초과했습니다</string>
+ <string name="google_wallet_unavailable">Google Wallet 이용 불가</string>
+ <string name="error_code">오류 코드: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">다음으로 지불:</string>
+ <string name="wallet_signin_point_one">다시는 작업을 잃지 마세요. Tagstand의 클라우드를 사용하여 작업을 백업하고 복원하세요.</string>
+ <string name="wallet_signin_point_two">Tagstand로부터 2개의 무료 태그를 받으세요.</string>
+ <string name="wallet_signin_point_three">Google Wallet을 사용하여 태그를 보다 쉽고 빠르게 구매할 수 있습니다.</string>
+ <string name="wallet_signin_heading">Google 계정을 사용하여 혜택을 누리세요.</string>
+ <string name="set_alarm_app">원하는 알람 앱을 설정하세요</string>
+ <string name="select_alarm_app">원하는 알람 앱을 선택하세요</string>
+ <string name="sign_in_with_google">로그인</string>
+ <string name="system_volume">시스템 볼륨</string>
+
+ <string name="actionSystemVolume">* 다음으로 시스템 볼륨 설정:</string>
+ <string name="widgetSystemVolume">시스템 볼륨 설정</string>
+ <string name="media_next">다음 미디어</string>
+ <string name="next_track">다음 트랙</string>
+ <string name="media_previous">이전 미디어</string>
+ <string name="previous_track">이전 트랙</string>
+ <string name="actionMediaNext">* 다음 트랙</string>
+ <string name="widgetMediaNext">다음 트랙</string>
+ <string name="actionMediaPrevious">* 이전 트랙</string>
+ <string name="widgetMediaPrevious">이전 트랙</string>
+ <string name="menuMedia">미디어</string>
+
+ <string name="wifi_task">Wifi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">NFC 태그를 탭할 때 작업을 실행하거나 전환하세요.</string>
+ <string name="bluetooth_task_description">Bluetooth 장치에 연결하거나 연결해제할 때 작업을 실행하세요.</string>
+ <string name="wifi_task_description">Wifi 네트워크에 연결하거나 연결해제할 때 작업을 실행하세요.</string>
+ <string name="configure_connection_task_title">%1$s 작업 설정</string>
+
+ <string name="layoutProfileTaskChooserTitle">작업 선택</string>
+ <string name="layoutProfileNewTask">+ 새 작업</string>
+ <string name="enable_bluetooth">페어링된 장치를 표시하려면 Bluetooth를 켜야 합니다.</string>
+ <string name="enable_wifi">저장된 네트워크를 표시하려면 Wifi를 켜야 합니다</string>
+ <string name="no_task">작업을 찾을 수 없습니다.</string>
+ <string name="share_failed">태그 공유 실패.</string>
+
+ <string name="extension_description">가장 최근 작업을 보여주고 DashClock에서 바로 작업을 실행하도록 해줍니다</string>
+ <string name="import_create_tag">작업을 찾을 수 없습니다. 이 태그를 사용하여 새 작업을 만드시겠습니까?</string>
+ <string name="start_media_playback">미디어 재생 시작</string>
+ <string name="stop_media_playback">미디어 재생 중지</string>
+ <string name="receive_sip_calls">SIP 전화 받기</string>
+ <string name="sip_calls">SIP 전화</string>
+
+ <string name="widget_enable">%1$s 켜짐</string>
+ <string name="widget_disable">%1$s 꺼짐</string>
+ <string name="widget_toggle">%1$s 전환됨</string>
+
+ <string name="action_enable">* %1$s 켜는 중</string>
+ <string name="action_disable">* %1$s 끄는 중</string>
+ <string name="action_toggle">* %1$s 전환 중</string>
+
+ <string name="action_set_generic">* %1$s 설정 중</string>
+ <string name="widget_set_generic">%1$s 설정</string>
+ <string name="action_set_to">* %1$s을(를) %2$s(으)로 설정 중</string>
+ <string name="widget_set_to">%1$s을(를) %2$s(으)로 설정</string>
+ <string name="action_checking_in">* %1$s 체크인 중</string>
+ <string name="widget_checking_in">%1$s 체크인함</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare Venue</string>
+ <string name="social_google_places">Google Places</string>
+ <string name="run_task">작업 실행</string>
+ <string name="background_color">배경 색깔</string>
+ <string name="white">흰색</string>
+ <string name="black">검은색</string>
+ <string name="select_icon">아이콘 선택</string>
+ <string name="select_task">작업 선택</string>
+
+ <string name="try_it_now">지금 사용해보기</string>
+
+ <string name="bluetooth_connect_a2dp_heading">장치 연결</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>폰 및 미디어</item>
+  <item>미디어</item>
+  <item>폰</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">프로필 선택</string>
+ <string name="select_bluetooth_device">장치 선택</string>
+ <string name="action_bluetooth_connect">* Bluetooth 장치 연결</string>
+ <string name="widget_bluetooth_connect">Bluetooth 장치에 연결됨</string>
+
+ <string name="write_options_title">작성 옵션</string>
+ <string name="menu_context_edit">수정</string>
+ <string name="set_media_app">선호하는 미디어 플레이어 설정</string>
+ <string name="select_media_app">선호하는 미디어 플레이어 선택</string>
+ <string name="menuTravel">여행</string>
+ <string name="item_info_title">정보</string>
+ <string name="geofence_task">지오펜스(베타)</string>
+ <string name="when_entering">들어갈 때</string>
+ <string name="when_exiting">나올 때</string>
+ <string name="address">주소</string>
+ <string name="geofence">지오펜스</string>
+ <string name="radius">크기:</string>
+ <string name="no_location">설정된 위치 없음</string>
+ <string name="miracast_device">Miracast 장치</string>
+ <string name="battery_task">배터리</string>
+ <string name="battery_task_description">배터리가 특정 퍼센트에 도달하면 작업을 실행합니다.</string>
+ <string name="when_battery_level">배터리 수준:</string>
+ <string name="nfc_gear_title">NFC 기어</string>
+
+ <string name="goes_below">아래로 이동</string>
+ <string name="goes_above">위로 이동</string>
+ <string name="activity_feed">활동 기록</string>
+ <string name="activity_feed_none">아직 활성화된 트리거 없음.</string>
+ <string name="menu_experimental">시험 중</string>
+ <string name="time_task_description">하루 중 또는 여러 날에 걸쳐 특정 시간에 작업을 실행합니다.</string>
+ <string name="time_task">시간</string>
+ <string name="day_sunday">일</string>
+ <string name="day_monday">월</string>
+ <string name="day_tuesday">화</string>
+ <string name="day_wednesday">수</string>
+ <string name="day_thursday">목</string>
+ <string name="day_friday">금</string>
+ <string name="day_saturday">토</string>
+
+ <string name="example_created">%1$s 생성 성공.</string>
+ <string name="title_feedback">피드백</string>
+ <string name="contact_text">저희는 Trigger를 최대한 유용한 앱으로 만들고자 합니다. 여러분의 피드백은 저희에게 큰 도움이 됩니다. 문제, 의견 또는 제안사항이 있으시면 아래의 리소스를 사용하여 자유롭게 연락해주세요.</string>
+ <string name="other_nfc">기타 NFC 작업</string>
+ <string name="write_status_waiting">태그를 기다리는 중...</string>
+ <string name="write_free_tags">NFC 태그 구입</string>
+
+ <string name="previous">이전</string>
+ <string name="title_configure_triggers">트리거</string>
+ <string name="title_configure_task">작업</string>
+ <string name="title_configure_switch">스위치</string>
+ <string name="us_customer">미국 고객</string>
+ <string name="international_customer">외국 고객</string>
+ <string name="checkout">체크아웃</string>
+ <string name="examples_intro">폰의 센서를 사용하여 자동으로 설정을 변경하거나 앱을 시작하거나 메시지를 전송하세요.\n\n아래에서 이미 만들어진 작업 예시로 시작하거나 나만의 작업을 만들어보세요.</string>
+ <string name="got_it">알겠습니다</string>
+ <string name="create_your_own">나만의 작업을 만드세요</string>
+ <string name="no_triggers">위의 +를 클릭하여 트리거를 추가하세요.</string>
+ <string name="international">(외국)</string>
+ <string name="us">(미국)</string>
+     
+ <string name="geofence_help">질문 또는 Geofence 작업 관련 문제가 있는 경우 FAQ를 참조하세요.</string>
+ <string name="separator_or">- 또는 -</string>
+ <string name="separator_and">- 및 -</string>
+ <string name="use_this_task">제한사항 추가</string>
+ <string name="between_these_times">다음 기간:</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">모든 네트워크</string>
+ <string name="select_network">네트워크 선택</string>
+ <string name="two_or_more">2개 이상의 네트워크</string>
+ <string name="display_between_times">%1$s 및 %2$s 사이</string>
+ <string name="display_on_days">%1$s</string>
+ <string name="display_wifi_network">%1$s에 연결 시</string>
+ <string name="no_actions_found">작업 없음</string>
+ <string name="no_actions_found_message">%1$s에 작업이 없습니다.\n\n뒤로 돌아가서 작업을 추가하거나 작업 없이 이 작업을 저장하세요.</string>
+ <string name="go_back">돌아가기</string>
+ <string name="payment_info">결제 정보</string>
+ <string name="card_number">카드 번호</string>
+ <string name="expiration_date">만료일</string>
+ <string name="security_code">보안 코드</string>
+ <string name="mm">MM</string>
+ <string name="yy">YY</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">배송지 주소</string>
+ <string name="full_name">성명</string>
+ <string name="company_name">회사 이름</string>
+ <string name="email">이메일</string>
+ <string name="street_address">주소</string>
+ <string name="apt_suite">Apt./Suite</string>
+ <string name="city">도시</string>
+ <string name="region">지역</string>
+ <string name="postcode">우편번호</string>
+ <string name="phone_number">전화번호</string>
+ <string name="billing_address">청구지 주소</string>
+ <string name="use_shipping_info">배송 정보 사용</string>
+ <string name="used_text">사용: %1$s</string>
+ <string name="pref_show_bytes">작업 크기 표시</string>
+ <string name="plugin_tag_reuse">태그 재사용</string>
+ <string name="plugin_tag_reuse_description">장치에서 완전히 지원하지 않는 읽기전용 또는 태그를 재사용합니다.</string>
+ <string name="plugin_call">통화</string>
+ <string name="plugin_call_description">이 플러그인은 번호가 입력된 다이얼러를 열지 않고 바로 전화를 걸 수 있도록 해줍니다.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">이 플러그인은 문자메시지 앱의 SMS 데이터를 미리 입력하지 않고 문자메시지를 자동으로 전송할 수 있도록 해줍니다.</string>
+ <string name="plugins">플러그인</string>
+ <string-array name="radiusChoices">
+  <item>소</item>
+  <item>중</item>
+  <item>대</item>
+  <item>최대</item>
+ </string-array>
+ <string name="when_charger_connected">충전기 연결 시</string>
+ <string name="when_wireless_charger_connected">무선 충전 시</string>
+ <string name="when_charger_disconnected">충전기 연결해제 시</string>
+ <string name="charger_title">충전 중</string>
+ <string name="charger_description">유선 또는 무선 충전기를 연결 또는 연결해제할 때 작업을 실행합니다.</string>
+ <string name="forget_network">Wifi 해제</string>
+
+ <string name="task_n">작업(n)</string>
+ <string name="task_definition">트리거로 활성화되는 작업 그룹</string>
+ <string name="my_battery_task">나의 배터리 작업</string>
+ <string name="create_a_task">작업 생성</string>
+ <string name="actions">작업</string>
+ <string name="sign_in_trial">Google+로 로그인하여 무료 7일 체험을 시작하거나 아래에서 업그레이드하세요.</string>
+ <string name="upgrade_heading">선택하신 기능은 Trigger PRO로 제한되어 있습니다.</string>
+ <string name="start_trial">체험판 시작</string>
+ <string name="upgrade">업그레이드</string>
+ <string name="trial_upgrade_only">이 기능을 사용하려면 아래의 업그레이드를 선택하세요.</string>
+ <string name="pro_feature">Pro 기능</string>
+ <string name="trigger">트리거</string>
+ <string name="any_time">언제든지</string>
+ <string name="headset_title">헤드셋</string>
+ <string name="when_connected">연결 시</string>
+ <string name="when_disconnected">연결해제 시</string>
+ <string name="headset_description">헤드셋을 연결하거나 연결해제 시 작업을 실행합니다.</string>
+ <string name="use_current_configuration">현재 설정 사용</string>
+ <string name="trial_expired_title">체험기간 만료</string>
+ <string name="trial_expired">Trigger Pro 무료 체험기간이 만료되었습니다. 만드신 모든 Pro 트리거는 무료 버전에서는 작동하지 않습니다.</string>
+ <string name="my_tasks_example_description">배터리가 부족할 때, wifi를 끄고 화면 밝기를 낮춥니다.</string>
+ <string name="show_actions_in_list">작업 목록 보기</string>
+ <string name="task_deleted">작업 삭제됨</string>
+ <string name="undo">되돌리기</string>
+ <string name="geofence_beta_description">Google Play 서비스의 불안정성으로 인해 이것은 현재 베타 트리거입니다. 많은 경우에 잘 작동하지만 항상 작동한다는 보장은 해드릴 수 없습니다.</string>
+ <string name="when_charging_usb">충전 시(USB)</string>
+ <string name="when_charging_ac">충전 시(AC)</string>
+ <string name="any_device">모든 장치</string>
+    <string name="two_or_more_devices">2대 이상의 장치</string>
+    <string name="upgrade_general_heading">업그레이드는 지속적인 개발에 도움을 주고 Trigger의 모든 트리거와 기능을 잠금해제합니다.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">장치 연결해제</string>
+    <string name="disconnect_from">다음으로부터 연결해제:</string>
+    <string name="action_bluetooth_disconnect">* Bluetooth 장치 연결해제</string>
+    <string name="widget_bluetooth_disconnect">Bluetooth 장치 연결해제됨</string>
+    <string name="calendar_title">달력 이벤트</string>
+    <string name="calendar_description">해당하는 달력 이벤트가 시작될 때 작업 실행</string>
+
+    <string name="available">이용 가능</string>
+    <string name="busy">바쁨</string>
+    <string name="any">모두</string>
+    <string name="attending">참석</string>
+    <string name="not_attending">참석 안 함</string>
+    <string name="agent_title_string">%1$s 에이전트</string>
+    <string name="start">시작</string>
+    <string name="stop">중지</string>
+    <string name="pause">일시정지</string>
+    <string name="meeting_agent">회의 에이전트</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">주차 에이전트</string>
+    <string name="battery_agent">배터리 에이전트</string>
+    <string name="sleep_agent">수면 에이전트</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">에이전트</string>
+    <string name="agent_title_start">에이전트 시작</string>
+    <string name="agent_title_stop">에이전트 중지</string>
+    <string name="agent_title_pause">에이전트 일시정지</string>
+    <string name="account">계정</string>
+    <string name="upgrade_spacer">아래의 모든 항목은 PRO 업그레이드에 포함되어 있습니다. 여기를 클릭하여 업그레이드하거나 무료 체험판을 시작하세요.</string>
+    <string name="upgrade_now">지금 업그레이드</string>
+    <string name="upgrade_main_description">7일 무료 체험판을 이용하시거나 PRO 버전으로 업그레이드하여 모든 트리거를 잠금해제하세요.</string>
+    <string name="upgrade_unlocks_triggers_count">추가적인 %1$s개의 트리거 잠금해제</string>
+    <string name="wallet_signin_point_four">Trigger PRO의 7일 무료 체험판을 이용해보세요.</string>
+    <string name="receiver_marketing_materials">이메일로 할인 정보 및 중요 업데이트를 받으세요.</string>
+    <string name="example_silence_at_night">수면 중에 폰을 무음으로 설정</string>
+    <string name="example_silence_at_night_description">수면 중에 모든 알림을 무음으로 설정합니다</string>
+    <string name="example_save_battery">배터리가 부족할 때 배터리 절약</string>
+    <string name="example_save_battery_description">WiFi를 끄고 화면 밝기를 낮춥니다</string>
+    <string name="example_driving">운전 시 시간 절약</string>
+    <string name="example_driving_description">운전 시 WiFi를 끄고 Google Maps를 엽니다</string>
+    <string name="example_task_data_saver_on">모바일 데이터 끄기</string>
+    <string name="example_task_data_saver_off">모바일 데이터 켜기</string>
+    <string name="example_task_battery_saver">배터리 절약 기능</string>
+    <string name="example_set_battery_percentage">배터리가 부족할 때 배터리 절약 기능 실행</string>
+    <string name="example_wifi_select_network">집의 WiFi 네트워크 선택</string>
+    <string name="example_task_night">잘자요</string>
+    <string name="example_task_morning">좋은 아침</string>
+    <string name="start_now">지금 시작</string>
+    <string name="free_trial_short">Trigger PRO를 7일간 무료로 체험해보세요.</string>
+    <string name="trial_started">체험판 시작됨</string>
+    <string name="trial_try_free">7일간 무료로 체험해보세요</string>
+    <string name="event_name">이벤트 이름</string>
+    <string name="contains">포함</string>
+    <string name="matches">일치</string>
+    <string name="event_description">이벤트 설명</string>
+    <string name="description">설명</string>
+    <string name="availibility">가용성</string>
+    <string name="when_event_ends">이벤트 종료 시</string>
+    <string name="when_event_starts">이벤트 시작 시</string>
+    <string name="power_service_monitor_battery">배터리 모니터링</string>
+    <string name="power_service_monitor_both">배터리 모니터링 및 충전</string>
+    <string name="power_service_monitor_charging">모니터링 충전</string>
+    <string name="power_service_disable_notification">알림을 끄려면 터치하세요</string>
+    <string name="power_service_on">배터리 및 충전 트리거는 포어그라운드 서비스를 사용합니다. 이것은 알림을 계속 표시하지만 이 이벤트를 모니터링하는 데 필요한 서비스를 OS가 강제 종료하는 것을 막습니다.</string>
+    <string name="power_service_off">OS가 서비스를 강제 종료했거나 앱이 최근 앱 목록에서 제거된 경우 배터리 및 충전 트리거가 작동하지 않습니다.</string>
+    <string name="power_service_pref">전원 트리거의 포어그라운드 서비스</string>
+    <string name="menu_remove">제거</string>
+    <string name="help_tasks_title">작업 생성 중</string>
+    <string name="help_tasks_description">여기를 클릭하여 어떤 작업이 있고 작업을 어떻게 만드는지에 관한 간략한 튜토리얼을 보세요.</string>
+    <string name="connect_dialog_body">"Trigger를 사용해주셔서 감사합니다! 지금 Connect를 다운로드하고 웹의 Trigger Tasks를 실행해보세요!! (3일 무료 체험판 포함)"</string>
+    <string name="no_thanks">아니요</string>
+    <string name="try_connect_now">지금 사용해보세요</string>
+    <string name="feedback_rate_gplay">Google Play에서 앱 평가</string>
+    <string name="rating_text">좋은 평가와 +1을 해주시면 감사하겠습니다.</string>
+    <string name="show_brightness_window">밝기 변경 시 창 표시</string>
+    <string name="request_root_access">루트 접근권 요청</string>
+    <string name="upgrade_successful">이제 모든 기능이 잠금해제되었습니다.</string>
+    <string name="emulate_hardware_dock">하드웨어 도크 에뮬레이션(루팅 필요)</string>
+    <string name="wizard_trigger_help">위의 +를 클릭하여 하나 이상의 트리거를 추가하세요.</string>
+    <string name="wizard_actions_help">위의 +를 클릭하여 하나 이상의 작업을 추가하세요.</string>
+    <string name="event_set_reminder">알림 설정</string>
+    <string name="forget_wifi_network">Wifi 네트워크 해제</string>
+    <string name="show_user_text">텍스트 표시</string>
+
+    <string name="samsung_hands_free">핸즈프리 모드</string>
+    <string name="samsung_smart_stay">스마트 화면유지</string>
+    <string name="htc_sleep_mode">슬립 모드</string>
+    <string name="htc_power_saver">전원 절약</string>
+    <string name="htc_boom_sound">붐 사운드</string>
+    <string name="htc_smart_display">스마트 디스플레이</string>
+    <string name="samsung_multi_window">멀티 윈도우</string>
+    <string name="show_toast">메뉴 표시</string>
+    <string name="constraint_days">일</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">충전 중</string>
+    <string name="constraint_connected">연결됨:</string>
+    <string name="constraint_not_connected">연결 안 됨:</string>
+    <string name="display_not_connected">%1$s에 연결되지 않은 경우</string>
+    <string name="is_on">켜짐</string>
+    <string name="is_off">꺼짐</string>
+    <string name="play_sound">소리 재생</string>
+    <string name="agent_description">에이전트가 시작 또는 중지되면 작업 실행</string>
+    <string name="when_agent_starts">에이전트 시작 시</string>
+    <string name="when_agent_ends">에이전트 종료 시</string>
+    <string name="choose_agent">에이전트 선택</string>
+    <string name="agent_condition_starts">%1$s 시작 시</string>
+    <string name="agent_condition_ends">%1$s 종료 시</string>
+    <string name="clear">지우기</string>
+    <string name="export">내보내기</string>
+    <string name="notification_timer_cancel">스와이핑하여 취소하세요</string>
+    <string name="notification_timer_extra_info">%1$s에 만료됩니다</string>
+    <string name="installed">설치됨</string>
+    <string name="plugin_lock">잠금화면</string>
+    <string name="plugin_lock_description">이 기능은 실제 기본 잠금화면 설정을 변경할 수 있습니다. 잠금화면 기능을 끄면 밀어서 잠금해제할 수 있습니다. 이 기능을 켜면 이전의 설정에 따라 PIN 또는 비밀번호가 설정됩니다.</string>
+    <string name="configure">설정</string>
+</resources>
+
+
+
+
+

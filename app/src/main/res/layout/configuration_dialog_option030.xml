@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Facebook -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option030"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/optionsSocialFacebook" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TextView
+        style="@style/ConfigurationActionSubText"
+        android:text="@string/optionsSocialCheckinHereSub" />
+
+</LinearLayout><!-- End Facebook -->

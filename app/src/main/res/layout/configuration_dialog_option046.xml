@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Operate Wifi -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option045"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutAppCarDock" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/dockOperation"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/AdapterTogglePrompt" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/sVoiceCheck"
+            style="@style/ConfigurationActionSubText"
+            android:text="@string/carDockDrivingMode"
+            android:textSize="@dimen/TextSizeSmall" />
+
+        <CheckBox
+            android:id="@+id/hardwareDock"
+            style="@style/ConfigurationActionSubText"
+            android:text="@string/emulate_hardware_dock"
+            android:textSize="@dimen/TextSizeSmall"
+            android:checked="false" />
+
+        <TextView
+            style="@style/ConfigurationActionSubText"
+            android:text="@string/layoutAppDeskDockSub" />
+    </LinearLayout>
+
+</LinearLayout><!-- End Operate Wifi -->

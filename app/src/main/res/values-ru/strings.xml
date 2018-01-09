@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Выберите действие:</string>
+ <string name="RingerTypePrompt">Выберите тип звонка:</string>
+ <string name="limitThreshholdPrompt">Выберите единицу:</string>
+ <string name="VibratePrompt">Включение вибрации:</string>
+
+ <string name="AuthTogglePrompt">Выберите шифрование:</string>
+
+ <string name="menu_new_tag">Новое задание</string>
+ <string name="menu_help">Справка</string>
+ <string name="menu_contact">Контакты</string>
+ <string name="menu_preferences">Настройки</string>
+ <string name="menu_delete">Удалить</string>
+ <string name="menu_chooser_mail">Отправить эл. письмо</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">WiFi</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Секунды</string>
+ <string name="timeMinutes">Минуты</string>
+ <string name="timeHours">Часы</string>
+
+
+
+ <string name="enableText">Включить</string>
+ <string name="disableText">Выключить</string>
+ <string name="toggleText">Переключить</string>
+
+ <string name="alwaysText">Всегда</string>
+ <string name="neverText">Никогда</string>
+ <string name="whenSilentText">При выключенном звуке</string>
+
+
+
+
+
+ <string name="authTypeOpen">Открытый доступ</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Без звука</string>
+ <string name="ringerTypeVibrate">Вибрация</string>
+ <string name="ringerTypeNormal">Обычный</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">Отмена</string>
+ <string name="dialogYes">Да</string>
+ <string name="dialogNo">Нет</string>
+ <string name="dialogSave">Сохранить</string>
+ <string name="dialogClose">Закрыть</string>
+ <string name="dialog_run">Выполнить задание</string>
+
+ <string name="menuWireless">Беспроводные и локальные сети</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Звуки и громкость</string>
+ <string name="menuAlarm">Сигналы</string>
+ <string name="menuCheckin">Социальные медиа</string>
+ <string name="menuTasker">Планировщик</string>
+ <string name="menuDisplay">Экран</string>
+
+ <string name="addOptionsAddText">Добавить в задание</string>
+
+ <string name="displayAlarmSet">Установить сигнал</string>
+ <string name="displayListAlarmSet">Установить таймер</string>
+ <string name="defaultAlarmText">Коснитесь, чтобы задать время сигнала</string>
+
+ <string name="layoutAlarmSetText">Установить сигнал на</string>
+ <string name="layoutAlarmSelectTimeText">Коснитесь, чтобы задать время сигнала</string>
+ <string name="layoutAlarmForwardText">минут позже</string>
+
+ <string name="appListLoadingText">Загрузка списка приложений</string>
+ <string name="listLaunchText">Запустить</string>
+ <string name="listLaunchTextCustom">Операция при запуске</string>
+ <string name="listNavText">Перейти к</string>
+
+
+ <string name="layoutAppLaunchURL">Открыть URL/URI</string>
+ <string name="layoutAppLaunchNavigation">Навигация</string>
+ <string name="layoutAppLaunchNavigationText">Назначение</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Отметиться здесь</string>
+ <string name="optionsSocialFoursquareSearching">Поиск...</string>
+ <string name="optionsSocialFoursquareSearchTitle">Совпадение мест проведения</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Отметиться в месте проведения</string>
+ <string name="optionsSocialFoursquareVenueTitle">Место проведения</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Место проведения не выбрано</string>
+ <string name="optionsSocialFoursquareVenueSub">отметиться в определенном месте проведения</string>
+ <string name="optionsSocialFacebook">Facebook: Отметиться</string>
+ <string name="optionsSocialPlaces">Google Адреса: Отметиться</string>
+ <string name="optionsSocialTwitter">Твиттер: Отправка твита</string>
+
+ <string name="optionsFoursquareSearchFind">Найти</string>
+
+ <string name="optionsFoursquareSearchNear">возле</string>
+
+ <string name="listFacebookText">Отметиться в Facebook</string>
+ <string name="listFoursquareText">Отметиться в Foursquare</string>
+ <string name="listFoursquareVenueText">Отметиться в</string>
+ <string name="listPlacesText">Отметиться в Google Адреса</string>
+ <string name="listTweetText">Отправить твит</string>
+
+ <string name="locationDisabledTitle">Местоположение отключено</string>
+ <string name="locationDisabledText">Ошибка определения местоположения. Включите источник местоположения.</string>
+
+ <string name="listHotspotText">Переносная активная зона</string>
+
+ <string name="layoutHotspotActionText">Действие:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Тип авторизации:</string>
+ <string name="layoutHotspotAuthKeyText">Ключ авторизации:</string>
+
+
+ <string name="soundRingerTypeText">Задать тип звонка:</string>
+ <string name="listSoundRingtone">Установить рингтон:</string>
+ <string name="listSoundNotification">Установить уведомление:</string>
+ <string name="listSoundRingerVolume">Громкость звонка</string>
+ <string name="listSoundMediaVolume">Громкость мультимедиа</string>
+
+ <string name="listSoundAlarmVolume">Громкость сигнала</string>
+ <string name="listSoundNotificationVolume">Громкость уведомления</string>
+ <string name="listSoundVibrate">Виброзвонок</string>
+
+ <string name="taskerNotInstalled">Планировщик не установлен</string>
+ <string name="layoutTaskerLaunchText">Задание Планировщика</string>
+ <string name="layoutTaskerSelect">Выбрать задание</string>
+ <string name="layoutTaskerHelpText">Примечание. Перед установкой данного приложения *обязательна* установка Планировщика, а в его интерфейсе в предпочтениях нужно обязательно выбрать параметр Прочее / Разрешить внешний доступ.\n\nЕсли у вас возникли проблемы с запуском заданий, удалите оба приложения и повторно установите Планировщик до установки Trigger.</string>
+
+ <string name="wifiOptionsOperateWifi">WiFi Вкл/Выкл</string>
+ <string name="wifiOptionsConfigureSSID">Подключиться к WiFi</string>
+ <string name="wifiOptionsOperateBluetooth">Bluetooth Вкл/Выкл</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Обнаруживаемость Bluetooth</string>
+ <string name="wifiOptionsAutoSync">Автосинхронизация</string>
+ <string name="wifiOptionsAirplaneMode">Режим \'\'В самолете\'\'</string>
+
+ <string name="hotspotOptions">WiFi-зона</string>
+
+ <string name="soundOptionsRinger">Звуковой профиль</string>
+ <string name="soundOptionsRingtone">Рингтон</string>
+ <string name="soundOptionsRingVolume">Громкость рингтона</string>
+ <string name="soundOptionsNotificationtone">Звук уведомления</string>
+ <string name="soundOptionsNotificationVolume">Громкость уведомления</string>
+ <string name="soundOptionsMediaVolume">Громкость мультимедиа</string>
+ <string name="soundOptionsMediaStart">Воспроизведение мультимедиа</string>
+
+ <string name="soundOptionsAlarmVolume">Громкость сигнала</string>
+ <string name="soundOptionsVibrate">Виброзвонок</string>
+
+ <string name="listWifiAirplaneModeText">Режим \'\'В самолете\'\'</string>
+ <string name="listWifiAutoSync">Автосинхронизация</string>
+ <string name="listWifiConfigureConnectText">Подключиться к</string>
+ <string name="listWifiBluetoothDiscoverableText">Bluetooth видим</string>
+ <string name="listWifiAssociateText">Подключиться к</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Тип авторизации:</string>
+ <string name="layoutWifiAuthKeyText">Ключ авторизации:</string>
+
+ <string name="builderInvalidName">Введите действительное имя</string>
+
+
+ <string name="titleSelectAction">Выбрать категории</string>
+ <string name="titleConfigureAction">Настроить действия</string>
+ <string name="buttonTextAdd">Добавить действия</string>
+
+ <string name="layoutPreferencesTitleText">Настройки</string>
+ <string name="layoutPreferencesSelectNotification">Рингтон уведомления</string>
+ <string name="layoutPreferencesVibrate">Виброзвонок</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Сохранить</string>
+ <string name="layoutPreferencesRateLimitingDisable">Отключить</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Во время считывания ярлыка</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Всегда использовать виброзвонок</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Никогда не использовать виброзвонок</string>
+ <string name="layoutPreferencesVibrateSubAlways">Всегда использовать виброзвонок</string>
+ <string name="layoutPreferencesVibrateSubNever">Никогда не использовать виброзвонок</string>
+
+ <string name="layoutPreferencesDebugOutput">Отладка</string>
+ <string name="layoutPreferencesDebugSend">Отправить журнал оладки</string>
+ <string name="layoutPreferencesEnableLimitingSub">Отключено</string>
+ <string name="layoutPreferencesUsage">Использовать Google Analytics</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Уведомления</string>
+ <string name="layoutPreferencesAdvancedTitle">Дополнительно</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Яркость</string>
+ <string name="layoutDisplayBrightnessAuto">Включить автояркость</string>
+ <string name="layoutDisplayNotificationLight">Свет уведомления</string>
+ <string name="listDisplayNotificationLightText">Свет уведомления</string>
+
+ <string name="layoutDisplayAutoRotation">Автоповорот</string>
+ <string name="listDisplayAutoRotationText">Автоповорот</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Исключение во время запуска пользовательской операции</string>
+ <string name="actionLastActions">Последние действия:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Запуск / Остановка воспроизведения</string>
+ <string name="widgetEnableMediaPlayback">Запуск / Остановка воспроизведения</string>
+
+ <string name="actionLaunchPackage">* Приложение запускается</string>
+ <string name="widgetLaunchPackage">Приложение запущено</string>
+
+ <string name="actionLaunchActivity">* Запуск операции</string>
+ <string name="widgetLaunchActivity">Запущена операция</string>
+
+ <string name="actionNavigate">* Перейти к:</string>
+ <string name="widgetNavigate">Перейти к:</string>
+
+ <string name="actionConfigureSSID">* Настройка точки доступа и подключение</string>
+ <string name="widgetConfigureSSID">Точка доступа настроена и подключена</string>
+
+ <string name="actionTaskerTask">* Запуск задания Планировщика</string>
+ <string name="widgetTaskerTask">Задание Планировщика запущено</string>
+
+ <string name="actionAlarm">* Установка сигнала на</string>
+ <string name="widgetAlarm">Установка сигнала:</string>
+
+ <string name="actionLaunchURL">* Открытие URL-адреса</string>
+ <string name="widgetLaunchURL">URL-адрес открыт</string>
+
+ <string name="actionSetVibration">* Установка вибрации</string>
+ <string name="widgetSetVibration">Виброзвонок установлен</string>
+
+ <string name="actionSendTweet">* Отправка твита</string>
+ <string name="widgetSendTweet">Твит отправлен</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">Ярлык записан успешно.</string>
+ <string name="layoutWriteTitle">Записать ярлык</string>
+ <string name="layoutWritePrimaryMessageStart">Поместите устройство над NFC-ярлыком, чтобы начать запись.</string>
+ <string name="layoutWriteLockText">Сделать ярлык доступным только для чтения</string>
+
+ <string name="dialogWriteTitle">Запись закончена</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Выбрать триггер</string>
+ <string name="layoutHomeFormat">Стереть ярлык</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Время таймера истекло</string>
+
+ <string name="displayAlarmSetTimer">Установлен сигнал (таймер)</string>
+
+
+ <string name="actionTimer">* Установка таймера на</string>
+ <string name="widgetTimer">Установить таймер на</string>
+
+ <string name="layoutAlarmSetTimerText">Установить таймер на</string>
+
+ <string name="alertSecureSetting">Вы изменяете безопасную настройку. Для этого требуется доступ с правами root.</string>
+ <string name="alertSecureSettingTitle">Безопасная настройка</string>
+ <string name="alertSecureSettingMakeSystemApp">Сделать системным приложением</string>
+
+ <string name="wifiOptionsGPS">GPS Вкл/Выкл</string>
+ <string name="wifiOptionsMobileData">Вкл/Выкл мобильные данные</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Мобильные данные</string>
+
+ <string name="rebootTitle">Завершено</string>
+ <string name="rebootText">Перегрузите устройство.</string>
+
+ <string name="noRootText">Не удалось получить доступ с правами root.</string>
+
+ <string name="layoutDisplayTimeout">Время до выключения экрана</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 секунд</item>
+  <item>30 секунд</item>
+  <item>1 минута</item>
+  <item>2 минуты</item>
+  <item>5 минут</item>
+  <item>10 минут</item>
+  <item>30 минут</item>
+  <item>Никогда</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Время ожидания</string>
+
+ <string name="wifiOptions3GData">Вкл/Выкл 3G-данные</string>
+
+ <string name="layoutAppDeskDock">Компьютерный док</string>
+ <string name="layoutAppDeskDockSub">Это может касаться не всех устройств.</string>
+ <string name="layoutAppCarDock">Автомобильный док</string>
+
+ <string name="menuPhone">Телефон</string>
+
+ <string name="layoutPhoneSMS">Отправить текстовое сообщение</string>
+ <string name="optionsPhoneSMS">отправить текстовое сообщение</string>
+ <string name="optionsPhoneSMSTo">Кому</string>
+ <string name="optionsPhoneSMSMessage">Сообщение</string>
+ <string name="optionsPhoneNumber">Номер телефона</string>
+ <string name="optionsPhoneCall">позвонить</string>
+ <string name="layoutPhoneCall">Позвонить</string>
+ <string name="optionsPhoneSMSNote">Откроется приложение для отправки СМС с заполненными полями \'\'Кому\'\' и \'\'Сообщение\'\'. Чтобы отправить сообщение автоматически, коснитесь этого сообщения и загрузите плагин для отправки СМС из play store.</string>
+ <string name="optionsPhoneCallNote">Откроется номеронабиратель с введенным номером. Чтобы позвонить автоматически, коснитесь этого сообщения и загрузите плагин звонков из play store.</string>
+
+
+ <string name="listPhoneSMS">Отправить СМС</string>
+ <string name="listPhoneCall">Позвонить</string>
+
+ <string name="actionSendSMS">* Отправка СМС</string>
+ <string name="widgetSendSMS">СМС отправлено</string>
+
+ <string name="actionPhoneCall">* Идет вызов</string>
+ <string name="widgetPhoneCall">Звонок выполнен</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">Включить NFC в режиме \'\'В самолете\'\'</string>
+
+ <string name="menuSecurity">Безопасность</string>
+ <string name="layoutOptionsKeyguard">Экран блокировки</string>
+ <string name="securityOptionsOperateKeyguard">Вкл/Выкл блокировку экрана</string>
+ <string name="listSecurityKeyguardText">Экран блокировки</string>
+
+ <string name="optionsFoursquareSearchCity">текущее местоположение</string>
+ <string name="optionsFoursquareSearchVenue">название</string>
+ <string name="optionsFoursquareSearchVenueIDText">идентификатор</string>
+ <string name="optionsFoursquareSearchOR">или</string>
+
+ <string name="menuApplications">Приложения и ярлыки</string>
+ <string name="layoutWriteNameText">Включить имя ярлыка</string>
+ <string name="layoutAppKillAppTextSub">закрыть операцию приложения по умолчанию</string>
+ <string name="layoutAppLaunchAppText">Открыть приложение</string>
+ <string name="layoutAppKillAppText">Закрыть приложение</string>
+ <string name="layoutAppLaunchActivityText">Открыть операцию</string>
+ <string name="layoutAppKillTaskDisclaimer">Эта функция может не работать во всех приложениях без доступа с правами root. Доступ с правами root обеспечивает успешное завершение процесса.</string>
+
+ <string name="layoutAlarmShowUI">показать ui сигнала</string>
+ <string name="layoutAlarmTimePrefix">Время:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Тип</string>
+ <string name="NavTypeDriving">В автомобиле</string>
+ <string name="NavTypeTransit">Транзит</string>
+ <string name="NavTypeWalking">Пешком</string>
+
+
+
+ <string name="layoutActivityAppList">Выбрать приложение:</string>
+ <string name="layoutActivityList">Выбрать операцию:</string>
+ <string name="layoutActivityWarning">Не все операции можно запустить.</string>
+
+ <string name="readOnlyWarning">Как только ярлык станет доступным только для чтения, вы
+не сможете записывать в него. Это действие необратимо.</string>
+ <string name="limitThreshholdOverride">Запрос на переопределение этой настройки</string>
+ <string name="limitThreshholdOverrideDialogPrefix">Это задание пропускается, потому что оно было выполнено за %1$s %2$s</string>
+ <string name="limitThreshholdOverrideDialogSuffix">Это диалоговое окно закроется через 5 секунд.</string>
+ <string name="menu_context_delete">Удалить</string>
+ <string name="menu_context_run">Выполнить</string>
+ <string name="menu_context_share">Поделиться</string>
+ <string name="listCloseApp">Закрыть приложение</string>
+
+ <string name="listSoundPlayback">Запуск / Остановка воспроизведения</string>
+ <string name="listDisplayBrightness">Установка яркости:</string>
+ <string name="listDisplayBrightnessAuto">Включить автояркость</string>
+ <string name="layoutImportPrimaryMessageStart">Для импортирования поместите ярлык сзади телефона</string>
+ <string name="layoutMainBuilderImportText">Импортировать ярлык</string>
+ <string name="layoutMainBuilderCopyText">Копировать ярлык</string>
+
+
+ <string name="copyRead">1.) Сканировать копируемый ярлык</string>
+ <string name="copyReading">2.) Считывание сообщений</string>
+ <string name="copyWrite">3.) Коснитесь ярлыка для записи</string>
+ <string name="copyTitle">Копировать NFC-ярлык</string>
+ <string name="importTitle">Импортировать ярлык</string>
+
+ <string name="copyDialogCopied">Успешно скопировано</string>
+ <string name="copyDialogCopyError">Ярлык не удалось скопировать</string>
+ <string name="copyDialogWritten">Записано успешно</string>
+ <string name="copyDialogWriteError">Не удалось записать ярлык</string>
+ <string name="layoutPreferencesSelectTimer">Рингтон таймера</string>
+ <string name="layoutPreferencesTagsTitle">Задания</string>
+ <string name="layoutPreferencesTagsMore">Подробнее</string>
+ <string name="layoutPreferencesNotifications">Уведомления</string>
+ <string name="layoutPreferencesNotificationsSubBar">Использовать панель уведомлений</string>
+ <string name="layoutPreferencesNotificationsSubToast">Использовать всплывающие уведомления</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Использовать оба варианта</string>
+ <string name="layoutPreferencesNotificationsSubNone">Нет</string>
+ <string name="menu_done">Готово</string>
+ <string name="layoutPreferencesSwitchTimeout">Сбросить задания переключателя после 12 часов</string>
+ <string name="menuEvents">События</string>
+ <string name="menuEventsCalendarStatic">Событие календаря</string>
+ <string name="menuEventsCalendarTimestamp">Метка времени календаря</string>
+ <string name="menuEventsCalendarTimestampText">Вставить событие календаря точно в день и время
+сканирования ярлыка.</string>
+ <string name="layoutEventCalendarTitle">Заголовок</string>
+ <string name="layoutEventCalendarStart">Начало</string>
+ <string name="layoutEventCalendarEnd">Конец</string>
+ <string name="layoutEventCalendarAllDay">Весь день</string>
+ <string name="dateHint">Коснитесь, чтобы установить дату</string>
+ <string name="timeHint">Коснитесь, чтобы установить время</string>
+ <string name="listDiaplayCalendarEvent">Добавить событие календаря</string>
+ <string name="listDiaplayCalendarTimestamp">Добавить метку времени в календарь</string>
+ <string name="actionCalendarEvent">Добавление события календаря</string>
+ <string name="widgetCalendarEvent">* Добавление события календаря</string>
+ <string name="actionCalendarTimestamp">Добавление метки времени в календарь</string>
+ <string name="widgetCalendarTimestamp">* Добавление метки времени в календарь</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Имена входа</string>
+ <string name="layoutPreferencesDialogTwitter">Нажмите OK, чтобы очистить данные для входа в Твиттер</string>
+ <string name="layoutPreferencesDialogFoursquare">Нажмите OK, чтобы очистить данные для входа в Foursquare</string>
+
+
+ <string name="layoutAppPause">Пауза</string>
+ <string name="layoutAppPauseSubTitle">Поставить на паузу на определенное время перед продолжением.</string>
+ <string name="actionPause">* Постановка на паузу на</string>
+ <string name="widgetPause">Постановка на паузу на</string>
+
+
+ <string name="loading">Загрузка…</string>
+ <string name="error">Ошибка</string>
+ <string name="recommended_tags">NFC-ярлыки</string>
+ <string name="buy_now">Купить сейчас</string>
+ <string name="buy_tags">Магазин триггеров</string>
+ <string name="popular_tags">Предлагаемые задания</string>
+ <string name="my_tags">Мои задания</string>
+ <string name="shop_more_title">Ищете больше?</string>
+ <string name="shop_more_description">Ознакомьтесь с полным каталогом продуктов NFC, включая ярлыки и наборы NFC.</string>
+ <string name="welcome">Добро пожаловать</string>
+ <string name="buy_nfc_tags">Купить ярлыки NFC</string>
+ <string name="used_never">Использовано: Никогда</string>
+ <string name="total_actions">Всего действий</string>
+
+ <string name="basic_tags">Запись базовых ярлыков</string>
+
+ 
+ <string name="default_tag_name_format">Задание %s</string>
+
+ <string name="save_and_write">Сохранить и записать</string>
+ <string name="tag_name">Имя</string>
+ <string name="no_actions">Действия</string>
+ <string name="tag_unsaved_changes">Это задание может содержать несохраненные изменения.</string>
+ <string name="discard_changes">Отменить изменения</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s байт</item>
+  <item quantity="other">%s байт</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Настроить подключение к беспроводной сети</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Включить обнаруживаемость Bluetooth</string>
+ 
+ <string name="soundOptionsMediaStartSub">Запуск/Остановка воспроизведения</string>
+ <string name="optionsSocialCheckinHereSub">Отметиться в текущем местоположении</string>
+ <string name="actionURLHeading">URL-адрес / URI</string>
+ <string name="optionsSocialTwitterSub">Отправить твит</string>
+ <string name="layoutAppLaunchNavigationSub">Перейти к расположению</string>
+ <string name="alarmTimerConfigureSub">Установить таймер</string>
+ <string name="carDockDrivingMode">Включить режим \'\'В автомобиле\'\' (устройства Samsung Galaxy)</string>
+ <string name="airplaneModeWarning">Режим \'\'В самолете\'\' выключит NFC. Можно запретить изменение параметров NFC режимом \'\'В самолете\'\' в настройках приложения в разделе Включить NFC в режиме \'\'В самолете\'\'.</string>
+ <string name="write">Записать</string>
+ <string name="next">Далее</string>
+
+ <string name="_continue">Продолжить</string>
+
+ <string name="shop_unavailable">Магазин временно недоступен. Проверьте подключение и повторите попытку через несколько минут.</string>
+ <string name="titleSavedTagPicker">Выберите сохраненное задание для выполнения</string>
+ <string name="titleShareTagActivity">Поделиться ярлыком с помощью</string>
+ <string name="sharedReceiverDialogMessage">Загрузка ярлыка</string>
+ <string name="shareOptionTwitter">Твиттер</string>
+ <string name="shareOptionSMS">СМС</string>
+ <string name="shareOptionEmail">Эл. почты</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Я только что создал(а) этот NFC-ярлык через +Tagstand. Попробуй сам(а) с помощью приложения Trigger здесь:</string>
+ <string name="shareTwitterPrefix">Попробуй этот #NFC-ярлык, созданный мной</string>
+ <string name="shareTwitterSuffix">предоставлено @tagstand</string>
+ <string name="shareSMSPrefix">привет, попробуй этот NFC-ярлык, который я создал(а) с помощью Trigger:</string>
+ <string name="shareEmailPrefix">Привет,\n\nя создал(а) этот ярлык \'%1$s\' с помощью Trigger и хочу поделиться им с тобой.\n\n</string>
+ <string name="shareEmailSuffix">\n\nНажми, чтобы загрузить его на свой телефон.\n\nДобро пожаловать в будущее.</string>
+ <string name="shareEmailSubject">Попробуй мой NFC-ярлык</string>
+ <string name="loadTagPayloadError">Извините, возникла ошибка. Возможно, проблема с подключением.</string>
+ <string name="loadTagNoPayload">С этим ярлыком не связано ни одно действие.</string>
+
+ <string name="layoutWifiHiddenSSID">Скрытый SSID</string>
+ <string name="layoutEmailAddress">Электронный адрес</string>
+ <string name="layoutEmailMessage">Сообщение (необязательно)</string>
+ <string name="layoutEmailSubjectHint">Тема</string>
+ <string name="layoutEmailMessageHint">Сообщение</string>
+ <string name="layoutEmail">Отправить письмо</string>
+ <string name="listDisplayEmail">Отправить письмо для</string>
+ <string name="sendEmailChooserTitle">Отправить письмо с помощью</string>
+
+ <string name="tag_write_failed_message">Он будет действовать, но при касании может понадобиться сделать выбор.</string>
+ <string name="tag_write_failed_no_plugin">Чтобы использовать этот ярлык, необходимо зайти на Play Store и загрузить плагин повторного использования ярлыков.</string>
+ <string name="tag_write_failed">Не удалось записать в этот ярлык.</string>
+ <string name="tag_write_success_message">Ярлык готов.</string>
+ <string name="menu_help_text">Справка</string>
+
+ <string name="warning">Предупреждение</string>
+
+
+ <string name="configure_connection_title">Настройка подключения</string>
+ <string name="enter_network_name">введите сетевое имя (ssid)</string>
+ <string name="enter_bluetooth_name">введите имя устройства</string>
+ <string name="enter_bluetooth_mac">введите mac-адрес</string>
+ <string name="when_connected_to">После подключения к</string>
+ <string name="when_disconnected_from">После отключения от</string>
+ <string name="or">или</string>
+
+ <string name="color_white">Белый</string>
+ <string name="color_black">Черный</string>
+ <string name="select_background_color">Выбрать стиль</string>
+ <string name="action_send_email">* Отправка почты</string>
+ <string name="widget_send_email">Почта отправлена</string>
+ <string name="ignore_duplicate_check">Запретить повтор предыдущего задания</string>
+ <string name="if_read_again">Запретить повтор задания в течение</string>
+ <string name="found_tag">Выполненное задание</string>
+ <string name="title_tag_limiting">Запретить повтор</string>
+ <string name="limit_last_tag_read">предыдущего задания</string>
+ <string name="limit_time_frame">в течение %1$s %2$s</string>
+
+ <string name="erase_tag_text">Поместите телефон над ярлыком задней стороной, чтобы удалить.</string>
+ <string name="copy_tag_text">Поместите телефон над ярлыком задней стороной, чтобы скопировать.</string>
+
+ <string name="menuMessages">Сообщения</string>
+ <string name="widget_single_task">Выполнить задание</string>
+ <string name="widget_single_task_configure_title">Настроить ярлыки</string>
+ <string name="soundOptionsRingVolumeCombined">Громкость звонка / уведомления</string>
+
+
+ <string name="switch_tag_details">Задания-переключатели состоят из двух разных заданий и переключаются
+между ними при каждом касании nfc-ярлыка.\n\nЕсли вы хотите добавить
+второе задание для nfc-ярлыков, нажмите + вверху.</string>
+
+ <string name="driving_mode">Режим \'\'В автомобиле\'\'</string>
+ <string name="power_saver">Энергосбережение</string>
+ <string name="block_mode">Режим блокировки</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Режим энергосбережения</string>
+ <string name="driving_mode_heading">Режим \'\'В автомобиле\'\'</string>
+ <string name="blocking_mode_heading">Режим блокировки</string>
+
+ <string name="display_power_saver">Энергосбережение</string>
+ <string name="display_blocking_mode">Режим блокировки</string>
+ <string name="display_driving_mode">Режим \'\'В автомобиле\'\'</string>
+ <string name="heading_glympse">Отправить Glympse</string>
+ <string name="hint_recipient_address">Получатель</string>
+
+ <string name="widgetSendGlympse">Glympse отправлен</string>
+ <string name="actionSendGlympse">* Отправка Glympse</string>
+
+ <string-array name="glympse_address_types">
+  <item>эл. почта</item>
+  <item>смс</item>
+  <item>твиттер</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">Длительность</string>
+
+
+ <string name="choose_shipping_method">Выбрать метод доставки</string>
+ <string name="tts_failed">Ошибка: Не удалось запустить TTS</string>
+
+ <string name="action_speak_text">* Идет начитка текста</string>
+ <string name="widget_speak_text">Текст начитан</string>
+
+ <string name="heading_tts">Начитать текст</string>
+ <string name="tts_hint">Текст для начитки</string>
+
+
+ <string name="open_in_background">открыть в фоновом режиме</string>
+ <string name="help_answers">Получить ответы в Интернете</string>
+ <string name="help_email">Отправьте нам письмо</string>
+ <string name="show_welcome">Показать экран приветствия и советы</string>
+
+
+ <string name="general">Общее</string>
+ <string name="backup_restore">Архивация / Восстановление</string>
+ <string name="backup">Архивация</string>
+ <string name="restore">Восстановление</string>
+ <string name="last_operation">Последняя операция:</string>
+ <string name="backed_up">Архивировано %1$s</string>
+ <string name="restored">Восстановлено %1$s</string>
+ <string name="backup_local">Локальная</string>
+ <string name="backup_tagstand">Облачная</string>
+ <string name="backup_to">Путь для архивации:</string>
+ <string name="restore_from">Источник для восстановления</string>
+ <string name="restoring">Восстановление</string>
+ <string name="perform_cloud_backup">Выполняется облачная архивация</string>
+
+ <string name="sso_clear_dialog">Нажмите OK, чтобы очистить данные для входа
+в учетную запись Google</string>
+
+ <string name="title_sso_explanation">Войти через Google</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Твиттер: %1$s</string>
+ <string name="status_logged_in">Выйти</string>
+ <string name="status_logged_out">Войти</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Способ покупки:</string>
+ <string name="ship_to">Адрес доставки:</string>
+ <string name="confirm_order">Подтвердить заказ</string>
+ <string name="change">Изменить способ оплаты или адрес</string>
+ <string name="change_shipping">Изменить способ доставки</string>
+ <string name="tax">Налог:</string>
+ <string name="total">Всего:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">Доставка:</string>
+ <string name="titleConfirmPayment">Сведения о заказе</string>
+ <string name="item_price">Цена:</string>
+ <string name="finalize_payment">Завершение покупки</string>
+ <string name="confirmation_text">Номер вашей транзакции: %1$s.\n\nСообщение с подтверждением отправлено по эл. адресу %2$s.</string>
+ <string name="confirmation_error_text">При обработке операции возникла ошибка.\n\n%1$s</string>
+ <string name="wallet_error_title">Ошибка Google Кошелька</string>
+ <string name="wallet_error_message">Возникла проблема при достижении Google Кошелька. Повторите попытку через несколько минут. Ошибка: %1s</string>
+ <string name="titleOrderComplete">Заказ оформлен</string>
+ <string name="spending_limit_exceeded">Вы превысили лимит использования</string>
+ <string name="google_wallet_unavailable">Google Кошелек не доступен</string>
+ <string name="error_code">Код ошибки: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Оплачено</string>
+ <string name="wallet_signin_point_one">Не теряйте больше свои задания. Пользуйтесь облаком Tagstand для их архивации и восстановления.</string>
+ <string name="wallet_signin_point_two">Получите два ярлыка от Tagstand бесплатно.</string>
+ <string name="wallet_signin_point_three">Сделайте покупку ярлыков проще и быстрее с Google Кошельком.</string>
+ <string name="wallet_signin_heading">Подключите свою учетную запись Google и пользуйтесь всеми преимуществами.</string>
+ <string name="set_alarm_app">Задать приложение для запуска сигналов</string>
+ <string name="select_alarm_app">Выбрать приложение для запуска сигналов</string>
+ <string name="sign_in_with_google">Войти через</string>
+ <string name="system_volume">Громкость системы</string>
+
+ <string name="actionSystemVolume">* Установка громкости системы:</string>
+ <string name="widgetSystemVolume">Установить громкость системы</string>
+ <string name="media_next">Следующий медиафайл</string>
+ <string name="next_track">Следующая дорожка</string>
+ <string name="media_previous">Предыдущий медиафайл</string>
+ <string name="previous_track">Предыдущая дорожка</string>
+ <string name="actionMediaNext">* Следующая дорожка</string>
+ <string name="widgetMediaNext">Следующая дорожка</string>
+ <string name="actionMediaPrevious">* Предыдущая дорожка</string>
+ <string name="widgetMediaPrevious">Предыдущая дорожка</string>
+ <string name="menuMedia">Медиа</string>
+
+ <string name="wifi_task">WiFi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Выполнить или переключиться к заданию при касании NFC-ярлыка.</string>
+ <string name="bluetooth_task_description">Выполнить задание при подключении или отключении
+устройства bluetooth.</string>
+ <string name="wifi_task_description">Выполнить задание при подключении или отключении от беспроводной сети.</string>
+ <string name="configure_connection_task_title">Настроить задание %1$s</string>
+
+ <string name="layoutProfileTaskChooserTitle">Выбрать задание</string>
+ <string name="layoutProfileNewTask">+ Новое задание</string>
+ <string name="enable_bluetooth">Для отображения списка спаренных устройств необходимо включить Bluetooth.</string>
+ <string name="enable_wifi">Для отображения списка сохраненных сетей необходимо включить WiFi.</string>
+ <string name="no_task">Нет заданий.</string>
+ <string name="share_failed">Ошибка общего доступа к ярлыку.</string>
+
+ <string name="extension_description">Показывает самые последние задания и позволяет запускать задания прямо из DashClock</string>
+ <string name="import_create_tag">Задания не найдены. Хотите создать новое
+задание, используя этот ярлык?</string>
+ <string name="start_media_playback">Воспроизвести мультимедиа</string>
+ <string name="stop_media_playback">Остановить воспроизведение</string>
+ <string name="receive_sip_calls">Получать SIP-звонки</string>
+ <string name="sip_calls">SIP-звонки</string>
+
+ <string name="widget_enable">Включено: %1$s</string>
+ <string name="widget_disable">Выключено: %1$s</string>
+ <string name="widget_toggle">Переключено: %1$s</string>
+
+ <string name="action_enable">* Включение %1$s</string>
+ <string name="action_disable">* Выключение %1$s</string>
+ <string name="action_toggle">* Переключение %1$s</string>
+
+ <string name="action_set_generic">* Установка %1$s</string>
+ <string name="widget_set_generic">Установить %1$s</string>
+ <string name="action_set_to">* Установка %1$s: %2$s</string>
+ <string name="widget_set_to">%1$s установлено: %2$s</string>
+ <string name="action_checking_in">* Отмечаемся в %1$s</string>
+ <string name="widget_checking_in">Отмечено в %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare Venue</string>
+ <string name="social_google_places">Google Места</string>
+ <string name="run_task">Выполнить задание</string>
+ <string name="background_color">Цвет фона</string>
+ <string name="white">Белый</string>
+ <string name="black">Черный</string>
+ <string name="select_icon">Выбрать иконку</string>
+ <string name="select_task">Выбрать задание</string>
+
+ <string name="try_it_now">Испытайте пример сейчас</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Подключить устройство</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Телефон и медиа</item>
+  <item>Медиа</item>
+  <item>Телефон</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Выбрать профиль</string>
+ <string name="select_bluetooth_device">Выбрать устройство</string>
+ <string name="action_bluetooth_connect">* Подключение к Bluetooth-устройству</string>
+ <string name="widget_bluetooth_connect">Подключено к Bluetooth-устройству</string>
+
+ <string name="write_options_title">Параметры записи</string>
+ <string name="menu_context_edit">Редактировать</string>
+ <string name="set_media_app">Установить предпочитаемый проигрыватель</string>
+ <string name="select_media_app">Выберите предпочитаемый проигрыватель</string>
+ <string name="menuTravel">Путешествия</string>
+ <string name="item_info_title">Информация</string>
+ <string name="geofence_task">Гео-забор (бета)</string>
+ <string name="when_entering">По прибытии</string>
+ <string name="when_exiting">По отбытии</string>
+ <string name="address">Адрес</string>
+ <string name="geofence">Geofence (геозабор)</string>
+ <string name="radius">Размер:</string>
+ <string name="no_location">Местоположение не задано</string>
+ <string name="miracast_device">Устройство Miracast</string>
+ <string name="battery_task">Батарея</string>
+ <string name="battery_task_description">Выполнить задание, когда заряд батареи достигает определенного уровня.</string>
+ <string name="when_battery_level">Когда батарея:</string>
+ <string name="nfc_gear_title">NFC Gear</string>
+
+ <string name="goes_below">идет внизу</string>
+ <string name="goes_above">идет вверху</string>
+ <string name="activity_feed">Журнал операций</string>
+ <string name="activity_feed_none">Нет запущенных триггеров.</string>
+ <string name="menu_experimental">Экспериментальное</string>
+ <string name="time_task_description">Выполнить задание в определенное время в один или несколько дней.</string>
+ <string name="time_task">Время</string>
+ <string name="day_sunday">ВС</string>
+ <string name="day_monday">ПН</string>
+ <string name="day_tuesday">ВТ</string>
+ <string name="day_wednesday">СР</string>
+ <string name="day_thursday">ЧТ</string>
+ <string name="day_friday">ПТ</string>
+ <string name="day_saturday">СБ</string>
+
+ <string name="example_created">%1$s успешно создан.</string>
+ <string name="title_feedback">Отзыв</string>
+ <string name="contact_text">Мы нацелены на то, чтобы сделать Trigger как можно более полезным для вас. Ваши отзывы помогают нам в достижении этой цели. Вы можете связаться с нами с любыми возможными вопросами, комментариями или предложениями при помощи ресурсов, указанных ниже.</string>
+ <string name="other_nfc">Другие NFC-действия</string>
+ <string name="write_status_waiting">Ожидание ярлыка...</string>
+ <string name="write_free_tags">Купить NFC-ярлыки</string>
+
+ <string name="previous">Назад</string>
+ <string name="title_configure_triggers">Триггеры</string>
+ <string name="title_configure_task">Задание</string>
+ <string name="title_configure_switch">Переключатель</string>
+ <string name="us_customer">Пользователи из США</string>
+ <string name="international_customer">Пользователи из других стран</string>
+ <string name="checkout">Оформить</string>
+ <string name="examples_intro">Используйте сенсоры своего телефона, чтобы автоматически менять настройки, запускать приложения или отправлять сообщения.\n\nДля начала воспользуйтесь нашими примерами внизу или создайте свои задания.</string>
+ <string name="got_it">Ясно!</string>
+ <string name="create_your_own">Создайте свое</string>
+ <string name="no_triggers">Добавьте триггеры, нажав + вверху.</string>
+ <string name="international">(Страны мира)</string>
+ <string name="us">(США)</string>
+     
+ <string name="geofence_help">Если у вас возникли вопросы или проблемы с заданиями Geofence, почитайте наш раздел вопросов и ответов.</string>
+ <string name="separator_or">- ИЛИ -</string>
+ <string name="separator_and">- И -</string>
+ <string name="use_this_task">Добавить ограничения</string>
+ <string name="between_these_times">Между</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">любой сети</string>
+ <string name="select_network">Выбрать сети</string>
+ <string name="two_or_more">Две или больше сетей</string>
+ <string name="display_between_times">Между %1$s и %2$s</string>
+ <string name="display_on_days">В %1$s</string>
+ <string name="display_wifi_network">В случае подключения к %1$s</string>
+ <string name="no_actions_found">Нет действий</string>
+ <string name="no_actions_found_message">У %1$s нет действий.\n\nВернитесь, чтобы добавить действия, или продолжите, чтобы сохранить задание без действий.</string>
+ <string name="go_back">Вернуться</string>
+ <string name="payment_info">Платежная информация</string>
+ <string name="card_number">Номер карты</string>
+ <string name="expiration_date">Срок действия</string>
+ <string name="security_code">Защитный код</string>
+ <string name="mm">ММ</string>
+ <string name="yy">ГГ</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Адрес доставки</string>
+ <string name="full_name">Полное имя</string>
+ <string name="company_name">Название организации</string>
+ <string name="email">Эл. адрес</string>
+ <string name="street_address">Почтовый адрес</string>
+ <string name="apt_suite">Кв./Номер</string>
+ <string name="city">Город</string>
+ <string name="region">Регион</string>
+ <string name="postcode">Индекс</string>
+ <string name="phone_number">Номер телефона</string>
+ <string name="billing_address">Адрес выставления счета</string>
+ <string name="use_shipping_info">использовать сведения о доставке</string>
+ <string name="used_text">Использовано: %1$s</string>
+ <string name="pref_show_bytes">Показать размер задания</string>
+ <string name="plugin_tag_reuse">Повторное использование ярлыков</string>
+ <string name="plugin_tag_reuse_description">Повторное использование ярлыков только для чтения или тех, которые не полностью поддерживаются вашим устройством.</string>
+ <string name="plugin_call">Звонок</string>
+ <string name="plugin_call_description">Таким образом действие Звонок сможет позвонить сразу, а не откроет номеронабиратель с введенным номером.</string>
+ <string name="plugin_sms">СМС</string>
+ <string name="plugin_sms_description">Таким образом действие Текстовое сообщение сможет автоматически отправить текстовое сообщение, а не откроет приложение для отправки с введенным СМС.</string>
+ <string name="plugins">Плагины</string>
+ <string-array name="radiusChoices">
+  <item>малый</item>
+  <item>средний</item>
+  <item>большой</item>
+  <item>огромный</item>
+ </string-array>
+ <string name="when_charger_connected">При подключенном зарядном устройсте</string>
+ <string name="when_wireless_charger_connected">При беспроводной зарядке</string>
+ <string name="when_charger_disconnected">При отключенном зарядном устройсте</string>
+ <string name="charger_title">Зарядка</string>
+ <string name="charger_description">Запускайте задание при подключении или отключении проводного или беспроводного зарядного устройства.</string>
+ <string name="forget_network">Удалить Wifi</string>
+
+ <string name="task_n">задание (n)</string>
+ <string name="task_definition">набор ДЕЙСТВИЙ, активированных ТРИГГЕРАМИ</string>
+ <string name="my_battery_task">Задание для моей батареи</string>
+ <string name="create_a_task">Создайте задание</string>
+ <string name="actions">ДЕЙСТВИЯ</string>
+ <string name="sign_in_trial">Войдите с помощью Google+, чтобы начать семидневный пробный период или обновитесь ниже.</string>
+ <string name="upgrade_heading">Выбранная вами функция доступна только в Триггер PRO.</string>
+ <string name="start_trial">Начать пробный период</string>
+ <string name="upgrade">Обновить</string>
+ <string name="trial_upgrade_only">Выберите Обновить внизу, чтобы воспользоваться этой функцией.</string>
+ <string name="pro_feature">Функция версии Pro</string>
+ <string name="trigger">ТРИГГЕР</string>
+ <string name="any_time">любое время</string>
+ <string name="headset_title">Гарнитура</string>
+ <string name="when_connected">При подключении</string>
+ <string name="when_disconnected">При отключении</string>
+ <string name="headset_description">Выполните задание при подключении или отключении гарнитуры.</string>
+ <string name="use_current_configuration">использовать текущие настройки</string>
+ <string name="trial_expired_title">Срок действия пробной версии истек</string>
+ <string name="trial_expired">Срок действия пробной версии Trigger Pro истек. Все триггеры, созданные вами в версии Pro, не будут работать в бесплатной версии.</string>
+ <string name="my_tasks_example_description">Когда уровень заряда моей батареи низкий, выключить wifi и уменьшить яркость экрана.</string>
+ <string name="show_actions_in_list">Список заданий с описанием</string>
+ <string name="task_deleted">Задание удалено</string>
+ <string name="undo">отменить</string>
+ <string name="geofence_beta_description">В силу изменчивости Google Play Services этот триггер пока находится на стадии бета-тестирования. Он работает без сбоев на многих устройствах, но мы не можем гарантировать бесперебойность его службы.</string>
+ <string name="when_charging_usb">При зарядке (от USB)</string>
+ <string name="when_charging_ac">При зарядке (от сети)</string>
+ <string name="any_device">любое устройство</string>
+    <string name="two_or_more_devices">Два или больше устройств</string>
+    <string name="upgrade_general_heading">Обновление разблокирует все триггеры и функции Trigger, а также будет поддерживать непрерывную разработку.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Отключить устройство</string>
+    <string name="disconnect_from">Отключить от</string>
+    <string name="action_bluetooth_disconnect">* Отключение Bluetooth-устройства</string>
+    <string name="widget_bluetooth_disconnect">Bluetooth-устройство отключено</string>
+    <string name="calendar_title">Событие календаря</string>
+    <string name="calendar_description">Выполнить задание, когда начинается соответствующее событие календаря</string>
+
+    <string name="available">доступно</string>
+    <string name="busy">занято</string>
+    <string name="any">любое</string>
+    <string name="attending">пойду</string>
+    <string name="not_attending">не пойду</string>
+    <string name="agent_title_string">%1$s агент</string>
+    <string name="start">Начать</string>
+    <string name="stop">Остановить</string>
+    <string name="pause">Пауза</string>
+    <string name="meeting_agent">Агент встреч</string>
+    <string name="drive_agent">Автомобильный агент</string>
+    <string name="parking_agent">Агент парковки</string>
+    <string name="battery_agent">Агент батареи</string>
+    <string name="sleep_agent">Агент сна</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">Агент</string>
+    <string name="agent_title_start">Запустить агент</string>
+    <string name="agent_title_stop">Остановить агент</string>
+    <string name="agent_title_pause">Приостановить агент</string>
+    <string name="account">Учетная запись</string>
+    <string name="upgrade_spacer">Все элементы ниже входят в состав обновления до версии PRO. Нажмите здесь, чтобы обновиться или попробовать бесплатно.</string>
+    <string name="upgrade_now">Обновить</string>
+    <string name="upgrade_main_description">Получите 7-дневную бесплатную пробную версию или обновитесь до версии PRO ниже, чтобы разблокировать все триггеры.</string>
+    <string name="upgrade_unlocks_triggers_count">разблокирует %1$s триггеров дополнительно</string>
+    <string name="wallet_signin_point_four">Воспользуйтесь преимуществами 7-дневной бесплатной пробной версии Trigger PRO.</string>
+    <string name="receiver_marketing_materials">Получайте скидки и важные обновления по эл. почте.</string>
+    <string name="example_silence_at_night">Выключить звук в моем телефоне во время сна</string>
+    <string name="example_silence_at_night_description">выключает звук входящих уведомлений, когда вы спите</string>
+    <string name="example_save_battery">Помочь сократить потребление энергии при снижении уровня заряда батареи</string>
+    <string name="example_save_battery_description">выключает беспроводную сеть и снижает яркость экрана</string>
+    <string name="example_driving">Экономить время вождения</string>
+    <string name="example_driving_description">выключает беспроводную сеть и открывает Google Maps во время вождения</string>
+    <string name="example_task_data_saver_on">Выключить мобильные данные</string>
+    <string name="example_task_data_saver_off">Включить мобильные данные</string>
+    <string name="example_task_battery_saver">Экономия заряда</string>
+    <string name="example_set_battery_percentage">Включать Экономию заряда, когда уровень заряда батареи опускается ниже</string>
+    <string name="example_wifi_select_network">Выберите домашнюю беспроводную сеть</string>
+    <string name="example_task_night">Спокойной ночи</string>
+    <string name="example_task_morning">Доброе утро</string>
+    <string name="start_now">Запустить</string>
+    <string name="free_trial_short">Получите 7-дневную бесплатную пробную версию Trigger PRO.</string>
+    <string name="trial_started">Пробное использование начато</string>
+    <string name="trial_try_free">Получите бесплатную пробную версию на 7 дней</string>
+    <string name="event_name">Название события</string>
+    <string name="contains">содержит</string>
+    <string name="matches">соответствует</string>
+    <string name="event_description">Описание события</string>
+    <string name="description">описание</string>
+    <string name="availibility">Доступность</string>
+    <string name="when_event_ends">Когда событие закончится</string>
+    <string name="when_event_starts">Когда событие начнется</string>
+    <string name="power_service_monitor_battery">Слежение за уровнем батареи</string>
+    <string name="power_service_monitor_both">Слежение за уровнем батареи и зарядка</string>
+    <string name="power_service_monitor_charging">Слежение за зарядкой</string>
+    <string name="power_service_disable_notification">Коснитесь, чтобы выключить уведомление</string>
+    <string name="power_service_on">Триггеры Батарея и Зарядка будут использовать службу переднего плана. Таким образом будет отображаться текущее уведомление, а ОС не сможет завершить службу, необходимую для мониторинга этих событий.</string>
+    <string name="power_service_off">Триггеры Батарея и Зарядка будет невозможно запустить, если ОС завершила службу или приложение было удалено из списка последних приложений.</string>
+    <string name="power_service_pref">Служба переднего плана для триггеров питания</string>
+    <string name="menu_remove">Удалить</string>
+    <string name="help_tasks_title">Создание заданий</string>
+    <string name="help_tasks_description">Нажмите сюда, чтобы просмотреть короткое пособие о том, что такое задания и как их создавать.</string>
+    <string name="connect_dialog_body">"Спасибо, что выбрали Trigger! Загрузите Connect now и начинайте пользоваться заданиями Trigger из Интернета! (включены 3 дня пробного периода)"</string>
+    <string name="no_thanks">Нет, спасибо</string>
+    <string name="try_connect_now">Попробовать</string>
+    <string name="feedback_rate_gplay">Оцените нас на Google Play</string>
+    <string name="rating_text">Если у вас появится такое желание, хорошие оценки и +1 всегда приветствуются:</string>
+    <string name="show_brightness_window">Показать окно во время изменения яркости</string>
+    <string name="request_root_access">Запросить доступ с правами root</string>
+    <string name="upgrade_successful">Все функции теперь разблокированы.</string>
+    <string name="emulate_hardware_dock">Эмулировать аппаратный док (требуются права root)</string>
+    <string name="wizard_trigger_help">Добавьте один или больше триггеров нажатием + выше.</string>
+    <string name="wizard_actions_help">Добавьте одно или больше действий нажатием + выше.</string>
+    <string name="event_set_reminder">Установить напоминание</string>
+    <string name="forget_wifi_network">Удалить беспроводную сеть</string>
+    <string name="show_user_text">Показать текст</string>
+
+    <string name="samsung_hands_free">Режим гарнитуры</string>
+    <string name="samsung_smart_stay">Smart Stay</string>
+    <string name="htc_sleep_mode">Режим сна</string>
+    <string name="htc_power_saver">Экономия энергии</string>
+    <string name="htc_boom_sound">Boom Sound</string>
+    <string name="htc_smart_display">Smart Display</string>
+    <string name="samsung_multi_window">Multi Window</string>
+    <string name="show_toast">Показать toast</string>
+    <string name="constraint_days">Дней</string>
+    <string name="constraint_wifi">WiFi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Зарядка</string>
+    <string name="constraint_connected">Подключение к</string>
+    <string name="constraint_not_connected">Нет подключения к</string>
+    <string name="display_not_connected">Когда нет подключения к %1$s</string>
+    <string name="is_on">Включено</string>
+    <string name="is_off">Выключено</string>
+    <string name="play_sound">Воспроизвести звук</string>
+    <string name="agent_description">Выполнить задание при запуске или остановке агента</string>
+    <string name="when_agent_starts">При запуске агента</string>
+    <string name="when_agent_ends">При остановке агента</string>
+    <string name="choose_agent">Выбрать агента</string>
+    <string name="agent_condition_starts">При запуске %1$s</string>
+    <string name="agent_condition_ends">При остановке %1$s</string>
+    <string name="clear">Очистить</string>
+    <string name="export">Экспортировать</string>
+    <string name="notification_timer_cancel">Смахните назад для отмены</string>
+    <string name="notification_timer_extra_info">Срок истекает %1$s</string>
+    <string name="installed">установлено</string>
+    <string name="plugin_lock">Блокировать экран</string>
+    <string name="plugin_lock_description">Таким образом можно изменить существующие базовые настройки экрана блокировки. Если отключить блокировку, открытие будет выполняться смахиванием. Если включить, то, зависимо от настроек, будет установлен пин-код или пароль.</string>
+    <string name="configure">настроить</string>
+</resources>
+
+
+
+
+

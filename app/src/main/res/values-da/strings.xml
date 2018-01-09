@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Vælg handling:</string>
+ <string name="RingerTypePrompt">Vælg en ringetype:</string>
+ <string name="limitThreshholdPrompt">Vælg en enhed:</string>
+ <string name="VibratePrompt">Vælg vibration:</string>
+
+ <string name="AuthTogglePrompt">Vælg kryptering:</string>
+
+ <string name="menu_new_tag">Ny opgave</string>
+ <string name="menu_help">Om</string>
+ <string name="menu_contact">Kontakt os</string>
+ <string name="menu_preferences">Indstillinger</string>
+ <string name="menu_delete">Slet</string>
+ <string name="menu_chooser_mail">Send email</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Wi-Fi</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Sekunder</string>
+ <string name="timeMinutes">Minutter</string>
+ <string name="timeHours">Timer</string>
+
+
+
+ <string name="enableText">Aktiver</string>
+ <string name="disableText">Deaktiver</string>
+ <string name="toggleText">Toggle</string>
+
+ <string name="alwaysText">Altid</string>
+ <string name="neverText">Aldrig</string>
+ <string name="whenSilentText">Når lydløs</string>
+
+
+
+
+
+ <string name="authTypeOpen">Åbn</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Stille</string>
+ <string name="ringerTypeVibrate">Vibrér</string>
+ <string name="ringerTypeNormal">Normal</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">Annuller</string>
+ <string name="dialogYes">Ja</string>
+ <string name="dialogNo">Nej</string>
+ <string name="dialogSave">Gem</string>
+ <string name="dialogClose">Luk</string>
+ <string name="dialog_run">Kør opgave</string>
+
+ <string name="menuWireless">Wi-Fi, Bluetooth &amp; Forbindelser</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Lyde &amp; Lydstyrke</string>
+ <string name="menuAlarm">Alarmer</string>
+ <string name="menuCheckin">Sociale medier</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">Display</string>
+
+ <string name="addOptionsAddText">Tilføj til opgave</string>
+
+ <string name="displayAlarmSet">Sæt alarm</string>
+ <string name="displayListAlarmSet">Indstil timer</string>
+ <string name="defaultAlarmText">Tryk for at sætte alarmtid</string>
+
+ <string name="layoutAlarmSetText">Sæt alarm for</string>
+ <string name="layoutAlarmSelectTimeText">Tryk for at sætte alarmtid</string>
+ <string name="layoutAlarmForwardText">minutter fra nu</string>
+
+ <string name="appListLoadingText">Indlæser liste over applikationer</string>
+ <string name="listLaunchText">Start</string>
+ <string name="listLaunchTextCustom">Start aktivitet</string>
+ <string name="listNavText">Naviger til</string>
+
+
+ <string name="layoutAppLaunchURL">Åben en URL/URI</string>
+ <string name="layoutAppLaunchNavigation">Navigation</string>
+ <string name="layoutAppLaunchNavigationText">Destination</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Check ind her</string>
+ <string name="optionsSocialFoursquareSearching">Søger</string>
+ <string name="optionsSocialFoursquareSearchTitle">Matchende mødesteder</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Check ind på et mødested</string>
+ <string name="optionsSocialFoursquareVenueTitle">Mødested</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Intet mødested valgt</string>
+ <string name="optionsSocialFoursquareVenueSub">check ind på et bestemt mødested</string>
+ <string name="optionsSocialFacebook">Facebook: Check ind</string>
+ <string name="optionsSocialPlaces">Google Places: Check ind</string>
+ <string name="optionsSocialTwitter">Twitter: Tweet</string>
+
+ <string name="optionsFoursquareSearchFind">Find</string>
+
+ <string name="optionsFoursquareSearchNear">i nærheden</string>
+
+ <string name="listFacebookText">Check ind på Facebook</string>
+ <string name="listFoursquareText">Check ind på Foursquare</string>
+ <string name="listFoursquareVenueText">Check ind på</string>
+ <string name="listPlacesText">Check ind på Google Places</string>
+ <string name="listTweetText">Send Tweet</string>
+
+ <string name="locationDisabledTitle">Placering deaktiveret</string>
+ <string name="locationDisabledText">Kan ikke finde lokation. Aktiver venligst en lokationskilde.</string>
+
+ <string name="listHotspotText">Bærbart Hotspot</string>
+
+ <string name="layoutHotspotActionText">Handling:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Sikkerhed:</string>
+ <string name="layoutHotspotAuthKeyText">Netværksnøgle:</string>
+
+
+ <string name="soundRingerTypeText">Vælg en ringertype:</string>
+ <string name="listSoundRingtone">Indstil ringetone:</string>
+ <string name="listSoundNotification">Indstil beskedlyd:</string>
+ <string name="listSoundRingerVolume">Ringetone volume</string>
+ <string name="listSoundMediaVolume">Medie volume</string>
+
+ <string name="listSoundAlarmVolume">Alarm volume</string>
+ <string name="listSoundNotificationVolume">Besked volume</string>
+ <string name="listSoundVibrate">Vibrer ved ringning</string>
+
+ <string name="taskerNotInstalled">Tasker ikke installeret</string>
+ <string name="layoutTaskerLaunchText">Tasker opgave</string>
+ <string name="layoutTaskerSelect">Vælg opgave</string>
+ <string name="layoutTaskerHelpText">Bemærk: Tasker *skal* være installeret før denne app og indstillingen Mics / Allow External Access skal være slået til i Taskers UI.\n\nHvis du har problemer med at opgaverne ikke starter, afinstallér begge apps og geninstallér Tasker før installation af Trigger.</string>
+
+ <string name="wifiOptionsOperateWifi">Wi-Fi til/fra</string>
+ <string name="wifiOptionsConfigureSSID">Wi-Fi tilslutning</string>
+ <string name="wifiOptionsOperateBluetooth">Bluetooth til/fra</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Bluetooth synlighed</string>
+ <string name="wifiOptionsAutoSync">Autosynkronisering</string>
+ <string name="wifiOptionsAirplaneMode">Flytilstand</string>
+
+ <string name="hotspotOptions">Wi-Fi Hotspot</string>
+
+ <string name="soundOptionsRinger">Ringetype profil</string>
+ <string name="soundOptionsRingtone">Ringetone</string>
+ <string name="soundOptionsRingVolume">Ringevolume</string>
+ <string name="soundOptionsNotificationtone">Beskedlyd</string>
+ <string name="soundOptionsNotificationVolume">Besked volume</string>
+ <string name="soundOptionsMediaVolume">Medie volume</string>
+ <string name="soundOptionsMediaStart">Medie afspilning</string>
+
+ <string name="soundOptionsAlarmVolume">Alarm volume</string>
+ <string name="soundOptionsVibrate">Vibrer ved ringning</string>
+
+ <string name="listWifiAirplaneModeText">Flytilstand</string>
+ <string name="listWifiAutoSync">Autosynkronisering</string>
+ <string name="listWifiConfigureConnectText">Tilslut til</string>
+ <string name="listWifiBluetoothDiscoverableText">Bluetooth søgbar</string>
+ <string name="listWifiAssociateText">Tilslut til</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Sikkerhed:</string>
+ <string name="layoutWifiAuthKeyText">Netværksnøgle:</string>
+
+ <string name="builderInvalidName">Indtast venligst et gyldigt navn</string>
+
+
+ <string name="titleSelectAction">Vælg Kategorier</string>
+ <string name="titleConfigureAction">Indstil handling</string>
+ <string name="buttonTextAdd">Tilføj handling</string>
+
+ <string name="layoutPreferencesTitleText">Indstillinger</string>
+ <string name="layoutPreferencesSelectNotification">Besked ringetone</string>
+ <string name="layoutPreferencesVibrate">Vibrér</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Gem</string>
+ <string name="layoutPreferencesRateLimitingDisable">Deaktiver</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Når et tag læses</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Vibrér altid</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Vibrér aldrig</string>
+ <string name="layoutPreferencesVibrateSubAlways">Vibrér altid</string>
+ <string name="layoutPreferencesVibrateSubNever">Vibrér aldrig</string>
+
+ <string name="layoutPreferencesDebugOutput">Fejlsøgning</string>
+ <string name="layoutPreferencesDebugSend">Send fejlsøgningslog</string>
+ <string name="layoutPreferencesEnableLimitingSub">Slået fra</string>
+ <string name="layoutPreferencesUsage">Tillad Google analytic</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Notifikationer</string>
+ <string name="layoutPreferencesAdvancedTitle">Avanceret</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Lysstyrke</string>
+ <string name="layoutDisplayBrightnessAuto">Aktivér automatisk lysstyrke</string>
+ <string name="layoutDisplayNotificationLight">Beskedblink</string>
+ <string name="listDisplayNotificationLightText">Beskedblink</string>
+
+ <string name="layoutDisplayAutoRotation">Automatisk skærmrotation</string>
+ <string name="listDisplayAutoRotationText">Automatisk skærmrotation</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Undtagelse ved start af special handling</string>
+ <string name="actionLastActions">Seneste handlinger:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Start / stop medieafspilning</string>
+ <string name="widgetEnableMediaPlayback">Start / stop medieafspilning</string>
+
+ <string name="actionLaunchPackage">* Starter applikation</string>
+ <string name="widgetLaunchPackage">Startede applikation</string>
+
+ <string name="actionLaunchActivity">* Starter Aktivitet</string>
+ <string name="widgetLaunchActivity">Startede Aktivitet</string>
+
+ <string name="actionNavigate">* Naviger til:</string>
+ <string name="widgetNavigate">Naviger til:</string>
+
+ <string name="actionConfigureSSID">* Opsætter AP og tilslutter</string>
+ <string name="widgetConfigureSSID">Opsatte AP og tilsluttede</string>
+
+ <string name="actionTaskerTask">* Start Tasker opgave</string>
+ <string name="widgetTaskerTask">Startede Tasker opgave</string>
+
+ <string name="actionAlarm">* Sætter alarm til</string>
+ <string name="widgetAlarm">Satte alarm til</string>
+
+ <string name="actionLaunchURL">* Starter URL</string>
+ <string name="widgetLaunchURL">Startede URL</string>
+
+ <string name="actionSetVibration">* Vibration sættes</string>
+ <string name="widgetSetVibration">Indstil vibration</string>
+
+ <string name="actionSendTweet">* Skriver Tweet</string>
+ <string name="widgetSendTweet">Tweet skrevet</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">Tag skrevet succesfuldt.</string>
+ <string name="layoutWriteTitle">Skriv Tag</string>
+ <string name="layoutWritePrimaryMessageStart">Placer din enhed over et NFC tag for at begynde at skrive.</string>
+ <string name="layoutWriteLockText">Gør tag Read-only</string>
+
+ <string name="dialogWriteTitle">Skrivning slut</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Vælg Udløser</string>
+ <string name="layoutHomeFormat">Slet tag</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Timer slut</string>
+
+ <string name="displayAlarmSetTimer">Indstil alarm (timer)</string>
+
+
+ <string name="actionTimer">* Sætter timer for</string>
+ <string name="widgetTimer">Indstil timer for</string>
+
+ <string name="layoutAlarmSetTimerText">Indstil timer for</string>
+
+ <string name="alertSecureSetting">Du er ved at konfigurere en sikker indstilling, dette kræver adgang til roden.</string>
+ <string name="alertSecureSettingTitle">Låst system indstilling</string>
+ <string name="alertSecureSettingMakeSystemApp">Gør til system app</string>
+
+ <string name="wifiOptionsGPS">GPS til/fra</string>
+ <string name="wifiOptionsMobileData">Mobildata til/fra</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Mobildata</string>
+
+ <string name="rebootTitle">Fuldført</string>
+ <string name="rebootText">Genstart venligst enheden.</string>
+
+ <string name="noRootText">Kunne ikke få adgang til roden.</string>
+
+ <string name="layoutDisplayTimeout">Display timeout</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 sekunder</item>
+  <item>30 sekunder</item>
+  <item>1 minut</item>
+  <item>2 minutter</item>
+  <item>5 minutter</item>
+  <item>10 minutter</item>
+  <item>30 minutter</item>
+  <item>Aldrig</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Timeout</string>
+
+ <string name="wifiOptions3GData">3G data til/fra</string>
+
+ <string name="layoutAppDeskDock">Desktop dock</string>
+ <string name="layoutAppDeskDockSub">Dette har måske ikke en effekt på alle enheder.</string>
+ <string name="layoutAppCarDock">Bil dock</string>
+
+ <string name="menuPhone">Telefon</string>
+
+ <string name="layoutPhoneSMS">Send en tekstbesked</string>
+ <string name="optionsPhoneSMS">send en tekstbesked</string>
+ <string name="optionsPhoneSMSTo">Til</string>
+ <string name="optionsPhoneSMSMessage">Besked</string>
+ <string name="optionsPhoneNumber">Telefonnummer</string>
+ <string name="optionsPhoneCall">foretag et opkald</string>
+ <string name="layoutPhoneCall">Foretag et opkald</string>
+ <string name="optionsPhoneSMSNote">Dette vil åbne din SMS app med Til og Besked felterne udfyldt. For at kunne afsende beskeden automatisk, skal du tappe på denne besked for at downloade SMS plugin fra play butikken.</string>
+ <string name="optionsPhoneCallNote">Dette vil åbne for kalderen med nummeret indtastet. For automatisk at foretage et kald, tap denne besked for at downloade Call Plugin fra play butikken.</string>
+
+
+ <string name="listPhoneSMS">Send SMS</string>
+ <string name="listPhoneCall">Foretag et opkald</string>
+
+ <string name="actionSendSMS">* Sender SMS</string>
+ <string name="widgetSendSMS">SMS sendt</string>
+
+ <string name="actionPhoneCall">* Foretager et opkald</string>
+ <string name="widgetPhoneCall">Foretog et opkald</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">Aktiver NFC i flytilstand</string>
+
+ <string name="menuSecurity">Sikkerhed</string>
+ <string name="layoutOptionsKeyguard">Låseskærm</string>
+ <string name="securityOptionsOperateKeyguard">Låseskærm til/fra</string>
+ <string name="listSecurityKeyguardText">Låseskærm</string>
+
+ <string name="optionsFoursquareSearchCity">øjeblikkelige lokation</string>
+ <string name="optionsFoursquareSearchVenue">navn</string>
+ <string name="optionsFoursquareSearchVenueIDText">mødested id</string>
+ <string name="optionsFoursquareSearchOR">eller</string>
+
+ <string name="menuApplications">Applikationer og Genveje</string>
+ <string name="layoutWriteNameText">Inkludér tag navn</string>
+ <string name="layoutAppKillAppTextSub">luk standard aktivitet for en app</string>
+ <string name="layoutAppLaunchAppText">Åbn applikation</string>
+ <string name="layoutAppKillAppText">Luk applikation</string>
+ <string name="layoutAppLaunchActivityText">Åbn aktivitet</string>
+ <string name="layoutAppKillTaskDisclaimer">Dette virker måske ikke med alle apps, hvis der ikke er root adgang. Root adgang vil sikre, at processen lukkes succesfuldt.</string>
+
+ <string name="layoutAlarmShowUI">vis alarm UI</string>
+ <string name="layoutAlarmTimePrefix">Tid:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Type</string>
+ <string name="NavTypeDriving">Bilkørsel</string>
+ <string name="NavTypeTransit">Transit</string>
+ <string name="NavTypeWalking">Gang</string>
+
+
+
+ <string name="layoutActivityAppList">Vælg applikation:</string>
+ <string name="layoutActivityList">Vælg aktivitet:</string>
+ <string name="layoutActivityWarning">Nogle aktiviteter kan muligvis ikke startes.</string>
+
+ <string name="readOnlyWarning">Når et tag er gjort til læs-kun, kan du ikke længere skrive til det. Denne handling kan ikke fortrydes.</string>
+ <string name="limitThreshholdOverride">Promt for at overskrive denne indstilling</string>
+ <string name="limitThreshholdOverrideDialogPrefix">Denne opgave bliver springet over fordi den kørte indenfor %1$s %2$s</string>
+ <string name="limitThreshholdOverrideDialogSuffix">Denne besked vil forsvinde efter 5 sekunder.</string>
+ <string name="menu_context_delete">Slet</string>
+ <string name="menu_context_run">Kør</string>
+ <string name="menu_context_share">Del</string>
+ <string name="listCloseApp">Luk applikation</string>
+
+ <string name="listSoundPlayback">Start/stop medie afspilning</string>
+ <string name="listDisplayBrightness">Sæt lysstyrke til</string>
+ <string name="listDisplayBrightnessAuto">Aktiver auto-lysstyrke</string>
+ <string name="layoutImportPrimaryMessageStart">Læg tag\'et mod telefonens bagside for at importere</string>
+ <string name="layoutMainBuilderImportText">Importer tag</string>
+ <string name="layoutMainBuilderCopyText">Kopier tag</string>
+
+
+ <string name="copyRead">1.) Scan et tag for at kopiere</string>
+ <string name="copyReading">2.) Læser beskeder</string>
+ <string name="copyWrite">3.) Rør et tag for at skrive</string>
+ <string name="copyTitle">Kopier et NFC Tag</string>
+ <string name="importTitle">Importer et tag</string>
+
+ <string name="copyDialogCopied">Succesfuldt kopieret</string>
+ <string name="copyDialogCopyError">Tag kunne ikke kopieres</string>
+ <string name="copyDialogWritten">Succesfuldt skrevet</string>
+ <string name="copyDialogWriteError">Tag kunne ikke blive skrevet</string>
+ <string name="layoutPreferencesSelectTimer">Timer ringetone</string>
+ <string name="layoutPreferencesTagsTitle">Opgaver</string>
+ <string name="layoutPreferencesTagsMore">Mere</string>
+ <string name="layoutPreferencesNotifications">Beskeder</string>
+ <string name="layoutPreferencesNotificationsSubBar">Brug beskedlinie</string>
+ <string name="layoutPreferencesNotificationsSubToast">Brug toast beskeder</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Brug begge</string>
+ <string name="layoutPreferencesNotificationsSubNone">Ingen</string>
+ <string name="menu_done">Færdig</string>
+ <string name="layoutPreferencesSwitchTimeout">Nulstil skiftende opgaver efter 12 timer</string>
+ <string name="menuEvents">Events</string>
+ <string name="menuEventsCalendarStatic">Kalender event</string>
+ <string name="menuEventsCalendarTimestamp">Kalender tidsstempel</string>
+ <string name="menuEventsCalendarTimestampText">Indsæt en kalender event med den nøjagtige dato og tid hvor tagget er blevet scannet.</string>
+ <string name="layoutEventCalendarTitle">Titel</string>
+ <string name="layoutEventCalendarStart">Start</string>
+ <string name="layoutEventCalendarEnd">Slut</string>
+ <string name="layoutEventCalendarAllDay">Hele dagen</string>
+ <string name="dateHint">Tap for at sætte dato</string>
+ <string name="timeHint">Tap for at sætte tid</string>
+ <string name="listDiaplayCalendarEvent">Tilføj kalender event</string>
+ <string name="listDiaplayCalendarTimestamp">Tidsstempel kalender</string>
+ <string name="actionCalendarEvent">Tilføjer kalender event</string>
+ <string name="widgetCalendarEvent">* Tilføjer kalender event</string>
+ <string name="actionCalendarTimestamp">Tilføjer tidsstempel til kalender</string>
+ <string name="widgetCalendarTimestamp">* Tilføjer tidsstempel til kalender</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Log ind</string>
+ <string name="layoutPreferencesDialogTwitter">Klik OK for at fjerne log ind data fra Twitter</string>
+ <string name="layoutPreferencesDialogFoursquare">Klik OK for at fjerne login data til Foursquare</string>
+
+
+ <string name="layoutAppPause">Pause</string>
+ <string name="layoutAppPauseSubTitle">Hold pause i et specificeret tidsrum før der fortsættes</string>
+ <string name="actionPause">* Pause for</string>
+ <string name="widgetPause">Pause for</string>
+
+
+ <string name="loading">Loader...</string>
+ <string name="error">Fejl</string>
+ <string name="recommended_tags">NFC tags</string>
+ <string name="buy_now">Køb nu</string>
+ <string name="buy_tags">Udløser Butik</string>
+ <string name="popular_tags">Foreslået Opgaver</string>
+ <string name="my_tags">Mine opgaver</string>
+ <string name="shop_more_title">Leder du efter mere?</string>
+ <string name="shop_more_description">Gennemse hele vores katalog med NFC produkter, inklusiv NFC tags og tilbehør.</string>
+ <string name="welcome">Velkommen</string>
+ <string name="buy_nfc_tags">Køb NFC tags</string>
+ <string name="used_never">Brugt: Aldrig</string>
+ <string name="total_actions">Samlede handlinger</string>
+
+ <string name="basic_tags">Skriv basale tags</string>
+
+ 
+ <string name="default_tag_name_format">Opgaver %s</string>
+
+ <string name="save_and_write">Gem &amp; Skriv</string>
+ <string name="tag_name">Navn</string>
+ <string name="no_actions">Handlinger</string>
+ <string name="tag_unsaved_changes">Der kan være ændringer til denne opgave som ikke er gemt.</string>
+ <string name="discard_changes">Ignorer ændringer</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s bit</item>
+  <item quantity="other">%s bits</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Eller konfigurer et nyt trådløst netværk og tilslut</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">gør Bluetooth søgbar</string>
+ 
+ <string name="soundOptionsMediaStartSub">Start eller stop medieafspilning</string>
+ <string name="optionsSocialCheckinHereSub">Tjek ind på din nuværende placering</string>
+ <string name="actionURLHeading">URL / URI</string>
+ <string name="optionsSocialTwitterSub">send en tweet med Twitter</string>
+ <string name="layoutAppLaunchNavigationSub">naviger til en lokation</string>
+ <string name="alarmTimerConfigureSub">Indstil en timer</string>
+ <string name="carDockDrivingMode">Inkluder Kørefunktion (Samsung Galaxy enheder)</string>
+ <string name="airplaneModeWarning">Flyfunktionen vil deaktivere NFC når den er aktiveret. Du kan hindre at NFC bliver ændret af flyfunktionen, i applikationindstillingerne under Aktiver NFC i flyfunktionen.</string>
+ <string name="write">Skriv</string>
+ <string name="next">Næste</string>
+
+ <string name="_continue">Fortsæt</string>
+
+ <string name="shop_unavailable">Butikken er midlertidig ikke tilgængelig. Tjek venligst din forbindelse og prøv igen om nogle få minutter.</string>
+ <string name="titleSavedTagPicker">Vælg en gemt task at køre</string>
+ <string name="titleShareTagActivity">Del dette tag ved hjælp af</string>
+ <string name="sharedReceiverDialogMessage">Loader tag</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">Email</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Jeg har netop skabt dette NFC Tag med +Tagstand. Tjek det ud ved at bruge Trigger app på:</string>
+ <string name="shareTwitterPrefix">Tjek dette #NFC tag som jeg har lavet</string>
+ <string name="shareTwitterSuffix">leveret af @tagstand</string>
+ <string name="shareSMSPrefix">hey, tjek dette NFC tag som jeg har lavet med Trigger:</string>
+ <string name="shareEmailPrefix">Hey,\n\nJeg har lavet dette tag \'%1$s\' med Trigger, og jeg\'d vil gerne dele det med dig.\n\n</string>
+ <string name="shareEmailSuffix">\n\nKlik for at downloade til din telefon.\n\nVelkommen til fremtiden.</string>
+ <string name="shareEmailSubject">Tjek mit nye NFC tag</string>
+ <string name="loadTagPayloadError">Der er desværre noget\ der ikke virker, det kan være din forbindelse.</string>
+ <string name="loadTagNoPayload">Der er ingen handlinger i forbindelse med dette tag.</string>
+
+ <string name="layoutWifiHiddenSSID">Gemt SSID</string>
+ <string name="layoutEmailAddress">Email adresse</string>
+ <string name="layoutEmailMessage">Besked (valgfri)</string>
+ <string name="layoutEmailSubjectHint">Emne</string>
+ <string name="layoutEmailMessageHint">Besked</string>
+ <string name="layoutEmail">Send email</string>
+ <string name="listDisplayEmail">Send email til</string>
+ <string name="sendEmailChooserTitle">Send email ved hjælp af</string>
+
+ <string name="tag_write_failed_message">Det vil stadig virke, men du vil måske se vælgeren når du tapper på den.</string>
+ <string name="tag_write_failed_no_plugin">Du skal downloade tagget genbruge plug-in fra Play Store for at bruge dette tag.</string>
+ <string name="tag_write_failed">Kunne ikke skrive til dette tag.</string>
+ <string name="tag_write_success_message">Dit tag er klar til brug.</string>
+ <string name="menu_help_text">Hjælp</string>
+
+ <string name="warning">Advarsel</string>
+
+
+ <string name="configure_connection_title">Konfigurer forbindelse</string>
+ <string name="enter_network_name">indtast netværksnavn (ssid)</string>
+ <string name="enter_bluetooth_name">indtast enhedens navn</string>
+ <string name="enter_bluetooth_mac">indtast mac adresse</string>
+ <string name="when_connected_to">Når tilsluttet til</string>
+ <string name="when_disconnected_from">Når afbrudt fra</string>
+ <string name="or">eller</string>
+
+ <string name="color_white">Hvid</string>
+ <string name="color_black">Sort</string>
+ <string name="select_background_color">Vælg stil</string>
+ <string name="action_send_email">* Sender email</string>
+ <string name="widget_send_email">Email afsendt</string>
+ <string name="ignore_duplicate_check">Undgå gentagelse af forrige opgave</string>
+ <string name="if_read_again">Undgå gentagelse af opgave indenfor</string>
+ <string name="found_tag">Kørte Opgave</string>
+ <string name="title_tag_limiting">Undgå gentagelse</string>
+ <string name="limit_last_tag_read">af forrige opgave</string>
+ <string name="limit_time_frame">indenfor %1$s %2$s</string>
+
+ <string name="erase_tag_text">Læg bagsiden af telefonen over tagget for at slette.</string>
+ <string name="copy_tag_text">Læg bagsiden af telefonen over tagget for at kopiere.</string>
+
+ <string name="menuMessages">Beskeder</string>
+ <string name="widget_single_task">Kør en opgave</string>
+ <string name="widget_single_task_configure_title">Konfigurer genvej</string>
+ <string name="soundOptionsRingVolumeCombined">Ring / Notifikation volume</string>
+
+
+ <string name="switch_tag_details">Skift opgaver, indeholder to særskilte opgaver og der toggles mellem dem hver gang et nfc tag er tappet.\n\nHvis du ønsker at tilføje en ekstra opgave som skal bruges med nfc tags, skal du tappe på + ovenfor.</string>
+
+ <string name="driving_mode">Køre funktion</string>
+ <string name="power_saver">Strømsparing</string>
+ <string name="block_mode">Blokerings funktion</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Strømsparing</string>
+ <string name="driving_mode_heading">Køre funktion</string>
+ <string name="blocking_mode_heading">Blokerings funktion</string>
+
+ <string name="display_power_saver">Strømsparer</string>
+ <string name="display_blocking_mode">Blokerings funktion</string>
+ <string name="display_driving_mode">Køre funktion</string>
+ <string name="heading_glympse">Send en glympse</string>
+ <string name="hint_recipient_address">Modtager</string>
+
+ <string name="widgetSendGlympse">Glympse afsendt</string>
+ <string name="actionSendGlympse">* Sender en Glympse</string>
+
+ <string-array name="glympse_address_types">
+  <item>email</item>
+  <item>sms</item>
+  <item>twitter</item>
+  <item>facebook</item>
+ </string-array>
+
+
+ <string name="duration">Varighed</string>
+
+
+ <string name="choose_shipping_method">Vælg forsendelsesmetode</string>
+ <string name="tts_failed">Fejl: Kan ikke starte TTS</string>
+
+ <string name="action_speak_text">* Talende tekst</string>
+ <string name="widget_speak_text">Tekst talte</string>
+
+ <string name="heading_tts">Læs tekst</string>
+ <string name="tts_hint">Tekst som skal læses</string>
+
+
+ <string name="open_in_background">åben i baggrunden</string>
+ <string name="help_answers">Få svar online</string>
+ <string name="help_email">Send os en email</string>
+ <string name="show_welcome">Vis velkommen og ledetråde</string>
+
+
+ <string name="general">Generalt</string>
+ <string name="backup_restore">Backup / Gendan</string>
+ <string name="backup">Backup</string>
+ <string name="restore">Gendan</string>
+ <string name="last_operation">Sidste handling:</string>
+ <string name="backed_up">Backed op kl. %1$s</string>
+ <string name="restored">Gendannet kl. %1$s</string>
+ <string name="backup_local">Lokal</string>
+ <string name="backup_tagstand">Cloud</string>
+ <string name="backup_to">Backup til</string>
+ <string name="restore_from">Gendan fra</string>
+ <string name="restoring">Gendanner</string>
+ <string name="perform_cloud_backup">Udfører cloud backup</string>
+
+ <string name="sso_clear_dialog">Klik OK for at rydde log ind data fra din Google konto</string>
+
+ <string name="title_sso_explanation">Log ind med Google</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">Log ud</string>
+ <string name="status_logged_out">Log ind</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Køb med:</string>
+ <string name="ship_to">Send til:</string>
+ <string name="confirm_order">Bekræft ordre</string>
+ <string name="change">Ændr betaling eller adresse</string>
+ <string name="change_shipping">Ændr forsendelsesmetode</string>
+ <string name="tax">Skat:</string>
+ <string name="total">Samlet:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">$%.2f</string>
+ <string name="shipping">Forsendelse:</string>
+ <string name="titleConfirmPayment">Ordre information</string>
+ <string name="item_price">Pris:</string>
+ <string name="finalize_payment">Færdiggører køb</string>
+ <string name="confirmation_text">Dit transaktions nummer er %1$s.\n\nDu vil modtage en email med din bekræftelse på %2$s.</string>
+ <string name="confirmation_error_text">Der opstod et problem under behandlingen af din transaktion.\n\n%1$s</string>
+ <string name="wallet_error_title">Google Wallet fejl</string>
+ <string name="wallet_error_message">Der opstod et problem under tilslutning til Google Wallet. Du kan prøve igen om nogle få minutter. Fejl: %1s</string>
+ <string name="titleOrderComplete">Ordre færdiggjort</string>
+ <string name="spending_limit_exceeded">Du har overskredet din forbrugsgrænse</string>
+ <string name="google_wallet_unavailable">Google Wallet er ikke tilgængeligt</string>
+ <string name="error_code">Fejlkode: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Betalt med</string>
+ <string name="wallet_signin_point_one">Mist aldrig dine opgaver igen. Brug Tagstand\'s cloud for at backe up og gendanne dine opgaver.</string>
+ <string name="wallet_signin_point_two">Få to gratis tags fra Tagstand.</string>
+ <string name="wallet_signin_point_three">Gør det hurtigere og nemmere at købe tags ved hjælp af Google Wallet.</string>
+ <string name="wallet_signin_heading">Brug din Google konto og nyd alle fordelene.</string>
+ <string name="set_alarm_app">Indstil den foretrukne alarm app</string>
+ <string name="select_alarm_app">Vælg din foretrukne alarm app</string>
+ <string name="sign_in_with_google">Log ind</string>
+ <string name="system_volume">System volumen</string>
+
+ <string name="actionSystemVolume">* Indstiller system volumen til</string>
+ <string name="widgetSystemVolume">Indstil system volumen</string>
+ <string name="media_next">Medie næste</string>
+ <string name="next_track">Næste sang</string>
+ <string name="media_previous">Medie forrige</string>
+ <string name="previous_track">Forrige sang</string>
+ <string name="actionMediaNext">* Næste sang</string>
+ <string name="widgetMediaNext">Næste sang</string>
+ <string name="actionMediaPrevious">* Forrige sang</string>
+ <string name="widgetMediaPrevious">Forrige sang</string>
+ <string name="menuMedia">Medie</string>
+
+ <string name="wifi_task">Wifi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Kør en opgave eller skiftende opgave når du tapper et NFC tag.</string>
+ <string name="bluetooth_task_description">Kør en opgave, når du tilslutter eller fjerner en bluetooth enhed.</string>
+ <string name="wifi_task_description">Kør en opgave når du tilslutter eller afbryder fra et wifi netværk.</string>
+ <string name="configure_connection_task_title">Konfigurer %1$s opgave</string>
+
+ <string name="layoutProfileTaskChooserTitle">Vælg en opgave</string>
+ <string name="layoutProfileNewTask">Ny opgave</string>
+ <string name="enable_bluetooth">Bluetooth skal være aktiveret for at liste parrede enheder.</string>
+ <string name="enable_wifi">Wifi skal være aktiveret for at liste gemte netværk.</string>
+ <string name="no_task">Ingen opgaver blev fundet.</string>
+ <string name="share_failed">Det mislykkedes at dele tag.</string>
+
+ <string name="extension_description">Viser dine nyeste opgaver og lader dig starte 
+opgaver direkte fra DashClock</string>
+ <string name="import_create_tag">Der blev ikke fundet nogen opgaver. Ønsker du at oprette en ny opgave ved hjælp af dette tag?</string>
+ <string name="start_media_playback">Påbegynd medie afspilning</string>
+ <string name="stop_media_playback">Stop medie afspilning</string>
+ <string name="receive_sip_calls">Modtag SIP opkald</string>
+ <string name="sip_calls">SIP opkald</string>
+
+ <string name="widget_enable">Aktiveret %1$s</string>
+ <string name="widget_disable">Deaktiveret %1$s</string>
+ <string name="widget_toggle">Toggled %1$s</string>
+
+ <string name="action_enable">* Aktiveret %1$s</string>
+ <string name="action_disable">* Deaktiveret %1$s</string>
+ <string name="action_toggle">* Toggling %1$s</string>
+
+ <string name="action_set_generic">* Indstilling %1$s</string>
+ <string name="widget_set_generic">Indstil %1$s</string>
+ <string name="action_set_to">* Indstilling %1$s til %2$s</string>
+ <string name="widget_set_to">Indstil %1$s til %2$s</string>
+ <string name="action_checking_in">* Tjekker ind til %1$s</string>
+ <string name="widget_checking_in">Tjekket ind til %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare Venue</string>
+ <string name="social_google_places">Google Places</string>
+ <string name="run_task">Kør opgave</string>
+ <string name="background_color">Baggrundsfarve</string>
+ <string name="white">Hvid</string>
+ <string name="black">Sort</string>
+ <string name="select_icon">Vælg ikon</string>
+ <string name="select_task">Vælg opgave</string>
+
+ <string name="try_it_now">Prøv eksempel nu</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Tilslut en enhed</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Telefon og Medie</item>
+  <item>Medie</item>
+  <item>Telefon</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Vælg profil</string>
+ <string name="select_bluetooth_device">Vælg enhed</string>
+ <string name="action_bluetooth_connect">* Tilslutter til Bluetooth enhed</string>
+ <string name="widget_bluetooth_connect">Tilsluttet til Bluetooth enhed</string>
+
+ <string name="write_options_title">Skrive muligheder</string>
+ <string name="menu_context_edit">Ret</string>
+ <string name="set_media_app">Indstil foretrukne medie afspiller</string>
+ <string name="select_media_app">Vælg din foretrukne medie afspiller</string>
+ <string name="menuTravel">Rejse</string>
+ <string name="item_info_title">Info</string>
+ <string name="geofence_task">Geofence (beta)</string>
+ <string name="when_entering">Når du kommer</string>
+ <string name="when_exiting">Når du forlader</string>
+ <string name="address">Adresse</string>
+ <string name="geofence">Geofence</string>
+ <string name="radius">Størrelse:</string>
+ <string name="no_location">Ingen placering indstillet</string>
+ <string name="miracast_device">Miracast enhed</string>
+ <string name="battery_task">Batteri</string>
+ <string name="battery_task_description">Kør en opgave når dit batteri rammer en specifik procentdel.</string>
+ <string name="when_battery_level">Når batteriet:</string>
+ <string name="nfc_gear_title">NFC Gear</string>
+
+ <string name="goes_below">går nedenunder</string>
+ <string name="goes_above">går ovenover</string>
+ <string name="activity_feed">Aktivitetslog</string>
+ <string name="activity_feed_none">Ingen udløsere er brugt endnu.</string>
+ <string name="menu_experimental">Eksperimenterende</string>
+ <string name="time_task_description">Kør en opgave på et specifikt tidspunkt, på en eller flere dage.</string>
+ <string name="time_task">Tid</string>
+ <string name="day_sunday">SØN</string>
+ <string name="day_monday">MAN</string>
+ <string name="day_tuesday">TIRS</string>
+ <string name="day_wednesday">ONS</string>
+ <string name="day_thursday">TORS</string>
+ <string name="day_friday">FRE</string>
+ <string name="day_saturday">LØR</string>
+
+ <string name="example_created">%1$s oprettet succesfuldt.</string>
+ <string name="title_feedback">Feedback</string>
+ <string name="contact_text">Vi\er motiverede til at gøre Trigger så brugbar for dig som vi overhovedet kan. Din feedback kan hjælpe os med at opnå dette. Du er mere end velkommen til at kontakte os vedrørende problemer, kommentarer eller forslag som du måske har i forbindelse med brugen af ressourcerne nedenfor.</string>
+ <string name="other_nfc">Andre NFC Handlinger</string>
+ <string name="write_status_waiting">Venter på tag...</string>
+ <string name="write_free_tags">Køb NFC Tags</string>
+
+ <string name="previous">Forrige</string>
+ <string name="title_configure_triggers">Udløsere</string>
+ <string name="title_configure_task">Opgave</string>
+ <string name="title_configure_switch">Switch</string>
+ <string name="us_customer">Amerikanske brugere</string>
+ <string name="international_customer">Internationale brugere</string>
+ <string name="checkout">Tjek ud</string>
+ <string name="examples_intro">Brug din telefon\s sensor til automatisk at ændre indstillinger, starte apps eller sende beskeder.\n\nKom i gang med vores eksempler nedenfor, eller opret dine egne opgaver.</string>
+ <string name="got_it">Ok, jeg har det</string>
+ <string name="create_your_own">Opret din egen</string>
+ <string name="no_triggers">Tilføj udløsere ved at klikke på + ovenfor.</string>
+ <string name="international">(International)</string>
+ <string name="us">(USA)</string>
+     
+ <string name="geofence_help">For spørgsmål eller problemer med Geofence handlinger, klik venligst for at se vores FAQ.</string>
+ <string name="separator_or">- ELLER -</string>
+ <string name="separator_and">- OG -</string>
+ <string name="use_this_task">Tilføj restriktioner</string>
+ <string name="between_these_times">Mellem</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">ethvert netværk</string>
+ <string name="select_network">Udvalgte netværk</string>
+ <string name="two_or_more">To eller flere netværk</string>
+ <string name="display_between_times">Mellem %1$s og %2$s</string>
+ <string name="display_on_days">På %1$s</string>
+ <string name="display_wifi_network">Når forbundet til %1$s</string>
+ <string name="no_actions_found">Ingen handlinger</string>
+ <string name="no_actions_found_message">%1$s har ingen handlinger.\n\nGå tilbage til at tilføje handlinger, eller fortsæt med at gemme denne opgave uden nogen handlinger.</string>
+ <string name="go_back">Gå tilbage</string>
+ <string name="payment_info">Betalingsinformation</string>
+ <string name="card_number">Kortnummer</string>
+ <string name="expiration_date">Udløbsdato</string>
+ <string name="security_code">Sikkerhedskode</string>
+ <string name="mm">MM</string>
+ <string name="yy">YY</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Leveringsadresse</string>
+ <string name="full_name">Fulde navn</string>
+ <string name="company_name">Firma navn</string>
+ <string name="email">E-mail</string>
+ <string name="street_address">Vejnavn</string>
+ <string name="apt_suite">Dør nummer</string>
+ <string name="city">By</string>
+ <string name="region">Amt</string>
+ <string name="postcode">Postnummer</string>
+ <string name="phone_number">Telefonnummer</string>
+ <string name="billing_address">Betalingsadresse</string>
+ <string name="use_shipping_info">brug forsendelsesinfo</string>
+ <string name="used_text">Brugt: %1$s</string>
+ <string name="pref_show_bytes">Vis opgavestørrelse</string>
+ <string name="plugin_tag_reuse">Genbrug tag</string>
+ <string name="plugin_tag_reuse_description">Genbrug read-only eller tags som ikke understøttes helt af din enhed.</string>
+ <string name="plugin_call">Kald</string>
+ <string name="plugin_call_description">Dette vil tillade Kald funktionen at foretage et kald direkte i stedet for at åbne for telefonbogen.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">Dette tillader Tekstbesked handlingen at sende en automatisk tekstbesked, istedet for at vise SMS data i din tekstbesked app.</string>
+ <string name="plugins">Plugins</string>
+ <string-array name="radiusChoices">
+  <item>lille</item>
+  <item>medium</item>
+  <item>stor</item>
+  <item>kæmpe</item>
+ </string-array>
+ <string name="when_charger_connected">Når oplader er tilsluttet</string>
+ <string name="when_wireless_charger_connected">Når trådløs oplader</string>
+ <string name="when_charger_disconnected">Når oplader er afbrudt</string>
+ <string name="charger_title">Oplader</string>
+ <string name="charger_description">Kør en handling når du tilslutter eller afbryder en wired eller en trådløs oplader.</string>
+ <string name="forget_network">Wifi Glemt</string>
+
+ <string name="task_n">handling (n)</string>
+ <string name="task_definition">en gruppe HANDLINGER aktiveret af UDLØSERE</string>
+ <string name="my_battery_task">Min batteri-opgave</string>
+ <string name="create_a_task">Opret en opgave</string>
+ <string name="actions">HANDLINGER</string>
+ <string name="sign_in_trial">Log ind med Google+ for at påbegynde en gratis 7 dages prøveperiode, eller opgrader nedenfor.</string>
+ <string name="upgrade_heading">Den funktion som du\ valgte er begrænset til Trigger PRO.</string>
+ <string name="start_trial">Påbegynd prøveperiode</string>
+ <string name="upgrade">Opgrader</string>
+ <string name="trial_upgrade_only">Vælg Opgrader nedenfor for at bruge denne funktion.</string>
+ <string name="pro_feature">Pro funktion</string>
+ <string name="trigger">UDLØSER</string>
+ <string name="any_time">altid</string>
+ <string name="headset_title">Headset</string>
+ <string name="when_connected">Når tilsluttet</string>
+ <string name="when_disconnected">Når afbrudt</string>
+ <string name="headset_description">Kør en opgave når du tilslutter eller afbryder et headset.</string>
+ <string name="use_current_configuration">brug nuværende konfiguration</string>
+ <string name="trial_expired_title">Prøveperiode udløbet</string>
+ <string name="trial_expired">Din gratis prøveperiode af Trigger Pro er udløbet. Alle Pro triggers som du har oprettet virker ikke i den gratis udgave.</string>
+ <string name="my_tasks_example_description">Når mit batteri et lavt, skal du slukke for wifi og nedsætte skærmstyrken.</string>
+ <string name="show_actions_in_list">Beskrivende opgaveliste</string>
+ <string name="task_deleted">Opgave slettet</string>
+ <string name="undo">lave om</string>
+ <string name="geofence_beta_description">Grundet volatilitet hos Google Play Services er dette på nuværende tidspunkt en Beta udløser. Det virker godt for mange, men vi kan ikke altid garantere at det vil virke.</string>
+ <string name="when_charging_usb">Når der oplades  (USB)</string>
+ <string name="when_charging_ac">Når der oplades (AC)</string>
+ <string name="any_device">enhver enhed</string>
+    <string name="two_or_more_devices">To eller flere enheder</string>
+    <string name="upgrade_general_heading">Ved at opgradere vil du åbne all udløsere og funktioner som findes i Trigger, samt support og udvikling.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Deaktiver en enhed</string>
+    <string name="disconnect_from">Deaktiver fra</string>
+    <string name="action_bluetooth_disconnect">* Deaktiverer en Bluetooth enhed</string>
+    <string name="widget_bluetooth_disconnect">Deaktiveret en Bluetooth enhed</string>
+    <string name="calendar_title">Kalender Begivenhed</string>
+    <string name="calendar_description">Kør en handling når en matchende kalender begivenhed begynder</string>
+
+    <string name="available">tilgængelig</string>
+    <string name="busy">optaget</string>
+    <string name="any">enhver</string>
+    <string name="attending">deltager</string>
+    <string name="not_attending">deltager ikke</string>
+    <string name="agent_title_string">%1$s som agent</string>
+    <string name="start">Begynd</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="meeting_agent">Møde-agent</string>
+    <string name="drive_agent">Kør agent</string>
+    <string name="parking_agent">Parkerings-agent</string>
+    <string name="battery_agent">Batteri-agent</string>
+    <string name="sleep_agent">Sove-agent</string>
+    <string name="agent_action">%1$s %2$s</string>
+    <string name="menu_agent">Agent</string>
+    <string name="agent_title_start">Begynd en agent</string>
+    <string name="agent_title_stop">Stop en agent</string>
+    <string name="agent_title_pause">Pause en agent</string>
+    <string name="account">Konto</string>
+    <string name="upgrade_spacer">Alle enheder nedenfor er del af PRO opgraderingen. Klik her for at opgradere eller påbegynde en gratis prøveperiode.</string>
+    <string name="upgrade_now">Opgrader nu</string>
+    <string name="upgrade_main_description">Prøv en 7 dages gratis prøveperiode, eller opgrader til PRO udgaven nedenfor for at åbne alle udløsere.</string>
+    <string name="upgrade_unlocks_triggers_count">åbner %1$s yderligere udløsere</string>
+    <string name="wallet_signin_point_four">Drag fordel af en 7 dages gratis prøveperiode af Trigger PRO.</string>
+    <string name="receiver_marketing_materials">Modtag rabatter og vigtige opdateringer via e-mail.</string>
+    <string name="example_silence_at_night">Sæt min telefon på lydløs når jeg sover</string>
+    <string name="example_silence_at_night_description">sæt indkommende notifikationer til lydløs når du sover</string>
+    <string name="example_save_battery">Hjælp mig med at spare på batteriet når der ikke er meget strøm på</string>
+    <string name="example_save_battery_description">slukker for wifi og dæmper for skærmens lysstyrke</string>
+    <string name="example_driving">Spar tid når du kører</string>
+    <string name="example_driving_description">slukker wifi og åbner Google Maps når du kører</string>
+    <string name="example_task_data_saver_on">Deaktiver mobildata</string>
+    <string name="example_task_data_saver_off">Aktiver mobildata</string>
+    <string name="example_task_battery_saver">Batteri sparer</string>
+    <string name="example_set_battery_percentage">Kør batteri sparer når strømmen er lav</string>
+    <string name="example_wifi_select_network">Vælg dit hjemme wifi netværk</string>
+    <string name="example_task_night">Godnat</string>
+    <string name="example_task_morning">Morgen</string>
+    <string name="start_now">Begynd nu</string>
+    <string name="free_trial_short">Prøv en 7 dages gratis prøveperiode af Trigger PRO.</string>
+    <string name="trial_started">Prøveperiode startet</string>
+    <string name="trial_try_free">Prøv det gratis i 7 dage</string>
+    <string name="event_name">Navn på Begivenhed</string>
+    <string name="contains">indeholder</string>
+    <string name="matches">matcher</string>
+    <string name="event_description">Beskrivelse af Begivenhed</string>
+    <string name="description">beskrivelse</string>
+    <string name="availibility">Tilgængelighed</string>
+    <string name="when_event_ends">Når en begivenhed slutter</string>
+    <string name="when_event_starts">Når en begivenhed starter</string>
+    <string name="power_service_monitor_battery">Overvåger batteriet</string>
+    <string name="power_service_monitor_both">Overvåger batteriet &amp; oplader</string>
+    <string name="power_service_monitor_charging">Overvåger opladning</string>
+    <string name="power_service_disable_notification">Rør for at deaktivere notifikationer</string>
+    <string name="power_service_on">Batteri og Opladning udløsere vil bruge en service i forgrunden. Dette vil vise en fortsat notifikation, men det vil afværge OS fra at afslutte den service som der påkræves for at overvåge disse begivenheder.</string>
+    <string name="power_service_off">Batteri og Oplader udløsere vil måske ikke virke hvis servicen slukkes af OS, eller hvis appen fjernes fra den nylige app liste.</string>
+    <string name="power_service_pref">Forgrund service til Strøm udløsere</string>
+    <string name="menu_remove">Fjern</string>
+    <string name="help_tasks_title">Opretter opgaver</string>
+    <string name="help_tasks_description">Klik her for at se en hurtig tutorial om hvad opgaver er, og hvordan man opretter dem.</string>
+    <string name="connect_dialog_body">"Tak for at du bruger Trigger! Download Tilslut nu og begynd at arbejde med Trigger Opgaver fra internettet!! (3 dages gratis prøveperiode inkluderet)"</string>
+    <string name="no_thanks">Nej tak</string>
+    <string name="try_connect_now">Prøv det nu</string>
+    <string name="feedback_rate_gplay">Vurder os på Google Play</string>
+    <string name="rating_text">Hvis du føler for det, så sætter vi stor pris på gode vurderinger og +1:</string>
+    <string name="show_brightness_window">Vis vindue når du ændrer lysstyrke</string>
+    <string name="request_root_access">Anmod om adgang til roden</string>
+    <string name="upgrade_successful">Alle funktioner er nu åbne.</string>
+    <string name="emulate_hardware_dock">Emuler hardware dock (kræver rodadgang)</string>
+    <string name="wizard_trigger_help">Tilføj en eller flere udløsere ved at klikke på + ovenfor.</string>
+    <string name="wizard_actions_help">Tilføj en eller flere handlinger ved at klikke på + ovenfor.</string>
+    <string name="event_set_reminder">Indstil påmindelse</string>
+    <string name="forget_wifi_network">Glem et WiFi netværk</string>
+    <string name="show_user_text">Vis tekst</string>
+
+    <string name="samsung_hands_free">Håndfri funktion</string>
+    <string name="samsung_smart_stay">Smart Stay</string>
+    <string name="htc_sleep_mode">Sleep funktion</string>
+    <string name="htc_power_saver">Kraft sparer</string>
+    <string name="htc_boom_sound">Boom lyd</string>
+    <string name="htc_smart_display">Smart visning</string>
+    <string name="samsung_multi_window">Flere vinduer</string>
+    <string name="show_toast">Vis toast</string>
+    <string name="constraint_days">Dage</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Oplader</string>
+    <string name="constraint_connected">Forbundet til</string>
+    <string name="constraint_not_connected">Ikke forbundet til</string>
+    <string name="display_not_connected">Når man ikke er forbundet til %1$s</string>
+    <string name="is_on">Er på</string>
+    <string name="is_off">Er fra</string>
+    <string name="play_sound">Afspil lyd</string>
+    <string name="agent_description">Kør en opgave når en agent begynder eller stopper</string>
+    <string name="when_agent_starts">Når en agent begynder</string>
+    <string name="when_agent_ends">Når en agent stopper</string>
+    <string name="choose_agent">Vælg agent</string>
+    <string name="agent_condition_starts">Når %1$s begynder</string>
+    <string name="agent_condition_ends">Når %1$s stopper</string>
+    <string name="clear">Ryd</string>
+    <string name="export">Eksporter</string>
+    <string name="notification_timer_cancel">Bladr væk for at annullere</string>
+    <string name="notification_timer_extra_info">Udløber kl. %1$s</string>
+    <string name="installed">installeret</string>
+    <string name="plugin_lock">Lås skærmen</string>
+    <string name="plugin_lock_description">Dette vil betyder at indstillingerne for den underliggende låseskærm vil blive ændret. Ved at deaktivere låseskærmen vil den blive indstillet til at slide. Ved at aktivere den, vil du skulle benytte Pin eller Adgangskode, afhængig af indstillingerne.</string>
+    <string name="configure">konfigurer</string>
+</resources>
+
+
+
+
+

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "96544195822",
+    "firebase_url": "https://trigger-sb.firebaseio.com",
+    "project_id": "trigger-sb",
+    "storage_bucket": "trigger-sb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96544195822:android:ff645b3e542e47a7",
+        "android_client_info": {
+          "package_name": "com.mobiroo.n.sourcenextcorporation.trigger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96544195822-77vg03cu8kfkbknf4qbhg70aa5hj833f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiim-CBulyhe7TAwFfO9e_lsoRaCalH3E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

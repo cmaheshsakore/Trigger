@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Media Playback -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option062"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mediaPlaybackTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/media_next" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TextView
+        android:id="@+id/ringerTypeSubTitle"
+        style="@style/ConfigurationActionSubText"
+        android:text="@string/next_track" />
+
+</LinearLayout><!-- End Media Playback -->

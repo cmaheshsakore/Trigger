@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/dialog_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerPadding="0dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp">
+
+            <RadioGroup
+                android:id="@+id/limiting_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/ignore_duplicate_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ignore_duplicate_check"
+                    android:textSize="@dimen/TextSizeOne" />
+
+                <RadioButton
+                    android:id="@+id/ignore_time_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/if_read_again"
+                    android:textSize="@dimen/TextSizeOne" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/limitThreshhold"
+                    style="@style/EditText"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:inputType="number"
+                    android:text="30" />
+
+                <Spinner
+                    android:id="@+id/limitThreshholdSpinner"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:prompt="@string/limitThreshholdPrompt" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/limitThreshholdCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/limitThreshholdOverride"
+                android:textSize="@dimen/TextSizeOne"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="true">
+
+            <Button
+                android:id="@+id/cancel_button"
+                style="@style/material_button_flat_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/layoutPreferencesRateLimitingDisable" />
+
+            <Button
+                android:id="@+id/ok_button"
+                style="@style/material_button_flat_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/layoutPreferencesRateLimitingEnable" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option017"
+    style="@style/ActionNoMarginPadded"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutTaskerLaunchText" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:id="@+id/TaskerPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ActionSelectPrimaryHeight"
+        android:layout_marginTop="5sp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/TaskerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_btn_search" />
+
+        <EditText
+            android:id="@+id/TaskerTaskResult"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal"
+            android:text="@string/layoutTaskerSelect"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TaskerSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="10sp"
+            android:text="@string/layoutTaskerHelpText"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+    </LinearLayout>
+
+</LinearLayout>

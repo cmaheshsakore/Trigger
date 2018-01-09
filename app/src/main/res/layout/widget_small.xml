@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/appwidget_dark_bg"
+    android:padding="15dip"
+    android:clickable="true"> 
+	<TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:clickable="true"
+    	android:textSize="14sp"
+    	android:textColor="#FFFFFF" 
+    	android:id="@+id/widgetText"
+    	android:gravity="center_vertical|center_horizontal"
+    	android:layout_gravity="center_vertical|center_horizontal"
+    	android:text="@string/app_name">
+	</TextView>
+</LinearLayout>

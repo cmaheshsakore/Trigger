@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e7e7e7"
+                android:padding="8dp"
+                android:text="@string/payment_info" />
+
+            <RelativeLayout
+                android:id="@+id/cc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/card_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/card_number"
+                    android:inputType="number"
+                    android:maxLength="19" />
+
+                <TextView
+                    android:id="@+id/expiry_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/card_number"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="@string/expiration_date"
+                    android:paddingLeft="8dp" />
+
+                <TextView
+                    android:id="@+id/cvc_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/card_number"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="@string/security_code"
+                    android:paddingRight="8dp" />
+
+                <EditText
+                    android:id="@+id/card_expiry_month"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/expiry_title"
+                    android:layout_below="@id/expiry_title"
+                    android:hint="@string/mm"
+                    android:inputType="number"
+                    android:maxLength="2" />
+
+                <EditText
+                    android:id="@+id/card_expiry_year"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/expiry_title"
+                    android:layout_toRightOf="@id/card_expiry_month"
+                    android:hint="@string/yy"
+                    android:inputType="number"
+                    android:maxLength="2" />
+
+                <EditText
+                    android:id="@+id/card_cvc"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/expiry_title"
+                    android:hint="@string/cvc"
+                    android:inputType="number"
+                    android:maxLength="4" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#e7e7e7"
+                android:padding="8dp"
+                android:text="@string/shipping_address" />
+
+            <LinearLayout
+                android:id="@+id/shipping_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/shipping_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/full_name" />
+
+                <EditText
+                    android:id="@+id/shipping_company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/company_name" />
+
+                <EditText
+                    android:id="@+id/shipping_email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/shipping_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/street_address"
+                    android:inputType="textPostalAddress" />
+
+                <EditText
+                    android:id="@+id/shipping_address_secondary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/street_address" />
+
+                <EditText
+                    android:id="@+id/shipping_apt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/apt_suite" />
+
+                <EditText
+                    android:id="@+id/shipping_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/city" />
+
+                <EditText
+                    android:id="@+id/shipping_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/region" />
+
+                <Spinner
+                    android:id="@+id/shipping_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/shipping_postcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/postcode" />
+
+                <EditText
+                    android:id="@+id/shipping_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#e7e7e7"
+                android:padding="8dp"
+                android:text="@string/billing_address" />
+
+            <Button
+                android:id="@+id/button_use_shipping"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/use_shipping_info"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/billing_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/billing_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/full_name" />
+
+                <EditText
+                    android:id="@+id/billing_company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/company_name" />
+
+                <EditText
+                    android:id="@+id/billing_email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/billing_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/street_address"
+                    android:inputType="textPostalAddress" />
+
+                <EditText
+                    android:id="@+id/billing_address_secondary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/street_address" />
+
+                <EditText
+                    android:id="@+id/billing_apt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/apt_suite" />
+
+                <EditText
+                    android:id="@+id/billing_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/city" />
+
+                <EditText
+                    android:id="@+id/billing_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/region" />
+
+                <Spinner
+                    android:id="@+id/billing_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/billing_postcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/postcode" />
+
+                <EditText
+                    android:id="@+id/billing_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:divider="@drawable/abs__list_divider_holo_light"
+        android:measureWithLargestChild="true"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dialogCancel" />
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dialogSave" />
+    </LinearLayout>
+
+</LinearLayout>

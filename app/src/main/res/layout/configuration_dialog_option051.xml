@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option051"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutAppLaunchActivityText" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:id="@+id/applicationPrimary"
+        style="@style/ActionContent"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/applicationitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:text="@string/layoutActivityAppList"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeSix"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/PackagesSpinner"
+            style="@style/AddSelect"
+            android:layout_width="fill_parent"
+            android:prompt="@string/AdapterTogglePrompt" />
+
+        <TextView
+            android:id="@+id/activityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:text="@string/layoutActivityList"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeSix"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activityWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:text="@string/layoutActivityWarning"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeSmall" />
+
+        <Spinner
+            android:id="@+id/activitiesSpinner"
+            style="@style/AddSelect"
+            android:layout_width="fill_parent"
+            />
+        
+        <ListView
+            android:id="@+id/activityList"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:layout_gravity="fill_vertical"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="0sp"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="1dp"
+            android:paddingBottom="5sp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+</LinearLayout><!-- End Application -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/BGColor">
+
+    <RadioGroup
+        android:id="@+id/condition"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option_starts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:checked="true"
+            android:text="@string/when_agent_starts" />
+
+        <RadioButton
+            android:id="@+id/option_ends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/when_agent_ends" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/choose_agent"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/AddSelect"
+        android:entries="@array/agents"
+        android:layout_width="fill_parent" />
+
+</LinearLayout>

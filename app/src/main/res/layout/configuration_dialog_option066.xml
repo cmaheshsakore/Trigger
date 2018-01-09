@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option066"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/receive_sip_calls" 
+        style="@style/ConfigurationActionHeading"/>
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/AdapterToggle"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent" />
+
+</LinearLayout>

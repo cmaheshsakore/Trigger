@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/NotificationContainer"
+            style="@style/PreferenceContainerNoCheckbox"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:onClick="preferenceClicked">
+
+            <TextView
+                android:id="@+id/prefNotificationText"
+                style="@style/PreferenceTitlePrimary"
+                android:paddingTop="0dp"
+                android:text="@string/layoutPreferencesNotifications" />
+
+            <TextView
+                android:id="@+id/prefNotificationSubText"
+                style="@style/PreferenceTitleSub"
+                android:layout_below="@id/prefNotificationText"
+                android:paddingBottom="0dp"
+                android:text="@string/layoutPreferencesNotificationsSubBar" />
+        </RelativeLayout>
+
+        <View style="@style/SpacerLightPadded" />
+
+        <RelativeLayout
+            android:id="@+id/VibrateContainer"
+            style="@style/PreferenceContainerNoCheckbox"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:onClick="preferenceClicked">
+
+            <TextView
+                android:id="@+id/prefVibrateText"
+                style="@style/PreferenceTitlePrimary"
+                android:paddingTop="0dp"
+                android:text="@string/layoutPreferencesVibrate" />
+
+            <TextView
+                android:id="@+id/prefVibrateSubText"
+                style="@style/PreferenceTitleSub"
+                android:layout_below="@id/prefVibrateText"
+                android:paddingBottom="0dp"
+                android:text="@string/layoutPreferencesVibrateSubNever" />
+        </RelativeLayout>
+
+        <View style="@style/SpacerLightPadded" />
+
+        <LinearLayout
+            android:id="@+id/notification_sound_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/NotificationSoundButton"
+                style="@style/PreferenceContainerNoCheckbox"
+                android:background="@drawable/list_selector"
+                android:clickable="true"
+                android:onClick="preferenceClicked">
+
+                <TextView
+                    android:id="@+id/prefToneText"
+                    style="@style/PreferenceTitle"
+                    android:text="@string/layoutPreferencesSelectNotification" />
+            </RelativeLayout>
+
+            <!-- Spacer -->
+
+            <View style="@style/SpacerLightPadded" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/TimerSoundButton"
+            style="@style/PreferenceContainerNoCheckbox"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:onClick="preferenceClicked">
+
+            <TextView
+                android:id="@+id/prefTimerText"
+                style="@style/PreferenceTitle"
+                android:text="@string/layoutPreferencesSelectTimer" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

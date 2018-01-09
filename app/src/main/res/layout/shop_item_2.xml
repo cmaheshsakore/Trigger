@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/shop_item_width"
+    android:layout_height="@dimen/shop_item_height"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="@dimen/shop_item_text_width"
+        android:layout_height="@dimen/shop_item_text_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/shop_item_empty_padding"
+        android:background="@drawable/black_box"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@android:id/text2"
+        android:layout_width="@dimen/shop_item_text_width"
+        android:layout_height="@dimen/shop_item_text_height"
+        android:layout_below="@android:id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/blue_box"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@android:id/content"
+        android:layout_width="@dimen/shop_item_image_width"
+        android:layout_height="@dimen/shop_item_image_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/shop_item_image_top_margin"
+        android:background="@drawable/container_dropshadow_clickable"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@android:id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

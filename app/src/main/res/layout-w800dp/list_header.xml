@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListHeader">
+    <TextView
+        android:id="@android:id/text1"
+        android:textAllCaps="true"
+        style="@style/ListHeaderText" />
+    
+</LinearLayout>

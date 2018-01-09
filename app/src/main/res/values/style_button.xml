@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BigButton">
+        <item name="android:layout_width">250sp</item>
+        <item name="android:layout_height">50sp</item>
+    </style>
+</resources>

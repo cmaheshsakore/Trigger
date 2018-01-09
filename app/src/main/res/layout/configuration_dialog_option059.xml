@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option032"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/heading_glympse" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/glympse_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="@string/hint_recipient_address"
+            android:singleLine="true" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            style="@style/AddSelect"
+            android:layout_width="wrap_content"
+            android:entries="@array/glympse_address_types" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/glympse_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:gravity="top"
+        android:hint="@string/optionsPhoneSMSMessage"
+        android:lines="5"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/ConfigurationActionSubText"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="8dp"
+            android:text="@string/duration" />
+
+        <EditText
+            android:id="@+id/glympse_duration"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="30" />
+
+        <Spinner
+            android:id="@+id/spinner_duration_units"
+            style="@style/AddSelect"
+            android:layout_width="wrap_content"
+            android:entries="@array/glympse_time_units" />
+    </LinearLayout>
+
+</LinearLayout> <!-- End Twitter -->

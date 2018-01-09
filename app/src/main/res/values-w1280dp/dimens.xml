@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="saved_task_height">90dp</dimen>
+    <dimen name="task_list_padding">16dp</dimen>
+    <dimen name="task_list_divider_height">1dp</dimen>
+    <dimen name="task_list_horizontal_spacing">12dp</dimen>
+    <dimen name="task_list_vertical_spacing">12dp</dimen>
+    
+</resources>

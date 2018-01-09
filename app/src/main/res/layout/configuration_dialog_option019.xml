@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Ringer Sound -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option019"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/soundOptionsRingtone" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:id="@+id/RingerSoundsButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0sp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15sp"
+            android:src="@drawable/ic_lock_ringer_on" />
+
+        <TextView
+            android:id="@+id/RingtoneName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:singleLine="false"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor" />
+    </LinearLayout>
+
+</LinearLayout><!-- End Ringer Sound -->

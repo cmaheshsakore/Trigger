@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Operate Airplane Mode -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option003"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/AirplaneModeTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/wifiOptionsAirplaneMode" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/AirplaneSpinner"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/AdapterTogglePrompt" />
+
+</LinearLayout><!-- End Operate Airplane Mode -->

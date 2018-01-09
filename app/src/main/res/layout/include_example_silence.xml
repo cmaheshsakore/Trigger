@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ExampleDialogContainer">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="4sp"
+        android:textSize="16sp"
+        android:text="When do you go to sleep?"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title1"
+        android:layout_marginRight="4sp"
+        android:textSize="16sp"
+        android:text="When do you wake up?"/>
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/title1"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:textSize="16sp"
+        android:text="11:00 PM"/>
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/title2"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:textSize="16sp"
+        android:text="07:00 AM"/>
+
+</RelativeLayout>

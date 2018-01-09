@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Foursquare Search -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option029"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/optionsSocialFoursquare" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TextView
+        android:id="@+id/foursquareSubTitle"
+        style="@style/ConfigurationActionSubText"
+        android:text="@string/optionsSocialCheckinHereSub" />
+
+</LinearLayout><!-- End Foursquare Search -->

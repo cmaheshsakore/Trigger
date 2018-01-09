@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Application -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option050"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutAppKillAppText" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/PackagesSpinner"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/AdapterTogglePrompt" />
+
+
+        <TextView
+            android:id="@+id/applicationSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="10sp"
+            android:paddingTop="5sp"
+            android:text="@string/layoutAppKillAppTextSub"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne"
+            android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/customPrimary"
+        style="@style/ActionContent"
+        android:orientation="horizontal" >
+
+
+        <EditText
+            android:id="@+id/taskText"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="@dimen/TextSizeOne"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/customSubTitle"
+            android:text="@string/layoutAppKillTaskDisclaimer"
+            style="@style/ConfigurationActionSubText" />
+
+</LinearLayout><!-- End Application -->

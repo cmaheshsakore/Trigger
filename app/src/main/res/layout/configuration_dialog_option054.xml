@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Application -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option054"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/layoutAppPause" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/pauseLength"
+            style="@style/EditText"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:hint="0"
+            android:inputType="number"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal" />
+
+        <TextView
+            android:id="@+id/pauseSuffix"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/pauseLength"
+            android:gravity="center_vertical"
+            android:text="@string/timeSeconds"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+
+        <TextView
+            android:id="@+id/subText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/pauseLength"
+            android:layout_below="@id/pauseLength"
+            android:gravity="center_vertical"
+            android:paddingTop="5dp"
+            android:text="@string/layoutAppPauseSubTitle"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+    </RelativeLayout>
+
+</LinearLayout><!-- End Application -->

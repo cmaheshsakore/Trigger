@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.AppCompatCheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="@dimen/keyline_exterior"
+    android:textSize="14sp"
+    android:textColor="#FF000000"
+    android:background="@drawable/list_selector"
+    android:button="@drawable/abc_btn_check_material"
+    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+    android:buttonTint="@color/primary_dark"
+    android:gravity="center_vertical" />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option018"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ringerTypeTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/soundOptionsRinger" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/RingerTypeSpinner"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/RingerTypePrompt" />
+
+</LinearLayout><!-- End Ringer Type -->

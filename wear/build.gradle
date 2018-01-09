@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId 'com.mobiroo.n.sourcenextcorporation.trigger'
+        minSdkVersion 20
+        targetSdkVersion 20
+    }
+
+    productFlavors {
+        wallet_sandbox {
+
+        }
+
+        wallet_production {
+
+        }
+
+        prestigio {
+            applicationId "com.trigger.launcher.prestigio"
+        }
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file("my-release-key.keystore")
+            storePassword "harmony"
+            keyAlias "release_key"
+            keyPassword "harmony"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    compile 'com.google.android.support:wearable:1.2.0'
+    compile 'com.google.android.gms:play-services-wearable:7.5.0'
+    provided 'com.google.android.wearable:wearable:1.0.0'
+}

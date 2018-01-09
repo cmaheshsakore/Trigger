@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Hotspot -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option008"
+    style="@style/ActionNoMarginPadded"
+    android:paddingTop="10sp"
+    android:stretchColumns="1" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/hotspotOptions" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TableRow android:layout_marginBottom="0sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:singleLine="true"
+            android:text="@string/layoutHotspotActionText"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/HotspotToggle"
+            style="@style/AddSelect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/AdapterTogglePrompt" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/config1Text"
+        android:layout_marginBottom="0sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:singleLine="true"
+            android:text="@string/layoutHotspotSSIDText"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/entrySSID"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="text"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal"
+            android:text="AndroidAP" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/config2Text"
+        android:layout_marginBottom="0sp" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:singleLine="false"
+            android:text="@string/layoutHotspotAuthTypeText"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/HotspotAuthType"
+            style="@style/AddSelect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/AuthTogglePrompt" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/config3Text"
+        android:layout_marginBottom="15sp" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:gravity="center_vertical"
+            android:shadowRadius="2.75"
+            android:singleLine="false"
+            android:text="@string/layoutHotspotAuthKeyText"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/entryKey"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="text"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal"
+            android:text="" />
+    </TableRow>
+
+    <CheckBox
+        android:id="@+id/reuse_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:text="@string/use_current_configuration"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/TextColor" />
+
+</TableLayout> <!-- End Hotspot -->

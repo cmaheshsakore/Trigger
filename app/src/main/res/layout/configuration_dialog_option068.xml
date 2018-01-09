@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option032"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/bluetooth_connect_a2dp_heading" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:singleLine="true"
+        android:text="@string/select_bluetooth_device"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/device"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:singleLine="true"
+        android:text="@string/select_bluetooth_profile"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/profile"
+        android:entries="@array/bluetooth_connect_choices"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent" />
+
+</LinearLayout>

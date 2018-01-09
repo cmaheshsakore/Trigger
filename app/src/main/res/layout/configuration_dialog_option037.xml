@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Vibrate -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option037"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/WifiAdapterTitle"
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/soundOptionsVibrate" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <Spinner
+        android:id="@+id/VibrateSpinner"
+        style="@style/AddSelect"
+        android:layout_width="fill_parent"
+        android:prompt="@string/VibratePrompt" />
+
+</LinearLayout><!-- End Vibrate -->

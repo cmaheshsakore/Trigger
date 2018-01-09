@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonAdd"></style>
+
+    <style name="ButtonAddText">
+        <item name="android:textSize">@dimen/TextSizeThree</item>
+        <item name="android:textColor">@color/FGColor</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:text">@string/addOptionsAddText</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_action_add</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+
+    <style name="ButtonAddImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:src">@drawable/ic_action_add</item>
+    </style>
+
+    <style name="ButtonAddLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">155dp</item>
+        <item name="android:layout_height">@dimen/ButtonHeight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/BGColor" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/warning"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left"
+                android:text="@string/geofence_help"
+                android:background="@drawable/list_selector"
+                android:clickable="true"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radio_enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/when_entering" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radio_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/when_exiting" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:hint="@string/address"
+                    android:inputType="textPostalAddress"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/use_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/list_selector"
+                    android:src="@drawable/ic_search" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="8dp"
+                    android:text="@string/radius"
+                    android:textSize="14sp" />
+
+                <Spinner
+                    android:id="@+id/radius"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/radiusChoices" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/results"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="@string/no_location"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="@dimen/geofence_map_width"
+        android:layout_height="@dimen/geofence_map_height"
+        android:layout_gravity="center"
+        map:uiZoomControls="false"
+        map:zOrderOnTop="true" />
+
+</LinearLayout>

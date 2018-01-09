@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpacerBG">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">2dip</item>
+		<item name="android:background">@color/Orange</item>
+		<item name="android:layout_span">3</item>
+		<item name="android:layout_marginLeft">10sp</item>
+		<item name="android:layout_marginRight">10sp</item>
+		<item name="android:layout_marginBottom">5sp</item>
+		<item name="android:gravity">fill_horizontal</item>
+    </style>
+    <style name="SpacerBGNoPadding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">#c9cac9</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:gravity">fill_horizontal</item>
+    </style>
+     <style name="SpacerTextColor">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">2dip</item>
+		<item name="android:background">@color/TextColor</item>
+		<item name="android:layout_span">3</item>
+		<item name="android:layout_marginLeft">10sp</item>
+		<item name="android:layout_marginRight">10sp</item>
+		<item name="android:layout_marginBottom">5sp</item>
+		<item name="android:gravity">fill_horizontal</item>
+    </style>
+</resources>

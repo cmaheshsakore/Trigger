@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shop_top_margin">16dp</dimen>
+        <dimen name="shop_more_image_width">480dp</dimen>
+    <dimen name="shop_more_image_height">320dp</dimen>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/keyline_exterior"
+    android:paddingRight="@dimen/keyline_exterior"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/prefSSOCredentialsContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|start"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:id="@+id/sso_login_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/btn_g_normal" />
+
+        <TextView
+            android:id="@+id/prefClearSSOText"
+            style="@style/PreferenceTitle"
+            android:paddingLeft="0dp"
+            android:gravity="center_vertical"
+            android:text="@string/service_google" />
+    </LinearLayout>
+
+    <View style="@style/SpacerLightPadded" />
+
+    <LinearLayout
+        android:id="@+id/prefFoursquareCredentialsContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|start"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_action_location_2" />
+
+        <TextView
+            android:id="@+id/prefClearFoursquareText"
+            style="@style/PreferenceTitle"
+            android:gravity="center_vertical"
+            android:paddingLeft="0dp"
+            android:text="@string/service_foursquare" />
+    </LinearLayout>
+
+    <View style="@style/SpacerLightPadded" />
+
+    <LinearLayout
+        android:id="@+id/prefTwitterCredentialsContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|start"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_action_twitter" />
+
+        <TextView
+            android:id="@+id/prefClearTwitterText"
+            style="@style/PreferenceTitle"
+            android:gravity="center_vertical"
+            android:paddingLeft="0dp"
+            android:text="@string/service_twitter" />
+    </LinearLayout>
+
+</LinearLayout>

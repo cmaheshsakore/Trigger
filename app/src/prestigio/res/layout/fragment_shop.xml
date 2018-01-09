@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp" >
+
+        <LinearLayout style="@style/ListHeader" >
+
+            <TextView
+                style="@style/ListHeaderText"
+                android:textAllCaps="true"
+                android:text="@string/recommended_tags" />
+
+            <View style="@style/ListHeaderDivider" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/shop_banner" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="6dp"
+            android:text="@string/shop_banner_text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buy_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:onClick="shopClicked"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/buy_now"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</ScrollView>

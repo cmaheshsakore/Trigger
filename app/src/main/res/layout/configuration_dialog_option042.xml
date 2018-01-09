@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Alarm Forward -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option042"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/alarmTimerConfigureSub" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <LinearLayout
+        android:id="@+id/alarmForwardPrimary"
+        style="@style/ActionContent"
+        android:layout_marginTop="5sp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/AlarmTimeForwardMinutes"
+            style="@style/EditText"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:inputType="number"
+            android:text="30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10sp"
+            android:gravity="bottom"
+            android:shadowRadius="2.75"
+            android:singleLine="true"
+            android:text="@string/timeMinutes"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor"
+            />
+
+        <EditText
+            android:id="@+id/AlarmTimeForwardSeconds"
+            style="@style/EditText"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:inputType="number"
+            android:text="30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10sp"
+            android:gravity="bottom"
+            android:shadowRadius="2.75"
+            android:singleLine="true"
+            android:text="@string/timeSeconds"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColor"
+            />
+    </LinearLayout>
+
+</LinearLayout><!-- End Alarm Forward -->

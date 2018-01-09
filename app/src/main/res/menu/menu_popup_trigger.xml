@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/pop_up_delete"
+        android:icon="@drawable/ic_action_trash"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_delete"/>
+    <item
+        android:id="@+id/pop_up_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_context_edit"/>
+
+</menu>

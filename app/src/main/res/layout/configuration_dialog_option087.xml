@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Vibrate -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option037"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/unified_remote" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <TextView
+        android:id="@+id/build_uri"
+        style="@style/material_button_flat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unified_remote_build_uri"/>
+
+</LinearLayout><!-- End Vibrate -->

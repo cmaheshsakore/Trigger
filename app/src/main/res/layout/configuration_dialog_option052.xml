@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Start Application -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Option052"
+    style="@style/ActionNoMarginPadded"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ConfigurationActionHeading"
+        android:text="@string/menuEventsCalendarStatic" />
+
+    <View style="@style/SpacerBGNoPadding" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/eventTitle"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:hint="@string/layoutEventCalendarTitle"
+            android:inputType="text"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal" />
+
+        <TextView
+            android:id="@+id/eventStartText"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@id/eventTitle"
+            android:layout_below="@id/eventTitle"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:text="@string/layoutEventCalendarStart"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eventEndText"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@id/eventTitle"
+            android:layout_below="@id/eventStartText"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:text="@string/layoutEventCalendarEnd"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eventStartDate"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/eventTitle"
+            android:layout_toRightOf="@id/eventStartText"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="@string/dateHint"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+
+        <TextView
+            android:id="@+id/eventStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@id/eventTitle"
+            android:layout_toRightOf="@id/eventStartDate"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="@string/timeHint"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+
+        <TextView
+            android:id="@+id/eventEndDate"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@id/eventStartDate"
+            android:layout_below="@id/eventStartDate"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="@string/dateHint"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+
+        <TextView
+            android:id="@+id/eventEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@id/eventStartDate"
+            android:layout_toRightOf="@id/eventEndDate"
+            android:background="@drawable/list_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="@string/timeHint"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+
+        <CheckBox
+            android:id="@+id/eventAllDayCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/eventEndDate"
+            android:layout_below="@id/eventEndDate"
+            android:text="@string/layoutEventCalendarAllDay"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/eventSetReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_alignLeft="@id/eventEndDate"
+            android:layout_below="@id/eventAllDayCheck"
+            android:text="@string/event_set_reminder"
+            android:textColor="@color/TextColor"
+            android:textSize="@dimen/TextSizeOne" />
+    </RelativeLayout>
+
+</LinearLayout><!-- End Application -->

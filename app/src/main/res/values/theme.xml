@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.NFCTL" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:selectableItemBackground">@drawable/list_selector</item>
+        <!-- <item name="android:actionDropDownStyle">@style/Theme.NFCTL.DropDown</item> -->
+        <item name="android:dropDownListViewStyle">@style/Theme.NFCTL.DropDownListView</item>
+        <item name="android:actionModeBackground">@color/highlight_yellow</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+        <item name="android:popupMenuStyle">@style/popupMenuStyle</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupSmallTextAppearance</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupLargeTextAppearance</item>
+
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+
+        <item name="colorControlNormal">@color/grey_500</item>
+        <item name="android:colorControlNormal">@color/grey_500</item>
+
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="android:colorControlActivated">@color/primary</item>
+
+        <item name="colorControlHighlight">@color/TextColor</item>
+        <item name="android:colorControlHighlight">@color/TextColor</item>
+
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/grey_300</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/grey_600</item>
+
+
+    </style>
+
+    <style name="Theme.NFCTL.Transluscent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
+        <item name="android:selectableItemBackground">@drawable/list_selector</item>
+        <!-- <item name="android:actionDropDownStyle">@style/Theme.NFCTL.DropDown</item> -->
+        <item name="android:dropDownListViewStyle">@style/Theme.NFCTL.DropDownListView</item>
+        <item name="android:actionModeBackground">@color/highlight_yellow</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Theme.NFCTL.DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/list_selector</item>
+    </style>
+
+    <style name="Theme.NFCTL.Parser" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+
+
+    <style name="TagstandDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+
+        <item name="colorControlNormal">@color/grey_500</item>
+        <item name="android:colorControlNormal">@color/grey_500</item>
+
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="android:colorControlActivated">@color/primary</item>
+
+        <item name="colorControlHighlight">@color/TextColor</item>
+        <item name="android:colorControlHighlight">@color/TextColor</item>
+
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/grey_300</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/grey_600</item>
+
+
+    </style>
+
+
+    <style name="Theme.BrightnessWindow" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/highlight_green</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+
+
+</resources>

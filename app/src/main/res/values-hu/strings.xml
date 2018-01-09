@@ -1,0 +1,981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+ <string name="app_name">Trigger</string>
+
+ <string name="AdapterTogglePrompt">Művelet kiválasztása:</string>
+ <string name="RingerTypePrompt">Csengetési típus kiválasztása:</string>
+ <string name="limitThreshholdPrompt">Időegység kiválasztása:</string>
+ <string name="VibratePrompt">Kiválasztás, mikor rezegjen:</string>
+
+ <string name="AuthTogglePrompt">Titkosítás kiválasztása:</string>
+
+ <string name="menu_new_tag">Új feladat</string>
+ <string name="menu_help">Névjegy</string>
+ <string name="menu_contact">Kapcsolat</string>
+ <string name="menu_preferences">Beállítások</string>
+ <string name="menu_delete">Törlés</string>
+ <string name="menu_chooser_mail">E-mail küldése</string>
+
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="adapterWifi">Wifi</string>
+ <string name="adapterBluetooth">Bluetooth</string>
+ <!-- End Adapters -->
+
+ <!-- These should all stay consistent for comparison use -->
+ <string name="timeSeconds">Másodperc</string>
+ <string name="timeMinutes">Perc</string>
+ <string name="timeHours">Óra</string>
+
+
+
+ <string name="enableText">Engedélyezés</string>
+ <string name="disableText">Letiltás</string>
+ <string name="toggleText">Ki-/bekapcsolás</string>
+
+ <string name="alwaysText">Mindig</string>
+ <string name="neverText">Soha</string>
+ <string name="whenSilentText">Amikor le van némítva</string>
+
+
+
+
+
+ <string name="authTypeOpen">Nyitott</string>
+ <string name="authTypeWPA2">WPA2</string>
+ <string name="authTypeWPA">WPA</string>
+ <string name="authTypeWEP">WEP</string>
+
+
+ <string name="ringerTypeSilent">Csendes</string>
+ <string name="ringerTypeVibrate">Rezgés</string>
+ <string name="ringerTypeNormal">Normál</string>
+
+
+ <string name="dialogOK">OK</string>
+ <string name="dialogCancel">Mégse</string>
+ <string name="dialogYes">Igen</string>
+ <string name="dialogNo">Nem</string>
+ <string name="dialogSave">Mentés</string>
+ <string name="dialogClose">Bezárás</string>
+ <string name="dialog_run">Feladat futtatása</string>
+
+ <string name="menuWireless">Vezeték nélküli és hálózatok</string>
+ <string name="menuBluetooth">Bluetooth</string>
+ <string name="menuSound">Hangok és hangerő</string>
+ <string name="menuAlarm">Riasztások</string>
+ <string name="menuCheckin">Közösség</string>
+ <string name="menuTasker">Tasker</string>
+ <string name="menuDisplay">Képernyő</string>
+
+ <string name="addOptionsAddText">Hozzáadás feladathoz</string>
+
+ <string name="displayAlarmSet">Riasztás beállítása</string>
+ <string name="displayListAlarmSet">Időzítő beállítása</string>
+ <string name="defaultAlarmText">Érintse meg riasztási idő beállításához</string>
+
+ <string name="layoutAlarmSetText">Riasztás beállítása:</string>
+ <string name="layoutAlarmSelectTimeText">Érintse meg riasztási idő beállításához</string>
+ <string name="layoutAlarmForwardText">perc múlva</string>
+
+ <string name="appListLoadingText">Alkalmazáslista betöltése</string>
+ <string name="listLaunchText">Indítás</string>
+ <string name="listLaunchTextCustom">Tevékenység indítása</string>
+ <string name="listNavText">Navigálás ide:</string>
+
+
+ <string name="layoutAppLaunchURL">URL/URI megnyitása</string>
+ <string name="layoutAppLaunchNavigation">Navigálás</string>
+ <string name="layoutAppLaunchNavigationText">Cél</string>
+
+ <string name="optionsSocialFoursquare">Foursquare: Bejelentkezés itt</string>
+ <string name="optionsSocialFoursquareSearching">Keresés</string>
+ <string name="optionsSocialFoursquareSearchTitle">Helyszínek keresése</string>
+ <string name="optionsSocialFoursquareVenue">Foursquare: Bejelentkezés egy helyszínen</string>
+ <string name="optionsSocialFoursquareVenueTitle">Helyszín</string>
+ <string name="optionsSocialFoursquareVenueEmpty">Nincs kiválasztott helyszín</string>
+ <string name="optionsSocialFoursquareVenueSub">bejelentkezés egy megadott helyszínre</string>
+ <string name="optionsSocialFacebook">Facebook: Bejelentkezés</string>
+ <string name="optionsSocialPlaces">Google Helyek: Bejelentkezés</string>
+ <string name="optionsSocialTwitter">Twitter: Tweetelés</string>
+
+ <string name="optionsFoursquareSearchFind">Keres</string>
+
+ <string name="optionsFoursquareSearchNear">közelben</string>
+
+ <string name="listFacebookText">Facebook bejelentkezés</string>
+ <string name="listFoursquareText">Foursquare bejelentkezés</string>
+ <string name="listFoursquareVenueText">Bejelentkezés itt:</string>
+ <string name="listPlacesText">Google Helyek bejelentkezés</string>
+ <string name="listTweetText">Tweet küldése</string>
+
+ <string name="locationDisabledTitle">Helymeghatározás letiltva</string>
+ <string name="locationDisabledText">Sikertelen helymeghatározás. Engedélyezzen egy forrást a helymeghatározáshoz.</string>
+
+ <string name="listHotspotText">Mobil hotspot</string>
+
+ <string name="layoutHotspotActionText">Művelet:</string>
+ <string name="layoutHotspotSSIDText">SSID:</string>
+ <string name="layoutHotspotAuthTypeText">Hitelesítés típusa:</string>
+ <string name="layoutHotspotAuthKeyText">Hitelesítési kulcs:</string>
+
+
+ <string name="soundRingerTypeText">Csengetési típus beállítása</string>
+ <string name="listSoundRingtone">Csengőhang beállítása:</string>
+ <string name="listSoundNotification">Értesítés beállítása:</string>
+ <string name="listSoundRingerVolume">Csengetési hangerő</string>
+ <string name="listSoundMediaVolume">Multimédia hangereje</string>
+
+ <string name="listSoundAlarmVolume">Riasztás hangereje</string>
+ <string name="listSoundNotificationVolume">Értesítés hangereje</string>
+ <string name="listSoundVibrate">Rezgés csengéskor</string>
+
+ <string name="taskerNotInstalled">A Tasker nincs telepítve</string>
+ <string name="layoutTaskerLaunchText">Tasker feladat</string>
+ <string name="layoutTaskerSelect">Feladat kiválasztása</string>
+ <string name="layoutTaskerHelpText">Figyelem: Az alkalmazás telepítése előtt a Tasker telepítése *szükséges*, és a Misc/Allow External Access beállítást kell alkalmaznia a Tasker felhasználói felületén.\n\nHa feladatindítási problémákat tapasztal, távolítsa el mindkét alkalmazást, és telepítse újra először a Tasker, utána az NFC Task Launcher alkalmazást.</string>
+
+ <string name="wifiOptionsOperateWifi">Wifi be/ki</string>
+ <string name="wifiOptionsConfigureSSID">Wifi-kapcsolódás</string>
+ <string name="wifiOptionsOperateBluetooth">Bluetooth be/ki</string>
+ <string name="wifiOptionsBluetoothDiscoverable">Bluetooth-észlelhetőség</string>
+ <string name="wifiOptionsAutoSync">Automatikus szinkronizálás</string>
+ <string name="wifiOptionsAirplaneMode">Repülési üzemmód</string>
+
+ <string name="hotspotOptions">Wifi hotspot</string>
+
+ <string name="soundOptionsRinger">Hangprofil</string>
+ <string name="soundOptionsRingtone">Csengőhang</string>
+ <string name="soundOptionsRingVolume">Csengés hangereje</string>
+ <string name="soundOptionsNotificationtone">Értesítési hang</string>
+ <string name="soundOptionsNotificationVolume">Értesítés hangereje</string>
+ <string name="soundOptionsMediaVolume">Multimédia hangereje</string>
+ <string name="soundOptionsMediaStart">Médialejátszás</string>
+
+ <string name="soundOptionsAlarmVolume">Riasztás hangereje</string>
+ <string name="soundOptionsVibrate">Rezgés csengéskor</string>
+
+ <string name="listWifiAirplaneModeText">Repülési üzemmód</string>
+ <string name="listWifiAutoSync">Automatikus szinkronizálás</string>
+ <string name="listWifiConfigureConnectText">Kapcsolódás:</string>
+ <string name="listWifiBluetoothDiscoverableText">Bluetooth észlelhető</string>
+ <string name="listWifiAssociateText">Kapcsolódás:</string>
+ <string name="layoutWifiSSIDText">SSID:</string>
+ <string name="layoutWifiAuthTypeText">Hitelesítés típusa:</string>
+ <string name="layoutWifiAuthKeyText">Hitelesítési kulcs:</string>
+
+ <string name="builderInvalidName">Érvényes nevet adjon meg</string>
+
+
+ <string name="titleSelectAction">Kategóriák választása</string>
+ <string name="titleConfigureAction">Műveletek konfigurálása</string>
+ <string name="buttonTextAdd">Műveletek hozzáadása</string>
+
+ <string name="layoutPreferencesTitleText">Beállítások</string>
+ <string name="layoutPreferencesSelectNotification">Értesítési csengőhang</string>
+ <string name="layoutPreferencesVibrate">Rezgés</string>
+
+ <string name="layoutPreferencesRateLimitingEnable">Mentés</string>
+ <string name="layoutPreferencesRateLimitingDisable">Letiltás</string>
+
+ <string name="layoutPreferencesVibrateOptionTitle">Címke olvasásakor</string>
+ <string name="layoutPreferencesVibrateOptionEnable">Mindig rezegjen</string>
+ <string name="layoutPreferencesVibrateOptionDisable">Soha ne rezegjen</string>
+ <string name="layoutPreferencesVibrateSubAlways">Mindig rezegjen</string>
+ <string name="layoutPreferencesVibrateSubNever">Soha ne rezegjen</string>
+
+ <string name="layoutPreferencesDebugOutput">Hibakeresés</string>
+ <string name="layoutPreferencesDebugSend">Hibakeresési napló küldése</string>
+ <string name="layoutPreferencesEnableLimitingSub">Letiltva</string>
+ <string name="layoutPreferencesUsage">Google Analytics engedélyezése</string>
+
+ <string name="layoutPreferencesNotificationsTitle">Értesítések</string>
+ <string name="layoutPreferencesAdvancedTitle">Speciális</string>
+
+ <!-- End Resources for UserPreferences -->
+
+ <!-- Resources for display -->
+ <string name="layoutDisplayBrightnessLevel">Fényerő</string>
+ <string name="layoutDisplayBrightnessAuto">Automatikus fényerő engedélyezése</string>
+ <string name="layoutDisplayNotificationLight">Értesítő fény</string>
+ <string name="listDisplayNotificationLightText">Értesítő fény</string>
+
+ <string name="layoutDisplayAutoRotation">Automatikus elforgatás</string>
+ <string name="listDisplayAutoRotationText">Automatikus elforgatás</string>
+
+ <!-- End Resources for display -->
+
+ <!-- Resources for Action Launcher -->
+ <string name="actionCustomTaskError">Kivétel történt az egyéni tevékenység indításakor</string>
+ <string name="actionLastActions">Legutóbbi műveletek:</string>
+
+
+ <string name="actionEnableMediaPlayback">* Médialejátszás indítása/leállítása</string>
+ <string name="widgetEnableMediaPlayback">Médialejátszás indítása/leállítása</string>
+
+ <string name="actionLaunchPackage">* Alkalmazás indítása</string>
+ <string name="widgetLaunchPackage">Alkalmazás elindítva</string>
+
+ <string name="actionLaunchActivity">* Tevékenység indítása</string>
+ <string name="widgetLaunchActivity">Tevékenység elindítva</string>
+
+ <string name="actionNavigate">* Navigálás ide:</string>
+ <string name="widgetNavigate">Navigálás ide:</string>
+
+ <string name="actionConfigureSSID">* AP konfigurálása és kapcsolódás</string>
+ <string name="widgetConfigureSSID">Konfigurált AP és kapcsolódás</string>
+
+ <string name="actionTaskerTask">* Tasker feladat indítása</string>
+ <string name="widgetTaskerTask">Tasker feladat elindítva</string>
+
+ <string name="actionAlarm">* Riasztás beállítása:</string>
+ <string name="widgetAlarm">Riasztás beállítva:</string>
+
+ <string name="actionLaunchURL">* URL indítása</string>
+ <string name="widgetLaunchURL">URL elindítva</string>
+
+ <string name="actionSetVibration">* Rezgés beállítása</string>
+ <string name="widgetSetVibration">Rezgés beállítva</string>
+
+ <string name="actionSendTweet">* Tweet küldése</string>
+ <string name="widgetSendTweet">Tweet elküldve</string>
+ <!-- End Resources for Action Launcher -->
+
+ <!-- Resources for WriteTag -->
+ <string name="writeSuccessfulWrite">A címke írása sikeres.</string>
+ <string name="layoutWriteTitle">Címke írása</string>
+ <string name="layoutWritePrimaryMessageStart">Az írás megkezdéséhez helyezze készülékét az NFC-címke fölé.</string>
+ <string name="layoutWriteLockText">Címke csak olvashatóvá tétele</string>
+
+ <string name="dialogWriteTitle">Az írás kész</string>
+ <!-- End Resources for WriteTag -->
+
+ <!-- Resources for Main -->
+ <string name="layoutTagsTagType">Eseményindító kiválasztása</string>
+ <string name="layoutHomeFormat">Címke törlése</string>
+ <!-- End Resources for Main -->
+
+ <string name="notificationTimerMessage">Az időzítő lejárt</string>
+
+ <string name="displayAlarmSetTimer">Riasztás beállítása (időzítő)</string>
+
+
+ <string name="actionTimer">* Időzítő beállítása:</string>
+ <string name="widgetTimer">Időzítő beállítva:</string>
+
+ <string name="layoutAlarmSetTimerText">Időzítő beállítása</string>
+
+ <string name="alertSecureSetting">Egy biztonsági beállítást konfigurál. Rendszergazdai hozzáférés szükséges.</string>
+ <string name="alertSecureSettingTitle">Biztonsági beállítás</string>
+ <string name="alertSecureSettingMakeSystemApp">Rendszeralkalmazás létrehozása</string>
+
+ <string name="wifiOptionsGPS">GPS be/ki</string>
+ <string name="wifiOptionsMobileData">Mobil adatforgalom be/ki</string>
+
+ <string name="adapterGPS">GPS</string>
+ <string name="adapterMobileData">Mobil adatforgalom</string>
+
+ <string name="rebootTitle">Kész</string>
+ <string name="rebootText">Indítsa újra a készüléket.</string>
+
+ <string name="noRootText">Nincs rendszergazdai hozzáférése.</string>
+
+ <string name="layoutDisplayTimeout">Időkorlát megjelenítése</string>
+
+ <string-array name="displayTimeoutChoices">
+  <item>15 másodperc</item>
+  <item>30 másodperc</item>
+  <item>1 perc</item>
+  <item>2 perc</item>
+  <item>5 perc</item>
+  <item>10 perc</item>
+  <item>30 perc</item>
+  <item>Soha</item>
+ </string-array>
+
+ <string name="displayOptionsTimeout">Időkorlát</string>
+
+ <string name="wifiOptions3GData">3G adatforgalom be/ki</string>
+
+ <string name="layoutAppDeskDock">Asztali dokkolás</string>
+ <string name="layoutAppDeskDockSub">Lehet, hogy ez nincs hatással az összes eszközre.</string>
+ <string name="layoutAppCarDock">Autós dokkolás</string>
+
+ <string name="menuPhone">Telefon</string>
+
+ <string name="layoutPhoneSMS">Szöveges üzenet küldése</string>
+ <string name="optionsPhoneSMS">szöveges üzenet küldése</string>
+ <string name="optionsPhoneSMSTo">Címzett:</string>
+ <string name="optionsPhoneSMSMessage">Üzenet</string>
+ <string name="optionsPhoneNumber">Telefonszám</string>
+ <string name="optionsPhoneCall">hívás indítása</string>
+ <string name="layoutPhoneCall">Hívás indítása</string>
+ <string name="optionsPhoneSMSNote">Megnyitja az SMS-küldő alkalmazását és kitölti a Címzett és Üzenet mezőket. Az üzenet automatikus küldéséhez érintse meg ezt az üzenetet, hogy letöltse az SMS beépülő modult a Play áruházból.</string>
+ <string name="optionsPhoneCallNote">Megnyitja a tárcsázót és beírja a megadott számot. Hívás automatikus indításához érintse meg ezt az üzenetet, hogy letöltse a Hívás beépülő modult a Play áruházból.</string>
+
+
+ <string name="listPhoneSMS">SMS küldése</string>
+ <string name="listPhoneCall">Hívás indítása</string>
+
+ <string name="actionSendSMS">* SMS küldése</string>
+ <string name="widgetSendSMS">SMS elküldve</string>
+
+ <string name="actionPhoneCall">* Hívás indítása</string>
+ <string name="widgetPhoneCall">Hívás indítva</string>
+
+
+ <string name="layoutPreferencesNFCAirplane">NFC engedélyezése repülési üzemmódban</string>
+
+ <string name="menuSecurity">Biztonság</string>
+ <string name="layoutOptionsKeyguard">Zárolási képernyő</string>
+ <string name="securityOptionsOperateKeyguard">Zárolási képernyő be/ki</string>
+ <string name="listSecurityKeyguardText">Zárolási képernyő</string>
+
+ <string name="optionsFoursquareSearchCity">jelenlegi tartózkodási hely</string>
+ <string name="optionsFoursquareSearchVenue">név</string>
+ <string name="optionsFoursquareSearchVenueIDText">helyszínazonosító</string>
+ <string name="optionsFoursquareSearchOR">vagy</string>
+
+ <string name="menuApplications">Alkalmazások és parancsikonok</string>
+ <string name="layoutWriteNameText">Címkenév belefoglalása</string>
+ <string name="layoutAppKillAppTextSub">alkalmazás alapértelmezett tevékenységeinek bezárása</string>
+ <string name="layoutAppLaunchAppText">Alkalmazás megnyitása</string>
+ <string name="layoutAppKillAppText">Alkalmazás bezárása</string>
+ <string name="layoutAppLaunchActivityText">Tevékenység megnyitása</string>
+ <string name="layoutAppKillTaskDisclaimer">Lehet, hogy ez nem fog működni az összes alkalmazással rendszergazdai hozzáférés nélkül. A rendszergazdai hozzáférés biztosítja a folyamat sikeres leállítását.</string>
+
+ <string name="layoutAlarmShowUI">riasztási UI megjelenítése</string>
+ <string name="layoutAlarmTimePrefix">Idő:</string>
+
+ <string name="layoutAppLaunchNavigationTypeText">Típus</string>
+ <string name="NavTypeDriving">Autós</string>
+ <string name="NavTypeTransit">Tömegközlekedés</string>
+ <string name="NavTypeWalking">Gyalogos</string>
+
+
+
+ <string name="layoutActivityAppList">Alkalmazás kiválasztása:</string>
+ <string name="layoutActivityList">Tevékenység kiválasztása:</string>
+ <string name="layoutActivityWarning">Lehet, hogy nem indítható az összes tevékenység.</string>
+
+ <string name="readOnlyWarning">Ha egy címkét csak olvashatónak állít be, akkor többé már nem lesz képes írni rá. A művelet nem vonható vissza.</string>
+ <string name="limitThreshholdOverride">Kérdezzen rá a beállítás felülírására</string>
+ <string name="limitThreshholdOverrideDialogPrefix">A feladatot kihagytuk, mert csak %1$s %2$s telt el a legutóbbi futtatása óta</string>
+ <string name="limitThreshholdOverrideDialogSuffix">A párbeszédpanel bezáródik 5 másodpercen belül.</string>
+ <string name="menu_context_delete">Törlés</string>
+ <string name="menu_context_run">Futtatás</string>
+ <string name="menu_context_share">Megosztás</string>
+ <string name="listCloseApp">Alkalmazás bezárása</string>
+
+ <string name="listSoundPlayback">Médialejátszás indítása/leállítása</string>
+ <string name="listDisplayBrightness">Fényerő beállítása:</string>
+ <string name="listDisplayBrightnessAuto">Automatikus fényerő engedélyezése</string>
+ <string name="layoutImportPrimaryMessageStart">Helyezze a címkét a telefon hátuljához az importáláshoz</string>
+ <string name="layoutMainBuilderImportText">Címke importálása</string>
+ <string name="layoutMainBuilderCopyText">Címke másolása</string>
+
+
+ <string name="copyRead">1.) Olvassa be a másolandó címkét</string>
+ <string name="copyReading">2.) Üzenetek olvasása</string>
+ <string name="copyWrite">3.) Érintse meg az írandó címkét</string>
+ <string name="copyTitle">NFC-címke másolása</string>
+ <string name="importTitle">Címke importálása</string>
+
+ <string name="copyDialogCopied">Sikeres másolás</string>
+ <string name="copyDialogCopyError">A címke másolása sikertelen</string>
+ <string name="copyDialogWritten">Sikeres írás</string>
+ <string name="copyDialogWriteError">A címke írása sikertelen</string>
+ <string name="layoutPreferencesSelectTimer">Időzítő csengőhangja</string>
+ <string name="layoutPreferencesTagsTitle">Feladatok</string>
+ <string name="layoutPreferencesTagsMore">Továbbiak</string>
+ <string name="layoutPreferencesNotifications">Értesítések</string>
+ <string name="layoutPreferencesNotificationsSubBar">Értesítési sáv használata</string>
+ <string name="layoutPreferencesNotificationsSubToast">Bejelentési értesítések használata</string>
+ <string name="layoutPreferencesNotificationsSubBoth">Mindkettő használata</string>
+ <string name="layoutPreferencesNotificationsSubNone">Egyik sem</string>
+ <string name="menu_done">Kész</string>
+ <string name="layoutPreferencesSwitchTimeout">Feladatváltók alaphelyzetbe állítása 12 óra elteltével</string>
+ <string name="menuEvents">Események</string>
+ <string name="menuEventsCalendarStatic">Naptáresemény</string>
+ <string name="menuEventsCalendarTimestamp">Naptár időbélyeg</string>
+ <string name="menuEventsCalendarTimestampText">Naptáresemény beszúrása pontosan azon a napon és abban az időpontban, amikor a címke beolvasása történt.</string>
+ <string name="layoutEventCalendarTitle">Cím</string>
+ <string name="layoutEventCalendarStart">Kezdés</string>
+ <string name="layoutEventCalendarEnd">Befejezés</string>
+ <string name="layoutEventCalendarAllDay">Egész nap</string>
+ <string name="dateHint">Érintse meg a dátum beállításához</string>
+ <string name="timeHint">Érintse meg az idő beállításához</string>
+ <string name="listDiaplayCalendarEvent">Naptáresemény hozzáadása</string>
+ <string name="listDiaplayCalendarTimestamp">Időbélyeg naptár</string>
+ <string name="actionCalendarEvent">Naptáresemény hozzáadása</string>
+ <string name="widgetCalendarEvent">* Naptáresemény hozzáadása</string>
+ <string name="actionCalendarTimestamp">Időbélyeg hozzáadása a naptárhoz</string>
+ <string name="widgetCalendarTimestamp">* Időbélyeg hozzáadása a naptárhoz</string>
+
+ <string name="layoutPreferencesCredentialsTitle">Bejelentkezési adatok</string>
+ <string name="layoutPreferencesDialogTwitter">Az OK gombra kattintva törölheti Twitter bejelentkezési adatait</string>
+ <string name="layoutPreferencesDialogFoursquare">Az OK gombra kattintva törölheti Foursquare bejelentkezési adatait</string>
+
+
+ <string name="layoutAppPause">Felfüggesztés</string>
+ <string name="layoutAppPauseSubTitle">Felfüggesztés adott időre a folytatás előtt.</string>
+ <string name="actionPause">* Felfüggesztés:</string>
+ <string name="widgetPause">Felfüggesztés:</string>
+
+
+ <string name="loading">Betöltés...</string>
+ <string name="error">Hiba</string>
+ <string name="recommended_tags">NFC-címkék</string>
+ <string name="buy_now">Vásárlás most</string>
+ <string name="buy_tags">Trigger Áruház</string>
+ <string name="popular_tags">Javasolt feladatok</string>
+ <string name="my_tags">Feladataim</string>
+ <string name="shop_more_title">Többre vágyik?</string>
+ <string name="shop_more_description">Tekintse meg NFC-termékeink teljes katalógusát, melyben NFC-címkéket és csomagokat is talál.</string>
+ <string name="welcome">Üdvözöljük</string>
+ <string name="buy_nfc_tags">NFC-címkék vásárlása</string>
+ <string name="used_never">Futtatva: Soha</string>
+ <string name="total_actions">Összes művelet</string>
+
+ <string name="basic_tags">Egyszerű címkék írása</string>
+
+ 
+ <string name="default_tag_name_format">%s. feladat</string>
+
+ <string name="save_and_write">Mentés és írás</string>
+ <string name="tag_name">Név</string>
+ <string name="no_actions">Műveletek</string>
+ <string name="tag_unsaved_changes">Lehet, hogy nem mentett módosítások tartoznak a feladathoz.</string>
+ <string name="discard_changes">Módosítások elvetése</string>
+
+ <plurals name="bytes_format">
+  <item quantity="one">%s bájt</item>
+  <item quantity="other">%s bájt</item>
+ </plurals>
+
+ <string name="layoutWifiConfigureSSIDText">Wifi-kapcsolat konfigurálása</string>
+ <string name="wifiOptionsBluetoothDiscoverableSub">Bluetooth-észlelhetőség bekapcsolása</string>
+ 
+ <string name="soundOptionsMediaStartSub">Médialejátszás indítása/leállítása</string>
+ <string name="optionsSocialCheckinHereSub">Bejelentkezés a jelenlegi tartózkodási helyen</string>
+ <string name="actionURLHeading">URL/URI</string>
+ <string name="optionsSocialTwitterSub">Tweet küldése</string>
+ <string name="layoutAppLaunchNavigationSub">Navigálás egy helyre</string>
+ <string name="alarmTimerConfigureSub">Időzítő beállítása</string>
+ <string name="carDockDrivingMode">Autós üzemmód belefoglalása (Samsung Galaxy készülékek)</string>
+ <string name="airplaneModeWarning">A repülési üzemmód aktiválása letiltja az NFC-t. Kihagyhatja a repülési üzemmódra váltáskor az NFC letiltását az alkalmazás beállításaiban az NFC engedélyesése repülési üzemmódban lehetőséget választva.</string>
+ <string name="write">Írás</string>
+ <string name="next">Következő</string>
+
+ <string name="_continue">Folytatás</string>
+
+ <string name="shop_unavailable">Az áruház átmenetileg nem elérhető. Ellenőrizze kapcsolatát, majd próbálkozzon újra néhány perc múlva.</string>
+ <string name="titleSavedTagPicker">A futtatni kívánt mentett feladat kiválasztása</string>
+ <string name="titleShareTagActivity">Címke megosztása:</string>
+ <string name="sharedReceiverDialogMessage">Címke betöltése</string>
+ <string name="shareOptionTwitter">Twitter</string>
+ <string name="shareOptionSMS">SMS</string>
+ <string name="shareOptionEmail">E-mail</string>
+ <string name="shareOptionGooglePlus">Google+</string>
+
+
+ <string name="shareGooglePlusPrefix">Most készítettem ezt az NFC-címkét a +Tagstand segítségével. Tekintsd meg az NFC Task Launcher alkalmazást itt:</string>
+ <string name="shareTwitterPrefix">Nézd meg ezt az #NFC-címkét, amit készítettem</string>
+ <string name="shareTwitterSuffix">szolgáltató: @tagstand</string>
+ <string name="shareSMSPrefix">szia! nézd meg ezt az NFC-címkét, amit az NFC Task Launcher alkalmazással készítettem:</string>
+ <string name="shareEmailPrefix">Szia!\n\nEzt a címkét \'%1$s\' készítettem az NFC Task Launcher alkalmazással, és szeretném megosztani veled.\n\n</string>
+ <string name="shareEmailSuffix">\n\nKattints ide, ha le szeretnéd tölteni a telefonodra.\n\nÜdv a jövőben!</string>
+ <string name="shareEmailSubject">Nézd meg az NFC-címkémet</string>
+ <string name="loadTagPayloadError">Sajnáljuk, valami nem működik. A kapcsolatával lehet probléma.</string>
+ <string name="loadTagNoPayload">Nem tartozik művelet ehhez a címkéhez.</string>
+
+ <string name="layoutWifiHiddenSSID">Rejtett SSID</string>
+ <string name="layoutEmailAddress">E-mail cím</string>
+ <string name="layoutEmailMessage">Üzenet (nem kötelező)</string>
+ <string name="layoutEmailSubjectHint">Tárgy</string>
+ <string name="layoutEmailMessageHint">Üzenet</string>
+ <string name="layoutEmail">E-mail küldése</string>
+ <string name="listDisplayEmail">E-mail küldése neki:</string>
+ <string name="sendEmailChooserTitle">E-mail küldése ezzel:</string>
+
+ <string name="tag_write_failed_message">Működni fog, de lehet, hogy látni fogja a választót a címke megérintésekor.</string>
+ <string name="tag_write_failed_no_plugin">Le kell töltenie a címkék újbóli használatához szükséges beépülő modult a Play Áruházból a címke használatához.</string>
+ <string name="tag_write_failed">Nem sikerült írni erre a címkére.</string>
+ <string name="tag_write_success_message">A címkéje használatra kész.</string>
+ <string name="menu_help_text">Súgó</string>
+
+ <string name="warning">Figyelmeztetés</string>
+
+
+ <string name="configure_connection_title">Kapcsolat konfigurálása</string>
+ <string name="enter_network_name">hálózatnév megadása (SSID)</string>
+ <string name="enter_bluetooth_name">készüléknév megadása</string>
+ <string name="enter_bluetooth_mac">MAC-cím megadása</string>
+ <string name="when_connected_to">Amikor kapcsolódik</string>
+ <string name="when_disconnected_from">Amikor kapcsolatot bont</string>
+ <string name="or">vagy</string>
+
+ <string name="color_white">Fehér</string>
+ <string name="color_black">Fekete</string>
+ <string name="select_background_color">Stílus választása</string>
+ <string name="action_send_email">* E-mail küldése</string>
+ <string name="widget_send_email">E-mail elküldve</string>
+ <string name="ignore_duplicate_check">Korábbi feladat ismétlésének tiltása</string>
+ <string name="if_read_again">Időkorlát feladat ismétlésének tiltására:</string>
+ <string name="found_tag">Feladat futtatva</string>
+ <string name="title_tag_limiting">Ismétlés tiltása</string>
+ <string name="limit_last_tag_read">legutóbbi feladat esetén</string>
+ <string name="limit_time_frame">%1$s %2$s elteltével</string>
+
+ <string name="erase_tag_text">Helyezze a telefont hátuljával a címkére a címke törléséhez.</string>
+ <string name="copy_tag_text">Helyezze a telefont hátuljával a címkére a címke másolásához.</string>
+
+ <string name="menuMessages">Üzenetek</string>
+ <string name="widget_single_task">Feladat futtatása</string>
+ <string name="widget_single_task_configure_title">Parancsikon konfigurálása</string>
+ <string name="soundOptionsRingVolumeCombined">Csengés/Értesítés hangereje</string>
+
+
+ <string name="switch_tag_details">Az feladatváltók két különálló feladatból állnak, és az NFC-címke érintésére átváltanak a másik feladatra.\n\nHa egy második feladatot kíván az NFC-címkéhez adni, érintse meg a fenti + jelet.</string>
+
+ <string name="driving_mode">Autós üzemmód</string>
+ <string name="power_saver">Energiatakarékos</string>
+ <string name="block_mode">Blokkoló üzemmód</string>
+ <string name="menuSamsung">Samsung</string>
+ <string name="menuHtc">HTC</string>
+
+ <string name="power_saver_heading">Energiatakarékos üzemmód</string>
+ <string name="driving_mode_heading">Autós üzemmód</string>
+ <string name="blocking_mode_heading">Blokkoló üzemmód</string>
+
+ <string name="display_power_saver">Energiatakarékos</string>
+ <string name="display_blocking_mode">Blokkoló üzemmód</string>
+ <string name="display_driving_mode">Autós üzemmód</string>
+ <string name="heading_glympse">Glympse küldése</string>
+ <string name="hint_recipient_address">Címzett</string>
+
+ <string name="widgetSendGlympse">Glympse elküldve</string>
+ <string name="actionSendGlympse">* Glympse küldése</string>
+
+ <string-array name="glympse_address_types">
+  <item>e-mail</item>
+  <item>SMS</item>
+  <item>Twitter</item>
+  <item>Facebook</item>
+ </string-array>
+
+
+ <string name="duration">Időtartam</string>
+
+
+ <string name="choose_shipping_method">Szállítási mód kiválasztása</string>
+ <string name="tts_failed">Hiba: A TTS indítása sikertelen</string>
+
+ <string name="action_speak_text">* Szöveg felolvasása</string>
+ <string name="widget_speak_text">Szöveg felolvasva</string>
+
+ <string name="heading_tts">Szöveg felolvasása</string>
+ <string name="tts_hint">Felolvasandó szöveg</string>
+
+
+ <string name="open_in_background">megnyitás háttérben</string>
+ <string name="help_answers">Keressen válaszokat online</string>
+ <string name="help_email">Küldjön e-mailt nekünk</string>
+ <string name="show_welcome">Üdvözlés és tippek megjelenítése</string>
+
+
+ <string name="general">Általános</string>
+ <string name="backup_restore">Biztonsági mentés/Visszaállítás</string>
+ <string name="backup">Biztonsági mentés</string>
+ <string name="restore">Visszaállítás</string>
+ <string name="last_operation">Legutóbbi művelet:</string>
+ <string name="backed_up">Biztonsági mentés időpontja: %1$s</string>
+ <string name="restored">Visszaállítás időpontja: %1$s</string>
+ <string name="backup_local">Helyi</string>
+ <string name="backup_tagstand">Felhő</string>
+ <string name="backup_to">Biztonsági mentés ide:</string>
+ <string name="restore_from">Visszaállítás innét:</string>
+ <string name="restoring">Visszaállítás</string>
+ <string name="perform_cloud_backup">Felhőbeli biztonsági mentés</string>
+
+ <string name="sso_clear_dialog">Az OK gombra kattintva törölheti Google-fiók bejelentkezési adatait</string>
+
+ <string name="title_sso_explanation">Google bejelentkezés</string>
+
+ <string name="service_foursquare">Foursquare: %1$s</string>
+ <string name="service_google">Google: %1$s</string>
+ <string name="service_twitter">Twitter: %1$s</string>
+ <string name="status_logged_in">Kijelentkezés</string>
+ <string name="status_logged_out">Bejelentkezés</string>
+ <!-- Wallet Strings -->
+ <string name="buy_with">Vásárlás ezzel:</string>
+ <string name="ship_to">Szállítási cím:</string>
+ <string name="confirm_order">Megrendelés megerősítése</string>
+ <string name="change">Fizetési mód vagy cím módosítása</string>
+ <string name="change_shipping">Szállítási mód módosítása</string>
+ <string name="tax">Adó:</string>
+ <string name="total">Összesen:</string>
+ <string name="address_format">%1$s\n%2$s\n%3$s%4$s%5$s %6$s %7$s</string>
+ <string name="price_format">%.2f$</string>
+ <string name="shipping">Szállítás:</string>
+ <string name="titleConfirmPayment">Megrendelés adatai</string>
+ <string name="item_price">Ár:</string>
+ <string name="finalize_payment">Vásárlás véglegesítése</string>
+ <string name="confirmation_text">A tranzakció száma %1$s.\n\nEgy megerősítő e-mailt fog kapni a(z) %2$s címre.</string>
+ <string name="confirmation_error_text">Hiba történt a tranzakció feldolgozása során.\n\n%1$s</string>
+ <string name="wallet_error_title">Google Wallet hiba</string>
+ <string name="wallet_error_message">Hiba történt a Google Wallet elérésekor. Próbálkozzon újra néhány perc múlva. Hiba: %1s</string>
+ <string name="titleOrderComplete">Megrendelés befejezve</string>
+ <string name="spending_limit_exceeded">Túllépte költekezési korlátját</string>
+ <string name="google_wallet_unavailable">A Google Wallet nem elérhető</string>
+ <string name="error_code">Hibakód: %d</string>
+ <!-- End Wallet Strings -->
+
+ <string name="paid_with">Fizetve ezzel:</string>
+ <string name="wallet_signin_point_one">Ne veszítse el feladatait soha többé! Használja a Tagstand felhőjét a feladatok biztonsági mentéséhez és visszaállításához.</string>
+ <string name="wallet_signin_point_two">Szerezzen két ingyenes címkét a Tagstand-től!</string>
+ <string name="wallet_signin_point_three">Tegye egyszerűbbé és gyorsabbá a címkék vásárlását a Google Wallet használatával!</string>
+ <string name="wallet_signin_heading">Használja Google-fiókját és élvezze az előnyöket!</string>
+ <string name="set_alarm_app">Preferált riasztási alkalmazás beállítása</string>
+ <string name="select_alarm_app">Válassza ki preferált riasztási alkalmazását</string>
+ <string name="sign_in_with_google">Bejelentkezés</string>
+ <string name="system_volume">Rendszer hangereje</string>
+
+ <string name="actionSystemVolume">* Rendszer hangerejének beállítása:</string>
+ <string name="widgetSystemVolume">Rendszer hangereje beállítva</string>
+ <string name="media_next">Következő multimédia</string>
+ <string name="next_track">Következő zeneszám</string>
+ <string name="media_previous">Előző multimédia</string>
+ <string name="previous_track">Előző zeneszám</string>
+ <string name="actionMediaNext">* Következő zeneszám</string>
+ <string name="widgetMediaNext">Következő zeneszám</string>
+ <string name="actionMediaPrevious">* Előző zeneszám</string>
+ <string name="widgetMediaPrevious">Előző zeneszám</string>
+ <string name="menuMedia">Multimédia</string>
+
+ <string name="wifi_task">Wifi</string>
+ <string name="bluetooth_task">Bluetooth</string>
+ <string name="nfc_task">NFC</string>
+ <string name="nfc_task_description">Feladat vagy feladatváltó futtatása NFC-címke megérintésekor.</string>
+ <string name="bluetooth_task_description">Feladat futtatása Bluetooth-eszköz csatlakoztatásakor vagy leválasztásakor.</string>
+ <string name="wifi_task_description">Feladat futtatása wifi hálózathoz csatlakozáskor vagy kapcsolat bontásakor.</string>
+ <string name="configure_connection_task_title">A(z) %1$s feladat konfigurálása</string>
+
+ <string name="layoutProfileTaskChooserTitle">Feladat választása</string>
+ <string name="layoutProfileNewTask">+ Új feladat</string>
+ <string name="enable_bluetooth">A Bluetooth engedélyezése szükséges a párosított eszközök listázásához.</string>
+ <string name="enable_wifi">A wifi engedélyezése szükséges a mentett hálózatok listázásához.</string>
+ <string name="no_task">Nem található feladat.</string>
+ <string name="share_failed">A címke megosztása sikertelen.</string>
+
+ <string name="extension_description">Megjeleníti a legutóbbi feladatait, és lehetővé teszi a feladatok indítását közvetlenül a DashClock-ból</string>
+ <string name="import_create_tag">Nem található feladat. Szeretne új feladatot létrehozni a címkét felhasználva?</string>
+ <string name="start_media_playback">Médialejátszás indítása</string>
+ <string name="stop_media_playback">Médialejátszás leállítása</string>
+ <string name="receive_sip_calls">SIP-hívások fogadása</string>
+ <string name="sip_calls">SIP-hívások</string>
+
+ <string name="widget_enable">%1$s engedélyezve</string>
+ <string name="widget_disable">%1$s letiltva</string>
+ <string name="widget_toggle">%1$s átváltva</string>
+
+ <string name="action_enable">* %1$s engedélyezése</string>
+ <string name="action_disable">* %1$s letiltása</string>
+ <string name="action_toggle">* %1$s átváltása</string>
+
+ <string name="action_set_generic">* %1$s beállítása</string>
+ <string name="widget_set_generic">%1$s beállítva</string>
+ <string name="action_set_to">* %1$s beállítása %2$s értékre</string>
+ <string name="widget_set_to">%1$s beállítása %2$s értékre</string>
+ <string name="action_checking_in">* Bejelentkezés: %1$s</string>
+ <string name="widget_checking_in">Bejelentkezve: %1$s</string>
+
+ <string name="social_facebook">Facebook</string>
+ <string name="social_foursquare">Foursquare</string>
+ <string name="social_foursquare_venue">Foursquare Venue</string>
+ <string name="social_google_places">Google Helyek</string>
+ <string name="run_task">Feladat futtatása</string>
+ <string name="background_color">Háttérszín</string>
+ <string name="white">Fehér</string>
+ <string name="black">Fekete</string>
+ <string name="select_icon">Ikon kiválasztása</string>
+ <string name="select_task">Feladat kiválasztása</string>
+
+ <string name="try_it_now">Próbálja ki példánkat</string>
+
+ <string name="bluetooth_connect_a2dp_heading">Eszköz csatlakoztatása</string>
+ <string-array name="bluetooth_connect_choices">
+  <item>Telefon és multimédia</item>
+  <item>Multimédia</item>
+  <item>Telefon</item>
+ </string-array>
+
+ <string name="select_bluetooth_profile">Profil kiválasztása</string>
+ <string name="select_bluetooth_device">Eszköz kiválasztása</string>
+ <string name="action_bluetooth_connect">* Bluetooth-eszköz csatlakoztatása</string>
+ <string name="widget_bluetooth_connect">Bluetooth-eszköz csatlakoztatva</string>
+
+ <string name="write_options_title">Írási beállítások</string>
+ <string name="menu_context_edit">Szerkesztés</string>
+ <string name="set_media_app">Preferált médialejátszó beállítása</string>
+ <string name="select_media_app">Válassza ki preferált médialejátszóját</string>
+ <string name="menuTravel">Utazás</string>
+ <string name="item_info_title">Infó</string>
+ <string name="geofence_task">Geokerítés (béta)</string>
+ <string name="when_entering">Amikor belép</string>
+ <string name="when_exiting">Amikor kilép</string>
+ <string name="address">Cím</string>
+ <string name="geofence">Geokerítés</string>
+ <string name="radius">Hatósugár:</string>
+ <string name="no_location">Nincs hely beállítva</string>
+ <string name="miracast_device">Miracast-eszköz</string>
+ <string name="battery_task">Akkumulátor</string>
+ <string name="battery_task_description">Feladat futtatása, amikor a töltöttségi szint egy bizonyos százalékos érték alá esik.</string>
+ <string name="when_battery_level">Amikor az akkumulátor:</string>
+ <string name="nfc_gear_title">NFC-eszköz</string>
+
+ <string name="goes_below">lejjebb csökken mint</string>
+ <string name="goes_above">feljebb emelkedik mint</string>
+ <string name="activity_feed">Tevékenységnapló</string>
+ <string name="activity_feed_none">Még nem használt eseményindítót.</string>
+ <string name="menu_experimental">Próba</string>
+ <string name="time_task_description">Feladat futtatása adott időpontban egy vagy több napon.</string>
+ <string name="time_task">Idő</string>
+ <string name="day_sunday">V</string>
+ <string name="day_monday">H</string>
+ <string name="day_tuesday">K</string>
+ <string name="day_wednesday">SZE</string>
+ <string name="day_thursday">CS</string>
+ <string name="day_friday">P</string>
+ <string name="day_saturday">SZO</string>
+
+ <string name="example_created">%1$s sikeresen létrehozva.</string>
+ <string name="title_feedback">Visszajelzés</string>
+ <string name="contact_text">Amellett köteleztük el magunkat, hogy a Trigger alkalmazást a lehető leghasznosabbá tegyük. A visszajelzése segít ebben. Az alábbi lehetőségek közül választva lépjen kapcsolatba velünk bátran, ha bármilyen problémája, megjegyzése vagy javaslata lenne számunkra.</string>
+ <string name="other_nfc">Egyéb NFC-műveletek</string>
+ <string name="write_status_waiting">Várakozás a címkére...</string>
+ <string name="write_free_tags">Vásároljon NFC-címkéket</string>
+
+ <string name="previous">Előző</string>
+ <string name="title_configure_triggers">Eseményindítók</string>
+ <string name="title_configure_task">Feladat</string>
+ <string name="title_configure_switch">Átváltás</string>
+ <string name="us_customer">USA-beli vásárlók</string>
+ <string name="international_customer">Nemzetközi vásárlók</string>
+ <string name="checkout">Ellenőrzés</string>
+ <string name="examples_intro">Használja telefonja érzékelőit beállítások automatikus módosítására, alkalmazások indítására vagy üzenetek küldésére.\n\nKezdje alábbi példáinkkal, vagy hozza létre saját feladatait.</string>
+ <string name="got_it">OK, értem</string>
+ <string name="create_your_own">Hozza létre sajátját</string>
+ <string name="no_triggers">Eseményindítók hozzáadásához kattintson a fenti + jelre.</string>
+ <string name="international">(Nemzetközi)</string>
+ <string name="us">(USA-beli)</string>
+     
+ <string name="geofence_help">Ha a geokerítés feladataival kapcsolatban kérdése vagy problémája adódna, ide kattintva tekintse meg a gyakran ismételt kérdéseket.</string>
+ <string name="separator_or">- VAGY -</string>
+ <string name="separator_and">- ÉS -</string>
+ <string name="use_this_task">Korlátozások hozzáadása</string>
+ <string name="between_these_times">Időszak:</string>
+ <string name="_8_00">8:00</string>
+ <string name="_20_00">20:00</string>
+ <string name="any_network">bármely hálózat</string>
+ <string name="select_network">Hálózatok kiválasztása</string>
+ <string name="two_or_more">Kettő vagy több hálózat</string>
+ <string name="display_between_times">%1$s és %2$s között</string>
+ <string name="display_on_days">Ekkor: %1$s</string>
+ <string name="display_wifi_network">Amikor kapcsolódik: %1$s</string>
+ <string name="no_actions_found">Nincs művelet</string>
+ <string name="no_actions_found_message">A(z) %1$s feladathoz nem tartozik művelet.\n\nLépjen vissza műveletek hozzáadásához, vagy folytassa a feladat mentését műveletek nélkül.</string>
+ <string name="go_back">Visszalépés</string>
+ <string name="payment_info">Fizetési adatok</string>
+ <string name="card_number">Kártyaszám</string>
+ <string name="expiration_date">Lejárat dátuma</string>
+ <string name="security_code">Biztonsági kód</string>
+ <string name="mm">HH</string>
+ <string name="yy">ÉÉ</string>
+ <string name="cvc">CVC</string>
+ <string name="shipping_address">Szállítási cím</string>
+ <string name="full_name">Teljes név</string>
+ <string name="company_name">Vállalat neve</string>
+ <string name="email">E-mail</string>
+ <string name="street_address">Utca, házszám</string>
+ <string name="apt_suite">Lh./Em./Ajtó</string>
+ <string name="city">Város</string>
+ <string name="region">Régió</string>
+ <string name="postcode">Irányítószám</string>
+ <string name="phone_number">Telefonszám</string>
+ <string name="billing_address">Számlázási cím</string>
+ <string name="use_shipping_info">szállítási adatok használata</string>
+ <string name="used_text">Futtatva: %1$s</string>
+ <string name="pref_show_bytes">Feladatméret megjelenítése</string>
+ <string name="plugin_tag_reuse">Címke újbóli használata</string>
+ <string name="plugin_tag_reuse_description">Újból felhasználja a csak olvasható vagy a készüléke által nem teljesen támogatott címkéket.</string>
+ <string name="plugin_call">Hívás</string>
+ <string name="plugin_call_description">Engedélyezi, hogy a Hívás művelet közvetlenül az alkalmazásból hívást indítson, a tárcsázó megnyitása és a számok beírása helyett.</string>
+ <string name="plugin_sms">SMS</string>
+ <string name="plugin_sms_description">Engedélyezi, hogy a Szöveges üzenet művelet automatikusan szöveges üzenetet küldjön, az üzenetküldő alkalmazás megnyitása és az SMS adatainak kitöltése helyett.</string>
+ <string name="plugins">Beépülő modulok</string>
+ <string-array name="radiusChoices">
+  <item>kicsi</item>
+  <item>közepes</item>
+  <item>nagy</item>
+  <item>nagyon nagy</item>
+ </string-array>
+ <string name="when_charger_connected">A töltő csatlakoztatásakor</string>
+ <string name="when_wireless_charger_connected">Vezeték nélküli töltéskor</string>
+ <string name="when_charger_disconnected">A töltő leválasztásakor</string>
+ <string name="charger_title">Töltés</string>
+ <string name="charger_description">Feladat futtatása, amikor csatlakoztatja vagy leválasztja a vezetékes vagy vezeték nélküli töltőt.</string>
+ <string name="forget_network">Wifi elfelejtése</string>
+
+ <string name="task_n">feladat (n)</string>
+ <string name="task_definition">MŰVELETEK csoportja, amiket ESEMÉNYINDÍTÓK aktiválnak</string>
+ <string name="my_battery_task">Akkumulátor feladat</string>
+ <string name="create_a_task">Feladat létrehozása</string>
+ <string name="actions">MŰVELETEK</string>
+ <string name="sign_in_trial">Jelentkezzen be Google+ fiókjával, és próbálja ki a 7 napig ingyenes próbaverziót, vagy frissítsen alább.</string>
+ <string name="upgrade_heading">A választott funkció csak a Trigger PRO verziójával használható.</string>
+ <string name="start_trial">Próbaverzió indítása</string>
+ <string name="upgrade">Frissítés</string>
+ <string name="trial_upgrade_only">A funkció használatához válassza az alábbi Frissítés lehetőséget.</string>
+ <string name="pro_feature">Pro funkció</string>
+ <string name="trigger">ESEMÉNYINDÍTÓ</string>
+ <string name="any_time">bármikor</string>
+ <string name="headset_title">Headset</string>
+ <string name="when_connected">Amikor csatlakoztatva van</string>
+ <string name="when_disconnected">Amikor nincs csatlakoztatva</string>
+ <string name="headset_description">Feladat futtatása headset csatlakoztatásakor vagy leválasztásakor.</string>
+ <string name="use_current_configuration">jelenlegi konfiguráció használata</string>
+ <string name="trial_expired_title">A próbaverzió lejárt</string>
+ <string name="trial_expired">A Trigger Pro ingyenes próbaverziója lejárt. A létrehozott Pro eseményindítói nem fognak működni az ingyenes változatban.</string>
+ <string name="my_tasks_example_description">Ha a töltöttségi szint alacsony, kikapcsolja a wifit és csökkenti a képernyő fényerejét.</string>
+ <string name="show_actions_in_list">Leíró feladatok listája</string>
+ <string name="task_deleted">Feladat törölve</string>
+ <string name="undo">visszavonás</string>
+ <string name="geofence_beta_description">A Google Paly Szolgáltatások bizonytalansága miatt ez jelenleg egy Béta eseményindító. Legtöbb esetben működik, de nem garantáljuk, hogy minden esetben fog.</string>
+ <string name="when_charging_usb">Töltéskor (USB)</string>
+ <string name="when_charging_ac">Töltéskor (AC)</string>
+ <string name="any_device">bármely eszköz</string>
+    <string name="two_or_more_devices">Két vagy több eszköz</string>
+    <string name="upgrade_general_heading">A frissítéssel hozzáférést szerez a Trigger összes eseményindítójához és funkcióihoz, továbbá támogatja folyamatos fejlesztésünket is.</string>
+    <string name="upgrade_general_title">Trigger PRO</string>
+    <string name="bluetooth_disconnect">Eszköz leválasztása</string>
+    <string name="disconnect_from">Leválasztás:</string>
+    <string name="action_bluetooth_disconnect">* Bluetooth-eszköz leválasztása</string>
+    <string name="widget_bluetooth_disconnect">Bluetooth-eszköz leválasztva</string>
+    <string name="calendar_title">Naptáresemény</string>
+    <string name="calendar_description">Feladat futtatása adott naptáresemény kezdetekor</string>
+
+    <string name="available">elérhető</string>
+    <string name="busy">elfoglalt</string>
+    <string name="any">bármely</string>
+    <string name="attending">ott lesz</string>
+    <string name="not_attending">nem lesz ott</string>
+    <string name="agent_title_string">%1$s: Agent</string>
+    <string name="start">Indítás</string>
+    <string name="stop">Leállítás</string>
+    <string name="pause">Felfüggesztés</string>
+    <string name="meeting_agent">Meeting Agent</string>
+    <string name="drive_agent">Drive Agent</string>
+    <string name="parking_agent">Parking Agent</string>
+    <string name="battery_agent">Battery Agent</string>
+    <string name="sleep_agent">Sleep Agent</string>
+    <string name="agent_action">%2$s %1$s</string>
+    <string name="menu_agent">Agent</string>
+    <string name="agent_title_start">Agent indítása</string>
+    <string name="agent_title_stop">Agent leállítása</string>
+    <string name="agent_title_pause">Agent felfüggesztése</string>
+    <string name="account">Fiók</string>
+    <string name="upgrade_spacer">Az összes alábbi elem a PRO frissítés része. Kattintson ide a frissítéshez, vagy próbálja ki az ingyenes próbaverziót.</string>
+    <string name="upgrade_now">Frissítés most</string>
+    <string name="upgrade_main_description">Próbálja ki a 7 napig ingyenes próbaverziót, vagy frissítsen a PRO változatra alább, hogy hozzáférjen az összes eseményindítóhoz.</string>
+    <string name="upgrade_unlocks_triggers_count">elérhetővé tesz %1$s további eseményindítót</string>
+    <string name="wallet_signin_point_four">Használja ki a Trigger PRO 7 napig ingyenes próbaverzióját!</string>
+    <string name="receiver_marketing_materials">Kedvezményeket és fontos frissítéseket kap e-mailben.</string>
+    <string name="example_silence_at_night">Telefonom némítása, amikor alszom.</string>
+    <string name="example_silence_at_night_description">lenémítja a beérkező értesítéseket, amíg alszik</string>
+    <string name="example_save_battery">Segít az energiával takarékoskodni az akkumulátor merülésekor</string>
+    <string name="example_save_battery_description">kikapcsolja a wifit és csökkenti a képernyő fényerejét</string>
+    <string name="example_driving">Spóroljon időt vezetéskor</string>
+    <string name="example_driving_description">kikapcsolja a wifit és megnyitja a Google Térképeket</string>
+    <string name="example_task_data_saver_on">Mobil adatforgalom letiltása</string>
+    <string name="example_task_data_saver_off">Mobil adatforgalom engedélyezése</string>
+    <string name="example_task_battery_saver">Takarékos üzemmód</string>
+    <string name="example_set_battery_percentage">Takarékos üzemmód indítása, ha a töltöttségi szint lejjebb csökken mint</string>
+    <string name="example_wifi_select_network">Válassza ki otthoni wifi-hálózatát</string>
+    <string name="example_task_night">Jó éjszakát</string>
+    <string name="example_task_morning">Reggel</string>
+    <string name="start_now">Indítás most</string>
+    <string name="free_trial_short">Próbálja ki a Trigger PRO 7 napig ingyenes próbaverzióját!</string>
+    <string name="trial_started">Próbaverzió elindítva</string>
+    <string name="trial_try_free">Próbálj ki 7 napig ingyen</string>
+    <string name="event_name">Esemény neve</string>
+    <string name="contains">tartalmazza</string>
+    <string name="matches">megegyezik</string>
+    <string name="event_description">Esemény leírása</string>
+    <string name="description">leírás</string>
+    <string name="availibility">Elérhetőség</string>
+    <string name="when_event_ends">Amikor az esemény véget ér</string>
+    <string name="when_event_starts">Amikor az esemény elkezdődik</string>
+    <string name="power_service_monitor_battery">Akkumulátor figyelése</string>
+    <string name="power_service_monitor_both">Akkumulátor és töltés figyelése</string>
+    <string name="power_service_monitor_charging">Töltés figyelése</string>
+    <string name="power_service_disable_notification">Érintse meg az értesítés letiltásához</string>
+    <string name="power_service_on">Az Akkumulátor és a Töltés eseményindítók egy előtérben futó szolgáltatást használnak. Egy folyamatos értesítés lesz látható, de ez megakadályozza, hogy a rendszer leállítsa az események figyeléséhez szükséges szolgáltatást.</string>
+    <string name="power_service_off">Az Akkumulátor és a Töltés eseményindítók lehet, hogy nem fognak működni, ha a rendszer leállítja a szolgáltatást vagy az alkalmazás eltűnik a legutóbb használt alkalmazások listájáról.</string>
+    <string name="power_service_pref">Előtérben futó szolgáltatás a Töltöttség eseményindítókhoz</string>
+    <string name="menu_remove">Eltávolítás</string>
+    <string name="help_tasks_title">Feladatok létrehozása</string>
+    <string name="help_tasks_description">Kattintson ide egy rövid oktatóprogram megtekintéséhez arról, milyen feladatokat hozhat létre és hogyan.</string>
+    <string name="connect_dialog_body">"Köszönjük, hogy a Trigger alkalmazást használja! Töltse le a Connect alkalmazást, és indítsa a Trigger feladatokat a webről!! (3 napig ingyenes próbaverzió)"</string>
+    <string name="no_thanks">Nem, köszönöm</string>
+    <string name="try_connect_now">Próbálja ki most</string>
+    <string name="feedback_rate_gplay">Értékeljen minket a Google Play áruházban</string>
+    <string name="rating_text">Ha úgy gondolja, a jó értékeléseket és a +1-eket mindig örömmel fogadjuk:</string>
+    <string name="show_brightness_window">Ablak megjelenítése fényerő módosításakor</string>
+    <string name="request_root_access">Rendszergazdai hozzáférés kérése</string>
+    <string name="upgrade_successful">Most már minden funkció elérhető.</string>
+    <string name="emulate_hardware_dock">Hardverdokkolás emulálása (rendszerhozzáférés szükséges)</string>
+    <string name="wizard_trigger_help">Egy vagy több eseményindító hozzáadásához kattintson a fenti + jelre.</string>
+    <string name="wizard_actions_help">Egy vagy több művelet hozzáadásához kattintson a fenti + jelre.</string>
+    <string name="event_set_reminder">Emlékeztető beállítása</string>
+    <string name="forget_wifi_network">Wifi-hálózat elfelejtése</string>
+    <string name="show_user_text">Szöveg megjelenítése</string>
+
+    <string name="samsung_hands_free">Kéz nélküli üzemmód</string>
+    <string name="samsung_smart_stay">Smart Stay</string>
+    <string name="htc_sleep_mode">Alvó üzemmód</string>
+    <string name="htc_power_saver">Energiatakarékos mód</string>
+    <string name="htc_boom_sound">BoomSound</string>
+    <string name="htc_smart_display">Okos képernyő</string>
+    <string name="samsung_multi_window">Multi Window</string>
+    <string name="show_toast">Bejelentés megjelenítése</string>
+    <string name="constraint_days">Nap</string>
+    <string name="constraint_wifi">Wifi</string>
+    <string name="constraint_bluetooth">Bluetooth</string>
+    <string name="constraint_charging">Töltés</string>
+    <string name="constraint_connected">Csatlakoztatva:</string>
+    <string name="constraint_not_connected">Nincs csatlakoztatva:</string>
+    <string name="display_not_connected">Amikor nem kapcsolódik: %1$s</string>
+    <string name="is_on">Be van kapcsolva</string>
+    <string name="is_off">Ki van kapcsolva</string>
+    <string name="play_sound">Hang lejátszása</string>
+    <string name="agent_description">Feladat futtatása, amikor egy agent elindul vagy leáll</string>
+    <string name="when_agent_starts">Amikor egy agent elindul</string>
+    <string name="when_agent_ends">Amikor egy agent leáll</string>
+    <string name="choose_agent">Agent kiválasztása</string>
+    <string name="agent_condition_starts">Amikor a(z) %1$s elindul</string>
+    <string name="agent_condition_ends">Amikor a(z) %1$s leáll</string>
+    <string name="clear">Törlés</string>
+    <string name="export">Exportálás</string>
+    <string name="notification_timer_cancel">Pöccintse el a megszakításhoz</string>
+    <string name="notification_timer_extra_info">Lejár %1$s időpontban</string>
+    <string name="installed">telepítve</string>
+    <string name="plugin_lock">Zárolási képernyő</string>
+    <string name="plugin_lock_description">Lehetővé teszi a zárolási képernyő jelenlegi alapvető beállításainak módosítását. A zárolási képernyő letiltásával csúsztatásra állítja be. Az engedélyezésével a konfigurációnak megfelelően PIN-kódot vagy jelszót állít be.</string>
+    <string name="configure">konfigurálás</string>
+</resources>
+
+
+
+
+
